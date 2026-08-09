@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { Send } from "lucide-react";
 import { site } from "@/lib/site";
+import { pushEvent } from "@/lib/gtm";
 
 const fieldBase =
   "w-full rounded-xl border border-hairline bg-paper px-4 py-3 text-[0.95rem] text-ink placeholder:text-muted transition-colors duration-200 ease-gentle focus:border-brand focus:outline-none focus:ring-2 focus:ring-brand/30";
@@ -25,6 +26,13 @@ export function ContactForm() {
       "",
       mesaj,
     ].join("\n");
+    // Deliberately no name/phone/message here — GA4 forbids PII in event
+    // params, and the mail client carries the real content anyway.
+    pushEvent("randevu_talebi", {
+      hayvan_turu: tur,
+      mesaj_var: mesaj.trim().length > 0,
+    });
+
     // No backend: open the visitor's mail client pre-filled (TODO: wire to API/CRM)
     window.location.href = `mailto:${site.email}?subject=${encodeURIComponent(
       subject
