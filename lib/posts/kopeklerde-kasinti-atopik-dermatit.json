@@ -1,0 +1,81 @@
+{
+  "slug": "kopeklerde-kasinti-atopik-dermatit",
+  "title": "Köpeklerde geçmeyen kaşıntı: alerji mi, başka bir şey mi?",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-dog-itching.jpg",
+  "imageAlt": "Halı üzerinde uzanan bir köpeğin patisi",
+  "date": "3 Temmuz 2026",
+  "dateISO": "2026-07-03",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Sürekli kaşınan, patilerini yalayan, kulakları tekrar tekrar iltihaplanan köpeklerde çoğu zaman altta atopik dermatit yatar. Tanı basamakları ve güncel tedavi seçenekleri.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "köpeklerde kaşıntı",
+    "atopik dermatit köpek",
+    "köpek patisini yalıyor",
+    "köpekte kulak iltihabı tekrarlıyor",
+    "köpek alerjisi belirtileri",
+    "besin alerjisi köpek",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kaşıntı, köpeklerde veteriner hekime başvurunun en sık nedenlerinden biridir ve sahipleri en çok yıpratan sorunlardan biri sayılır. Sürekli kaşınma, gece uykusuz geçen saatler, tekrarlayan kulak iltihapları ve pembe-kahverengiye dönmüş patiler tanıdık bir tablodur. Bu yazıda kaşıntının ardındaki en yaygın nedeni, tanının nasıl konduğunu ve tedavinin neden tek bir ilaçtan ibaret olmadığını anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Kaşıntının başlıca nedenleri"},
+    {"type": "p", "text": "Kaşıntı bir hastalık değil, bir belirtidir. Doğru tedavi için önce nedeni ayırt etmek gerekir. Veteriner pratiğinde en sık karşılaşılan nedenler şunlardır:"},
+    {"type": "ul", "items": [
+      "Dış parazitler: pire, uyuz etkenleri ve keneler",
+      "Pire tükürüğü alerjisi: tek bir ısırık bile günlerce kaşıntı yapabilir",
+      "Atopik dermatit: polen, ev tozu akarı, küf gibi çevresel alerjenlere karşı gelişen kalıtsal eğilimli alerji",
+      "Besin duyarlılığı: genellikle protein kaynaklarına karşı gelişir",
+      "Bakteriyel ve mantar kaynaklı deri enfeksiyonları",
+      "Kuru cilt, uygunsuz şampuan kullanımı ve aşırı yıkama",
+      "Hormonal hastalıklar ve nadiren davranışsal yalama"
+    ]},
+    {"type": "p", "text": "Bu nedenlerin birçoğu aynı anda bulunabilir. Örneğin atopik dermatiti olan bir köpekte ikincil bakteriyel enfeksiyon gelişmişse, yalnızca alerji tedavisi yeterli olmaz. Bu nedenle tedavi katmanlı planlanır."},
+    {"type": "h2", "text": "Atopik dermatit: en sık ve en inatçı"},
+    {"type": "p", "text": "Atopik dermatit, deri bariyerinin zayıf olduğu ve bağışıklık sisteminin çevresel alerjenlere aşırı yanıt verdiği kalıtsal eğilimli bir hastalıktır. Genellikle bir ile üç yaş arasında başlar ve önce mevsimsel, zamanla yıl boyu süren bir tabloya dönüşebilir."},
+    {"type": "p", "text": "Belirtilerin nerede yoğunlaştığı önemli bir ipucudur. Atopik dermatitte kaşıntı tipik olarak patiler, kulaklar, koltuk altları, kasık, göz çevresi ve ağız çevresinde belirginleşir. Sürekli yalanan patilerde tükürük nedeniyle kırmızımsı-kahverengi bir renk değişimi oluşur; bu görüntü tanı sürecinde yol göstericidir."},
+    {"type": "callout", "text": "Tekrarlayan kulak iltihabı, atopik dermatitin en sık gözden kaçan işaretidir. Yılda birkaç kez kulak enfeksiyonu geçiren bir köpekte altta yatan alerji araştırılmalıdır."},
+    {"type": "h2", "text": "Tanı nasıl konur?"},
+    {"type": "p", "text": "Atopik dermatitin tek bir kesin testi yoktur; tanı, diğer nedenlerin sistematik olarak dışlanmasıyla konur. Bu nedenle süreç birkaç randevuya yayılabilir ve sabır gerektirir."},
+    {"type": "ul", "items": [
+      "Ayrıntılı öykü: kaşıntının başlangıç yaşı, mevsimsel değişimi, beslenme ve yaşam ortamı",
+      "Deri kazıntısı ile parazit araştırması",
+      "Deri yüzeyinden alınan örneklerin bakteri ve maya açısından incelenmesi",
+      "Etkin bir parazit kontrol programının uygulanması ve yanıtın değerlendirilmesi",
+      "Besin duyarlılığı şüphesinde 8-12 hafta süren kesin eliminasyon diyeti",
+      "Gerektiğinde alerjen testleri ile duyarlılık profilinin belirlenmesi"
+    ]},
+    {"type": "p", "text": "Eliminasyon diyeti sürecinde en sık yapılan hata, diyet dışı ödül, artık yemek ya da aromalı ilaç verilmesidir. Tek bir kaçak, sekiz haftalık çabayı geçersiz kılabilir. Bu nedenle diyet dönemi evdeki herkesle birlikte planlanmalıdır."},
+    {"type": "h2", "text": "Tedavi seçenekleri"},
+    {"type": "p", "text": "Atopik dermatit kronik bir hastalıktır ve hedef, tamamen ortadan kaldırmak değil, kaşıntıyı köpeğin rahat edeceği düzeye indirmek ve alevlenmeleri seyrekleştirmektir."},
+    {"type": "ul", "items": [
+      "Kaşıntı yolağını hedefleyen modern ilaçlar: hızlı etkili ve uzun süreli seçenekler mevcuttur; hangisinin uygun olduğu köpeğe göre belirlenir.",
+      "Bağışıklık sistemini alerjene alıştırmayı hedefleyen immünoterapi: uzun sürelidir ancak altta yatan mekanizmayı hedefleyen tek yaklaşımdır.",
+      "Deri bariyerini destekleyen tedaviler: uygun şampuanlar, omega yağ asitleri ve nemlendirici uygulamalar.",
+      "İkincil enfeksiyonların tedavisi: bakteri ve maya kontrolü sağlanmadan kaşıntı gerilemez.",
+      "Kesintisiz parazit kontrolü.",
+      "Kortikosteroidler: alevlenmelerde kısa süreli fayda sağlar, uzun vadeli kullanımda yan etki yükü artar."
+    ]},
+    {"type": "p", "text": "Tedavi planı zamanla ayarlanır. Mevsimsel alevlenmesi olan bir köpekte yıl boyu ilaç kullanmak gerekmeyebilirken, yıl boyu belirtisi olan bir köpekte sürekli bir plan gerekir. Bu nedenle düzenli kontrol, tedavinin bir parçasıdır."},
+    {"type": "h2", "text": "Evde alevlenmeyi azaltan uygulamalar"},
+    {"type": "ul", "items": [
+      "Yürüyüş sonrası patileri ve karın bölgesini ılık suyla durulayın.",
+      "Yataklıkları sıcak suda düzenli yıkayın; ev tozu akarı yükünü azaltır.",
+      "Polen yoğunluğunun yüksek olduğu saatlerde uzun yürüyüşlerden kaçının.",
+      "Hekiminizin önerdiği şampuan dışında ürün kullanmayın; sık ve yanlış yıkama bariyeri bozar.",
+      "Kaşıntı günlüğü tutun: şiddet, bölge ve tarih notları tedavi kararlarını kolaylaştırır.",
+      "Tırnakları kısa tutarak kaşınmaya bağlı yaralanmayı azaltın."
+    ]},
+    {"type": "p", "text": "Köpeğinizin kaşıntısı haftalardır sürüyor ya da kulak iltihapları tekrarlıyorsa, nedeni netleştirmek tedavinin ilk adımıdır. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak deri ve kulak değerlendirmesi için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Köpeğimin kaşıntısı besin alerjisi mi?", "a": "Besin duyarlılığı, kaşıntı nedenlerinin görece küçük bir bölümünü oluşturur; çevresel alerjiler daha sıktır. Ayrımı kesinleştiren tek yöntem, 8-12 hafta süren kesin bir eliminasyon diyetidir."},
+    {"q": "Tahılsız mama kaşıntıyı geçirir mi?", "a": "Besin duyarlılıklarının çoğu tahıla değil, protein kaynağına karşı gelişir. Bu nedenle tahılsız mamaya geçmek çoğu vakada çözüm sağlamaz. Diyet değişikliği hekim yönlendirmesiyle planlanmalıdır."},
+    {"q": "Kortizon kullanmak zararlı mı?", "a": "Kısa süreli kullanım alevlenmelerde hızlı rahatlama sağlar ve yerinde bir seçenektir. Uzun süreli kullanımda ise kilo artışı, aşırı su içme, enfeksiyona yatkınlık gibi yan etkiler gündeme gelir; bu nedenle sürekli tedavide başka seçenekler tercih edilir."},
+    {"q": "Alerji testi yaptırmalı mıyım?", "a": "Alerji testleri tanı koymak için değil, immünoterapi hazırlanacaksa hangi alerjenlerin dahil edileceğini belirlemek için kullanılır. Tanı, diğer nedenlerin dışlanmasıyla konur."},
+    {"q": "Kaşıntı tamamen geçer mi?", "a": "Atopik dermatit kronik bir hastalıktır ve genellikle tamamen ortadan kalkmaz. Ancak doğru planla kaşıntı, köpeğin rahat ettiği düşük bir düzeyde tutulabilir ve alevlenmeler seyrekleşir."},
+    {"q": "Patilerini yalaması davranışsal olabilir mi?", "a": "Olabilir, ancak bu tanı ancak tıbbi nedenler dışlandıktan sonra konur. Pati yalamasının büyük çoğunluğunda altta alerji, enfeksiyon ya da ağrı yatar."}
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "mikrocip-ve-yasal-sorumluluklar",
+  "title": "Mikroçip ve kayıt: kedi köpek sahiplerinin yasal sorumlulukları",
+  "category": "Yasal Rehber",
+  "image": "/images/blog-microchip.jpg",
+  "imageAlt": "Tasmalı, dışarıda duran sarı bir köpek",
+  "date": "7 Temmuz 2026",
+  "dateISO": "2026-07-07",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Türkiye'de kedi, köpek ve gelinciklerde mikroçip ve dijital kimliklendirme yasal zorunluluktur. Süreç nasıl işler, ne gerekir, çipsiz hayvan sahiplerini ne bekler?",
+  "readTime": "4 dk okuma",
+  "keywords": [
+    "kedi köpek mikroçip zorunluluğu",
+    "evcil hayvan kimliklendirme",
+    "PETVET kayıt sistemi",
+    "5199 sayılı kanun",
+    "kedi pasaportu",
+    "köpek kimlik belgesi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Türkiye'de kedi, köpek ve gelinciklerin mikroçip ile kimliklendirilmesi ve resmi sisteme kaydedilmesi yasal bir yükümlülüktür. Bu düzenleme yalnızca bir formalite değil; kaybolan hayvanların sahiplerine ulaştırılmasını sağlayan, aşı ve sağlık geçmişini kayıt altına alan ve terk edilmelerin önüne geçmeyi hedefleyen bir sistemdir. Bu yazıda sürecin nasıl işlediğini ve pratikte nelere dikkat etmeniz gerektiğini anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Yasal çerçeve"},
+    {"type": "p", "text": "Düzenlemenin dayanağı 5199 sayılı Hayvanları Koruma Kanunu ve buna bağlı olarak çıkarılan kedi, köpek ve gelinciklerin kimliklendirilmesi ve kayıt altına alınmasına ilişkin yönetmeliktir. Tarım ve Orman Bakanlığı tarafından yürütülen kayıtlar PETVET adı verilen ev hayvanı kayıt sistemi üzerinden tutulur."},
+    {"type": "p", "text": "Bakanlığın duyurusuna göre sahipli hayvanların en geç 31 Aralık 2022 tarihine kadar kimliklendirilmesi öngörülmüştür. Bu tarihten sonra doğan yavrular için ise doğumdan itibaren altı aylık bir süre tanınmaktadır; bu süre içinde kimliklendirme yapıldığında ceza uygulanmaz. Kimliklendirme yapmayan hayvan sahiplerine idari para cezası uygulanır; ceza tutarları her yıl yeniden değerlendirilir."},
+    {"type": "callout", "text": "Zorunluluk istisna tanımaz. Hiç dışarı çıkmayan bir ev kedisi de, apartman bahçesinde yaşayan bir köpek de kimliklendirilmek zorundadır."},
+    {"type": "h2", "text": "Mikroçip nedir, nasıl uygulanır?"},
+    {"type": "p", "text": "Mikroçip, pirinç tanesi büyüklüğünde, biyouyumlu cam kapsül içine yerleştirilmiş pasif bir vericidir. İçinde pil bulunmaz; okuyucu cihaz yaklaştırıldığında 15 haneli benzersiz kimlik numarasını iletir. Bu numara, hayvanın kayıt sistemindeki dosyasına bağlanır."},
+    {"type": "ul", "items": [
+      "Uygulama genellikle iki kürek kemiği arasındaki deri altına yapılır.",
+      "İşlem, rutin bir aşı uygulamasına benzer ve birkaç saniye sürer.",
+      "Anestezi gerekmez; çoğu hayvan işlemi rahat tolere eder.",
+      "Uygulama yalnızca veteriner hekim tarafından yapılabilir.",
+      "Çip takıldıktan sonra kayıt sisteminde sahip bilgileriyle eşleştirilir.",
+      "Kimlik belgesi ya da pasaport düzenlenerek sahibine teslim edilir."
+    ]},
+    {"type": "p", "text": "Mikroçip bir konum takip cihazı değildir. GPS içermez ve hayvanın nerede olduğunu göstermez; yalnızca bulunduğunda kimliğinin okunmasını sağlar. Konum takibi isteyen sahiplerin ayrıca tasmaya takılan GPS cihazlarını değerlendirmesi gerekir."},
+    {"type": "h2", "text": "Kuduz aşısıyla ilişkisi"},
+    {"type": "p", "text": "Kimliklendirme ve kuduz aşısı birbirini tamamlayan iki yükümlülüktür. Aşı kayıtlarının resmi olarak geçerli sayılabilmesi, hayvanın kimliklendirilmiş ve sisteme kaydedilmiş olmasına bağlıdır. Bu nedenle mikroçip uygulaması genellikle kuduz aşısı ile aynı randevuda planlanır."},
+    {"type": "p", "text": "Kuduz, insanlara da bulaşabilen ve belirtiler ortaya çıktıktan sonra tedavisi bulunmayan bir hastalıktır. Bu nedenle aşı yalnızca hayvanın değil, ailenizin ve toplumun güvenliği açısından da önem taşır."},
+    {"type": "h2", "text": "Kimliksiz hayvanın karşılaşacağı sorunlar"},
+    {"type": "p", "text": "Kimliklendirme yaptırmamak yalnızca ceza riski doğurmaz; günlük yaşamda birçok işlemi de imkânsız hâle getirir."},
+    {"type": "ul", "items": [
+      "Yurt içi ve yurt dışı seyahatlerde taşıma işlemleri yapılamaz.",
+      "Resmi kayıt gerektiren veteriner işlemlerinde sorun yaşanır.",
+      "Kaybolduğunda sahibine ulaştırılması çok zorlaşır.",
+      "Sahiplenme ve devir işlemleri resmi olarak tamamlanamaz.",
+      "Pansiyon ve konaklama hizmetlerinde kabul edilmeyebilir.",
+      "Terk edilme durumunda sorumluluğun tespiti güçleşir."
+    ]},
+    {"type": "h2", "text": "Bilgilerinizi güncel tutun"},
+    {"type": "p", "text": "Sistemdeki en sık karşılaşılan sorun, çipin takılmış olmasına rağmen sahibin telefon numarası ya da adresinin eski kalmasıdır. Bu durumda kaybolan hayvan bulunup çipi okunsa bile sahibine ulaşılamaz. Kimliklendirmenin asıl amacını korumak için bilgilerinizi güncel tutmanız gerekir."},
+    {"type": "ul", "items": [
+      "Telefon numaranız değiştiğinde kaydınızı güncelleyin.",
+      "Taşındığınızda adres bilgisini yenileyin.",
+      "Hayvanı devrederken sahiplik değişikliğini resmi olarak işletin.",
+      "Yıllık kontrollerde çipin okunup okunmadığını kontrol ettirin.",
+      "Kimlik belgesinin bir fotoğrafını telefonunuzda bulundurun."
+    ]},
+    {"type": "p", "text": "Mikroçip uygulaması, kayıt işlemleri ve kuduz aşısı için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilir, tek randevuda tüm süreci tamamlayabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Mikroçip takmak acı verir mi?", "a": "İşlem, kalın uçlu bir aşı uygulamasına benzer ve birkaç saniye sürer. Çoğu hayvan bunu rahat tolere eder; anestezi gerekmez. İstenirse kısırlaştırma gibi bir işlemle aynı seansta da yapılabilir."},
+    {"q": "Ev kedime çip takmak zorunda mıyım?", "a": "Evet. Yasal zorunluluk hayvanın dışarı çıkıp çıkmamasına göre değişmez. Ayrıca kediler beklenmedik biçimde kapıdan kaçabildiği için çip pratikte de koruyucudur."},
+    {"q": "Çip vücutta yer değiştirir mi?", "a": "Genellikle uygulandığı bölgede kalır, ancak nadiren birkaç santimetre kayabilir. Bu nedenle okuyucu cihazla tarama sırasında geniş bir alan taranır. Yıllık kontrollerde çipin okunduğunu doğrulatmak iyi bir alışkanlıktır."},
+    {"q": "Yurt dışına çıkarken ne gerekir?", "a": "Mikroçip ve güncel kuduz aşısı temel gerekliliklerdir. Gidilecek ülkeye göre kuduz antikor titre testi, ek aşılar ve sağlık sertifikası istenebilir. Süreç aylar öncesinden planlanmalıdır."},
+    {"q": "Sokak hayvanı beslersem sorumluluğum ne olur?", "a": "Düzenli beslediğiniz sokak hayvanları için sahiplilik statüsü ve yükümlülükler farklı değerlendirilir. Sahiplenmeye karar verirseniz kimliklendirme ve kayıt yükümlülüğü doğar. Ayrıntılar için hekiminize danışabilirsiniz."},
+    {"q": "Çip taktırmazsam ceza ne kadar?", "a": "İdari para cezaları 5199 sayılı kanun kapsamında uygulanır ve tutarlar her yıl yeniden değerlendirilir. Güncel tutar için Tarım ve Orman Bakanlığı duyurularını takip etmeniz gerekir."}
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "cig-mama-kus-gribi-riski",
+  "title": "Çiğ mama ve kuş gribi: kedilerde yeni bir risk",
+  "category": "Beslenme",
+  "image": "/images/blog-raw-food-cat.jpg",
+  "imageAlt": "Mama kabından yemek yiyen gri bir yavru kedi",
+  "date": "27 Temmuz 2026",
+  "dateISO": "2026-07-27",
+  "updatedISO": "2026-08-09",
+  "excerpt": "2025 yılında çiğ mama kaynaklı H5N1 kuş gribi vakaları kedilerde ölümlere ve ürün geri çağırmalarına yol açtı. Çiğ beslenmenin riskleri ve güvenli alternatifler.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "çiğ mama riski",
+    "kedilerde kuş gribi",
+    "H5N1 kedi",
+    "çiğ et beslenme kedi",
+    "barf diyeti riskleri",
+    "kedi beslenmesi güvenlik",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Çiğ et temelli beslenme son yıllarda evcil hayvan sahipleri arasında ilgi gören bir yaklaşım hâline geldi. Ancak 2025 yılında yaşanan bir dizi olay, bu beslenme biçiminin daha önce yeterince konuşulmayan bir riskini gündeme taşıdı: çiğ mama yoluyla bulaşan yüksek patojeniteli kuş gribi. Bu yazıda yaşananları, kedilerde görülen belirtileri ve pratik korunma yollarını ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "2025'te ne oldu?"},
+    {"type": "p", "text": "2024 sonundan itibaren ABD'de birden fazla eyalette, çiğ mama tüketen ev kedilerinde H5N1 kuş gribi enfeksiyonları saptandı. Vakalar tek tek değil, belirli ürün partileriyle ilişkilendirilerek ortaya çıktı. Laboratuvar incelemelerinde hasta kedilerden ve tükettikleri mamadan aynı virüs suşunun izole edilmesi, bağlantıyı doğruladı."},
+    {"type": "p", "text": "Bu bulgular üzerine çeşitli üreticiler ürünlerini gönüllü olarak geri çağırdı ve düzenleyici kurumlar tüketicileri ilgili partileri kullanmamaları konusunda uyardı. Bazı kedilerde hastalık ağır seyretti ve ölümle ya da ötanaziyle sonuçlandı. Kaliforniya, Colorado, Oregon ve Washington eyaletlerinde evcil ve yabani kedilerde gıda kaynaklı vakalar izlendi."},
+    {"type": "h2", "text": "Kediler neden özellikle etkileniyor?"},
+    {"type": "p", "text": "Kediler bu virüse karşı özellikle duyarlıdır. Enfeksiyon kedilerde yalnızca solunum yolunu değil, sinir sistemini de tutabilir ve hızlı ilerleyen ağır bir tabloya yol açabilir. Ayrıca kediler çiğ eti iştahla tüketir ve mama dışında ölü kuş gibi kaynaklarla da temas edebilir."},
+    {"type": "ul", "items": [
+      "Ateş, belirgin halsizlik ve iştah kaybı",
+      "Gözlerde kızarıklık, iltihap ve akıntı",
+      "Burun akıntısı ve solunum güçlüğü",
+      "Titreme, dengesiz yürüme, koordinasyon bozukluğu",
+      "Nöbet geçirme",
+      "Görme kaybı"
+    ]},
+    {"type": "p", "text": "Çiğ mama tüketen bir kedide bu bulguların ortaya çıkması durumunda vakit kaybetmeden veteriner hekime başvurulmalıdır. Kliniği ararken kedinizin çiğ mama tükettiğini önceden bildirmeniz, hem doğru yönlendirme yapılmasını hem de gerekli önlemlerin alınmasını sağlar."},
+    {"type": "h2", "text": "Çiğ beslenmenin diğer bilinen riskleri"},
+    {"type": "p", "text": "Kuş gribi bu tablonun yeni eklenen parçası; ancak çiğ et temelli beslenmenin bilinen riskleri daha uzun bir listedir. Bu riskler yalnızca hayvanı değil, evdeki insanları da ilgilendirir."},
+    {"type": "ul", "items": [
+      "Salmonella, Listeria ve E. coli gibi bakterilerle bulaşma",
+      "Toksoplazma ve diğer parazitlerin bulaşma riski",
+      "Ev içi yüzeylerin ve mama kaplarının kontaminasyonu",
+      "Kemik parçalarına bağlı ağız yaralanmaları, tıkanma ve sindirim sistemi delinmesi",
+      "Ev yapımı tariflerde kalsiyum-fosfor dengesizliği ve vitamin eksiklikleri",
+      "Bağışıklığı zayıf kişiler, çocuklar ve yaşlılar için ev içi bulaş riski"
+    ]},
+    {"type": "p", "text": "Özellikle ev yapımı çiğ tariflerde besin dengesizliği sık görülen bir sorundur. Kediler için hayati önemi olan taurin gibi bileşenlerin eksikliği, aylar içinde kalp ve göz sağlığında geri dönüşü zor sorunlara yol açabilir."},
+    {"type": "callout", "text": "Çiğ mama kullanmayı sürdürecekseniz, ürünü buzdolabında ayrı bir bölmede saklayın, hazırlıkta ayrı kesme tahtası ve kap kullanın, işlem sonrası elleri ve yüzeyleri iyice temizleyin. Bağışıklığı baskılanmış bireylerin bulunduğu evlerde çiğ beslenme önerilmez."},
+    {"type": "h2", "text": "Daha güvenli alternatifler"},
+    {"type": "p", "text": "Amacınız kedinizin doğal beslenmesine yakın bir düzen kurmaksa, çiğ etin risklerini almadan bunu yapmanın yolları vardır. Aşağıdaki yaklaşımlar hem besin dengesini korur hem de mikrobiyal riski büyük ölçüde ortadan kaldırır:"},
+    {"type": "ul", "items": [
+      "Yüksek proteinli, tam ve dengeli ticari yaş mamaları tercih edin.",
+      "Ev yapımı beslenmede ısrarlıysanız tarifin bir veteriner hekim tarafından dengelenmesini isteyin.",
+      "Eti çiğ vermek yerine baharatsız ve tuzsuz biçimde pişirerek verin.",
+      "Mama ve su kaplarını her gün yıkayın.",
+      "Mama değişikliğini birkaç gün içinde kademeli yapın.",
+      "Kedinizin dışarıda ölü kuş ya da kemirgenle temasını engelleyin."
+    ]},
+    {"type": "p", "text": "Beslenme, kedinizin sağlığını en çok etkileyen günlük kararlardan biridir. Kedinizin yaşına, kilosuna ve varsa hastalıklarına uygun bir plan oluşturmak için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilir, beslenme danışmanlığı için randevu alabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Çiğ mama her zaman tehlikeli mi?", "a": "Her paket virüs ya da bakteri içermez, ancak çiğ ürünlerde bu risk ısıl işlem görmüş mamalara göre belirgin biçimde yüksektir. 2025'teki vakalar riskin teorik olmadığını gösterdi. Risk-fayda dengesini hekiminizle değerlendirmeniz önerilir."},
+    {"q": "Kuş gribi kedimden bana bulaşır mı?", "a": "Bugüne kadar çiğ evcil hayvan maması ile temas eden kişilerde H5N1 enfeksiyonu bildirilmemiştir. Yine de hasta bir hayvanla temasta eldiven kullanmak, el hijyenine dikkat etmek ve yüzeyleri temizlemek gerekir."},
+    {"q": "Dondurmak virüsü öldürür mü?", "a": "Hayır. Dondurma bakteri ve virüsleri güvenilir biçimde etkisiz hâle getirmez; yalnızca çoğalmalarını yavaşlatır. Güvenli hâle getiren yöntem yeterli ısıl işlemdir."},
+    {"q": "Kedime pişmiş et verebilir miyim?", "a": "Baharatsız, tuzsuz ve kemiksiz biçimde pişirilmiş et, öğünün bir parçası olarak verilebilir. Ancak tek başına et dengeli bir beslenme sağlamaz; taurin ve diğer besin ögeleri açısından tam ve dengeli bir mama tabanı gereklidir."},
+    {"q": "Kedimde belirti varsa ne yapmalıyım?", "a": "Ateş, halsizlik, göz iltihabı, solunum güçlüğü ya da titreme ve dengesizlik gibi nörolojik bulgularda vakit kaybetmeden kliniğe başvurun. Kedinizin çiğ mama tükettiğini mutlaka önceden bildirin."},
+    {"q": "Köpekler de etkileniyor mu?", "a": "Köpeklerde de enfeksiyon bildirilmiştir, ancak kediler bu virüse karşı belirgin biçimde daha duyarlı görünmektedir. Çiğ mama kaynaklı riskler ise her iki tür için de geçerlidir."}
+  ]
+}

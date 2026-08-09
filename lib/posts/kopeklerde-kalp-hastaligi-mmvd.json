@@ -1,0 +1,79 @@
+{
+  "slug": "kopeklerde-kalp-hastaligi-mmvd",
+  "title": "Köpeklerde kalp hastalığı: üfürümden kalp yetmezliğine",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-dog-heart.jpg",
+  "imageAlt": "Uzanmış dinlenen küçük ırk bir köpek",
+  "date": "29 Haziran 2026",
+  "dateISO": "2026-06-29",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Küçük ırk köpeklerde en sık kalp hastalığı mitral kapak dejenerasyonudur. Üfürüm duyulduğunda ne yapılmalı, tedaviye ne zaman başlanmalı ve evde hangi ölçüm izlenmeli?",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "köpeklerde kalp hastalığı",
+    "köpekte kalp üfürümü",
+    "mitral kapak hastalığı köpek",
+    "köpekte gece öksürüğü",
+    "kalp yetmezliği köpek belirtileri",
+    "dinlenme solunum sayısı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Köpeklerde kalp hastalıkları çoğu zaman rutin bir muayenede duyulan üfürümle fark edilir. Sahipler için bu haber endişe verici olsa da, üfürüm duyulması hemen tedavi gerektiği anlamına gelmez; ancak takibe alınması gerektiği anlamına gelir. Bu yazıda küçük ırk köpeklerde en sık görülen mitral kapak hastalığını, hastalığın evrelerini ve evde izleyebileceğiniz basit ama çok değerli bir ölçümü anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Mitral kapak hastalığı nedir?"},
+    {"type": "p", "text": "Kalbin sol kulakçık ile karıncık arasındaki mitral kapak, kanın geri kaçmasını önler. Yaşla birlikte bu kapağın yapısı bozulur, tam kapanamaz hâle gelir ve her atımda bir miktar kan geriye kaçar. Bu geri kaçış steteskopla üfürüm olarak duyulur."},
+    {"type": "p", "text": "Hastalık, küçük ve orta boy ırklarda belirgin biçimde daha sık görülür; bazı ırklarda kalıtsal eğilim bildirilmiştir. Süreç genellikle yıllar içinde çok yavaş ilerler. Birçok köpek hastalığın erken evresinde hiçbir belirti göstermeden yaşamını sürdürür ve hiçbir zaman kalp yetmezliğine ilerlemeyebilir."},
+    {"type": "h2", "text": "Evreler ve tedavi zamanlaması"},
+    {"type": "p", "text": "Kalp hastalıklarında tedavi kararı, üfürümün varlığına değil, kalbin yapısal olarak ne kadar etkilendiğine göre verilir. Bu nedenle evreleme önemlidir."},
+    {"type": "ul", "items": [
+      "Risk grubu: üfürüm yok, ancak ırk nedeniyle eğilim var. Düzenli muayene önerilir.",
+      "Üfürüm var, kalp henüz büyümemiş: tedavi gerekmez, izlem sürdürülür.",
+      "Üfürüm var ve kalp belirgin biçimde büyümüş: belirti olmasa bile ilaç tedavisi gündeme gelir.",
+      "Kalp yetmezliği gelişmiş: akciğerde sıvı birikimi vardır, çoklu ilaç tedavisi gerekir.",
+      "Tedaviye dirençli ileri evre: yoğun ve kişiselleştirilmiş yönetim gerektirir."
+    ]},
+    {"type": "p", "text": "Üçüncü basamak özellikle önemlidir. Kalp büyümesi saptanmış ancak henüz belirti göstermeyen köpeklerde tedaviye başlanmasının, kalp yetmezliğinin ortaya çıkışını belirgin biçimde geciktirdiği gösterilmiştir. Bu, üfürüm duyulan köpeklerde neden düzenli görüntüleme yapılması gerektiğinin en somut nedenidir."},
+    {"type": "h2", "text": "Hangi belirtilere dikkat etmeli?"},
+    {"type": "ul", "items": [
+      "Özellikle gece ve sabaha karşı ortaya çıkan kuru öksürük",
+      "Yürüyüşte çabuk yorulma, dinlenmek için sık durma",
+      "Dinlenirken solunum sayısının artması",
+      "Karın bölgesinde şişkinlik",
+      "Diş etlerinde morarma ya da solukluk",
+      "Ani bayılma veya güçsüzlük nöbeti",
+      "İştahsızlık ve kilo kaybı"
+    ]},
+    {"type": "callout", "text": "Dinlenirken ya da uykuda solunum sayısının dakikada 30'un üzerine çıkması ve bu artışın sürmesi, kalp yetmezliğinin en erken ve en güvenilir işaretlerinden biridir. Bu durumda aynı gün başvurun."},
+    {"type": "h2", "text": "Evde dinlenme solunum sayısı takibi"},
+    {"type": "p", "text": "Bu ölçüm, kalp hastalığı olan köpeklerde sahiplerin yapabileceği en değerli takiptir ve hiçbir alet gerektirmez. Köpeğiniz uykudayken ya da tamamen dinlenirken göğsünün bir dakika içinde kaç kez inip kalktığını sayın. Bir iniş ve kalkış bir soluk sayılır."},
+    {"type": "ul", "items": [
+      "Ölçümü her gün aynı koşullarda, tercihen aynı saatte yapın.",
+      "Sıcak ortamda, oyundan hemen sonra ya da heyecanlıyken ölçmeyin.",
+      "Sonuçları bir deftere ya da telefonunuza kaydedin.",
+      "Sağlıklı köpeklerde bu sayı genellikle dakikada 15-30 arasındadır.",
+      "Birkaç gün üst üste 30'un üzerinde seyrediyorsa hekiminize bildirin.",
+      "Kayıtlarınızı kontrol randevusuna getirin; tedavi kararlarını doğrudan etkiler."
+    ]},
+    {"type": "h2", "text": "Tanıda kullanılan yöntemler"},
+    {"type": "p", "text": "Üfürüm duyulduğunda amaç, hastalığın hangi evrede olduğunu belirlemektir. Bunun için birkaç yöntem birlikte kullanılır."},
+    {"type": "ul", "items": [
+      "Göğüs röntgeni: kalp boyutu ve akciğerde sıvı birikimi değerlendirilir.",
+      "Ekokardiyografi: kapak yapısı, kaçak miktarı ve kalp odacıklarının ölçümü için en ayrıntılı yöntemdir.",
+      "Elektrokardiyografi: ritim bozukluğu şüphesinde kullanılır.",
+      "Kan basıncı ölçümü",
+      "Kan tahlilleri: böbrek fonksiyonu ve elektrolitler, ilaç seçimini etkiler.",
+      "Kalp biyobelirteçleri: bazı vakalarda ek bilgi sağlar."
+    ]},
+    {"type": "p", "text": "Tedavi başladıktan sonra da bu değerlendirmeler belirli aralıklarla tekrarlanır. Kalp ilaçlarının bir kısmı böbrek fonksiyonunu ve elektrolit dengesini etkilediği için düzenli kan kontrolü tedavinin ayrılmaz parçasıdır."},
+    {"type": "p", "text": "Köpeğinizde üfürüm saptandıysa ya da gece öksürüğü, çabuk yorulma gibi belirtiler fark ettiyseniz kapsamlı bir kalp değerlendirmesi için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Üfürüm duyuldu, köpeğim ölecek mi?", "a": "Hayır. Üfürüm bir hastalık değil, bir bulgudur ve birçok köpek yıllarca belirti göstermeden yaşar. Önemli olan hastalığın hangi evrede olduğunu belirlemek ve düzenli takibe almaktır."},
+    {"q": "Tedaviye ne zaman başlanır?", "a": "Tedavi kararı üfürümün şiddetine değil, kalbin yapısal olarak büyüyüp büyümediğine göre verilir. Kalp büyümesi saptanan köpeklerde, belirti olmasa bile tedaviye başlanması kalp yetmezliğinin ortaya çıkışını geciktirebilir."},
+    {"q": "Kalp hastalığı olan köpek egzersiz yapabilir mi?", "a": "Evet, ancak yoğunluk ayarlanmalıdır. Kısa ve düzenli yürüyüşler önerilirken, sıcak havada ve zorlayıcı koşularda kaçınılmalıdır. Programı hekiminizle birlikte belirleyin."},
+    {"q": "Tuzsuz beslenme gerekir mi?", "a": "İleri evrelerde tuz alımının sınırlandırılması önerilir. Ancak aşırı kısıtlama iştahı bozabilir ve kas kaybına yol açabilir. Beslenme planı evreye göre hekiminiz tarafından belirlenmelidir."},
+    {"q": "Öksürük her zaman kalpten mi kaynaklanır?", "a": "Hayır. Soluk borusu kollapsı, bronşit ve solunum yolu enfeksiyonları da öksürük yapar. Ayrımı röntgen ve muayene bulguları sağlar; bu nedenle öksürüğün nedeni mutlaka araştırılmalıdır."},
+    {"q": "Ne sıklıkla kontrol gerekir?", "a": "Erken evrede yılda bir kez kontrol yeterli olabilirken, kalp büyümesi ya da yetmezlik varsa üç-altı ayda bir, bazen daha sık değerlendirme gerekir. Takip programını hekiminiz belirler."}
+  ]
+}

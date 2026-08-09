@@ -1,0 +1,76 @@
+{
+  "slug": "kedilerde-kronik-bobrek-hastaligi",
+  "title": "Kedilerde kronik böbrek hastalığı: erken tanı her şeyi değiştirir",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-kidney.jpg",
+  "imageAlt": "Su kabından su içen tekir bir kedi",
+  "date": "17 Temmuz 2026",
+  "dateISO": "2026-07-17",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Yaşlı kedilerin en sık kronik hastalığı böbrek yetmezliğidir ve belirtiler çıktığında işlevin büyük kısmı kaybolmuş olur. SDMA ve yeni erken tanı yaklaşımları bu tabloyu değiştiriyor.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "kedilerde böbrek yetmezliği",
+    "kronik böbrek hastalığı kedi",
+    "SDMA testi",
+    "kedide çok su içme",
+    "kedi kilo kaybı yaşlı",
+    "böbrek diyeti kedi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kronik böbrek hastalığı, yaşlı kedilerde en sık karşılaşılan uzun süreli hastalıktır. Sinsi ilerlemesi en zorlu yanıdır: kediler belirti göstermeye başladığında böbrek işlevinin önemli bir bölümü çoktan kaybolmuş olur. Buna karşın erken saptanan ve doğru yönetilen kedilerde yaşam süresi ve konfor belirgin biçimde artırılabilir. Bu yazıda hastalığı, erken tanı olanaklarını ve tedavinin bileşenlerini ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Böbrekler neden bu kadar geç uyarı verir?"},
+    {"type": "p", "text": "Böbreklerin ciddi bir yedek kapasitesi vardır. Klasik kan testinde kullanılan kreatinin değerinin yükselmesi için işlevin yaklaşık dörtte üçünün kaybedilmiş olması gerekir. Bu nedenle kreatinin normal görünürken hastalık sessizce ilerleyebilir. Kedinin sahibi de genellikle ilk belirtileri yaşlanmaya bağlar."},
+    {"type": "p", "text": "İlk fark edilen değişiklik çoğu zaman su tüketimindeki artıştır. Böbrekler idrarı yoğunlaştıramadığı için kedi daha fazla idrar çıkarır ve bu kaybı karşılamak için daha çok su içer. Kum kabındaki topakların büyümesi, birçok sahibin fark ettiği ilk somut ipucudur."},
+    {"type": "h2", "text": "Belirtiler"},
+    {"type": "ul", "items": [
+      "Belirgin biçimde artan su tüketimi ve idrar miktarı",
+      "Yavaş ilerleyen kilo kaybı ve kas erimesi",
+      "İştahta azalma, seçici yeme davranışı",
+      "Aralıklı kusma ve bulantı belirtileri",
+      "Tüylerde matlaşma, kendini temizlemede azalma",
+      "Ağız kokusu ve ağız içinde yaralar",
+      "Halsizlik, uyku süresinde artış",
+      "İleri evrede kansızlığa bağlı soluk diş etleri"
+    ]},
+    {"type": "p", "text": "Bu bulguların çoğu hipertiroidi, diyabet ve başka hastalıklarda da görülebilir. Bu nedenle tanı yalnızca belirtilere değil, laboratuvar bulgularına dayandırılır."},
+    {"type": "h2", "text": "Erken tanıda SDMA ve yeni yaklaşımlar"},
+    {"type": "p", "text": "Simetrik dimetilarjinin (SDMA), protein metabolizmasının bir yan ürünüdür ve böbrek işlevindeki azalmayı kreatininden daha erken yansıtır. SDMA yaklaşık yüzde 40 işlev kaybında yükselmeye başlar; bu da hastalığın çok daha erken bir evrede fark edilmesini sağlar. Ayrıca kreatininden farklı olarak kas kütlesinden daha az etkilendiği için, kas kaybı olan yaşlı kedilerde daha güvenilir bir gösterge sunar."},
+    {"type": "p", "text": "Bu alandaki gelişmeler devam ediyor. Makine öğrenmesi temelli modellerin, rutin kan parametreleri ve metabolitleri birlikte değerlendirerek hastalığı klasik tanıdan aylar hatta yıllar önce öngörebildiğini bildiren çalışmalar yayımlandı. 2025 yılında yayımlanan bir çalışmada, belirli metabolitler ve klinik parametreleri kullanan bir modelin geleneksel tanıdan altı ay önce yüksek doğrulukla ayrım yapabildiği bildirilmiştir. Bu yaklaşımlar henüz her klinikte rutin değildir, ancak yönün erken tanıya doğru olduğunu göstermektedir."},
+    {"type": "callout", "text": "Yedi yaşını geçmiş kedilerde yılda en az bir kez kan ve idrar taraması yaptırmak, böbrek hastalığını belirti vermeden yakalamanın en pratik yoludur. On yaş üstünde bu taramayı altı ayda bire çıkarmak önerilir."},
+    {"type": "h2", "text": "Tanı ve evreleme"},
+    {"type": "p", "text": "Tanı; kan tahlilleri, idrar analizi ve kan basıncı ölçümünün birlikte değerlendirilmesiyle konur. İdrarın yoğunluğu özellikle önemlidir, çünkü böbreğin idrarı yoğunlaştırma yeteneği erken dönemde bozulur."},
+    {"type": "ul", "items": [
+      "Kreatinin ve SDMA düzeyleri",
+      "İdrar yoğunluğu ve idrarda protein kaybı",
+      "Fosfor, potasyum ve kalsiyum düzeyleri",
+      "Kan basıncı ölçümü",
+      "Kansızlık değerlendirmesi için tam kan sayımı",
+      "Gerekiyorsa ultrason ile böbrek yapısının incelenmesi"
+    ]},
+    {"type": "p", "text": "Elde edilen bulgular uluslararası bir sistemle evrelenir. Evre, tedavi planını doğrudan belirler; örneğin fosfor kontrolü hangi evrede başlanacağı ya da tansiyon tedavisinin gerekliliği bu değerlendirmeye göre kararlaştırılır."},
+    {"type": "h2", "text": "Tedavi: hastalığı yavaşlatmak ve konforu korumak"},
+    {"type": "p", "text": "Kronik böbrek hastalığında hasarlı doku geri kazanılmaz; hedef ilerlemeyi yavaşlatmak ve kedinin yaşam kalitesini korumaktır. Bu hedefe ulaşmada en güçlü araç beslenmedir."},
+    {"type": "ul", "items": [
+      "Böbrek diyeti: fosfor ve protein düzeyi ayarlanmış, omega-3 ve antioksidan içeriği artırılmış özel mamalar yaşam süresini uzatabilir.",
+      "Su tüketiminin artırılması: yaş mama, birden fazla su kabı, akan su kaynakları.",
+      "Fosfor bağlayıcılar: diyetle kontrol yeterli olmadığında eklenir.",
+      "Tansiyon kontrolü: yüksek tansiyon böbrek hasarını hızlandırır ve göz ile kalbi de etkiler.",
+      "İdrarla protein kaybının azaltılmasına yönelik ilaçlar.",
+      "İştahsızlık ve bulantı için destekleyici tedaviler.",
+      "İleri evrede kansızlığın yönetimi ve gerektiğinde deri altı sıvı desteği."
+    ]},
+    {"type": "p", "text": "Diyet değişikliği kedilerde zaman alabilir; ani geçişler reddedilmeye yol açar. Yeni mamayı eskisiyle karıştırarak birkaç hafta içinde kademeli geçiş yapmak başarı şansını belirgin biçimde artırır. İştahsız bir kediyi zorla beslemek yerine hekiminizle iştah düzenleyici seçenekleri konuşmak daha doğrudur."},
+    {"type": "p", "text": "Kedinizde su tüketiminde artış ya da açıklanamayan kilo kaybı fark ettiyseniz basit bir kan ve idrar taraması çoğu zaman yeterli bir başlangıçtır. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak böbrek taraması ve takip planı için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Kronik böbrek hastalığı iyileşir mi?", "a": "Kaybedilen böbrek dokusu geri kazanılmaz, bu nedenle hastalık tam olarak iyileşmez. Ancak erken tanı ve doğru yönetimle ilerleme yavaşlatılabilir ve kediler uzun süre kaliteli bir yaşam sürebilir."},
+    {"q": "SDMA testi nedir, neden önemli?", "a": "SDMA, böbrek işlevindeki azalmayı kreatininden daha erken yansıtan bir kan belirtecidir. Yaklaşık yüzde 40 işlev kaybında yükselmeye başlar ve kas kütlesinden daha az etkilendiği için yaşlı kedilerde daha güvenilir bilgi verir."},
+    {"q": "Böbrek maması şart mı?", "a": "Böbrek diyetleri, bu hastalıkta yaşam süresini uzatabildiği gösterilen az sayıdaki müdahaleden biridir. Hangi evrede başlanacağı hekiminizin değerlendirmesine bağlıdır, ancak uygun evrede güçlü biçimde önerilir."},
+    {"q": "Kedime evde sıvı verebilir miyim?", "a": "Deri altı sıvı uygulaması bazı hastalarda evde sürdürülebilir, ancak bu karar ve eğitim mutlaka veteriner hekim tarafından verilmelidir. Uygun olmayan sıvı seçimi ya da miktarı zararlı olabilir."},
+    {"q": "Hastalık kalıtsal mı?", "a": "Bazı ırklarda böbrek hastalıklarına yatkınlık bildirilmiştir; örneğin polikistik böbrek hastalığı belirli ırklarda daha sıktır. Ancak yaşlı kedilerdeki kronik böbrek hastalığının çoğunda tek bir kalıtsal neden gösterilemez."},
+    {"q": "Ne sıklıkla kontrol gerekir?", "a": "Evreye göre değişir. Erken evrede altı ayda bir kontrol yeterli olabilirken, ileri evrelerde bu aralık birkaç aya, hatta haftalara inebilir. Takip planını hekiminiz belirler."}
+  ]
+}

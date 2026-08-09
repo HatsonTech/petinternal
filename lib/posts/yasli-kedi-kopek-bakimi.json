@@ -1,0 +1,79 @@
+{
+  "slug": "yasli-kedi-kopek-bakimi",
+  "title": "Yaşlı kedi ve köpek bakımı: neyi ne zaman kontrol ettirmeli?",
+  "category": "Yaşlı Dostlar",
+  "image": "/images/blog-senior-pet-care.jpg",
+  "imageAlt": "Yumuşak bir örtüde uyuyan yaşlı bir kedi",
+  "date": "5 Temmuz 2026",
+  "dateISO": "2026-07-05",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Yaşlanma bir hastalık değildir, ama birçok hastalığın kapısını açar. Yaşlı dostlarınızda hangi kontroller, hangi sıklıkla yapılmalı ve ev düzeninde neler değişmeli?",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "yaşlı kedi bakımı",
+    "yaşlı köpek bakımı",
+    "senior evcil hayvan kontrolü",
+    "yaşlı köpekte demans",
+    "yaşlı kedi kilo kaybı",
+    "yaşlı hayvan beslenmesi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Dostlarımız yaşlandıkça değişimler yavaş yavaş gelir ve çoğu zaman biz onları fark etmeyiz: biraz daha çok uyur, biraz daha az oynar, merdivende biraz daha yavaşlar. Bu değişikliklerin bir kısmı yaşlanmanın doğal parçasıdır, ancak önemli bir bölümü tedavi edilebilir hastalıkların ilk işaretidir. Bu yazıda yaşlı kedi ve köpeklerde neyi, ne zaman kontrol ettirmeniz gerektiğini ve evde neleri kolaylaştırabileceğinizi anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Ne zaman yaşlı sayılırlar?"},
+    {"type": "p", "text": "Yaşlılığın başlangıcı türe ve vücut büyüklüğüne göre değişir. Kediler genellikle 10-11 yaş civarında yaşlı kabul edilir. Köpeklerde ise vücut büyüklüğü belirleyicidir: dev ırklar 5-6 yaşında yaşlılık dönemine girerken, küçük ırklarda bu dönem 9-10 yaşa kadar uzayabilir."},
+    {"type": "p", "text": "Bu ayrım pratik bir sonuç doğurur: bir Golden Retriever ile bir Yorkshire Terrier aynı takvim yaşında olsa bile aynı kontrol programına ihtiyaç duymaz. Kontrol sıklığını yaşa değil, türe ve ırka göre planlamak gerekir."},
+    {"type": "h2", "text": "Yaşlı kontrolünde neler bakılmalı?"},
+    {"type": "p", "text": "Yaşlı hayvanlarda amaç, henüz belirti vermemiş sorunları yakalamaktır. Bu nedenle rutin kontrol, genç hayvanlardakinden daha kapsamlı olmalıdır."},
+    {"type": "ul", "items": [
+      "Tam kan sayımı ve biyokimya paneli",
+      "İdrar analizi ve idrar yoğunluğu ölçümü",
+      "Kedilerde tiroid hormonu, köpeklerde tiroid ve gerekiyorsa kortizol değerlendirmesi",
+      "Kan basıncı ölçümü",
+      "Ağız ve diş muayenesi",
+      "Eklem, kas kütlesi ve yürüyüş değerlendirmesi",
+      "Göz ve işitme değerlendirmesi",
+      "Vücut kondisyon skoru ve kilo takibi",
+      "Gerektiğinde röntgen ve ultrason"
+    ]},
+    {"type": "callout", "text": "Genel öneri, yaşlılık dönemine giren kedi ve köpeklerde kontrol sıklığını yılda bir kezden yılda iki keze çıkarmaktır. Hayvanlar bizden hızlı yaşlandığı için altı ay, insan ölçeğinde birkaç yıla karşılık gelir."},
+    {"type": "h2", "text": "Gözden kaçan belirtiler"},
+    {"type": "p", "text": "Aşağıdaki değişiklikler sıklıkla yaşlanmaya bağlanır, oysa hepsi araştırılması gereken bulgulardır:"},
+    {"type": "ul", "items": [
+      "Su tüketiminde artış: böbrek hastalığı, diyabet ya da hormonal sorunların ilk işareti olabilir.",
+      "Kilo kaybı: iştah yerinde olsa bile hipertiroidi, diyabet ya da kanser habercisi olabilir.",
+      "Zıplamayı bırakma ve merdiven isteksizliği: neredeyse her zaman ağrı anlamına gelir.",
+      "Gece huzursuzluğu ve amaçsız dolaşma: bilişsel işlev bozukluğunun tipik bulgusudur.",
+      "Ağız kokusu: diş eti hastalığı yalnızca ağzı değil genel sağlığı da etkiler.",
+      "Tuvalet alışkanlığında değişiklik: ağrı, idrar yolu sorunu ya da bilişsel gerileme kaynaklı olabilir.",
+      "Kendini temizlemeyi bırakma: kedilerde ağrının en sık gözden kaçan işaretidir."
+    ]},
+    {"type": "h2", "text": "Bilişsel işlev bozukluğu"},
+    {"type": "p", "text": "Yaşlı kedi ve köpeklerde, insanlardaki demansa benzer bir bilişsel gerileme görülebilir. Belirtileri kolay tanınır ama sıklıkla huysuzluk olarak yorumlanır: gece dolaşma ve seslenme, tanıdık kişileri tanımakta zorlanma, köşede kalakalma, ev içinde tuvalet kazaları ve uyku düzeninin tersine dönmesi."},
+    {"type": "p", "text": "Bu tablonun tamamen geri döndürülmesi mümkün olmasa da, erken müdahaleyle ilerleme yavaşlatılabilir. Ortamın öngörülebilir tutulması, gündüz zihinsel uyarım sağlanması, gece aydınlatma düzenlemesi ve hekimin önerdiği destekleyici yaklaşımlar fark yaratır. Ayrıca benzer belirtiler yapan ağrı, işitme kaybı ve tiroid sorunlarının dışlanması önemlidir."},
+    {"type": "h2", "text": "Evde konforu artıran düzenlemeler"},
+    {"type": "p", "text": "Çoğu zaman en büyük iyileşme ilaçtan değil, ev düzeninin küçük değişikliklerinden gelir."},
+    {"type": "ul", "items": [
+      "Kaygan zeminlere halı ya da kaymaz paspas serin.",
+      "Yatağı, yüksek kenarları olmayan ve kolay girilebilen bir modelle değiştirin.",
+      "Kedilerde kum kabının kenarını alçaltın ve kolay ulaşılabilir bir yere koyun.",
+      "Sevdiği yüksek noktalara ulaşması için basamak ya da rampa ekleyin.",
+      "Su ve mama kaplarını birden fazla noktada bulundurun.",
+      "Tırnakları düzenli kesin; uzun tırnak kaymayı ve ağrıyı artırır.",
+      "Görme ya da işitmesi azalmışsa mobilya düzenini değiştirmeyin."
+    ]},
+    {"type": "h2", "text": "Beslenme ve hareket"},
+    {"type": "p", "text": "Yaşlı hayvanlarda beslenme hedefi tek tip değildir. Bazı köpekler kilo alma eğilimindeyken, birçok yaşlı kedi kas kaybı yaşar ve yeterli protein alamaz. Bu nedenle beslenme planı, kilo ve kas kütlesi değerlendirmesine göre kişiselleştirilmelidir."},
+    {"type": "p", "text": "Hareket ise azaltılmamalı, uyarlanmalıdır. Uzun ve yorucu yürüyüşler yerine kısa ve sık yürüyüşler kas kütlesini korur ve eklem konforunu destekler. Kedilerde kısa oyun seansları hem fiziksel hem zihinsel canlılığı sürdürür."},
+    {"type": "p", "text": "Dostunuz yaşlılık dönemine girdiyse kapsamlı bir sağlık taraması planlamak için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Yaşlı hayvanımı ne sıklıkla kontrole getirmeliyim?", "a": "Genel öneri yılda iki kezdir. Kronik bir hastalığı varsa bu aralık daha sık olabilir. Kontrol programını hekiminiz, hayvanınızın türü, ırkı ve mevcut sağlık durumuna göre belirler."},
+    {"q": "Yaşlı köpeğim daha az yürümek istiyor, normal mi?", "a": "Bir miktar yavaşlama beklenir, ancak belirgin isteksizlik çoğunlukla eklem ağrısının işaretidir. Osteoartrit yaşlı köpeklerde çok yaygındır ve tedavi edilebilir; bu nedenle değerlendirme yaptırın."},
+    {"q": "Yaşlı kedimin kilo kaybetmesi doğal mı?", "a": "Hayır. Yaşlı kedilerde kilo kaybı hipertiroidi, böbrek hastalığı, diyabet ya da diş ağrısı gibi tedavi edilebilir nedenlere bağlı olabilir. Mutlaka kan ve idrar taraması yaptırılmalıdır."},
+    {"q": "Yaşlı hayvana anestezi verilir mi?", "a": "Yaş tek başına anestezi engeli değildir. Ameliyat öncesi kan tahlilleri, kalp değerlendirmesi ve uygun protokol seçimiyle yaşlı hastalar da güvenle anestezi alabilir. Riskler hekiminizle önceden konuşulmalıdır."},
+    {"q": "Yaşlanma belirtileriyle hastalığı nasıl ayırırım?", "a": "Pratik ölçüt şudur: yaşlanma yavaş ve simetrik ilerler; hastalık genellikle daha hızlı başlar ya da belirli bir alanda yoğunlaşır. Ancak bu ayrımı kesinleştiren şey laboratuvar bulgularıdır."},
+    {"q": "Takviye kullanmalı mıyım?", "a": "Bazı takviyeler eklem konforu ya da bilişsel destek için önerilebilir, ancak hepsi her hayvana uygun değildir ve bazıları ilaç etkileşimine girebilir. Takviye kullanmadan önce hekiminize danışın."}
+  ]
+}

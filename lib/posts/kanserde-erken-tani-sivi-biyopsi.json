@@ -1,0 +1,70 @@
+{
+  "slug": "kanserde-erken-tani-sivi-biyopsi",
+  "title": "Kanserde erken tanı: sıvı biyopsi ve 2026 onkoloji kılavuzu",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-cancer-screening.jpg",
+  "imageAlt": "Başı okşanan gri tüylü bir köpek",
+  "date": "23 Temmuz 2026",
+  "dateISO": "2026-07-23",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Kandan yapılan tarama testleri, köpeklerde kanseri belirti çıkmadan önce yakalayabiliyor. 2026 AAHA onkoloji kılavuzunun öne çıkardığı yenilikler ve testlerin gerçek performansı.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "köpeklerde kanser erken tanı",
+    "sıvı biyopsi köpek",
+    "kanser tarama testi evcil hayvan",
+    "köpeklerde kanser belirtileri",
+    "AAHA onkoloji kılavuzu",
+    "kedilerde kanser",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kanser, orta yaş üstü kedi ve köpeklerde en sık karşılaşılan ciddi hastalık gruplarından biridir ve tedavi başarısı büyük ölçüde ne kadar erken yakalandığına bağlıdır. Bu alandaki en dikkat çekici gelişmelerden biri, basit bir kan örneğinden tümör kaynaklı genetik materyalin aranmasına dayanan sıvı biyopsi testleri. 2026 yılında yayımlanan AAHA onkoloji kılavuzu bu yöntemi ve kişiselleştirilmiş tedavi profillerini öne çıkan yenilikler arasında sayıyor. Bu yazıda testin ne yapıp ne yapamadığını ve pratikte ne anlama geldiğini ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Sıvı biyopsi nedir?"},
+    {"type": "p", "text": "Klasik biyopside dokudan parça alınır ve mikroskop altında incelenir. Sıvı biyopside ise kan ya da idrar örneği kullanılır. Tümör hücreleri çoğalırken kan dolaşımına küçük DNA parçaları bırakır; yeni nesil dizileme teknolojileri bu parçaları tespit edebilecek hassasiyete ulaşmıştır. Yani hayvana anestezi vermeden, cerrahi işlem yapmadan, yalnızca kan alarak kanser sinyali aranabilmektedir."},
+    {"type": "p", "text": "Bu yaklaşımın en çekici yanı tarama amaçlı kullanılabilmesidir. Köpeklerde yapılan geniş bir doğrulama çalışmasında testin, henüz klinik belirti göstermeyen bireylerde de kanser sinyalini saptayabildiği bildirilmiştir. Erken tanı, birçok kanser türünde tedavi seçeneklerini ve beklentiyi doğrudan değiştirdiği için bu önemli bir olanaktır."},
+    {"type": "h2", "text": "Test ne kadar güvenilir?"},
+    {"type": "p", "text": "Bu noktada gerçekçi olmak gerekir. Binden fazla köpeğin dahil edildiği bağımsız doğrulama çalışmasında testin genel duyarlılığı yüzde 54,7, özgüllüğü ise yüzde 98,5 olarak bildirilmiştir. Bu iki sayının anlamını ayırmak önemlidir:"},
+    {"type": "ul", "items": [
+      "Yüksek özgüllük: test pozitif çıktığında bunun gerçekten kansere işaret etme olasılığı yüksektir; yani yanlış alarm oranı düşüktür.",
+      "Orta düzey duyarlılık: test negatif çıktığında kanser olmadığı kesinleşmez; mevcut kanserlerin yaklaşık yarısı bu testle yakalanabilir.",
+      "Agresif kanserlerde performans daha iyidir: lenfoma, hemanjiyosarkom ve osteosarkom için saptama oranı yüzde 85,4 olarak bildirilmiştir."
+    ]},
+    {"type": "p", "text": "Bu nedenle sıvı biyopsi bir tanı testi değil, tarama testidir. Pozitif sonuç, tanıyı kesinleştirmek için görüntüleme ve doku örneklemesiyle desteklenmelidir. Negatif sonuç ise düzenli muayenelerin ve klinik takibin yerini almaz."},
+    {"type": "callout", "text": "Hiçbir tarama testi düzenli fizik muayenenin yerini tutmaz. Bir yumru fark ettiyseniz ya da köpeğinizde açıklanamayan kilo kaybı varsa, tarama testi sonucunu beklemeden değerlendirme yaptırın."},
+    {"type": "h2", "text": "2026 kılavuzunda öne çıkan diğer başlıklar"},
+    {"type": "p", "text": "Amerikan Hayvan Hastaneleri Derneği'nin (AAHA) 2026 onkoloji kılavuzu, birinci basamak veteriner ekipleri için hazırlanmıştır ve kanserle ilgili yalnızca tedaviye değil, sürecin bütününe odaklanır."},
+    {"type": "ul", "items": [
+      "Sıvı biyopsi ve biyobelirteç temelli yeni tanı araçları",
+      "Kişiselleştirilmiş tedavi profilleri ve hassas tıp yaklaşımları",
+      "Hasta takibi ve destekleyici bakım standartları",
+      "Ağrı yönetimi ve beslenme desteğinin tedavi planına entegre edilmesi",
+      "Kemoterapi uygulamalarında ekip ve çevre güvenliği",
+      "Palyatif bakım ve yaşamın son dönemine ilişkin planlama",
+      "Aileyle iletişim ve karar sürecinin paylaşılması"
+    ]},
+    {"type": "p", "text": "Bu başlıklardan özellikle sonuncusu kolay gözden kaçar ama pratikte belirleyicidir. Onkolojik bir tanı sonrasında ailenin beklentilerinin netleşmesi, tedavi kararlarının hayvanın yaşam kalitesi merkeze alınarak verilmesini sağlar."},
+    {"type": "h2", "text": "Evde fark edebileceğiniz uyarı işaretleri"},
+    {"type": "p", "text": "Teknoloji ne kadar ilerlerse ilerlesin, kanserlerin önemli bir bölümü hâlâ sahiplerin fark ettiği bir değişiklikle gündeme gelir. Aşağıdaki bulgular kanser dışı nedenlerle de ortaya çıkabilir; ancak hepsi değerlendirilmeyi hak eder:"},
+    {"type": "ul", "items": [
+      "Büyüyen, şekil değiştiren ya da yeni çıkan yumrular",
+      "İştah normalken bile süregelen kilo kaybı",
+      "İyileşmeyen yaralar ve tekrarlayan kanamalar",
+      "Kalıcı topallama ya da kemik üzerinde sertlik",
+      "Nefes darlığı, egzersiz toleransında düşüş",
+      "Sürekli değişen dışkı düzeni, kusma ya da yutma güçlüğü",
+      "Ağız kokusunda ani ve belirgin değişiklik"
+    ]},
+    {"type": "p", "text": "Vücut yüzeyini ayda bir kez elinizle tarayarak yumru kontrolü yapmak, en basit ve en etkili erken tanı alışkanlıklarından biridir. Fark ettiğiniz bir yumrunun boyutunu ve tarihini not almanız, hekiminizin değişimi objektif olarak değerlendirmesini sağlar."},
+    {"type": "p", "text": "Dostunuzda yeni bir yumru, açıklanamayan kilo kaybı ya da geçmeyen bir yara fark ettiyseniz değerlendirmeyi ertelemeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak muayene ve gerekli tetkiklerin planlanması için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Sıvı biyopsi testi kanser olmadığını kanıtlar mı?", "a": "Hayır. Testin genel duyarlılığı yaklaşık yüzde 55 olarak bildirilmiştir; yani negatif sonuç kanser olmadığını kesinleştirmez. Düzenli muayene ve klinik takip mutlaka sürdürülmelidir."},
+    {"q": "Test pozitif çıkarsa ne yapılır?", "a": "Pozitif sonuç bir tanı değil, ileri incelemeye yönlendiren bir sinyaldir. Fizik muayene, kan tahlilleri, röntgen ve ultrason gibi görüntülemeler ve gerektiğinde doku örneklemesiyle tanı netleştirilir."},
+    {"q": "Bu test Türkiye'de yapılabiliyor mu?", "a": "Sıvı biyopsi testleri belirli referans laboratuvarları üzerinden sunulmaktadır ve bulunabilirlik ülkeye göre değişir. Güncel durumu ve gerekliliğini veteriner hekiminizle görüşmeniz gerekir."},
+    {"q": "Hangi köpeklerde tarama düşünülmeli?", "a": "Genel eğilim, orta yaş üstü köpeklerde ve kanser riski yüksek ırklarda taramanın gündeme gelmesidir. Karar, köpeğinizin yaşı, ırkı ve geçmişi değerlendirilerek verilmelidir."},
+    {"q": "Kedilerde de kullanılabiliyor mu?", "a": "Bu alandaki doğrulama çalışmalarının büyük kısmı köpeklerde yapılmıştır. Kedilerde erken tanı yaklaşımları hâlâ ağırlıklı olarak muayene, kan tahlilleri ve görüntülemeye dayanır."},
+    {"q": "Kanser tanısı alan hayvanlarda tedavi zorunlu mu?", "a": "Her hasta için tedavi uygun olmayabilir. Yaş, genel durum, kanserin tipi ve ailenin koşulları birlikte değerlendirilir. Tedavi yapılmayacaksa bile ağrı yönetimi ve destekleyici bakım planlanmalıdır."}
+  ]
+}
