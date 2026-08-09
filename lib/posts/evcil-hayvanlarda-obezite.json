@@ -1,0 +1,80 @@
+{
+  "slug": "evcil-hayvanlarda-obezite",
+  "title": "Kilo fazlası: en sık gözden kaçan sağlık sorunu",
+  "category": "Beslenme",
+  "image": "/images/blog-pet-obesity.jpg",
+  "imageAlt": "Sırtüstü uzanmış, rahat görünen tekir bir kedi",
+  "date": "27 Haziran 2026",
+  "dateISO": "2026-06-27",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Fazla kilo yalnızca görünüm meselesi değildir; eklem hastalığından diyabete kadar birçok sorunun zeminini hazırlar. Vücut kondisyon skoru, güvenli kilo verme hızı ve pratik plan.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "kedilerde obezite",
+    "köpeklerde kilo verme",
+    "vücut kondisyon skoru",
+    "kedi kilo verme diyeti",
+    "köpek ideal kilo",
+    "evcil hayvan beslenmesi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Fazla kilo, evcil hayvanlarda en yaygın ve en çok normalleştirilen sağlık sorunudur. Tombul bir kedi ya da köpek çoğu zaman sevimli bulunur, mutlu ve iyi bakılıyor sanılır. Oysa fazla kilo, eklem ağrısından diyabete, solunum sorunlarından yaşam süresinin kısalmasına kadar geniş bir etki alanına sahiptir. İyi haber şu ki bu sorun, doğru planla en kolay geri döndürülebilen sağlık sorunlarından biridir.",
+  "body": [
+    {"type": "h2", "text": "Fazla kilo neden bu kadar önemli?"},
+    {"type": "p", "text": "Yağ dokusu pasif bir depo değildir; iltihabi maddeler üreten aktif bir organ gibi çalışır. Bu nedenle fazla kilo yalnızca eklemlere binen yükle değil, vücutta sürekli düşük düzeyde seyreden bir iltihabi durumla da ilişkilidir. Bu mekanizma, kilonun bu kadar çok hastalıkla bağlantılı olmasını açıklar."},
+    {"type": "ul", "items": [
+      "Eklem hastalıkları ve osteoartrit ağrısında artış",
+      "Kedilerde şeker hastalığı riskinde belirgin yükselme",
+      "Solunum zorluğu ve sıcağa dayanıksızlık",
+      "Kalp ve dolaşım sistemi üzerinde ek yük",
+      "Anestezi risklerinde artış",
+      "Kedilerde kendini temizleyememeye bağlı deri sorunları",
+      "İdrar yolu hastalıklarına yatkınlık",
+      "Genel hareket azlığı ve yaşam kalitesinde düşüş"
+    ]},
+    {"type": "h2", "text": "İdeal kilo nasıl anlaşılır?"},
+    {"type": "p", "text": "Tartıdaki sayı tek başına yeterli bilgi vermez; aynı kiloda iki köpek çok farklı vücut yapısına sahip olabilir. Bu nedenle veteriner hekimler vücut kondisyon skoru adı verilen bir değerlendirme kullanır. Bu değerlendirmeyi evde de kabaca yapabilirsiniz:"},
+    {"type": "ul", "items": [
+      "Kaburgalar: elinizi hafifçe bastırdığınızda kaburgalar hissedilmelidir. Bastırmanız gerekiyorsa fazla kilo vardır.",
+      "Bel çizgisi: yukarıdan bakıldığında kaburgalardan sonra içe doğru bir daralma görülmelidir.",
+      "Yandan görünüm: karın alt hattı, göğüsten kasığa doğru yukarı doğru yükselmelidir.",
+      "Kedilerde karın sarkması: hafif bir sarkma normaldir, ancak yürürken sallanan belirgin bir sarkma fazlalık işaretidir."
+    ]},
+    {"type": "p", "text": "Bu üç kontrol dakikalar sürer ve kilo takibinin en pratik yoludur. Ayda bir kez aynı tartıda ölçüm yapıp not almak, değişimi objektif olarak görmenizi sağlar."},
+    {"type": "h2", "text": "Kilo verme planı nasıl kurulur?"},
+    {"type": "p", "text": "Kilo verme, mama miktarını rastgele azaltmak değildir. Yanlış kısıtlama kas kaybına ve besin eksikliklerine yol açar. Doğru yaklaşım, hedef kilonun belirlenmesi ve günlük kalori ihtiyacının buna göre hesaplanmasıdır."},
+    {"type": "ul", "items": [
+      "Hekiminizle hedef kiloyu ve haftalık kilo verme hızını belirleyin.",
+      "Günlük porsiyonu gözle değil, mutfak terazisiyle ölçün.",
+      "Ödülleri günlük kalorinin küçük bir bölümüyle sınırlayın; ödül kalorisi de plana dahildir.",
+      "Serbest beslenme yerine belirli öğün saatlerine geçin.",
+      "Evdeki herkesin aynı planı uyguladığından emin olun.",
+      "Her iki haftada bir tartıp kaydedin.",
+      "Kilo verme sırasında kas kütlesini korumak için yeterli protein alımını sürdürün."
+    ]},
+    {"type": "callout", "text": "Kedilerde hızlı kilo kaybı tehlikelidir. Aniden yeterince beslenemeyen kedilerde karaciğer yağlanması gelişebilir ve bu tablo hayati risk taşır. Kedilerde kilo verme süreci mutlaka yavaş ve kontrollü olmalıdır."},
+    {"type": "h2", "text": "Hareketi artırmanın pratik yolları"},
+    {"type": "p", "text": "Kalori kısıtlaması tek başına genellikle yeterli olmaz; hareketin artırılması hem sonucu hızlandırır hem de kas kütlesini korur."},
+    {"type": "ul", "items": [
+      "Köpeklerde yürüyüş süresini kademeli artırın; tempolu kısa yürüyüşler uzun ve durakli yürüyüşlerden etkilidir.",
+      "Kedilerde günde iki kez, on dakikalık oyun seansları planlayın.",
+      "Mamayı tek kapta vermek yerine bulmaca kaplar ve yiyecek dağıtan oyuncaklar kullanın.",
+      "Kedilerde dikey alanı zenginleştirin: tırmanma rafları hareketi kendiliğinden artırır.",
+      "Kuru mamayı evin farklı noktalarına saklayarak arama davranışını teşvik edin.",
+      "Eklem sorunu olan hayvanlarda egzersiz planını hekiminizle birlikte belirleyin."
+    ]},
+    {"type": "h2", "text": "Kilo almanın altında hastalık olabilir mi?"},
+    {"type": "p", "text": "Bazı durumlarda kilo artışı yalnızca beslenmeyle açıklanamaz. Köpeklerde tiroid bezinin az çalışması ya da kortizol fazlalığı gibi hormonal hastalıklar kilo alımına yol açabilir. Kısırlaştırma sonrası metabolizma hızının düşmesi de porsiyon ayarlanmadığında kilo artışına neden olur."},
+    {"type": "p", "text": "Bu nedenle özellikle beslenme değişmediği hâlde kilo alan, ayrıca tüy dökülmesi, halsizlik ya da deri sorunları gösteren hayvanlarda kan tahlili yapılması önerilir. Ayrıca karında hızlı gelişen şişlik kilo artışı değil, sıvı birikimi olabilir; bu ayrım muayeneyle yapılır."},
+    {"type": "p", "text": "Dostunuzun ideal kilosunu belirlemek ve güvenli bir kilo verme planı oluşturmak için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Hayvanım ne kadar sürede kilo vermeli?", "a": "Güvenli kilo verme hızı genellikle haftada vücut ağırlığının yüzde bir ile ikisi arasındadır. Daha hızlı kayıp, özellikle kedilerde karaciğer yağlanması riski taşır ve önerilmez."},
+    {"q": "Light mama kullanmak yeterli mi?", "a": "Light mamalar yardımcı olabilir, ancak porsiyon kontrol edilmezse etkisi sınırlı kalır. Belirleyici olan toplam günlük kaloridir; bu nedenle ölçülü besleme ve ödül kontrolü şarttır."},
+    {"q": "Kedim sürekli mama istiyor, ne yapmalıyım?", "a": "Öğünleri gün içine yayarak bölmek, bulmaca kaplar kullanmak ve oyunla dikkat dağıtmak açlık davranışını azaltır. Ayrıca sürekli aşırı iştah, hipertiroidi gibi hastalıkların da belirtisi olabilir; değerlendirme önerilir."},
+    {"q": "Kısırlaştırma kilo aldırır mı?", "a": "Kısırlaştırma sonrası enerji ihtiyacı düşer. Porsiyon buna göre ayarlanmazsa kilo artışı olur. Bu, kısırlaştırmanın kaçınılmaz bir sonucu değil, beslenme düzenlemesiyle önlenebilir bir durumdur."},
+    {"q": "Ödül vermeyi tamamen bırakmalı mıyım?", "a": "Hayır. Ödüller eğitim ve bağ kurma açısından değerlidir. Önemli olan ödül kalorisini günlük plana dahil etmek ve düşük kalorili alternatifler tercih etmektir."},
+    {"q": "Kilo veremiyorsak sorun nerede olabilir?", "a": "En sık nedenler ölçüsüz porsiyon, hesaba katılmayan ödüller ve evde birden fazla kişinin yemek vermesidir. Bunlar dışlandıktan sonra hormonal hastalıklar açısından kan tahlili yapılması önerilir."}
+  ]
+}

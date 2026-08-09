@@ -1,0 +1,77 @@
+{
+  "slug": "kedilerde-hipertiroidi",
+  "title": "Kedilerde hipertiroidi: çok yiyip zayıflayan kedi",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-thyroid.jpg",
+  "imageAlt": "Kucakta sevilen yaşlı bir tekir kedi",
+  "date": "13 Temmuz 2026",
+  "dateISO": "2026-07-13",
+  "updatedISO": "2026-08-09",
+  "excerpt": "İştahı yerinde hatta artmış olmasına rağmen zayıflayan yaşlı kedilerde ilk akla gelmesi gereken hastalık hipertiroididir. Belirtiler, tanı ve dört farklı tedavi seçeneği.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "kedilerde hipertiroidi",
+    "kedi çok yiyor zayıflıyor",
+    "tiroid hastalığı kedi",
+    "yaşlı kedi kilo kaybı",
+    "kedide huzursuzluk",
+    "radyoaktif iyot tedavisi kedi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Hipertiroidi, orta yaş ve üzeri kedilerde en sık görülen hormonal hastalıktır. Tiroid bezinin aşırı hormon üretmesiyle vücudun metabolizması hızlanır ve kedi adeta sürekli çalışan bir motor gibi enerji tüketmeye başlar. Bu tablonun en tanınabilir yanı çelişkili görünmesidir: kedi çok yer, buna rağmen zayıflar. Bu yazıda hastalığı, tanı sürecini ve mevcut tedavi seçeneklerini ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Hipertiroidi nedir?"},
+    {"type": "p", "text": "Boyunda yer alan tiroid bezi, vücudun metabolizma hızını düzenleyen hormonları üretir. Kedilerde bu bezde gelişen genellikle iyi huylu büyümeler, hormonun kontrolsüz biçimde salgılanmasına yol açar. Sonuçta kalp daha hızlı atar, sindirim hızlanır, vücut daha çok enerji harcar ve kaslar erimeye başlar."},
+    {"type": "p", "text": "Hastalık genellikle 10 yaş üzerindeki kedilerde görülür, ancak daha genç bireylerde de saptanabilir. Tedavi edilmediğinde kalp kası kalınlaşır, kan basıncı yükselir ve bu durum gözler ile böbrekler üzerinde kalıcı hasara yol açabilir. Bu nedenle hipertiroidi yalnızca kilo meselesi değil, çoklu organ etkisi olan bir hastalıktır."},
+    {"type": "h2", "text": "Belirtiler"},
+    {"type": "ul", "items": [
+      "İştah artmış ya da normalken ilerleyici kilo kaybı",
+      "Artan su tüketimi ve sık idrar",
+      "Huzursuzluk, gece miyavlamaları, uyku düzeninde bozulma",
+      "Aralıklı kusma ve yumuşak dışkı",
+      "Tüylerde matlaşma, dökülme ve bakımsız görünüm",
+      "Hızlı kalp atımı ve zaman zaman soluk soluğa kalma",
+      "Bazı kedilerde tam tersi bir tablo: durgunluk ve iştahsızlık"
+    ]},
+    {"type": "p", "text": "Son maddedeki durum kedi sahiplerini şaşırtır. Apatik hipertiroidi olarak tanımlanan bu tabloda kedi hareketli değil, aksine durgun ve iştahsızdır. Bu nedenle yaşlı kedilerde açıklanamayan her kilo kaybında tiroid değerlendirmesi yapılması önerilir."},
+    {"type": "h2", "text": "Tanı nasıl konur?"},
+    {"type": "p", "text": "Muayenede boyunda büyümüş tiroid bezi elle hissedilebilir ve kalp atım hızının yüksek olduğu saptanır. Tanının kesinleşmesi ise kan testleriyle olur."},
+    {"type": "ul", "items": [
+      "Toplam T4 düzeyinin ölçülmesi",
+      "Sınırda değerlerde serbest T4 ya da tekrar ölçüm",
+      "Tam kan sayımı ve biyokimya paneli",
+      "İdrar analizi",
+      "Kan basıncı ölçümü",
+      "Kalp değerlendirmesi ve gerektiğinde ekokardiyografi"
+    ]},
+    {"type": "p", "text": "Böbrek değerlerinin tedavi öncesinde bilinmesi kritik önemdedir. Hipertiroidi böbreklerden geçen kan akışını artırdığı için, mevcut bir böbrek hastalığını maskeleyebilir. Tedaviyle metabolizma normale döndüğünde gizli kalmış böbrek sorunu ortaya çıkabilir; bu nedenle tedavi başlangıcında ve sonrasında böbrek takibi yapılır."},
+    {"type": "h2", "text": "Tedavi seçenekleri"},
+    {"type": "p", "text": "Hipertiroidi, veteriner hekimlikte tedavi seçeneği en çeşitli hastalıklardan biridir. Hangisinin uygun olduğu; kedinin yaşı, böbrek durumu, eşlik eden hastalıkları ve ailenin uygulama koşullarına göre belirlenir."},
+    {"type": "ul", "items": [
+      "İlaç tedavisi: hormon üretimini baskılayan ilaçlar günlük olarak verilir. Etkisi hızlıdır ve gerektiğinde geri döndürülebilir; ancak ömür boyu sürdürülmesi ve düzenli kan kontrolü gerekir.",
+      "Radyoaktif iyot tedavisi: aşırı çalışan doku hedeflenerek tek seferde tedavi sağlanabilir. Özel izinli merkezlerde uygulanır ve kedinin bir süre gözlem altında kalmasını gerektirir.",
+      "Cerrahi: tiroid dokusunun çıkarılması. Anestezi gerektirir ve yakındaki paratiroid bezlerinin korunması önem taşır.",
+      "Diyetle iyot kısıtlaması: özel formüle edilmiş mamalarla hormon üretimi sınırlandırılır. Başarısı, kedinin başka hiçbir gıda tüketmemesine bağlıdır; bu nedenle çok kedili evlerde uygulanması zordur."
+    ]},
+    {"type": "callout", "text": "Tedavi seçimi kalıcı olmak zorunda değildir. Birçok kedide önce ilaçla kontrol sağlanır, böbrek yanıtı değerlendirilir ve ardından kalıcı bir seçeneğe geçilip geçilmeyeceğine karar verilir."},
+    {"type": "h2", "text": "Tedavi sonrası takip"},
+    {"type": "p", "text": "Hipertiroidi tedavisi, başlanıp unutulacak bir süreç değildir. Hormon düzeyinin çok düşmesi de en az yüksek kalması kadar sorunludur; bu nedenle doz ayarlaması kan sonuçlarına göre yapılır."},
+    {"type": "ul", "items": [
+      "Tedavi başlangıcından sonraki ilk haftalarda kontrol kan testi",
+      "Kilo ve iştah takibi",
+      "Böbrek değerlerinin düzenli izlenmesi",
+      "Kan basıncı ölçümlerinin sürdürülmesi",
+      "Stabil hastalarda genellikle altı ayda bir rutin kontrol"
+    ]},
+    {"type": "p", "text": "Yaşlı kedinizde iştahına rağmen kilo kaybı, huzursuzluk ya da gece miyavlamaları fark ettiyseniz basit bir tiroid testi tabloyu netleştirebilir. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak yaşlı kedi taraması ve tiroid değerlendirmesi için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Hipertiroidi kalıcı olarak tedavi edilebilir mi?", "a": "Evet. Radyoaktif iyot tedavisi ve cerrahi, kalıcı çözüm sunabilen seçeneklerdir. İlaç tedavisi ve diyet ise hastalığı kontrol altında tutar, ancak sürdürülmediğinde belirtiler geri döner."},
+    {"q": "Tedavi edilmezse ne olur?", "a": "Sürekli yüksek hormon düzeyi kalp kasının kalınlaşmasına, yüksek tansiyona ve buna bağlı olarak gözde kanama, körlük ve böbrek hasarına yol açabilir. Kilo ve kas kaybı ilerler."},
+    {"q": "İlaç tedavisi ömür boyu mu sürer?", "a": "Kalıcı bir seçeneğe geçilmediği sürece evet. İlaç hormon üretimini baskılar ancak altta yatan doku büyümesini ortadan kaldırmaz. Düzenli kan kontrolüyle doz ayarlanır."},
+    {"q": "Böbrek hastalığı olan kedide tedavi yapılabilir mi?", "a": "Evet, ancak dikkatli bir denge gerekir. Hipertiroidinin tedavisi böbreklerden geçen kan akışını azaltabileceği için, tedavi kademeli yapılır ve böbrek değerleri yakından izlenir."},
+    {"q": "Tiroid maması tek başına yeterli olur mu?", "a": "İyot kısıtlı diyetler uygun hastalarda etkili olabilir, ancak kedinin başka hiçbir gıda, ödül ya da avlanma kaynaklı besin tüketmemesi gerekir. Bu koşul sağlanamıyorsa yöntem başarısız olur."},
+    {"q": "Hipertiroidi önlenebilir mi?", "a": "Bilinen kesin bir önleme yöntemi yoktur. Ancak yedi yaş üstü kedilerde yılda bir kez yapılan kan taramasıyla hastalık erken evrede yakalanabilir ve organ hasarı gelişmeden tedaviye başlanabilir."}
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "parvovirus-monoklonal-antikor",
+  "title": "Parvovirüste yeni dönem: monoklonal antikor tedavisi",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-parvo-puppy.jpg",
+  "imageAlt": "Yukarı bakan kahverengi bir yavru köpek",
+  "date": "4 Ağustos 2026",
+  "dateISO": "2026-08-04",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Yavru köpeklerin en korkulan hastalığı parvovirüste tedavi yıllarca yalnızca destekleyiciydi. Virüsü doğrudan hedefleyen monoklonal antikor tedavisi bu tabloyu değiştiriyor.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "parvovirüs",
+    "yavru köpekte kanlı ishal",
+    "parvo belirtileri",
+    "monoklonal antikor parvo",
+    "köpek parvo tedavisi",
+    "parvo aşısı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Parvovirüs, aşısı tamamlanmamış yavru köpeklerde hızla ilerleyen ve tedavi edilmediğinde ölümcül olabilen bir hastalıktır. Onlarca yıl boyunca tedavi, virüsü doğrudan hedeflemeyen destekleyici bakımdan ibaretti: sıvı tedavisi, antibiyotikler ve yoğun hemşirelik. Son dönemde virüsün kendisine bağlanan monoklonal antikor tedavisi bu yaklaşımı değiştirdi. Bu yazıda parvovirüsün belirtilerini, yeni tedavinin ne anlama geldiğini ve korunmanın neden hâlâ en önemli adım olduğunu ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Parvovirüs neden bu kadar tehlikeli?"},
+    {"type": "p", "text": "Canine parvovirüs, hızlı bölünen hücreleri hedef alır. Bağırsak yüzeyini kaplayan hücreler ve kemik iliğindeki bağışıklık hücreleri bu nedenle en çok zarar gören dokulardır. Bağırsak duvarı zarar gördüğünde şiddetli, çoğu zaman kanlı ishal ve hızlı sıvı kaybı gelişir; aynı anda bağışıklık hücreleri azaldığı için bakteriler kolayca kan dolaşımına geçer. Yavru bir köpekte bu tablo saatler içinde hayati tehlikeye dönüşebilir."},
+    {"type": "p", "text": "Virüs ayrıca çevrede son derece dayanıklıdır. Toprakta, ayakkabı tabanında, mama kabında ve kumaş yüzeylerde aylarca canlı kalabilir; sıradan temizlik ürünlerinin çoğu bu virüsü etkisiz hâle getirmez. Bu dayanıklılık, hiç dışarı çıkmamış bir yavrunun bile ev içinde virüsle karşılaşabilmesinin nedenidir."},
+    {"type": "h2", "text": "Belirtiler: hangi bulgularda vakit kaybetmemeli?"},
+    {"type": "p", "text": "Parvovirüste erken saatler belirleyicidir. Aşağıdaki bulgular, özellikle aşı takvimi tamamlanmamış bir yavruda görülüyorsa aynı gün içinde kliniğe başvurmak gerekir:"},
+    {"type": "ul", "items": [
+      "Ani başlayan halsizlik ve oyuna ilgisizlik",
+      "Tekrarlayan kusma ve su içemeyecek kadar bitkinlik",
+      "Sulu, kötü kokulu ve çoğu zaman kanlı ishal",
+      "İştahın tamamen kesilmesi",
+      "Karında ağrı belirtisi, sırtı kambur duruş",
+      "Ateş ya da tersine vücut sıcaklığında düşme",
+      "Diş etlerinde solukluk, hızlı kalp atımı"
+    ]},
+    {"type": "p", "text": "Bu tablo hızlı ilerlediği için evde gözlem yaparak beklemek ciddi risk taşır. Yavru köpeklerde sıvı kaybı yetişkinlere göre çok daha hızlı gelişir ve kan şekeri hızla düşebilir. Kanlı ishal ve kusma bir arada görülüyorsa bunu acil bir durum olarak değerlendirin."},
+    {"type": "h2", "text": "Monoklonal antikor: virüsü doğrudan hedefleyen tedavi"},
+    {"type": "p", "text": "Monoklonal antikorlar, laboratuvarda belirli bir hedefe bağlanacak şekilde üretilen antikorlardır. Parvovirüs için geliştirilen antikor, virüsün hücrelere tutunmasını engelleyerek yayılmasını sınırlar. Böylece bağışıklık sistemi devreye girene kadar geçen kritik zaman kazanılmış olur."},
+    {"type": "p", "text": "Bu tedavi, ABD Tarım Bakanlığı (USDA) tarafından önce şartlı, ardından tam onay ile ruhsatlandırılmıştır. Üretici tarafından paylaşılan saha verileri, tedavi gören yavrularda yüksek sağkalım oranları ve hastanede kalış süresinde yaklaşık iki günlük kısalma bildirmektedir. Ayrıca ürünün, virüse maruz kalmış ancak henüz hastalanmamış köpeklerde koruyucu amaçla kullanımına da izin verilmiştir; bu, özellikle barınak ve çoklu yavru ortamlarında salgın kontrolü açısından önemlidir."},
+    {"type": "callout", "text": "Monoklonal antikor tedavisi destekleyici bakımın yerini almaz, onu tamamlar. Sıvı tedavisi, elektrolit düzenlemesi, bulantı kontrolü ve beslenme desteği hâlâ tedavinin temelini oluşturur."},
+    {"type": "h2", "text": "Klinikte tedavi süreci nasıl işler?"},
+    {"type": "p", "text": "Tanı genellikle dışkıdan yapılan hızlı antijen testiyle konur ve kan sayımı ile desteklenir. Tedavi, hastalığın şiddetine göre yatarak ya da yoğun izlemli ayaktan bakım şeklinde planlanır."},
+    {"type": "ul", "items": [
+      "Damar yolundan sıvı ve elektrolit desteği ile sıvı kaybının giderilmesi",
+      "Kusmayı kontrol altına alan ilaçlar ve mide koruyucular",
+      "İkincil bakteriyel enfeksiyonlara karşı antibiyotik desteği",
+      "Ağrı yönetimi ve vücut sıcaklığının korunması",
+      "Erken ve kademeli beslenmeye geçiş",
+      "Uygun vakalarda virüse yönelik monoklonal antikor uygulaması"
+    ]},
+    {"type": "p", "text": "İyileşen köpekler, klinik olarak düzeldikten sonra bir süre daha dışkılarıyla virüs saçmayı sürdürür. Bu nedenle taburcu olduktan sonra da diğer köpeklerle temas ve ortak alan kullanımı konusunda hekiminizin önerdiği süreye uyulmalıdır."},
+    {"type": "h2", "text": "Korunma: aşı takvimi hâlâ en güçlü savunma"},
+    {"type": "p", "text": "Yeni tedavi seçenekleri umut verici olsa da, parvovirüsten korunmanın yolu değişmedi. Anne sütüyle geçen antikorlar yavrunun ilk haftalarda aşıya yanıt vermesini engelleyebildiği için aşı tek doz değil, seri halinde uygulanır."},
+    {"type": "ul", "items": [
+      "Aşı serisini 6-8 haftalıkta başlatın ve hekiminizin belirlediği aralıklarla tamamlayın.",
+      "Son doz tamamlanana kadar parkları, pet shopları ve köpek yoğunluğu olan alanları kullanmayın.",
+      "Ayakkabılarınızı evin girişinde bırakın; virüs dışarıdan bu yolla taşınabilir.",
+      "Yeni bir yavru almadan önce yaşadığı ortamın aşı geçmişini sorun.",
+      "Parvo geçirmiş bir köpeğin bulunduğu ortamı uygun dezenfektanla temizleyin.",
+      "Erişkin köpeklerde rapel aşıları aksatmayın."
+    ]},
+    {"type": "p", "text": "Yavrunuzda kusma ve kanlı ishal varsa saatler önem taşır. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak 7/24 açığız; acil değerlendirme ve aşı planlaması için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Parvovirüs insana bulaşır mı?", "a": "Köpek parvovirüsü insanlara bulaşmaz. Ancak insanlar virüsü ayakkabı, kıyafet ve elleriyle taşıyarak başka köpeklere ulaştırabilir. Bu nedenle hijyen kurallarına uymak önemlidir."},
+    {"q": "Aşılı köpek parvo olur mu?", "a": "Tam aşı serisi tamamlanmış köpeklerde risk çok düşüktür, ancak sıfır değildir. Serinin yarım bırakılması, rapellerin aksatılması ya da yoğun virüs maruziyeti nadiren hastalığa yol açabilir."},
+    {"q": "Monoklonal antikor tedavisi Türkiye'de var mı?", "a": "Söz konusu ürün ABD'de USDA onayı almıştır; ruhsat ve bulunabilirlik ülkeden ülkeye değişir. Türkiye'de hangi tedavi seçeneklerinin mevcut olduğunu veteriner hekiminizle görüşmeniz gerekir."},
+    {"q": "Evde parvo virüsü nasıl temizlenir?", "a": "Sıradan temizlik ürünlerinin çoğu bu virüse etkili değildir. Uygun oranda seyreltilmiş çamaşır suyu gibi virüse etkili olduğu bilinen dezenfektanlar tercih edilmeli, yüzeyler önce mekanik olarak temizlenmelidir. Toprak zeminlerin tam dezenfeksiyonu mümkün olmayabilir."},
+    {"q": "Parvo geçiren köpek tekrar hastalanır mı?", "a": "Hastalığı atlatan köpeklerde genellikle güçlü ve uzun süreli bağışıklık gelişir. Yine de rutin aşı programına hekiminizin önerisi doğrultusunda devam edilmesi önerilir."},
+    {"q": "Yavrum ne zaman dışarı çıkabilir?", "a": "Genel yaklaşım, aşı serisinin son dozundan sonra hekiminizin belirttiği süre dolana kadar yoğun köpek trafiği olan alanlardan kaçınmaktır. Bu süre boyunca kontrollü ve temiz ortamlarda sosyalleşme sürdürülebilir."}
+  ]
+}

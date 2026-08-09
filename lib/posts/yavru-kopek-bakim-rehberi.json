@@ -1,0 +1,90 @@
+{
+  "slug": "yavru-kopek-bakim-rehberi",
+  "title": "Yavru köpek bakım rehberi: ilk altı ayda yapılacaklar",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-puppy-care.jpg",
+  "imageAlt": "Çimenlerin arasından bakan bir yavru köpek",
+  "date": "25 Haziran 2026",
+  "dateISO": "2026-06-25",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Aşı takvimi, parazit kontrolü, sosyalleşme dönemi, beslenme ve tuvalet eğitimi: yavru köpeğin ilk altı ayı için kronolojik ve pratik bir yol haritası.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "yavru köpek bakımı",
+    "yavru köpek aşı takvimi",
+    "yavru köpek beslenmesi",
+    "köpek sosyalleşme dönemi",
+    "yavru köpek tuvalet eğitimi",
+    "yeni köpek sahibi rehberi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Bir yavru köpeğin eve gelişi heyecan verici, ama aynı zamanda kafa karıştırıcı bir dönemdir. Aşılar ne zaman yapılacak, ne kadar yem verilecek, dışarı ne zaman çıkılabilecek, sosyalleşme nasıl olacak? Bu soruların yanıtları birbirine bağlıdır ve zamanlaması önemlidir. Bu yazıda ilk altı ayı ayrıntılı ama uygulanabilir bir plana dönüştürüyoruz.",
+  "body": [
+    {"type": "h2", "text": "İlk hafta: ilk muayene ve uyum"},
+    {"type": "p", "text": "Yavru eve geldikten sonraki birkaç gün içinde ilk veteriner muayenesinin yapılması önerilir. Bu muayene, henüz aşı zamanı gelmemiş olsa bile önemlidir; çünkü doğuştan gelen sorunlar, parazit yükü ve genel sağlık durumu erken tespit edilir."},
+    {"type": "ul", "items": [
+      "Genel fizik muayene ve kilo kaydı",
+      "Kalp ve akciğer dinlemesi, doğuştan gelen kalp sorunlarının değerlendirilmesi",
+      "Göbek fıtığı ve iskelet gelişiminin kontrolü",
+      "Dışkı örneğiyle iç parazit taraması",
+      "Aşı ve parazit takviminin planlanması",
+      "Mikroçip ve kayıt sürecinin zamanlanması",
+      "Beslenme planının belirlenmesi"
+    ]},
+    {"type": "p", "text": "Evde ise ilk günlerde sakin bir uyum dönemi tanıyın. Yavrunun kendine ait, kimsenin rahatsız etmeyeceği bir dinlenme alanı olmalıdır. Aşırı ilgi ve sürekli kucakta taşımak, uyku düzenini bozarak strese yol açabilir; yavru köpeklerin günde çok uzun süre uyumaya ihtiyacı vardır."},
+    {"type": "h2", "text": "Aşı ve parazit takvimi"},
+    {"type": "p", "text": "Anneden gelen antikorlar yavruyu ilk haftalarda korur, ancak aşının etkisini de engeller. Bu antikorların ne zaman azalacağı yavrudan yavruya değiştiği için aşı seri hâlinde uygulanır."},
+    {"type": "ul", "items": [
+      "Karma aşı serisi genellikle 6-8 haftalıkta başlar ve 3-4 hafta aralarla sürdürülür.",
+      "Seri, 16 haftalık olana kadar tamamlanmalıdır; yarım bırakılan seri koruma sağlamaz.",
+      "Kuduz aşısı genellikle 12 haftalıktan sonra uygulanır ve yasal olarak zorunludur.",
+      "İç parazit ilaçlaması yavru dönemde daha sık tekrarlanır.",
+      "Dış parazit koruması, ürünün yaş ve kilo sınırına uygun biçimde başlatılır.",
+      "Mikroçip ve kayıt işlemi altı aylık olmadan tamamlanmalıdır."
+    ]},
+    {"type": "callout", "text": "Aşı serisi tamamlanmadan önce park, pet shop ve köpek yoğunluğu olan alanlardan uzak durun. Parvovirüs çevrede aylarca canlı kalabilir ve aşısı tamamlanmamış yavrular için ciddi risk oluşturur."},
+    {"type": "h2", "text": "Sosyalleşme: kaçırılmaması gereken pencere"},
+    {"type": "p", "text": "Yavru köpeklerde yaklaşık 3 ile 14 haftalık dönem, sosyal öğrenmenin en hızlı olduğu dönemdir. Bu dönemde olumlu deneyimler yaşayan köpekler, yetişkinlikte belirgin biçimde daha az korku ve saldırganlık gösterir. Bu pencere kapandıktan sonra öğrenme devam eder, ancak aynı kolaylıkta olmaz."},
+    {"type": "p", "text": "Burada bir çelişki ortaya çıkar: sosyalleşme dönemi ile aşı serisinin tamamlanmadığı dönem çakışır. Çözüm, sosyalleşmeyi tamamen ertelemek değil, güvenli biçimde sürdürmektir."},
+    {"type": "ul", "items": [
+      "Aşıları tam olan sağlıklı köpeklerle kontrollü ortamlarda tanıştırın.",
+      "Yavruyu kucağınızda taşıyarak sokak seslerini, araç ve insan kalabalığını uzaktan deneyimletin.",
+      "Farklı zeminleri evde tanıtın: halı, fayans, metal ızgara, çim.",
+      "Elektrikli süpürge, kapı zili, saç kurutma makinesi gibi sesleri düşük düzeyde tanıştırın.",
+      "Farklı yaş ve görünümde insanlarla olumlu karşılaşmalar sağlayın.",
+      "Her deneyimi ödülle eşleştirin ve yavru korktuğunda zorlamayın.",
+      "Taşıma çantası ve araba yolculuğunu kısa ve olumlu tutarak alıştırın."
+    ]},
+    {"type": "h2", "text": "Beslenme"},
+    {"type": "p", "text": "Yavru köpekler yetişkinlerden farklı enerji, protein, kalsiyum ve fosfor ihtiyacına sahiptir. Bu nedenle yavru dönemine özel formüle edilmiş mama kullanılmalıdır. Büyük ve dev ırklarda ise ayrı bir hassasiyet vardır: aşırı kalsiyum ve hızlı büyüme, iskelet gelişim sorunlarına yol açabilir."},
+    {"type": "ul", "items": [
+      "Büyük ırklarda mutlaka büyük ırk yavrularına özel mama tercih edin.",
+      "Öğün sayısını 3-4 ile başlatın, altı aya doğru kademeli olarak azaltın.",
+      "Porsiyonu tartıyla ölçün ve kilo artışını düzenli izleyin.",
+      "Mama değişikliğini birkaç gün içinde kademeli yapın.",
+      "Hekiminiz önermedikçe kalsiyum veya vitamin takviyesi vermeyin.",
+      "Çikolata, üzüm, soğan ve ksilitol içeren gıdaları kesinlikle uzak tutun.",
+      "Temiz suya sürekli erişim sağlayın."
+    ]},
+    {"type": "h2", "text": "Tuvalet eğitimi ve temel kurallar"},
+    {"type": "p", "text": "Tuvalet eğitiminde en etkili yöntem, yavrunun doğru yerde tuvaletini yapmasını yakalayıp ödüllendirmektir. Ceza bu süreçte işe yaramaz; yalnızca yavrunun sizden saklanarak tuvaletini yapmayı öğrenmesine yol açar."},
+    {"type": "ul", "items": [
+      "Uyandıktan sonra, yemekten sonra ve oyundan sonra hemen tuvalet alanına götürün.",
+      "Doğru yerde yaptığında hemen, gecikmeden ödüllendirin.",
+      "Kazaları enzimatik temizleyiciyle temizleyin; koku kalırsa aynı yer tekrar kullanılır.",
+      "Gece boyunca mesane kontrolü sınırlıdır; yaş ilerledikçe süre uzar.",
+      "Isırma ve mızmızlanma dönemlerinde uygun çiğneme oyuncakları sağlayın.",
+      "Kısa ve olumlu eğitim seansları planlayın; yavrular uzun süre odaklanamaz."
+    ]},
+    {"type": "p", "text": "Yavrunuzun aşı takvimini oluşturmak, parazit programını planlamak ve ilk muayenesini yaptırmak için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Yavru köpeğim ne zaman dışarı çıkabilir?", "a": "Aşı serisi tamamlanana kadar köpek yoğunluğu olan alanlardan kaçınılmalıdır. Ancak bu süre boyunca yavruyu kucağınızda taşıyarak ya da kontrollü temiz ortamlarda sosyalleştirmeye devam etmelisiniz."},
+    {"q": "Günde kaç öğün beslemeliyim?", "a": "İlk aylarda genellikle günde 3-4 öğün önerilir. Altı aya doğru bu sayı kademeli olarak azaltılır. Porsiyonu tartıyla ölçmek ve kilo artışını izlemek en doğru yaklaşımdır."},
+    {"q": "Kalsiyum takviyesi vermeli miyim?", "a": "Hekiminiz özellikle önermedikçe hayır. Dengeli bir yavru maması gereken kalsiyumu zaten içerir; fazlası özellikle büyük ırklarda iskelet gelişim sorunlarına yol açabilir."},
+    {"q": "Yavru köpek ne zaman kısırlaştırılır?", "a": "Zamanlama ırka, cinsiyete ve vücut büyüklüğüne göre değişir. Bazı büyük ırklarda eklem sağlığı nedeniyle daha geç zamanlama tercih edilebilir. Karar hekiminizle birlikte verilmelidir."},
+    {"q": "Isırma davranışı normal mi?", "a": "Yavrularda ağızla keşif ve oyun ısırığı normaldir. Doğru yaklaşım cezalandırmak değil, ısırdığında oyunu durdurmak ve uygun çiğneme oyuncaklarına yönlendirmektir."},
+    {"q": "Gece ağlıyor, ne yapmalıyım?", "a": "İlk günlerde ayrılık kaygısı ve yeni ortama uyum nedeniyle olağandır. Yatağını ulaşabileceğiniz bir yere koymak, gündüz yeterli uyarım sağlamak ve yatmadan önce tuvalet alanına götürmek süreci kolaylaştırır."}
+  ]
+}

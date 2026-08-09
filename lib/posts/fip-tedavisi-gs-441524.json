@@ -1,0 +1,76 @@
+{
+  "slug": "fip-tedavisi-gs-441524",
+  "title": "FIP artık tedavi edilebilir: GS-441524 ve 2026 ABCD kılavuzu",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-fip-cat.jpg",
+  "imageAlt": "Sarı bir koltukta uyuklayan tekir kedi",
+  "date": "8 Ağustos 2026",
+  "dateISO": "2026-08-08",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Yıllarca ölümcül kabul edilen FIP, antiviral nükleozit analogları sayesinde artık büyük ölçüde tedavi edilebilen bir hastalık. Güncel kılavuzlar, tedavi süreci ve kedi sahiplerinin bilmesi gerekenler.",
+  "readTime": "7 dk okuma",
+  "keywords": [
+    "FIP tedavisi",
+    "GS-441524",
+    "remdesivir kedi",
+    "feline infeksiyöz peritonit",
+    "kedilerde FIP belirtileri",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği",
+    "kedi karın şişliği",
+    "ABCD FIP kılavuzu"
+  ],
+  "intro": "Feline infeksiyöz peritonit (FIP), uzun yıllar boyunca teşhis edildiği anda kötü haber anlamına gelen bir hastalıktı. Son beş yılda yapılan çalışmalar bu tabloyu kökten değiştirdi: nükleozit analoğu antiviraller, özellikle ağızdan verilen GS-441524, FIP'i çoğu vakada iyileştirilebilir bir hastalığa dönüştürdü. Bu yazıda hastalığın ne olduğunu, hangi belirtilerle karşınıza çıkabileceğini, güncel tedavi yaklaşımını ve bu tedavinin sınırlarını ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "FIP nedir ve nasıl ortaya çıkar?"},
+    {"type": "p", "text": "FIP, kedilerde çok yaygın görülen feline koronavirüsün (FCoV) kedinin vücudunda mutasyona uğramasıyla gelişen bir hastalıktır. Feline koronavirüs kendi başına genellikle zararsızdır; birçok kedi bu virüsü taşır, hafif bir ishal geçirir ve tamamen iyileşir. Ancak az sayıda kedide virüs, bağışıklık hücrelerinin içinde çoğalabilen bir forma dönüşür ve vücut genelinde şiddetli bir iltihabi yanıt başlatır. Ortaya çıkan tablo FIP'tir."},
+    {"type": "p", "text": "Hastalık en sık iki yaşın altındaki genç kedilerde, özellikle çok kedili ortamlarda, barınaklarda ve yeni sahiplendirilmiş yavrularda görülür. Stres, yeni ortama taşınma, kısırlaştırma gibi bağışıklığı zorlayan olaylar hastalığın ortaya çıkmasını kolaylaştırabilir. FIP'in kediden kediye doğrudan bulaşmadığını bilmek önemlidir: bulaşan şey, mutasyona uğramış hastalık formu değil, ortamda zaten yaygın olan feline koronavirüstür."},
+    {"type": "h2", "text": "Yaş ve kuru form: hangi belirtilere dikkat etmeli?"},
+    {"type": "p", "text": "FIP klasik olarak iki ana biçimde tanımlanır, ancak pratikte bu iki tablo iç içe geçebilir. Yaş (efüzyonlu) formda karın ya da göğüs boşluğunda sıvı birikir; kuru (efüzyonsuz) formda ise organlarda ve sinir sisteminde iltihabi odaklar oluşur."},
+    {"type": "ul", "items": [
+      "İlaca yanıt vermeyen, dalgalı seyreden inatçı ateş",
+      "İştahsızlık, kilo kaybı ve büyümede duraklama",
+      "Karında sıvı birikimine bağlı belirgin şişlik, buna karşın zayıflamış bir görünüm",
+      "Hızlı ve güç soluma (göğüs boşluğunda sıvı birikimi)",
+      "Gözde bulanıklık, renk değişikliği ya da göz içi iltihabı",
+      "Dengesiz yürüme, titreme, nöbet gibi sinir sistemi belirtileri",
+      "Sarılık, halsizlik ve genel durum bozukluğu"
+    ]},
+    {"type": "p", "text": "Bu belirtilerin hiçbiri tek başına FIP'e özgü değildir; benzer tablolar başka hastalıklarda da görülebilir. Bu nedenle tanı, klinik bulguların yanı sıra kan tahlilleri, sıvı örneklerinin incelenmesi, görüntüleme ve gerektiğinde PCR gibi ileri testlerin bir arada değerlendirilmesiyle konur. Genç bir kedide açıklanamayan ateş ve kilo kaybı varsa, FIP mutlaka olasılıklar arasında düşünülmelidir."},
+    {"type": "h2", "text": "Tedavideki dönüm noktası: nükleozit analogları"},
+    {"type": "p", "text": "FIP tedavisindeki değişim, virüsün çoğalmasını engelleyen nükleozit analoglarının kedilerde etkili olduğunun gösterilmesiyle başladı. Bu grubun en çok bilinen iki temsilcisi, ağızdan verilen GS-441524 ve enjeksiyonla uygulanan remdesivirdir. Remdesivir vücutta GS-441524'e dönüşür; yani ikisi yakından ilişkili moleküllerdir."},
+    {"type": "p", "text": "Avrupa Kedi Hastalıkları Danışma Kurulu (ABCD) tarafından yayımlanan güncel tedavi kılavuzu, bu antivirallerin destekleyici tedaviyle birlikte kullanıldığında vakaların yüzde 85'inden fazlasında iyileşme sağladığını bildiriyor. Bu, birkaç yıl öncesine kadar neredeyse tamamı ölümle sonuçlanan bir hastalık için olağanüstü bir değişimdir. Güncel yaklaşımda tedaviye baştan ağızdan GS-441524 ile başlanabileceği; enjeksiyonlu remdesivirin ise yutkunamayan, ileri derecede halsiz veya ağır nörolojik bulguları olan kedilerde tercih edildiği belirtiliyor."},
+    {"type": "callout", "text": "FIP tedavisi 12 hafta gibi uzun bir süre boyunca, doğru dozda ve kesintisiz sürdürülmesi gereken bir süreçtir. Tedavinin erken kesilmesi nüks riskini belirgin biçimde artırır. Bu nedenle süreci mutlaka veteriner hekim gözetiminde yürütün."},
+    {"type": "h2", "text": "Tedavi süreci nasıl işler?"},
+    {"type": "p", "text": "Tedavi genellikle 84 gün, yani yaklaşık 12 hafta sürer. Doz, hastalığın formuna göre belirlenir: göz veya sinir sistemi tutulumu olan kedilerde kan-beyin bariyerini aşmak için daha yüksek dozlar gerekir. Kedinin kilosu tedavi boyunca arttığı için doz düzenli olarak yeniden hesaplanmalıdır."},
+    {"type": "ul", "items": [
+      "Tedavi öncesi tam kan sayımı, biyokimya ve gerekiyorsa görüntüleme ile başlangıç durumu kaydedilir.",
+      "İlk günlerde iştah, ateş ve genel canlılıkta belirgin düzelme beklenir.",
+      "Kontroller sırasında kan değerleri, özellikle globulin/albümin oranı ve hematokrit takip edilir.",
+      "Tedavi sonunda değerler normale döndüyse ilaç kesilir ve 12 haftalık bir gözlem dönemi başlar.",
+      "Bu gözlem döneminde belirtiler geri dönmezse kedi iyileşmiş kabul edilir."
+    ]},
+    {"type": "p", "text": "Tedavi sırasında destekleyici bakım da en az antiviral kadar önemlidir. Sıvı desteği, iştah düzenleyiciler, ağrı yönetimi, gerekli durumlarda sıvı boşaltımı ve beslenme desteği kedinin bu uzun süreci konforlu geçirmesini sağlar. Tedaviye erken başlanan, henüz çok güçten düşmemiş kedilerde sonuçlar belirgin biçimde daha iyidir."},
+    {"type": "h2", "text": "Bilinmesi gereken sınırlar ve uyarılar"},
+    {"type": "p", "text": "Bu tedavinin başarısı yüksek olsa da her şeyin çözüldüğü anlamına gelmez. Ağır nörolojik tutulumu olan, tanı çok geç konmuş ya da eşlik eden başka ciddi hastalıkları bulunan kedilerde sonuç daha değişkendir. Ayrıca ilaçların ülkeden ülkeye ruhsat durumu farklılık gösterir; bazı ülkelerde eczane usulü hazırlanan preparatlar yasal olarak temin edilebilirken, bazı bölgelerde erişim sınırlıdır."},
+    {"type": "p", "text": "Bu noktada en büyük risk, kontrolsüz kaynaklardan temin edilen, içeriği ve dozu belirsiz ürünlerdir. İnternet üzerinden satılan etiketsiz preparatlarda etkin madde miktarı beyan edilenden farklı olabilir; bu da hem tedavinin başarısız olmasına hem de kedinin zarar görmesine yol açabilir. İlacın kaynağı, dozu ve takibi konusunda mutlaka veteriner hekiminizle birlikte karar verin."},
+    {"type": "h2", "text": "Riski azaltmak için neler yapılabilir?"},
+    {"type": "p", "text": "FIP'i tamamen önleyen bir yöntem bulunmamakla birlikte, feline koronavirüs yükünü ve stresi azaltan uygulamalar riski düşürmeye yardımcı olur:"},
+    {"type": "ul", "items": [
+      "Kum kaplarını her kedi için ayrı tutun ve günlük olarak temizleyin.",
+      "Çok kedili ortamlarda kalabalığı azaltın; yeni gelen kedileri bir süre ayrı barındırın.",
+      "Yavruların sahiplendirme sürecinde yaşadığı stresi en aza indirin.",
+      "Parazit kontrolü ve aşı takvimini aksatmayarak genel bağışıklığı destekleyin.",
+      "Ateş, iştahsızlık ve kilo kaybı gibi belirtilerde beklemeden değerlendirme yaptırın."
+    ]},
+    {"type": "p", "text": "FIP artık umutsuz bir teşhis değil; ancak zamanla yarışılan bir hastalık olmayı sürdürüyor. Kedinizde inatçı ateş, karında şişlik, kilo kaybı ya da açıklanamayan halsizlik varsa değerlendirmeyi ertelemeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak muayene ve randevu için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "FIP diğer kedilere bulaşır mı?", "a": "FIP'in kendisi kediden kediye bulaşmaz. Bulaşan şey, ortamda zaten çok yaygın olan feline koronavirüstür. Hastalık, bu virüsün az sayıda kedide vücut içinde mutasyona uğramasıyla gelişir. Yine de aynı evdeki diğer kedilerin genel sağlık takibi önerilir."},
+    {"q": "FIP tedavisi ne kadar sürer?", "a": "Standart tedavi süresi yaklaşık 12 haftadır. Tedavi bittikten sonra 12 haftalık bir gözlem dönemi daha uygulanır. Bu süre boyunca belirtiler geri dönmezse kedi iyileşmiş kabul edilir."},
+    {"q": "Tedavi başarı oranı nedir?", "a": "Güncel ABCD kılavuzu, ağızdan GS-441524 ve destekleyici tedavi ile vakaların yüzde 85'inden fazlasında iyileşme bildirmektedir. Tedaviye erken başlanan kedilerde sonuçlar daha iyidir; ağır nörolojik tutulumda başarı oranı değişkenlik gösterir."},
+    {"q": "İnternetten satılan FIP ilaçlarını kullanabilir miyim?", "a": "Kontrolsüz kaynaklardan alınan preparatlarda etkin madde miktarı belirsiz olabilir; bu hem tedavinin başarısız olmasına hem de kedinizin zarar görmesine yol açabilir. İlacın temini, dozu ve takibi mutlaka veteriner hekim gözetiminde yapılmalıdır."},
+    {"q": "FIP'in aşısı var mı?", "a": "Bazı ülkelerde geliştirilmiş aşılar bulunsa da, uzman kurullar bu aşıların rutin kullanımını genel olarak önermemektedir. Korunmada asıl etkili yaklaşım, ortamdaki koronavirüs yükünü ve stresi azaltmaktır."},
+    {"q": "Tedavi sonrası nüks olur mu?", "a": "Nüks özellikle tedavinin erken kesildiği ya da dozun yetersiz kaldığı durumlarda görülebilir. Bu nedenle tedavinin tam süre boyunca, doğru dozda ve düzenli kontrollerle sürdürülmesi büyük önem taşır."}
+  ]
+}

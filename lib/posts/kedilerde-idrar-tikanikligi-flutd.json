@@ -1,0 +1,73 @@
+{
+  "slug": "kedilerde-idrar-tikanikligi-flutd",
+  "title": "Kedilerde idrar yolu tıkanıklığı: saatlerle yarışılan acil",
+  "category": "Acil Durumlar",
+  "image": "/images/blog-cat-urinary.jpg",
+  "imageAlt": "Uzanmış biçimde bekleyen tekir bir kedi",
+  "date": "21 Temmuz 2026",
+  "dateISO": "2026-07-21",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Erkek kedilerde idrar yapamama, saatler içinde hayati tehlike oluşturan bir acildir. Belirtiler, klinikte ne yapıldığı ve tekrarını önlemenin yolları.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "kedi idrar yapamıyor",
+    "erkek kedi idrar tıkanıklığı",
+    "FLUTD",
+    "kedilerde idrar yolu hastalığı",
+    "kedi kum kabına girip çıkıyor",
+    "kedide kanlı idrar",
+    "acil veteriner Çankaya",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kedilerde alt idrar yolu hastalıkları oldukça sık görülür; ancak bunların içinde bir tanesi diğerlerinden ayrılır: idrar kanalının tamamen tıkanması. Bu durum neredeyse yalnızca erkek kedilerde görülür ve tedavi edilmediğinde bir gün içinde ölümle sonuçlanabilir. İyi haber şu ki belirtileri tanımak zor değildir ve zamanında müdahale edilen kedilerin büyük bölümü sorunsuz iyileşir. Bu yazıda nelere dikkat etmeniz gerektiğini anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Neden erkek kediler?"},
+    {"type": "p", "text": "Erkek kedilerde idrar kanalı, dişilere göre çok daha uzun ve uç kısma doğru belirgin biçimde daha dardır. Mesanede oluşan kristaller, küçük taşlar, iltihabi hücreler ve mukus tıkaç bu dar bölgede sıkışarak akışı tamamen durdurabilir. Dişi kedilerde ise kanal kısa ve geniş olduğu için tam tıkanma çok nadir görülür."},
+    {"type": "p", "text": "Tıkanma gerçekleştiğinde idrar mesanede birikir, mesane aşırı gerilir ve böbrekler idrarı boşaltamaz. Kanda potasyum yükselir; bu da kalp ritmini bozarak hayati tehlike oluşturur. Sürecin bu kadar hızlı ilerlemesi, tıkanmayı gerçek bir acil hâline getirir."},
+    {"type": "h2", "text": "Belirtiler: neyi arıyorsunuz?"},
+    {"type": "p", "text": "En sık yapılan hata, kedinin kum kabındaki çabasını kabızlık sanmaktır. Kedi ıkınır, uzun süre kum kabında kalır ve sonuç alamaz; sahibi de bunu bağırsak sorunu olarak yorumlar. Oysa aynı görüntü idrar tıkanıklığının en tipik bulgusudur."},
+    {"type": "ul", "items": [
+      "Kum kabına sık sık girip çıkma, uzun süre ıkınma",
+      "Hiç idrar çıkmaması ya da yalnızca birkaç damla gelmesi",
+      "İdrar yaparken miyavlama, sesli rahatsızlık belirtisi",
+      "Genital bölgeyi sürekli yalama",
+      "Kum kabı dışında, evin farklı yerlerinde tuvalet denemesi",
+      "Karnın alt bölümünde sert ve gergin bir kitle hissedilmesi",
+      "Kusma, iştahsızlık, halsizlik ve saklanma"
+    ]},
+    {"type": "callout", "text": "Erkek kediniz ıkınıyor ve idrar çıkaramıyorsa sabahı beklemeyin. Bu tabloda geçen her saat böbrekler ve kalp üzerindeki riski artırır. Kliniğimiz 7/24 açıktır; 0536 290 69 58 numaralı telefondan bize hemen ulaşabilirsiniz."},
+    {"type": "h2", "text": "Klinikte ne yapılır?"},
+    {"type": "p", "text": "İlk adım kedinin genel durumunun stabilize edilmesidir. Kan tahlilleri ile potasyum ve böbrek değerleri değerlendirilir; gerekiyorsa kalp ritmi izlenir. Aynı anda damar yolu açılarak sıvı tedavisi başlatılır."},
+    {"type": "ul", "items": [
+      "Sedasyon ya da anestezi altında idrar sondası ile tıkanıklığın açılması",
+      "Mesanenin yıkanarak kristal ve tıkaç kalıntılarından temizlenmesi",
+      "Sondanın bir süre yerinde bırakılarak idrar çıkışının izlenmesi",
+      "Ağrı yönetimi ve kanal spazmını azaltan ilaçlar",
+      "İdrar analizi ve gerekiyorsa röntgen veya ultrason ile nedenin araştırılması",
+      "Tekrarlayan ya da açılamayan vakalarda cerrahi seçeneklerin değerlendirilmesi"
+    ]},
+    {"type": "p", "text": "Tıkanıklık açıldıktan sonra bazı kedilerde bol idrar çıkışı dönemi görülür; bu dönemde sıvı ve elektrolit dengesinin yakından izlenmesi gerekir. Bu nedenle çoğu hasta bir ya da birkaç gün gözlem altında tutulur."},
+    {"type": "h2", "text": "Altta yatan nedenler ve stresin rolü"},
+    {"type": "p", "text": "Tıkanmaya yol açan tabloların önemli bir bölümünde net bir taş ya da enfeksiyon bulunmaz. Bu durum idiyopatik sistit olarak adlandırılır ve stresle yakından ilişkilidir. Ev içi değişiklikler, yeni bir hayvan, taşınma, kalabalık ya da kum kabı düzenindeki sorunlar tabloyu tetikleyebilir."},
+    {"type": "p", "text": "Bu nedenle tedavi yalnızca tıkanıklığın açılmasıyla bitmez; nüksü önlemek için kedinin yaşam ortamının da değerlendirilmesi gerekir. Su tüketimini artırmak ve stresi azaltmak, ilaç kadar önemli iki başlıktır."},
+    {"type": "h2", "text": "Tekrarını önlemek için pratik adımlar"},
+    {"type": "ul", "items": [
+      "Kuru mama ağırlıklı beslenmeyi azaltın; yaş mama su alımını belirgin biçimde artırır.",
+      "Evin farklı noktalarına su kapları koyun; bazı kediler akan suyu tercih eder.",
+      "Kum kabı sayısını kedi sayısının bir fazlası olacak şekilde ayarlayın.",
+      "Kum kaplarını günlük temizleyin ve sessiz, ulaşılabilir yerlere yerleştirin.",
+      "Hekiminizin önerdiği idrar sağlığı diyetini kesintisiz uygulayın.",
+      "Tırmanma alanları, saklanma noktaları ve düzenli oyunla stresi azaltın.",
+      "Kilo kontrolüne dikkat edin; fazla kilo riski artırır."
+    ]},
+    {"type": "p", "text": "Bir kez tıkanma yaşamış kedilerde tekrarlama riski vardır; bu nedenle kontrol randevularını ve idrar analizlerini aksatmamak önemlidir. Kedinizde idrar yapmakta zorlanma fark ederseniz Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan hemen ulaşın."}
+  ],
+  "faqs": [
+    {"q": "Kedim ıkınıyor ama kabız olabilir mi?", "a": "Kabızlık da benzer görünebilir, ancak bu ayrımı evde yapmak güvenli değildir. Erkek bir kedide ıkınma ve sonuç alamama durumunda öncelikle idrar tıkanıklığı düşünülmeli ve gecikmeden muayene edilmelidir."},
+    {"q": "Tıkanıklık ne kadar sürede tehlikeli olur?", "a": "Tam tıkanmada belirtilerin başlamasından sonraki saatler içinde kan potasyumu yükselmeye başlar ve genellikle 24-48 saat içinde tablo hayati tehlike oluşturur. Bu nedenle bekleme süresi bırakılmamalıdır."},
+    {"q": "Dişi kedilerde de olur mu?", "a": "Dişi kedilerde idrar kanalı kısa ve geniş olduğu için tam tıkanma çok nadirdir. Ancak sistit, kristal oluşumu ve kanlı idrar dişilerde de görülür ve değerlendirme gerektirir."},
+    {"q": "Kısırlaştırma riski artırır mı?", "a": "Kısırlaştırmanın tıkanıklık riskini doğrudan artırdığına dair güçlü bir kanıt yoktur. Asıl belirleyici faktörler kilo, hareketsizlik, düşük su tüketimi ve strestir. Kilo kontrolü bu nedenle önemlidir."},
+    {"q": "Sonra da tekrar edebilir mi?", "a": "Evet, bir kez tıkanma yaşayan kedilerde tekrar riski vardır. Beslenme düzenlemesi, su tüketiminin artırılması ve stres yönetimi bu riski belirgin biçimde azaltır. Düzenli kontroller önerilir."},
+    {"q": "Evde ne yapabilirim?", "a": "Evde yapılabilecek güvenli bir müdahale yoktur; karına bastırmak mesanenin yırtılmasına yol açabilir. Yapılacak tek doğru şey kediyi taşıma çantasına alıp en kısa sürede kliniğe ulaştırmaktır."}
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "kedilerde-tuvalet-disina-isemesi",
+  "title": "Kedim kum kabını kullanmıyor: nedenleri ve çözümü",
+  "category": "Davranış",
+  "image": "/images/blog-cat-litter-behavior.jpg",
+  "imageAlt": "Pencere kenarında oturan uzun tüylü bir kedi",
+  "date": "1 Temmuz 2026",
+  "dateISO": "2026-07-01",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Kum kabı dışına tuvalet yapmak inatçılık değildir. Önce tıbbi nedenler dışlanmalı, ardından kum kabı düzeni ve stres kaynakları sistematik biçimde ele alınmalıdır.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "kedi kum kabını kullanmıyor",
+    "kedi tuvalet dışına yapıyor",
+    "kedi idrar işaretlemesi",
+    "kedilerde stres",
+    "kum kabı sayısı",
+    "kedi davranış sorunları",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kedinin kum kabı dışına tuvalet yapması, sahiplerin en çok zorlandığı ve ne yazık ki sahiplenmekten vazgeçmeye en sık yol açan sorunlardan biridir. Bu davranış çoğu zaman inat, kızgınlık ya da terbiyesizlik olarak yorumlanır; oysa kediler bu şekilde düşünmez. Bu davranışın ardında neredeyse her zaman ya bir tıbbi sorun ya da bir çevresel rahatsızlık vardır. Bu yazıda sorunu adım adım çözmenin yolunu anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "İlk adım: tıbbi nedenleri dışlamak"},
+    {"type": "p", "text": "Davranış üzerine düşünmeden önce yapılması gereken şey veteriner muayenesidir. İdrar yaparken ağrı hisseden bir kedi, bu ağrıyı kum kabıyla ilişkilendirir ve kabı kullanmaktan kaçınır. Bu, davranış sorunu gibi görünen tabloların büyük bölümünü açıklar."},
+    {"type": "ul", "items": [
+      "Alt idrar yolu hastalıkları ve idiyopatik sistit",
+      "İdrar yolu enfeksiyonu ve kristal oluşumu",
+      "Böbrek hastalığı, diyabet ve hipertiroidi gibi idrar miktarını artıran durumlar",
+      "Eklem ağrısı: yüksek kenarlı kaba girmeyi zorlaştırır",
+      "Kabızlık, ishal ve bağırsak sorunları",
+      "Yaşlı kedilerde bilişsel işlev bozukluğu"
+    ]},
+    {"type": "callout", "text": "Erkek kediniz kum kabına girip çıkıyor, ıkınıyor ancak idrar çıkaramıyorsa bu bir davranış sorunu değil, hayati bir acildir. Gecikmeden 0536 290 69 58 numaralı telefondan bize ulaşın."},
+    {"type": "h2", "text": "İdrar yapma mı, işaretleme mi?"},
+    {"type": "p", "text": "Bu ayrım çözümün yönünü belirler. Normal idrar yapmada kedi çömelir ve yatay bir yüzeye belirgin miktarda idrar bırakır. İşaretlemede ise kedi ayakta durur, kuyruğunu titretir ve dikey bir yüzeye az miktarda idrar püskürtür."},
+    {"type": "p", "text": "İşaretleme genellikle bölgesel güvenlik ve iletişimle ilgilidir; strese, dışarıdaki kedilerin varlığına ya da ev içi gerilime bağlı olabilir. Yatay yüzeye yapılan idrar ise çoğunlukla kum kabı düzeninden ya da tıbbi bir sorundan kaynaklanır. Kısırlaştırılmamış kedilerde işaretleme daha sıktır ve kısırlaştırma birçok vakada davranışı belirgin biçimde azaltır."},
+    {"type": "h2", "text": "Kum kabı düzeni: sık yapılan hatalar"},
+    {"type": "p", "text": "Kediler tuvalet konusunda beklenenden çok daha seçicidir. Aşağıdaki kurallar, davranış sorunlarının önemli bir bölümünü ortadan kaldırır."},
+    {"type": "ul", "items": [
+      "Sayı: kum kabı sayısı kedi sayısının bir fazlası olmalıdır. Tek kedi için iki kap önerilir.",
+      "Konum: kaplar farklı katlarda ve farklı odalarda bulunmalı, hepsi aynı köşeye toplanmamalıdır.",
+      "Boyut: kap, kedinin gövde uzunluğunun yaklaşık bir buçuk katı olmalıdır. Çoğu hazır kap küçüktür.",
+      "Kapak: birçok kedi kapalı kapları sevmez; koku birikir ve kaçış görüşü kapanır.",
+      "Kum türü: çoğu kedi ince taneli, kokusuz topaklanan kumu tercih eder.",
+      "Temizlik: günde en az bir kez topaklar alınmalı, kap düzenli olarak boşaltılıp yıkanmalıdır.",
+      "Konum güvenliği: çamaşır makinesi, kombi gibi ani ses çıkaran cihazların yanına konmamalıdır.",
+      "Yemekten uzaklık: kum kabı, mama ve su kaplarından ayrı bir alanda olmalıdır."
+    ]},
+    {"type": "h2", "text": "Stres kaynaklarını bulmak"},
+    {"type": "p", "text": "Kediler rutini olan ve öngörülebilirlik isteyen hayvanlardır. Bize önemsiz görünen değişiklikler onlarda belirgin stres yaratabilir. Sorunun ne zaman başladığını hatırlamak, çoğu zaman nedeni de ortaya çıkarır."},
+    {"type": "ul", "items": [
+      "Eve yeni bir hayvan ya da yeni bir aile bireyi katılması",
+      "Taşınma, tadilat, mobilya düzeninin değişmesi",
+      "Çalışma düzeninizin ve evde geçirdiğiniz sürenin değişmesi",
+      "Pencereden görünen dış kedilerin varlığı",
+      "Çok kedili evlerde kaynak rekabeti: su, mama, dinlenme alanı",
+      "Gürültü, kalabalık ve misafir yoğunluğu"
+    ]},
+    {"type": "p", "text": "Çok kedili evlerde en sık gözden kaçan sorun kaynak rekabetidir. Bir kedi, diğerinin bulunduğu koridordan geçmek zorunda kaldığı için kum kabına gitmekten vazgeçebilir. Kaynakları birden fazla noktaya dağıtmak bu tür gizli çatışmaları çözer."},
+    {"type": "h2", "text": "Temizlik ve tekrarın önlenmesi"},
+    {"type": "p", "text": "Kedi, kokusunu algıladığı yere tekrar tuvalet yapma eğilimindedir. Bu nedenle temizlik yöntemi doğrudan çözümün parçasıdır."},
+    {"type": "ul", "items": [
+      "Enzimatik temizleyici kullanın; kokunun kaynağındaki organik maddeyi parçalar.",
+      "Amonyak içeren ürünlerden kaçının; idrar kokusuna benzediği için bölgeyi cazip hâle getirir.",
+      "Temizlenen bölgeye geçici olarak mama kabı, oyuncak ya da yatak koyarak alanın işlevini değiştirin.",
+      "Kediyi asla cezalandırmayın; ceza stresi artırarak sorunu derinleştirir.",
+      "Tercih ettiği yeni noktaya geçici bir kum kabı koyup zamanla istediğiniz yere kaydırın."
+    ]},
+    {"type": "p", "text": "Sorun birkaç haftadır sürüyorsa ve ev düzenlemeleri yeterli olmadıysa, hem tıbbi hem davranışsal değerlendirmeyi birlikte yapmak gerekir. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak 0536 290 69 58 numaralı telefondan randevu alabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Kedim bana kızdığı için mi yapıyor?", "a": "Hayır. Kediler intikam ya da inat gibi güdülerle hareket etmez. Bu davranış neredeyse her zaman ya bir tıbbi soruna ya da çevresel bir rahatsızlığa işaret eder."},
+    {"q": "Kaç kum kabı olmalı?", "a": "Genel kural, kedi sayısının bir fazlasıdır. Tek kedi için iki, iki kedi için üç kap önerilir. Kaplar farklı odalarda ve mümkünse farklı katlarda konumlandırılmalıdır."},
+    {"q": "Kısırlaştırma işaretlemeyi durdurur mu?", "a": "Kısırlaştırma, özellikle erkek kedilerde idrar işaretlemesini belirgin biçimde azaltır. Ancak davranış yerleşmişse tamamen ortadan kalkmayabilir; bu durumda çevresel düzenlemeler de gerekir."},
+    {"q": "Kum türünü değiştirmeli miyim?", "a": "Kedilerin çoğu ince taneli ve kokusuz topaklanan kumu tercih eder. Kokulu kumlar ve büyük taneli malzemeler reddedilme nedeni olabilir. Değişikliği kademeli yapın ve bir süre eski kabı da bulundurun."},
+    {"q": "Ne kadar sürede düzelir?", "a": "Tıbbi bir neden varsa tedaviyle birlikte hızlı düzelme görülebilir. Davranışsal nedenlerde ise yerleşmiş alışkanlığın değişmesi birkaç hafta alabilir. Tutarlılık en önemli faktördür."},
+    {"q": "Feromon ürünleri işe yarar mı?", "a": "Bazı kedilerde stres kaynaklı davranışların azalmasına destek olabilir. Ancak tek başına çözüm değildir; kum kabı düzeni ve stres kaynaklarının giderilmesiyle birlikte kullanıldığında anlamlıdır."}
+  ]
+}

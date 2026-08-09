@@ -1,0 +1,71 @@
+{
+  "slug": "kedilerde-diyabet-agizdan-tedavi",
+  "title": "Kedilerde diyabette ağızdan tedavi dönemi: SGLT2 inhibitörleri",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-cat-diabetes.jpg",
+  "imageAlt": "Sahibi tarafından sevilen uzun tüylü bir kedi",
+  "date": "6 Ağustos 2026",
+  "dateISO": "2026-08-06",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Kedilerde şeker hastalığı uzun yıllar yalnızca insülin iğnesiyle yönetildi. Günde bir kez ağızdan verilen SGLT2 inhibitörleri bu tabloyu değiştiriyor; ancak her kedi için uygun değil.",
+  "readTime": "6 dk okuma",
+  "keywords": [
+    "kedilerde diyabet",
+    "kedi şeker hastalığı belirtileri",
+    "SGLT2 inhibitörü kedi",
+    "bexagliflozin",
+    "velagliflozin",
+    "kedide insülin tedavisi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Şeker hastalığı, özellikle orta yaşlı ve kilolu kedilerde sık karşılaşılan bir hormonal hastalıktır. Yıllar boyunca tedavinin tek yolu günde iki kez insülin enjeksiyonu yapmaktı; bu da birçok kedi sahibi için ciddi bir yük anlamına geliyordu. Son dönemde ağızdan verilen yeni bir ilaç grubu, uygun hastalarda insüline alternatif oluşturuyor. Bu yazıda kedilerde diyabetin belirtilerini, bu yeni tedavinin nasıl çalıştığını ve hangi kedilerde uygun olmadığını anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Kedilerde şeker hastalığı nasıl gelişir?"},
+    {"type": "p", "text": "Kedilerdeki diyabet, insanlardaki tip 2 diyabete benzer bir mekanizmayla ortaya çıkar. Pankreas insülin üretmeye devam eder, ancak vücut hücreleri insüline karşı duyarsızlaşır. Sonuçta kandaki şeker hücrelere yeterince giremez ve kan şekeri sürekli yüksek seyreder. Fazla kilo, hareketsiz yaşam, yüksek karbonhidratlı beslenme ve ileri yaş en önemli risk faktörleridir."},
+    {"type": "p", "text": "Bu hastalığın önemli bir özelliği, erken dönemde yakalandığında bazı kedilerde geri döndürülebilir olmasıdır. Kilo kontrolü, uygun beslenme ve doğru tedaviyle bir kısım kedide hastalık remisyona girer; yani bir süre sonra ilaç gereksinimi ortadan kalkabilir. Bu nedenle erken tanı yalnızca yaşam kalitesi için değil, hastalığın seyri için de kritik önemdedir."},
+    {"type": "h2", "text": "Hangi belirtilere dikkat etmeli?"},
+    {"type": "p", "text": "Diyabetin başlangıç belirtileri sinsi olabilir ve kedi sahipleri tarafından yaşlanmaya bağlanabilir. Aşağıdaki değişiklikler fark edilirse kan ve idrar tahlili yapılmalıdır:"},
+    {"type": "ul", "items": [
+      "Belirgin biçimde artan su tüketimi ve buna bağlı sık idrar yapma",
+      "Kum kabında olağandan çok daha büyük idrar topakları",
+      "İştah yerinde ya da artmış olmasına rağmen kilo kaybı",
+      "Halsizlik, uyku süresinde artış ve oyuna ilgisizlik",
+      "Tüylerde matlaşma ve bakımsız görünüm",
+      "Arka bacaklarda topuk üstüne basarak yürüme (diyabetik nöropati)"
+    ]},
+    {"type": "p", "text": "Özellikle son maddedeki çökük duruş, kedilerde diyabetin oldukça karakteristik bir bulgusudur ve genellikle hastalığın bir süredir devam ettiğini gösterir. Bu belirtilerin herhangi biri varsa değerlendirmeyi ertelemeyin; tedavi edilmeyen diyabet, diyabetik ketoasidoz adı verilen hayati tehlike taşıyan bir tabloya ilerleyebilir."},
+    {"type": "h2", "text": "SGLT2 inhibitörleri: ağızdan verilen yeni seçenek"},
+    {"type": "p", "text": "SGLT2 inhibitörleri, böbreklerde şekerin kana geri emilmesini engelleyen ilaçlardır. Bu sayede fazla şeker idrarla vücuttan atılır ve kan şekeri düşer. Mekanizmanın insüline ihtiyaç duymaması, bu ilaçları enjeksiyona alternatif hâline getiren temel özelliktir."},
+    {"type": "p", "text": "ABD'de Gıda ve İlaç Dairesi (FDA), bu gruptan iki etkin maddeyi kedilerde diyabet tedavisi için onaylamıştır: tablet formundaki bexagliflozin ve ağızdan sıvı olarak verilen velagliflozin. Her ikisi de günde bir kez uygulanır. Sıvı formun mamaya karıştırılabilmesi, tablet almakta zorlanan kediler için pratik bir avantaj sağlar. Çalışmalar, uygun seçilmiş hastalarda kan şekeri kontrolünde ve klinik belirtilerde hızlı düzelme bildirmektedir."},
+    {"type": "callout", "text": "Bu ilaçlar yalnızca yeni tanı almış, başka ciddi hastalığı olmayan ve daha önce insülin kullanmamış kedilerde uygundur. Uygunluk kararı kan ve idrar tahlilleri ile veteriner hekim tarafından verilir."},
+    {"type": "h2", "text": "Her kedi için uygun mu? Önemli sınırlamalar"},
+    {"type": "p", "text": "Bu ilaçların en kritik yönü, kimlerde kullanılmaması gerektiğidir. İnsülin üretimi ileri derecede azalmış kedilerde SGLT2 inhibitörleri kan şekerini düşürürken, vücudun enerji için yağ yakmasını engelleyemez. Bu durumda kan şekeri normal görünürken bile ketoasidoz gelişebilir; bu tablo, klasik ketoasidozdan daha zor fark edildiği için özellikle tehlikelidir."},
+    {"type": "ul", "items": [
+      "Daha önce insülin tedavisi görmüş kedilerde önerilmez.",
+      "Ketoasidoz bulgusu olan ya da genel durumu bozuk kedilerde kullanılmaz.",
+      "Pankreatit, karaciğer hastalığı gibi eşlik eden sorunlar varsa uygun değildir.",
+      "Tedavi başlangıcında ve ilk haftalarda yakın laboratuvar takibi gerekir.",
+      "İştahsızlık, kusma ya da halsizlik gelişirse ilaç kesilerek acilen değerlendirme yapılmalıdır."
+    ]},
+    {"type": "p", "text": "Bu nedenlerle tedavi seçimi, kedinin tam bir değerlendirmesinden sonra yapılmalıdır. İnsülin hâlâ birçok kedi için en güvenli ve en iyi bilinen seçenektir; yeni ilaçlar insülinin yerini tamamen almaz, uygun hastalarda bir alternatif sunar."},
+    {"type": "h2", "text": "Beslenme ve kilo kontrolünün rolü"},
+    {"type": "p", "text": "Hangi ilaç kullanılırsa kullanılsın, beslenme diyabet yönetiminin temel taşıdır. Kediler doğaları gereği et yiyicidir ve yüksek protein, düşük karbonhidrat içeren diyetler kan şekeri kontrolüne belirgin katkı sağlar. Konserve mamalar genellikle kuru mamalara göre daha düşük karbonhidrat içerir."},
+    {"type": "ul", "items": [
+      "Öğünleri düzenli saatlerde ve ölçülü porsiyonlarla verin; serbest beslenmeden kaçının.",
+      "Kilo verme sürecini hızlandırmayın; kedilerde ani kilo kaybı karaciğer yağlanmasına yol açabilir.",
+      "Diyet değişikliğini birkaç gün içinde kademeli yapın.",
+      "Oyun ve tırmanma alanlarıyla günlük hareketi artırın.",
+      "Kontrol randevularını ve kan şekeri takibini aksatmayın."
+    ]},
+    {"type": "p", "text": "Kedinizde artan su tüketimi, sık idrar ya da açıklanamayan kilo kaybı fark ettiyseniz basit bir kan ve idrar tahlili çoğu zaman yeterli bir başlangıçtır. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak diyabet taraması, tedavi planlaması ve takip için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Kedimde diyabet olduğu nasıl anlaşılır?", "a": "Tanı, kan şekerinin yüksek seyretmesi, idrarda şeker saptanması ve uzun dönem şeker düzeyini gösteren fruktozamin testi ile konur. Kedilerde stres tek başına kan şekerini yükseltebildiği için tek bir ölçüme dayanarak tanı konmaz."},
+    {"q": "Ağızdan verilen ilaçlar insülinin yerini tamamen alır mı?", "a": "Hayır. SGLT2 inhibitörleri yalnızca yeni tanı almış, insülin kullanmamış ve başka ciddi hastalığı olmayan kedilerde bir alternatiftir. İnsülin hâlâ birçok hasta için en güvenli ve en iyi bilinen tedavidir."},
+    {"q": "Kedimde diyabet geri dönebilir mi?", "a": "Evet, bir kısım kedide hastalık remisyona girebilir. Erken tanı, kilo kontrolü ve düşük karbonhidratlı beslenme remisyon şansını artırır. Remisyondaki kedilerde de düzenli takip gerekir çünkü hastalık geri dönebilir."},
+    {"q": "Bu yeni ilaçlar Türkiye'de bulunuyor mu?", "a": "Ruhsat ve bulunabilirlik ülkeden ülkeye değişir; söz konusu onaylar ABD'deki FDA tarafından verilmiştir. Türkiye'de hangi seçeneklerin mevcut olduğunu ve kediniz için uygun olup olmadığını veteriner hekiminizle görüşmeniz gerekir."},
+    {"q": "Diyabetli kediye ne yedirmeliyim?", "a": "Genel yaklaşım yüksek proteinli, düşük karbonhidratlı bir diyettir ve konserve mamalar bu açıdan avantajlıdır. Ancak böbrek veya pankreas hastalığı gibi eşlik eden durumlar varsa plan değişir; beslenme kararını hekiminizle birlikte verin."},
+    {"q": "Diyabetik ketoasidoz nedir, nasıl fark edilir?", "a": "Vücudun enerji için yağ yakmasıyla kanda asidik maddelerin biriktiği hayati tehlike taşıyan bir tablodur. İştahsızlık, kusma, belirgin halsizlik, hızlı soluma ve nefeste tatlımsı koku uyarıcıdır. Bu bulgularda acil başvuru gerekir."}
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "evcil-hayvanlarda-zehirlenme",
+  "title": "Evde zehirlenme riski: kedi ve köpekler için tehlikeli gıdalar",
+  "category": "Acil Durumlar",
+  "image": "/images/blog-poisoning.jpg",
+  "imageAlt": "Koyu zemin üzerinde duran bitter çikolata parçaları",
+  "date": "9 Temmuz 2026",
+  "dateISO": "2026-07-09",
+  "updatedISO": "2026-08-09",
+  "excerpt": "Çikolata, üzüm, soğan, ksilitol, zambak ve parasetamol… Evinizdeki en sık zehirlenme kaynakları, belirtileri ve ilk 30 dakikada yapmanız ve yapmamanız gerekenler.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "köpek çikolata yedi",
+    "kedilerde zehirlenme belirtileri",
+    "köpeklerde zehirlenme",
+    "ksilitol köpek",
+    "zambak kedi zehirlenmesi",
+    "parasetamol kedi",
+    "acil veteriner Çankaya",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Evcil hayvan zehirlenmelerinin büyük bölümü sokakta değil, evin içinde gerçekleşir. Mutfak tezgâhında unutulan bir paket, misafirin bıraktığı bir çanta ya da vazodaki bir buket çiçek, birkaç saat içinde acil bir tabloya dönüşebilir. Bu yazıda en sık karşılaşılan zehirlenme kaynaklarını, belirtileri ve kritik olan ilk yarım saatte doğru davranışı anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Köpekler için en sık tehlikeler"},
+    {"type": "p", "text": "Köpekler meraklı ve fırsatçı yiyicilerdir; bu da onları ev içi zehirlenmelerde ilk sıraya yerleştirir. Aşağıdaki maddeler veteriner acillerinde en sık karşılaşılanlardır."},
+    {"type": "ul", "items": [
+      "Çikolata: içerdiği teobromin köpeklerde kalp ritmini ve sinir sistemini etkiler. Bitter ve kakao oranı yüksek ürünler en tehlikelisidir.",
+      "Üzüm ve kuru üzüm: az miktarda bile bazı köpeklerde akut böbrek yetmezliğine yol açabilir. Sorumlu bileşenin üzümdeki tartarik asit olduğu düşünülmektedir.",
+      "Ksilitol: şekersiz sakız, bazı diyet ürünleri ve fıstık ezmelerinde bulunur. Köpeklerde ani kan şekeri düşmesine ve karaciğer hasarına neden olur.",
+      "Soğan, sarımsak, pırasa: kırmızı kan hücrelerine zarar vererek kansızlığa yol açar.",
+      "Alkol ve hamur mayası: mide içinde alkol üreterek ciddi zehirlenmeye neden olabilir.",
+      "İnsan ilaçları: ibuprofen ve benzeri ağrı kesiciler mide kanaması ve böbrek yetmezliği yapabilir.",
+      "Antifriz: tatlı tadı nedeniyle içilir ve çok küçük miktarları bile böbrekler için ölümcüldür."
+    ]},
+    {"type": "h2", "text": "Kediler için en sık tehlikeler"},
+    {"type": "p", "text": "Kediler daha seçici yiyicilerdir, ancak karaciğerlerinin bazı maddeleri parçalayamaması onları farklı bir risk grubuna sokar. Kedilerde küçük miktarlar bile ağır sonuçlar doğurabilir."},
+    {"type": "ul", "items": [
+      "Zambak: yaprağı, çiçeği, poleni ve vazo suyu dahil her parçası kedilerde akut böbrek yetmezliğine yol açabilir.",
+      "Parasetamol: kediler bu maddeyi parçalayamaz; tek bir tablet bile ölümcül olabilir.",
+      "Uçucu yağlar: çay ağacı yağı başta olmak üzere birçok esans kedilerde toksiktir; buhurdanlıklar da risk oluşturur.",
+      "Köpekler için üretilmiş dış parazit ürünleri: permetrin içerenler kedilerde ağır nörolojik zehirlenme yapar.",
+      "Sardunya, difenbahya, aloe vera gibi ev bitkileri",
+      "Kemirgen zehirleri ve doğrudan ya da zehirlenmiş fare üzerinden ikincil temas"
+    ]},
+    {"type": "callout", "text": "Evinizde kedi varsa zambak bulundurmayın. Kedilerde zambak zehirlenmesi, poleni yalamak gibi çok küçük bir temasla bile başlayabilir ve erken müdahale edilmezse geri dönüşsüz böbrek hasarına yol açar."},
+    {"type": "h2", "text": "Zehirlenme belirtileri"},
+    {"type": "p", "text": "Belirtiler maddeye ve alınan miktara göre değişir; bazıları dakikalar içinde, bazıları bir gün sonra ortaya çıkar."},
+    {"type": "ul", "items": [
+      "Kusma, aşırı salya, ağız çevresinde köpüklenme",
+      "İshal, karın ağrısı belirtileri",
+      "Titreme, kas seğirmesi, dengesiz yürüme, nöbet",
+      "Aşırı hareketlilik ya da tam tersine belirgin uyuşukluk",
+      "Hızlı ya da düzensiz kalp atımı",
+      "Diş etlerinde solukluk, sarılık ya da anormal renk",
+      "İdrar miktarında ani artış ya da azalma",
+      "Nefes darlığı ve öksürük"
+    ]},
+    {"type": "h2", "text": "İlk 30 dakikada ne yapmalı?"},
+    {"type": "p", "text": "Zehirlenmelerde en değerli şey zamandır. Doğru davranmak kadar, zarar veren müdahalelerden kaçınmak da önemlidir."},
+    {"type": "ul", "items": [
+      "Yapın: Hayvanı maddeden uzaklaştırın ve güvenli bir alana alın.",
+      "Yapın: Kliniği hemen arayın ve yola çıkmadan önce durumu bildirin.",
+      "Yapın: Ürünün ambalajını, prospektüsünü ya da bitkinin bir parçasını yanınıza alın.",
+      "Yapın: Ne kadar, ne zaman ve nasıl alındığını mümkün olduğunca net not edin.",
+      "Yapmayın: Veteriner hekim söylemeden kusturmaya çalışmayın; bazı maddelerde kusturmak yemek borusunu yakar.",
+      "Yapmayın: Süt, yoğurt, yumurta gibi ev usulü çözümler denemeyin; emilimi hızlandırabilirler.",
+      "Yapmayın: İnternetten bulunan doz bilgileriyle ilaç vermeyin.",
+      "Yapmayın: Belirti yok diye beklemeyin; birçok zehirlenmede belirtisiz bir ara dönem vardır."
+    ]},
+    {"type": "p", "text": "Özellikle son madde önemlidir. Antifriz, zambak ve parasetamol gibi maddelerde hayvan ilk saatlerde normal görünebilir; bu sırada organ hasarı çoktan başlamıştır. Belirti beklemek, tedavi penceresini kaçırmak anlamına gelir."},
+    {"type": "h2", "text": "Klinikte tedavi nasıl yürür?"},
+    {"type": "p", "text": "Tedavi maddeye ve geçen süreye göre planlanır. Erken başvurularda emilimi azaltmaya yönelik uygulamalar mümkünken, geç kalınan vakalarda destekleyici tedavi öne çıkar."},
+    {"type": "ul", "items": [
+      "Uygun vakalarda kontrollü kusturma ve aktif kömür uygulaması",
+      "Damar yolundan sıvı tedavisi ile atılımın desteklenmesi",
+      "Belirli maddeler için özgül antidot kullanımı",
+      "Nöbet ve kalp ritmi bozukluklarının kontrolü",
+      "Böbrek ve karaciğer değerlerinin izlenmesi",
+      "Gerektiğinde birkaç gün süren yatarak tedavi"
+    ]},
+    {"type": "p", "text": "Şüpheli bir maddeyle temas olduğunu düşünüyorsanız, belirti çıkmasını beklemeden bizi arayın. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği 7/24 açıktır: 0536 290 69 58."}
+  ],
+  "faqs": [
+    {"q": "Köpeğim çikolata yedi, ne yapmalıyım?", "a": "Ürünün ambalajını yanınıza alarak hemen kliniği arayın. Riski belirleyen faktörler kakao oranı, alınan miktar ve köpeğin kilosudur. Bitter çikolata sütlü çikolataya göre çok daha tehlikelidir."},
+    {"q": "Kaç saat sonra belirti çıkar?", "a": "Maddeye göre değişir. Bazı zehirlenmelerde belirtiler dakikalar içinde başlarken, antifriz, zambak ve parasetamol gibi durumlarda hayvan saatlerce normal görünebilir. Bu nedenle beklemek doğru değildir."},
+    {"q": "Evde kusturabilir miyim?", "a": "Veteriner hekim önermeden kusturmaya çalışmayın. Bazı maddelerde kusturmak yemek borusunda ciddi yanıklara yol açar; ayrıca bilinç düzeyi bozuk hayvanlarda kusmuk akciğere kaçabilir."},
+    {"q": "Kedime insan ağrı kesici verebilir miyim?", "a": "Hayır. Parasetamol kedilerde tek dozda bile ölümcül olabilir; ibuprofen ve benzeri ilaçlar da her iki türde ciddi zarar verir. Ağrı kesici yalnızca veteriner hekim tarafından seçilmelidir."},
+    {"q": "Hangi ev bitkileri güvenlidir?", "a": "Kediler için zambak, difenbahya, sardunya gibi bitkilerden kesinlikle kaçınılmalıdır. Güvenli seçenekler arasında kedi otu ve buğday çimi sayılabilir. Yeni bir bitki almadan önce toksik olup olmadığını kontrol edin."},
+    {"q": "Zehirlenme tedavisi ne kadar sürer?", "a": "Hafif vakalarda birkaç saatlik gözlem yeterli olabilirken, böbrek ya da karaciğeri etkileyen zehirlenmelerde birkaç gün süren yatarak tedavi gerekebilir. Süre, maddeye ve müdahalenin ne kadar erken yapıldığına bağlıdır."}
+  ]
+}
