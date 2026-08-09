@@ -5,7 +5,9 @@ import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { CookieConsent } from "@/components/cookie-consent";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { Analytics } from "@/components/analytics";
 import { site } from "@/lib/site";
+import { GTM_ID, consentDefaultsSnippet } from "@/lib/gtm";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -110,6 +112,14 @@ const jsonLd = {
   areaServed: "Çankaya, Ankara",
 };
 
+// Standard GTM loader, inlined in <head> rather than via next/script so it
+// ships in the exported HTML and starts fetching before hydration.
+const gtmSnippet = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_ID}');`;
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -119,7 +129,26 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${fraunces.variable} ${inter.variable}`}
     >
+      <head>
+        {/* Consent Mode v2 defaults — must run before the container loads */}
+        <script dangerouslySetInnerHTML={{ __html: consentDefaultsSnippet }} />
+        {/* Google Tag Manager */}
+        <script dangerouslySetInnerHTML={{ __html: gtmSnippet }} />
+        {/* End Google Tag Manager */}
+      </head>
       <body className="min-h-screen bg-paper text-ink antialiased">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+            title="Google Tag Manager"
+          />
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

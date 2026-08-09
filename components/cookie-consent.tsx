@@ -2,26 +2,32 @@
 
 import { useEffect, useState } from "react";
 import { Cookie } from "lucide-react";
-
-const STORAGE_KEY = "pi-cookie-consent";
+import {
+  CONSENT_STORAGE_KEY,
+  updateConsent,
+  type ConsentChoice,
+} from "@/lib/gtm";
 
 export function CookieConsent() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
     try {
-      if (!localStorage.getItem(STORAGE_KEY)) setShow(true);
+      if (!localStorage.getItem(CONSENT_STORAGE_KEY)) setShow(true);
     } catch {
       /* localStorage unavailable — stay hidden */
     }
   }, []);
 
-  function decide(value: "accepted" | "rejected") {
+  function decide(value: ConsentChoice) {
     try {
-      localStorage.setItem(STORAGE_KEY, value);
+      localStorage.setItem(CONSENT_STORAGE_KEY, value);
     } catch {
-      /* ignore */
+      /* ignore — consent still applies for this page view */
     }
+    // Tell GTM before hiding: the container is holding tags on
+    // wait_for_update, and this is what releases them.
+    updateConsent(value);
     setShow(false);
   }
 
