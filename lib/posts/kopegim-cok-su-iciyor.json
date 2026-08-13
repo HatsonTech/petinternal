@@ -1,0 +1,93 @@
+{
+  "slug": "kopegim-cok-su-iciyor",
+  "title": "Köpeğim çok su içiyor: evde nasıl ölçülür, hangi testler istenir?",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-dog-heart.jpg",
+  "imageAlt": "Uzanmış dinlenen küçük ırk bir köpek",
+  "date": "8 Eylül 2026",
+  "dateISO": "2026-09-08",
+  "updatedISO": "2026-09-08",
+  "excerpt": "Su tüketimindeki artış birçok iç hastalığın ilk ve bazen tek belirtisidir. Evde su tüketiminin nasıl doğru ölçüleceğini, hangi eşiğin anormal sayıldığını ve hangi testin hangi sırayla neyi dışladığını adım adım anlatıyoruz.",
+  "readTime": "10 dk okuma",
+  "keywords": [
+    "köpeğim çok su içiyor",
+    "köpekte poliüri polidipsi",
+    "köpek sık idrara çıkıyor",
+    "köpekte şeker hastalığı belirtileri",
+    "köpekte cushing",
+    "pyometra",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Su kabının eskisinden hızlı boşalması, çoğu sahibin önemsemediği ama iç hastalıkları açısından en değerli erken bulgulardan biridir. Böbrek hastalığı, diyabet, hormonal bozukluklar ve rahim iltihabı gibi birbirinden çok farklı tablolar aynı belirtiyle başlayabilir. Bu yazıda su tüketimini evde nasıl güvenilir biçimde ölçeceğinizi, hangi değerin anormal kabul edildiğini ve klinikte hangi testin hangi sırayla isteneceğini anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Ne kadar su içmek normal?"},
+    {"type": "p", "text": "Sağlıklı bir köpek günde kilogram başına yaklaşık 50-60 mililitre su tüketir. Bu değer sıcaklık, egzersiz ve beslenme biçimine göre değişir; yalnızca kuru mama yiyen bir köpek, yaş mama yiyene göre belirgin biçimde daha fazla su içer. Genel kabul gören sınır, günlük tüketimin kilogram başına 100 mililitreyi aşmasıdır; bu düzey neredeyse her zaman araştırma gerektirir."},
+    {"type": "p", "text": "Somut örnekle bakmak daha kolaydır: 20 kilogramlık bir köpeğin günde 2 litrenin üzerinde su içmesi, 5 kilogramlık bir köpeğin ise yarım litreye yaklaşması beklenen aralığın dışındadır. Asıl belirleyici olan mutlak sayı değil, değişimin kendisidir; kendi alışkanlığına göre belirgin biçimde artmış bir tüketim, eşiği aşmasa bile anlamlıdır."},
+    {"type": "h2", "text": "Evde nasıl doğru ölçülür?"},
+    {"type": "p", "text": "Ölçüm basittir ancak birkaç ayrıntı sonucu değiştirir. En sık yapılan hata tek bir günün ölçümüne güvenmektir; tüketim günden güne dalgalandığı için ortalama almak gerekir."},
+    {"type": "ul", "items": [
+      "Kaba koyduğunuz suyu ölçekli bir kapla ölçüp not edin.",
+      "Yirmi dört saat sonra kalan suyu ölçün ve aradaki farkı hesaplayın.",
+      "Buharlaşmayı ve dökülen suyu göz önünde bulundurun; kabı serin bir yere koyun.",
+      "Evde başka hayvan varsa ölçüm süresince köpeği ayrı tutun.",
+      "Ölçümü iki-üç gün tekrarlayıp ortalamayı alın ve köpeğin kilosuna bölün.",
+      "Yaş mama, ıslatılmış mama ve ek sıvı gıdaları da not edin; bunlar toplam alımı etkiler."
+    ]},
+    {"type": "p", "text": "Bu basit ölçüm, kliniğe geldiğinizde hekimin elindeki en somut veridir. Su tüketiminin arttığından şüpheleniyorsanız randevu öncesinde iki-üç günlük kayıt tutmanız, hem tanı sürecini hızlandırır hem de gereksiz testleri azaltır."},
+    {"type": "h2", "text": "Çok su içme mi, sık idrar yapma mı?"},
+    {"type": "p", "text": "Bu iki bulgu neredeyse her zaman birlikte görülür, ancak hangisinin önce başladığı önemlidir. Böbreklerin idrarı yoğunlaştıramadığı durumlarda köpek önce çok idrar yapar, kaybettiği sıvıyı karşılamak için sonradan çok su içer. Susama merkezini etkileyen daha nadir durumlarda ise sıra terstir."},
+    {"type": "p", "text": "Ayrıca sık idrara çıkmak ile çok idrar yapmak farklı şeylerdir. İdrar yolu iltihabı olan bir köpek sık sık ve az miktarda idrar yapar, ıkınır, bazen kan görülür. Buna karşılık çok su içen bir köpek her seferinde bol miktarda ve açık renkli idrar yapar. Bu ayrım, hangi testlerin isteneceğini doğrudan etkiler."},
+    {"type": "h2", "text": "En sık karşılaşılan nedenler"},
+    {"type": "p", "text": "Su tüketimindeki artış bir hastalık değil, bir bulgudur. Köpeklerde en sık karşılaşılan nedenler aşağıda sıralanmıştır; bunların bir kısmı sinsi ilerlerken bir kısmı acil müdahale gerektirir."},
+    {"type": "ul", "items": [
+      "Kronik böbrek hastalığı: idrarı yoğunlaştırma yeteneğinin kaybı ile başlar, yaşlı köpeklerde sıktır.",
+      "Diyabet: kandaki şekerin idrara geçmesi suyu birlikte sürükler; iştah artmasına rağmen kilo kaybı tipiktir.",
+      "Hiperadrenokortisizm, yani Cushing sendromu: kortizol fazlalığı hem susamayı hem idrar çıkışını artırır.",
+      "Rahim iltihabı, yani pyometra: kısırlaştırılmamış dişilerde kızgınlıktan haftalar sonra ortaya çıkar ve acildir.",
+      "Karaciğer hastalıkları ve kandaki kalsiyum yüksekliği.",
+      "Bazı ilaçlar: kortikosteroidler ve idrar söktürücüler tüketimi belirgin biçimde artırır.",
+      "Daha nadir olarak diabetes insipidus ve davranışsal kökenli aşırı su içme."
+    ]},
+    {"type": "callout", "text": "Kısırlaştırılmamış bir dişi köpekte kızgınlıktan iki-sekiz hafta sonra ortaya çıkan çok su içme, halsizlik, iştahsızlık ve karında gerginlik rahim iltihabını düşündürür. Akıntı görülmesi şart değildir; kapalı seyreden biçimi daha tehlikelidir. Bu tablo acil cerrahi gerektirebilir, beklemeyin."},
+    {"type": "h2", "text": "Suyu kısıtlamak neden yanlıştır?"},
+    {"type": "p", "text": "Çok su içtiğini fark eden sahiplerin ilk aklına gelen çözüm su kabını kaldırmaktır. Bu, tehlikeli bir yaklaşımdır. Böbrek hastalığı ya da diyabette artan su tüketimi bir sorun değil, vücudun idrarla kaybettiği sıvıyı telafi etme çabasıdır. Suyun kısıtlanması hızla susuz kalmaya, böbrek işlevlerinin daha da bozulmasına ve bazı tablolarda hayatı tehdit eden komplikasyonlara yol açar."},
+    {"type": "p", "text": "Suyun kısıtlandığı tek durum, kontrollü koşullarda ve klinikte uygulanan bazı özel tanı testleridir. Bu testler evde uygulanamaz."},
+    {"type": "h2", "text": "Testler hangi sırayla istenir?"},
+    {"type": "p", "text": "Bu şikâyette akılcı yol, en ucuz ve en çok bilgi veren testlerden başlayıp gerektiğinde daralarak ilerlemektir. Aşağıdaki sıra bir kural değil, çoğu vakada işleyen bir yaklaşımdır; muayene bulguları sırayı değiştirebilir."},
+    {"type": "ul", "items": [
+      "Tam idrar tahlili ve idrar yoğunluğu: ilk ve en kritik adımdır. Seyreltik idrar bulgusu tanıyı doğrular ve sonraki testleri yönlendirir.",
+      "Hemogram ve biyokimya paneli: kreatinin, üre, SDMA ile böbrek; ALT ve ALP ile karaciğer; glukoz ile diyabet değerlendirilir.",
+      "Fruktozamin: kan şekeri yüksek bulunduğunda, bunun strese bağlı geçici bir yükselme mi yoksa kalıcı bir tablo mu olduğunu ayırır.",
+      "Kalsiyum düzeyi: yüksekliği bazı tümörleri ve hormonal bozuklukları düşündürür.",
+      "İdrar kültürü: gizli idrar yolu enfeksiyonu özellikle diyabetli ve Cushing'li köpeklerde sıktır.",
+      "Hormonal testler: Cushing şüphesinde ACTH stimülasyon testi ya da düşük doz deksametazon baskılama testi uygulanır.",
+      "Karın ultrasonografisi: böbrek ve karaciğer yapısı, böbrek üstü bezleri, rahim ve olası kitleler değerlendirilir."
+    ]},
+    {"type": "p", "text": "Hormonal testler ilk basamakta istenmez. Cushing sendromunun testleri, hasta olmayan köpeklerde yanlış pozitif sonuç verebildiği gibi başka bir hastalığın varlığında da yanıltıcı olabilir. Bu nedenle önce temel testlerle diğer nedenler dışlanır."},
+    {"type": "h2", "text": "Kliniğe giderken ne getirmelisiniz?"},
+    {"type": "p", "text": "Birkaç basit hazırlık, ilk randevuda çok daha fazla yol alınmasını sağlar."},
+    {"type": "ul", "items": [
+      "İki-üç günlük su tüketimi kaydınız ve köpeğin güncel kilosu.",
+      "Sabah alınmış, temiz bir kapta taze idrar örneği.",
+      "Kullanılan tüm ilaç ve takviyelerin listesi, dozlarıyla birlikte.",
+      "Kısırlaştırılmamış dişilerde son kızgınlık tarihi.",
+      "Varsa önceki tahlil sonuçları.",
+      "İştah, kilo ve idrar alışkanlığındaki değişikliklerin ne zaman başladığı."
+    ]},
+    {"type": "h2", "text": "Sonrasında ne olur?"},
+    {"type": "p", "text": "Tanı konduğunda tedavi büyük ölçüde nedene özgüdür: diyabette insülin ve beslenme düzeni, böbrek hastalığında evreye uygun diyet ve destek tedavisi, Cushing'de kortizol üretimini baskılayan ilaç tedavisi, rahim iltihabında ise genellikle cerrahi gündeme gelir. Ortak nokta, su tüketiminin takipte kullanılan en pratik göstergelerden biri olmasıdır."},
+    {"type": "p", "text": "Bu nedenle tedavi başladıktan sonra da evde ölçüm alışkanlığını sürdürmenizi öneririz. Tüketimin normale yaklaşması tedavinin işe yaradığını, yeniden artması ise dozun ya da planın gözden geçirilmesi gerektiğini gösterir."},
+    {"type": "p", "text": "Köpeğinizin su tüketiminde belirgin bir artış fark ettiyseniz, ölçüm kaydınızla birlikte değerlendirme için randevu alabilirsiniz. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Köpeğim günde ne kadar su içmeli?", "a": "Sağlıklı bir köpekte günlük tüketim kilogram başına yaklaşık 50-60 mililitredir. Kilogram başına 100 mililitreyi aşan tüketim neredeyse her zaman araştırma gerektirir. Kuru mama yiyen köpeklerde değerin daha yüksek olması beklenir."},
+    {"q": "Sıcak havada çok su içmesi normal mi?", "a": "Sıcak havada, egzersizden sonra ve kuru mamaya geçildiğinde tüketimin artması beklenir. Bu artışlar geçicidir ve koşullar değişince normale döner. Kalıcı hâle gelen ya da idrar miktarındaki belirgin artışla birlikte seyreden yükselme değerlendirilmelidir."},
+    {"q": "Su kabını kaldırmam doğru olur mu?", "a": "Hayır. Artan su tüketimi çoğu zaman vücudun idrarla kaybettiği sıvıyı telafi etme çabasıdır. Suyun kısıtlanması hızla susuz kalmaya ve böbrek işlevinin daha da bozulmasına yol açabilir. Su kısıtlaması yalnızca klinikte, kontrollü tanı testlerinde uygulanır."},
+    {"q": "İlk hangi test yapılmalı?", "a": "Tam idrar tahlili ve idrar yoğunluğu ölçümü ilk adımdır. Bu test hem bulgunun gerçekliğini doğrular hem de böbreklerin idrarı yoğunlaştırma yeteneğini gösterir ve sonraki testlerin hangileri olacağını belirler."},
+    {"q": "Kan şekeri yüksek çıktı, diyabet kesin mi?", "a": "Kesin değildir. Stres, heyecan ve bazı ilaçlar kan şekerini geçici olarak yükseltebilir. Fruktozamin ölçümü son haftaların ortalamasını yansıttığı için geçici yükselmeleri kalıcı olanlardan ayırır; idrarda şeker varlığı da birlikte değerlendirilir."},
+    {"q": "Cushing testi neden hemen yapılmıyor?", "a": "Cushing testleri, hastalığı olmayan köpeklerde yanlış pozitif sonuç verebildiği gibi başka bir hastalık varlığında da yanıltıcı olabilir. Bu nedenle önce temel kan ve idrar testleriyle diğer nedenler dışlanır, ardından hormonal test planlanır."},
+    {"q": "Kısırlaştırılmamış dişi köpeğimde ne zaman acil düşünmeliyim?", "a": "Kızgınlıktan iki-sekiz hafta sonra ortaya çıkan çok su içme, halsizlik, iştahsızlık ve karında gerginlik rahim iltihabını düşündürür. Akıntı olmaması durumu hafifletmez; kapalı seyreden biçimi daha tehlikelidir ve acil değerlendirme gerekir."},
+    {"q": "Tedaviden sonra su tüketimi normale döner mi?", "a": "Nedene bağlıdır. Diyabette ve rahim iltihabında tedaviyle belirgin biçimde geriler. Kronik böbrek hastalığında tüketim genellikle yüksek kalır, çünkü idrarı yoğunlaştırma yeteneği geri gelmez; bu durumda ölçüm bir takip aracı olarak kullanılmaya devam eder."}
+  ]
+}

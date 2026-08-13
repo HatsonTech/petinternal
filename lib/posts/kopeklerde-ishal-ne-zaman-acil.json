@@ -1,0 +1,106 @@
+{
+  "slug": "kopeklerde-ishal-ne-zaman-acil",
+  "title": "Köpeğim ishal oldu: evde ne yapılır, ne zaman acil?",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-puppy-care.jpg",
+  "imageAlt": "Çimenlerin arasından bakan bir yavru köpek",
+  "date": "25 Ağustos 2026",
+  "dateISO": "2026-08-25",
+  "updatedISO": "2026-08-25",
+  "excerpt": "Köpeklerde ishalin çoğu birkaç günde düzelir, bir kısmı ise beklemeye izin vermez. Dışkının rengi ve içeriği ne anlatır, siyah dışkı ile taze kan arasındaki fark nedir, evde ne yapılabilir ve hangi durumda vakit kaybetmeden kliniğe gidilir?",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "köpeklerde ishal",
+    "köpek ishal ne yapmalı",
+    "köpekte kanlı ishal",
+    "siyah ishal melena",
+    "yavru köpekte ishal",
+    "köpek ishal kaç gün sürer",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "İshal, köpek sahiplerinin kliniğe en sık başvurma nedenlerinden biridir. Çoğu vaka birkaç gün içinde kendiliğinden düzelir; ancak aynı belirti bazen parvovirüs, bağırsak tıkanması, pankreas iltihabı ya da zehirlenmenin ilk işareti olabilir. Bu yazıda dışkının ne anlattığını, evde güvenle yapılabilecekleri, hangi bulguların beklemeye izin vermediğini ve klinikte hangi sıranın izlendiğini anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "İshal bir hastalık değil, bir bulgudur"},
+    {"type": "p", "text": "İshal, bağırsak içeriğinin normalden hızlı ilerlemesi ya da bağırsağın suyu yeterince geri emememesi sonucu ortaya çıkar. Bunun ardında basit bir diyet değişikliğinden ciddi bir sistemik hastalığa kadar çok geniş bir yelpaze bulunabilir; bu nedenle asıl soru ishalin varlığı değil, ona eşlik eden bulgulardır. Pratikte iki soru yolu belirler: köpeğin genel durumu bozuldu mu ve ishal ne kadar süredir devam ediyor? Genel durumu iyi olan, su içebilen ve oynamaya devam eden erişkin bir köpekte kısa süreli ishal genellikle destekleyici yaklaşımla düzelir. Halsizlik, kusma, ateş veya kan varlığı tabloyu tamamen değiştirir."},
+    {"type": "h2", "text": "İnce bağırsak mı, kalın bağırsak mı?"},
+    {"type": "p", "text": "Hekimler ishali kabaca iki gruba ayırır ve bu ayrım hangi testlerin isteneceğini belirler. Evde de fark edilebilen birkaç ipucu vardır."},
+    {"type": "ul", "items": [
+      "İnce bağırsak kaynaklı ishalde dışkı miktarı çoktur, dışkılama sayısı ise çok fazla artmaz.",
+      "İnce bağırsak sorunlarında kilo kaybı ve kusma daha sık eşlik eder.",
+      "Kalın bağırsak kaynaklı ishalde köpek sık sık ve az miktarda, ıkınarak dışkılar.",
+      "Kalın bağırsak sorunlarında dışkı yüzeyinde jölemsi mukus ve taze kan görülmesi tipiktir.",
+      "Kalın bağırsak ishalinde genel durum çoğu zaman daha iyi korunur."
+    ]},
+    {"type": "h2", "text": "Dışkının rengi ve içeriği ne anlatır?"},
+    {"type": "p", "text": "Renk tek başına tanı koydurmaz, ancak aciliyet düzeyini belirlemede işe yarar. En kritik ayrım, siyah dışkı ile taze kan arasındadır ve bu iki bulgu çok farklı anlamlar taşır."},
+    {"type": "ul", "items": [
+      "Siyah, katran kıvamında ve parlak dışkı sindirilmiş kanı gösterir; kanamanın mide ya da ince bağırsakta olduğuna işaret eder ve acildir.",
+      "Dışkının üzerinde ya da sonunda görülen parlak kırmızı taze kan genellikle kalın bağırsak veya rektum kaynaklıdır.",
+      "Sarımsı ve çok yumuşak dışkı hızlanmış geçişi düşündürür.",
+      "Yeşilimsi ton çoğunlukla safranın hızlı geçişini ya da bitki tüketimini yansıtır.",
+      "Gri, yağlı görünümlü ve kötü kokulu dışkı sindirim ya da emilim bozukluğunu akla getirir.",
+      "Su gibi, kokusu belirgin biçimde değişmiş ve kanla karışık dışkı yavru köpeklerde parvovirüs açısından değerlendirilmelidir."
+    ]},
+    {"type": "h2", "text": "Beklemeye izin vermeyen bulgular"},
+    {"type": "p", "text": "Aşağıdaki bulgulardan herhangi biri varsa ishalin kaç gündür sürdüğüne bakılmaksızın değerlendirme gerekir. Bu tablolarda kaybedilen sıvı, özellikle küçük ırklarda ve yavrularda saatler içinde tehlikeli düzeye ulaşabilir."},
+    {"type": "ul", "items": [
+      "Siyah, katran gibi dışkı ya da belirgin miktarda taze kan.",
+      "İshale eşlik eden ısrarlı kusma ve suyun bile tutulamaması.",
+      "Halsizlik, ayağa kalkmakta zorlanma, diş etlerinde solgunluk.",
+      "Karnın gergin ve dokunulduğunda ağrılı olması.",
+      "Aşı takvimi tamamlanmamış bir yavruda su gibi, kanlı ishal.",
+      "Bilinen ya da şüphelenilen bir madde teması: çöp, ilaç, kemik, oyuncak parçası, ev bitkisi.",
+      "İshalin 48 saatten uzun sürmesi veya haftalar boyunca aralıklı biçimde tekrarlaması."
+    ]},
+    {"type": "callout", "text": "İnsanlar için üretilmiş ishal kesici ilaçları köpeğinize vermeyin. Bu ilaçların bir kısmı köpeklerde ciddi yan etkilere yol açar, bazı ırklarda ise küçük miktarlarda bile ağır nörolojik belirtilere neden olabilir. Ayrıca bağırsağın zararlı içeriği dışarı atmasını engelleyerek zehirlenme ve enfeksiyon tablolarını ağırlaştırabilir."},
+    {"type": "h2", "text": "Yavru köpeklerde durum neden farklı?"},
+    {"type": "p", "text": "Yavru köpekler sıvı kaybına erişkinlerden çok daha hızlı tepki verir; küçük vücut kütlesi ve sınırlı şeker depoları nedeniyle kan şekeri düşebilir. Aşı serisi tamamlanmamış bir yavruda su gibi ve kanlı ishal ile birlikte kusma, halsizlik ve iştahsızlık görülüyorsa parvovirüs enfeksiyonu öncelikli olarak düşünülmelidir."},
+    {"type": "p", "text": "Bu tabloda evde bekleme dönemi yoktur. Parvovirüste erken başlanan destekleyici tedavi ve sıvı desteği sonucu belirgin biçimde değiştirir. Ayrıca hasta yavrunun diğer köpeklerden ayrılması ve kliniğin gelmeden önce bilgilendirilmesi bulaş kontrolü açısından önemlidir."},
+    {"type": "h2", "text": "Genel durumu iyi bir köpekte evde ne yapılabilir?"},
+    {"type": "p", "text": "Köpeğiniz canlı, su içebiliyor ve yukarıdaki uyarı bulgularının hiçbiri yoksa, kısa süreli bir destekleyici yaklaşım denenebilir. Bu yaklaşım tedavi değil, kendiliğinden düzelmesi beklenen bir tabloyu rahatlatmaya yöneliktir. İnsan sütü, yoğurt ve ev yapımı karışımlar birçok köpekte tabloyu ağırlaştırır; yirmi dört-kırk sekiz saat içinde belirgin düzelme yoksa değerlendirme gerekir."},
+    {"type": "ul", "items": [
+      "Suya erişimi kesmeyin; sık aralıklarla az miktarda su sunmak kusma varsa daha iyi tolere edilir.",
+      "Aç bırakma süresini uzatmayın; günümüzde uzun açlık yerine erken ve kolay sindirilen beslenme tercih edilir.",
+      "Kolay sindirilen, yağı düşük öğünleri küçük porsiyonlar hâlinde ve sık verin.",
+      "Mama değişikliğini birkaç güne yayarak yapın; ani geçiş ishali tetikler.",
+      "Ödül, çiğneme çubuğu, süt ve artık yemek gibi ek gıdaları geçici olarak kesin.",
+      "Dışkının görüntüsünü fotoğraflayın ve dışkılama sayısını not edin; kontrolde bu bilgi işe yarar."
+    ]},
+    {"type": "h2", "text": "Klinikte hangi sıra izlenir?"},
+    {"type": "p", "text": "İlk hedef nedeni bulmak değil, sıvı ve elektrolit dengesini düzeltmektir. Köpek stabil hâle geldikten sonra neden araştırması yapılır ve istenecek testler öykü ile muayene bulgularına göre seçilir."},
+    {"type": "ul", "items": [
+      "Sıvı kaybının derecesinin değerlendirilmesi ve gerekiyorsa damar yolundan sıvı desteği.",
+      "Karın palpasyonu ve gerektiğinde yabancı cisim ile tıkanma açısından görüntüleme.",
+      "Dışkı incelemesi ve parazit taraması; yavrularda parvovirüs testi.",
+      "Hemogram, biyokimya ve gerektiğinde pankreas belirteçlerinin değerlendirilmesi.",
+      "Bulantı kontrolü, mide koruyucu ve gerekiyorsa ağrı yönetimi.",
+      "Uzun süren vakalarda diyet denemesi ve ileri sindirim sistemi incelemeleri."
+    ]},
+    {"type": "h2", "text": "Antibiyotik her ishalde gerekir mi?"},
+    {"type": "p", "text": "Hayır. Basit, kendini sınırlayan ishallerin büyük bölümünde antibiyotik gerekmez ve gereksiz kullanım bağırsak florasını bozarak iyileşmeyi geciktirebilir. Antibiyotik kararı; ateş, kanlı ishal, sepsis bulguları ve laboratuvar sonuçları birlikte değerlendirilerek verilir."},
+    {"type": "h2", "text": "Aylarca süren ya da sürekli tekrarlayan ishal"},
+    {"type": "p", "text": "Üç haftadan uzun süren veya sık sık tekrarlayan ishal ayrı bir kategoridir ve akut ishalden farklı bir yol izler. Bu vakalarda parazit ve enfeksiyon dışlandıktan sonra beslenme kaynaklı duyarlılıklar, kronik enteropati, pankreas yetmezliği ve emilim bozuklukları araştırılır. Süreç genellikle planlı bir diyet denemesiyle başlar ve gerektiğinde endoskopik örnekleme ile sürdürülür."},
+    {"type": "h2", "text": "İshali önlemek için pratik önlemler"},
+    {"type": "p", "text": "İshal vakalarının önemli bir bölümü önlenebilir nedenlerden kaynaklanır. Aşağıdaki alışkanlıklar tekrar sıklığını belirgin biçimde azaltır."},
+    {"type": "ul", "items": [
+      "Mama değişikliklerini en az beş-yedi güne yayın.",
+      "Yürüyüşlerde yerden bir şey yemesini engelleyin; çöp ve leş teması sık bir nedendir.",
+      "Kemik, mısır koçanı ve küçük oyuncak parçalarını erişilebilir yerlerde bırakmayın.",
+      "Parazit kontrolünü yıl boyunca ve hekiminizin belirlediği aralıklarla sürdürün.",
+      "Aşı takvimini yavrulukta eksiksiz tamamlayın.",
+      "Ev bitkileri, temizlik ürünleri ve ilaç kutularını köpeğinizin ulaşamayacağı yerde tutun."
+    ]},
+    {"type": "p", "text": "Köpeğinizde siyah dışkı, kanlı ishal, ısrarlı kusma ya da halsizlik varsa ve özellikle aşı takvimi tamamlanmamış bir yavruysa beklemeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak 7/24 acil değerlendirme için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Köpeklerde ishal kaç günde geçer?", "a": "Genel durumu iyi olan erişkin köpeklerde basit ishaller çoğunlukla bir-iki gün içinde düzelir. Kırk sekiz saatten uzun süren, ağırlaşan ya da kusma, halsizlik veya kan ile birlikte seyreden ishal kendiliğinden düzelmeyi beklemeye uygun değildir."},
+    {"q": "Siyah renkli ishal ne anlama gelir?", "a": "Siyah ve katran kıvamındaki dışkı sindirilmiş kanı gösterir; kanamanın mide ya da ince bağırsak düzeyinde olduğunu düşündürür. Bu bulgu köpeğin genel durumu iyi görünse bile acil değerlendirme gerektirir."},
+    {"q": "Köpeğimi aç bırakmalı mıyım?", "a": "Uzun süreli açlık artık önerilmiyor. Kusma yoksa kolay sindirilen, yağı düşük öğünlerin küçük porsiyonlarla ve sık verilmesi bağırsak hücrelerinin beslenmesini destekler. Israrlı kusma varsa beslenme planı hekim tarafından düzenlenmelidir."},
+    {"q": "İnsan ishal ilacı verebilir miyim?", "a": "Hayır. Bu ilaçların bir kısmı köpeklerde ciddi yan etkilere yol açar ve bazı ırklarda küçük miktarlarda bile ağır nörolojik belirtilere neden olabilir. Ayrıca zararlı içeriğin atılmasını engelleyerek tabloyu ağırlaştırabilir."},
+    {"q": "Yavru köpeklerde ishal daha mı tehlikeli?", "a": "Evet. Yavrular sıvı ve şeker kaybına çok daha hızlı tepki verir. Aşı serisi tamamlanmamış bir yavruda su gibi ve kanlı ishal, kusma ve halsizlik varsa parvovirüs düşünülmeli ve beklenmeden kliniğe başvurulmalıdır."},
+    {"q": "Probiyotik vermek işe yarar mı?", "a": "Bazı akut vakalarda süreyi kısaltmaya yardımcı olabilir, ancak tanının yerini almaz. Kanlı ishal, ısrarlı kusma ya da genel durum bozukluğu varsa probiyotikle beklemek zaman kaybettirir; kullanım kararını hekiminizle birlikte verin."},
+    {"q": "İshal ile birlikte kusma da varsa ne değişir?", "a": "İkisinin birlikte görülmesi sıvı kaybını hızlandırır ve olası neden listesini genişletir; yabancı cisim, pankreas iltihabı, zehirlenme ve sistemik hastalıklar öne çıkar. Bu birliktelik daha erken değerlendirme gerektirir."},
+    {"q": "Aylardır aralıklı ishali var, ne yapılmalı?", "a": "Üç haftadan uzun süren ya da tekrarlayan ishal kronik olarak değerlendirilir. Önce parazit ve enfeksiyonlar dışlanır, ardından planlı bir diyet denemesi uygulanır; gerekirse görüntüleme ve endoskopik örnekleme ile bağırsak duvarı incelenir."}
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "veterinerlikte-yapay-zeka-teshis",
+  "title": "Veteriner hekimlikte yapay zekâ: röntgeni artık AI mı okuyor?",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-cancer-screening.jpg",
+  "imageAlt": "Başı okşanan gri tüylü bir köpek",
+  "date": "24 Ekim 2026",
+  "dateISO": "2026-10-24",
+  "updatedISO": "2026-10-24",
+  "excerpt": "Yapay zekâ destekli görüntü değerlendirme veteriner hekimliğe de girdi. 2026'da yayımlanan iki çalışma birbirine zıt görünen sonuçlar veriyor: ultrasonda umut verici, günlük pratikteki röntgenlerde ise beklenenin çok altında.",
+  "readTime": "8 dk okuma",
+  "keywords": [
+    "veterinerlikte yapay zeka",
+    "yapay zeka röntgen veteriner",
+    "AI ultrason köpek",
+    "veteriner teşhis teknolojisi",
+    "yapay zeka görüntüleme kedi",
+    "veteriner radyoloji",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Yapay zekâ destekli görüntü değerlendirme artık veteriner hekimlikte de kullanılıyor: röntgen filmlerini saniyeler içinde yorumladığını söyleyen ticari hizmetler var ve ultrasonda operatör deneyimini telafi etmeyi hedefleyen sistemler geliştiriliyor. Peki bu araçlar gerçekten ne kadar güvenilir? 2026'da yayımlanan iki çalışma, sorunun yanıtının nerede kullanıldığına bağlı olduğunu gösteriyor.",
+  "body": [
+    {"type": "h2", "text": "Yapay zekâ bir görüntüde ne yapar?"},
+    {"type": "p", "text": "Bu sistemler, çok sayıda etiketlenmiş görüntü üzerinde eğitilerek belirli örüntüleri tanımayı öğrenir. Bir röntgende akciğer dokusunun beklenenden yoğun görünmesi ya da bağırsak halkalarının aşırı genişlemesi gibi kalıpları saptayıp bunlara bir olasılık değeri atarlar. Yaptıkları şey hastalığı anlamak değil, gördükleri görüntünün eğitildikleri örneklere ne kadar benzediğini hesaplamaktır."},
+    {"type": "p", "text": "Bu ayrım sonuçları yorumlarken kritiktir. Bir sistemin eğitildiği görüntüler hangi cihazlardan, hangi hasta grubundan ve hangi çekim kalitesinden geliyorsa performansı da o koşullarda en yüksektir. Koşullar değiştiğinde başarı düşer; işte 2026'da yayımlanan iki çalışmanın farklı sonuçlar vermesinin nedeni de büyük ölçüde budur."},
+    {"type": "h2", "text": "Umut veren taraf: hasta başı ultrasonografi"},
+    {"type": "p", "text": "Frontiers in Veterinary Science dergisinde 10 Mart 2026'da yayımlanan bir çalışma, köpeklerde hasta başı ultrason görüntülerini değerlendiren yapay zekâ modellerini incelemiştir. Bu inceleme yöntemi, acil hastada karın ve göğüs boşluğunun hızlıca taranarak serbest sıvı ve belirgin anormalliklerin aranmasına dayanır."},
+    {"type": "ul", "items": [
+      "Diyafram ve karaciğer komşuluğunun değerlendirildiği bölgede duyarlılık yüzde 98, doğruluk yüzde 97 olarak bildirilmiştir.",
+      "Kalp zarında sıvı aranan bölgede duyarlılık yüzde 87, doğruluk yüzde 85'tir.",
+      "Göğüs boşluğunun değerlendirildiği bölgede duyarlılık yüzde 81, doğruluk yüzde 88'dir.",
+      "Dalak ve böbrek komşuluklarında duyarlılık yüzde 83, doğruluk yüzde 78'dir.",
+      "Mesane çevresinin değerlendirildiği bölgede duyarlılık yüzde 84, doğruluk yüzde 77'dir."
+    ]},
+    {"type": "p", "text": "Çalışmanın yazarları, hasta başı ultrasonun büyük ölçüde uygulayıcının deneyimine bağlı olduğunu ve yapay zekânın özellikle deneyimli personelin bulunmadığı koşullarda yardımcı olabileceğini belirtmektedir. Bu, teknolojinin gerçekçi vaadini iyi tarif eder: uzman yerine geçmek değil, uzmanın olmadığı yerde bir eşik oluşturmak."},
+    {"type": "h2", "text": "Uyarıcı taraf: günlük pratikteki röntgenler"},
+    {"type": "p", "text": "İkinci çalışma, ticari olarak sunulan altı yapay zekâ radyoloji hizmetini, akademik bir merkezde değil doğrudan genel pratikten toplanan köpek karın röntgenleri üzerinde bağımsız olarak sınamıştır. Sonuçlar JAVMA'da 2026 yılında yayımlanmıştır ve ilk çalışmadaki iyimser tabloyla belirgin biçimde çelişir."},
+    {"type": "p", "text": "İnce bağırsak tıkanmasının saptanmasında dengeli doğruluk yüzde 53 ile 79 arasında, duyarlılık ise yüzde 23 ile 69 arasında değişmiştir. Duyarlılığın yüzde 23'e kadar inmesi, bazı sistemlerin gerçek tıkanma vakalarının dörtte üçünü kaçırdığı anlamına gelir. İnce bağırsak tıkanması, saatler içinde cerrahi gerektirebilen ve kaçırıldığında ölümcül olabilen bir tablodur."},
+    {"type": "callout", "text": "Bu iki çalışmanın birlikte söylediği şey nettir: yapay zekâ bugün destekleyici bir ikinci göz olabilir, ancak veteriner hekimin yerini alacak bir teşhis aracı değildir. Bir yapay zekâ raporunun 'normal' demesi, muayene bulguları uygun olmadığında güven vermek için yeterli değildir. Klinik karar her zaman hayvanın kendisine bakılarak verilir."},
+    {"type": "h2", "text": "Duyarlılık ve doğruluk ne anlama geliyor?"},
+    {"type": "p", "text": "Bu sayıları doğru okumak, haberleri değerlendirmenin anahtarıdır. Duyarlılık, hastalığın gerçekten var olduğu durumlarda sistemin bunu yakalama oranıdır; düşük duyarlılık, hasta olanların gözden kaçtığı anlamına gelir. Doğruluk ise verilen tüm yanıtların ne kadarının isabetli olduğunu gösterir ve normal olguların çokluğu nedeniyle yanıltıcı biçimde yüksek çıkabilir."},
+    {"type": "p", "text": "Örnekle bakalım: her filme 'normal' diyen bir sistem, filmlerin yüzde doksanının gerçekten normal olduğu bir ortamda yüzde doksan doğruluk elde eder ama duyarlılığı sıfırdır ve hiçbir hastayı yakalayamaz. Bu yüzden bir aracın tanıtımında yalnızca doğruluk oranı veriliyorsa, sorulması gereken soru duyarlılığın ne olduğudur."},
+    {"type": "h2", "text": "Neden aynı teknoloji iki farklı sonuç veriyor?"},
+    {"type": "p", "text": "Fark büyük ölçüde görüntülerin nereden geldiğiyle ilgilidir. Yapay zekâ modelleri genellikle üniversite ve sevk merkezlerinden gelen, ideal pozisyonda çekilmiş ve tanısı kesinleşmiş görüntülerle eğitilir. Günlük pratikte ise film çekimi çoğu zaman huzursuz bir hastada, farklı cihazlarla ve daha zorlu koşullarda yapılır."},
+    {"type": "ul", "items": [
+      "Hastanın pozisyonu ve nefes evresi görüntüyü belirgin biçimde değiştirir.",
+      "Farklı cihazlar ve çekim ayarları modelin alışık olmadığı görüntüler üretir.",
+      "Sevk merkezlerinde hastalık sıklığı yüksektir; genel pratikte çoğu film normaldir ve bu, sonuçların anlamını değiştirir.",
+      "Modellerin eğitim verisi çoğunlukla belirli ırk ve vücut yapılarına ağırlık verir.",
+      "Bir sistemin kendi tanıtımında bildirdiği başarı, bağımsız sınamalarda genellikle daha düşük çıkar."
+    ]},
+    {"type": "h2", "text": "Bir yapay zekâ raporu size gösterilirse nelere dikkat etmelisiniz?"},
+    {"type": "p", "text": "Bu araçlar giderek daha çok kullanıldığı için sahiplerin de temel bir okuma çerçevesine sahip olması yararlıdır. Aşağıdaki sorular, raporu doğru yerine oturtmanızı sağlar."},
+    {"type": "ul", "items": [
+      "Raporu bir veteriner radyolog mu yoksa yalnızca bir yazılım mı hazırladı?",
+      "Yazılım bulgu için bir olasılık mı veriyor, kesin bir ifade mi kullanıyor?",
+      "Raporun sonucu hayvanın muayene bulgularıyla uyumlu mu?",
+      "Sonuç normalse, şikâyet devam ettiğinde hangi ek inceleme planlanıyor?",
+      "Karar yalnızca rapora mı dayanıyor, yoksa kan tahlili ve ultrason gibi başka veriler de var mı?"
+    ]},
+    {"type": "h2", "text": "Yapay zekânın gerçekten iyi olduğu alanlar"},
+    {"type": "p", "text": "Teknolojinin bugün en güvenilir katkısı, tanı koymaktan çok tekrarlayan işleri hızlandırmak ve gözden kaçmayı azaltmaktır. Bu alanlarda kazanç somuttur ve risk düşüktür."},
+    {"type": "ul", "items": [
+      "Kan sayımında hücrelerin ön sınıflandırılması ve anormal örneklerin işaretlenmesi.",
+      "Görüntülerde ölçüm yapılması ve karşılaştırmalı takip filmlerinin hizalanması.",
+      "Kayıtların taranarak takip zamanı gelen hastaların hatırlatılması.",
+      "Aynı hastanın önceki tetkiklerinin özetlenmesi ve değişimin öne çıkarılması.",
+      "Yoğun acil koşullarında ilk bakışta gözden kaçabilecek bulguların işaretlenmesi."
+    ]},
+    {"type": "h2", "text": "Sahipler için sonuç"},
+    {"type": "p", "text": "Yapay zekâ veteriner hekimliğe girmiştir ve doğru kullanıldığında yararlıdır. Ancak bugün için hiçbir sistem, bir hekimin hayvanı elleyerek yaptığı muayenenin, öykünün ve klinik yorumun yerini almaz. Görüntüleme bulguları her zaman hastanın kendisiyle birlikte değerlendirilir; bu iki çalışmanın da işaret ettiği temel nokta budur."},
+    {"type": "p", "text": "Pet Internal olarak bu araçları takip ediyor, ancak görüntüleme sonuçlarının hekim tarafından ve hayvanın klinik tablosuyla birlikte yorumlanmasından vazgeçmiyoruz. Bir yazılımın işaretlediği bulgu değerlendirmeyi başlatır, bitirmez; şüpheli durumlarda ileri inceleme ya da uzman görüşü planlanır. Teknolojinin bu alandaki asıl katkısı hız ve tutarlılıktır; kararın kendisi ise hâlâ muayene masasında verilir."},
+    {"type": "p", "text": "Dostunuz için görüntüleme ya da ileri tetkik planlanıyorsa, sonuçların nasıl yorumlandığını ve hangi adımların izleneceğini birlikte konuşmaktan çekinmeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne muayene ve randevu için 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Yapay zekâ veteriner hekimin yerini alacak mı?", "a": "Bugünkü verilerle hayır. Bağımsız sınamalarda ticari sistemlerin genel pratikten gelen röntgenlerde duyarlılığı yüzde 23'e kadar inebilmektedir. Bu araçlar destekleyici ikinci göz olarak değerlidir, ancak muayenenin ve klinik yorumun yerini almazlar."},
+    {"q": "Ultrason sonuçları neden daha iyi çıkmış?", "a": "Hasta başı ultrasonda aranan şey genellikle daha basit ve nettir; örneğin serbest sıvı olup olmadığı. Ayrıca çalışma standart bir protokole göre alınmış görüntülerle yapılmıştır. Röntgende ise ince bağırsak tıkanması gibi daha karmaşık ve değişken bir bulgu değerlendirilmiştir."},
+    {"q": "Kliniğimin yapay zekâ kullanması iyi bir şey mi?", "a": "Doğru kullanıldığında evet. Önemli olan yazılımın son sözü söyleyip söylemediğidir. Bulguların bir hekim tarafından değerlendirildiği, gerektiğinde radyoloji uzmanına danışıldığı ve sonucun muayene bulgularıyla birlikte yorumlandığı bir düzen güvenlidir."},
+    {"q": "Yapay zekâ raporu normal çıktı ama hayvanım hâlâ hasta, ne yapmalıyım?", "a": "Şikâyet sürüyorsa normal bir görüntüleme sonucu araştırmayı sonlandırmaz. Bazı tablolar röntgende görünmez ve bazı bulgular erken dönemde saptanamaz. Bu durumda ultrason, kan tahlilleri ya da takip filmi gibi ek adımlar planlanmalıdır."},
+    {"q": "Yapay zekâ kan tahlillerinde de kullanılıyor mu?", "a": "Evet, hücrelerin ön sınıflandırılması ve anormal örneklerin işaretlenmesinde kullanılmaktadır. Bu alanda katkı daha güvenilirdir, çünkü sistem karar vermek yerine incelenmesi gereken örnekleri öne çıkarır ve son değerlendirme yine uzman tarafından yapılır."},
+    {"q": "Bu çalışmalar kediler için de geçerli mi?", "a": "Aktarılan iki çalışma köpeklerde yapılmıştır. Kedilere doğrudan uyarlanamaz; vücut yapısı, görüntü özellikleri ve hastalık dağılımı farklıdır. Kedilerde bu araçların performansı ayrıca çalışılmayı gerektirir."},
+    {"q": "Bir hizmetin başarı oranını nasıl değerlendirmeliyim?", "a": "Şirketin kendi tanıtımında bildirdiği rakamlar ile bağımsız sınamalardan çıkan rakamlar genellikle farklıdır. Anlamlı olan, sistemin hangi hasta grubunda, hangi merkezlerde ve kim tarafından sınandığıdır. Bağımsız yayınlanmış veri yoksa bildirilen orana temkinli yaklaşmak gerekir."},
+    {"q": "Filmimi bir yapay zekâ uygulamasına yükleyip yorumlatabilir miyim?", "a": "Bunu bir karar aracı olarak kullanmanızı önermeyiz. Sahiplere açık genel amaçlı uygulamalar veteriner görüntüleme için doğrulanmamıştır ve verdikleri yanıt hayvanın öyküsünü, muayene bulgularını ve laboratuvar sonuçlarını hiç bilmeden üretilir. Yanlış bir güvence, gerçek bir sorunda gecikmeye yol açabilir."}
+  ]
+}

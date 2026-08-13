@@ -1,0 +1,96 @@
+{
+  "slug": "kedi-ve-kopeklerde-pankreatit",
+  "title": "Kedi ve köpeklerde pankreatit: iki türde neden bu kadar farklı?",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-vomiting.jpg",
+  "imageAlt": "Yumuşak bir battaniyede uyuyan tekir bir kedi",
+  "date": "29 Eylül 2026",
+  "dateISO": "2026-09-29",
+  "updatedISO": "2026-09-29",
+  "excerpt": "Pankreas iltihabı köpeklerde gürültülü, kedilerde neredeyse sessiz seyreder. İki türdeki farkları, fPL ve cPL testlerinin ne işe yaradığını ve uzun açlık yerine erken beslenmeyi öne çıkaran güncel yaklaşımı anlatıyoruz.",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "kedilerde pankreatit",
+    "köpeklerde pankreatit",
+    "pankreas iltihabı belirtileri",
+    "fPL testi",
+    "pankreatit beslenme",
+    "köpekte karın ağrısı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Pankreas, hem sindirim enzimlerini hem insülini üreten küçük ama kritik bir organdır. İltihaplandığında ürettiği enzimler kendi dokusunu sindirmeye başlar ve ortaya ağrılı, bazen hayatı tehdit eden bir tablo çıkar. En şaşırtıcı yanı, aynı hastalığın kedilerle köpeklerde tamamen farklı görünmesidir. Bu yazıda iki türdeki farkları, tanının neden zor olduğunu ve tedavideki güncel yaklaşımı ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Pankreasta ne oluyor?"},
+    {"type": "p", "text": "Pankreas, sindirim enzimlerini normalde etkisiz bir öncü biçimde üretir ve bu enzimler ancak bağırsağa ulaştıklarında etkinleşir. Pankreatitte bu güvenlik mekanizması bozulur: enzimler organın içinde etkinleşir ve kendi dokusunu sindirmeye başlar. Ortaya çıkan iltihap yalnızca pankreasla sınırlı kalmayabilir, komşu organlara ve ağır vakalarda tüm vücuda yayılabilir."},
+    {"type": "p", "text": "Hastalığın şiddeti çok geniş bir aralıkta değişir. Hafif vakalar birkaç gün destekleyici bakımla düzelirken, ağır vakalarda pıhtılaşma bozuklukları, böbrek hasarı ve dolaşım yetmezliği gelişebilir. Bu nedenle hafif ile ağır arasındaki ayrım, tedavi planının ilk sorusudur."},
+    {"type": "h2", "text": "Köpeklerde tablo: gürültülü ve ani"},
+    {"type": "p", "text": "Köpeklerde pankreatit çoğunlukla akut ve belirgin biçimde ortaya çıkar. Sahip genellikle olayın ne zaman başladığını saat olarak söyleyebilir. Yağlı bir öğün, çöp karıştırma ya da bayram sonrası artık yemekler sık rastlanan tetikleyicilerdir; ancak vakaların önemli bir bölümünde belirgin bir tetikleyici bulunamaz."},
+    {"type": "ul", "items": [
+      "Tekrarlayan ve inatçı kusma, ardından iştahın tamamen kesilmesi.",
+      "Karın ağrısı; köpeğin ön ayaklarını uzatıp arka kısmını havada tuttuğu dua pozisyonu tipiktir.",
+      "Halsizlik, huzursuzluk ve sürekli yer değiştirme.",
+      "İshal, çoğu zaman kusmaya eşlik eder.",
+      "Ateş ya da ağır vakalarda vücut sıcaklığının düşmesi.",
+      "Karnın dokunulmasına izin verilmemesi ve gerginlik."
+    ]},
+    {"type": "p", "text": "Miniature Schnauzer, Yorkshire Terrier ve Cocker Spaniel gibi bazı ırklarda hastalık daha sık bildirilir. Kan yağlarının yüksek seyrettiği köpekler, obez bireyler ve bazı ilaçları kullananlar da risk grubundadır."},
+    {"type": "h2", "text": "Kedilerde tablo: neredeyse sessiz"},
+    {"type": "p", "text": "Kedilerde aynı hastalık tamamen farklı görünür. Kediler ağrıyı ve rahatsızlığı gizleme konusunda ustadır; bu nedenle klasik kusma ve karın ağrısı üçlüsü çoğu kedide yoktur. Sahibin fark ettiği tek şey genellikle kedinin durgunlaşması ve yemekten kesilmesidir."},
+    {"type": "ul", "items": [
+      "İştahsızlık ve halsizlik; çoğu kedide tek belirtidir.",
+      "Kilo kaybı ve su alımında azalma.",
+      "Kusma köpeklerdeki kadar sık değildir ve olmayabilir.",
+      "Karın ağrısı belirgin biçimde ifade edilmez; muayenede bile fark edilmeyebilir.",
+      "Vücut sıcaklığı düşük seyredebilir.",
+      "Sarılık, karaciğer ve safra yolları da etkilendiğinde ortaya çıkabilir."
+    ]},
+    {"type": "p", "text": "Kedilerde pankreatit sıklıkla tek başına değil, karaciğer-safra yolları ve bağırsak iltihabıyla birlikte seyreder. Bu birliktelik nedeniyle bir kedide pankreatit saptandığında diğer iki sistemin de değerlendirilmesi gerekir. Ayrıca uzun süre yemeyen kedilerde karaciğer yağlanması riski hızla yükselir; bu, kedilerde beslenmenin neden bekletilemediğinin temel nedenidir."},
+    {"type": "h2", "text": "Tanı neden zor?"},
+    {"type": "p", "text": "Pankreatit için tek başına kesin sonuç veren bir test yoktur. Tanı, klinik tablo, kan testleri ve görüntülemenin birlikte yorumlanmasıyla konur. Eski dönemde kullanılan genel amilaz ve lipaz ölçümleri kedi ve köpeklerde güvenilir değildir; bu değerlerin normal olması hastalığı dışlamaz."},
+    {"type": "ul", "items": [
+      "Türe özgü pankreas lipazı testleri: köpekler için cPL, kediler için fPL. Hızlı test ve laboratuvar ölçümü biçiminde bulunur ve tanıya en çok katkı sağlayan testlerdir.",
+      "Hemogram ve biyokimya: iltihabi yanıt, karaciğer değerleri, böbrek işlevi, kan yağları ve elektrolit dengesi değerlendirilir.",
+      "Karın ultrasonografisi: pankreasın büyümesi, çevresindeki yağ dokusunun değişimi ve serbest sıvı görülebilir. Deneyimli elde değerlidir ancak erken dönemde normal görünebilir.",
+      "Röntgen: pankreatit tanısı koymaz, ancak tıkanma gibi benzer tabloları dışlamada kullanılır.",
+      "Kedilerde ek olarak karaciğer, safra yolları ve bağırsak duvarının değerlendirilmesi."
+    ]},
+    {"type": "p", "text": "Bu testlerin hiçbiri tek başına yeterli değildir. Klinik tablosu uygun bir hayvanda pozitif bir pankreas lipazı testi tanıyı büyük ölçüde destekler; buna karşılık test sonucu ile hastalığın şiddeti arasında doğrudan bir ilişki yoktur."},
+    {"type": "callout", "text": "Uzun süreli aç bırakma artık pankreatit tedavisinin bir parçası değildir. Güncel yaklaşım, bulantı kontrol altına alındıktan sonra beslenmeye erken başlamak yönündedir; erken beslenme bağırsak duvarının bütünlüğünü korur ve iyileşmeyi hızlandırır. Bu özellikle kedilerde kritiktir, çünkü uzayan açlık karaciğer yağlanmasına yol açar. Beslenme planını mutlaka hekiminizle birlikte yapın."},
+    {"type": "h2", "text": "Tedavide ne yapılır?"},
+    {"type": "p", "text": "Pankreatitin doğrudan bir ilacı yoktur; tedavi destekleyicidir ve pankreasın kendini onarması için uygun koşulları sağlamayı hedefler. Bu destek üç ayak üzerine kurulur: sıvı dengesi, ağrı kontrolü ve beslenme."},
+    {"type": "ul", "items": [
+      "Damar yolundan sıvı tedavisi: pankreas dolaşımını korumanın ve elektrolit dengesini düzeltmenin temel yoludur.",
+      "Ağrı yönetimi: pankreatit ağrılı bir hastalıktır ve kedilerde ağrı belirgin biçimde ifade edilmediği için sıklıkla eksik tedavi edilir.",
+      "Bulantı kontrolü: maropitant gibi bulantı kesici moleküller kullanılır. Ürünlerin ruhsat durumu ülkeden ülkeye değişir; seçim hekim tarafından yapılır.",
+      "Erken beslenme: bulantı kontrol altına alındıktan sonra yağı düşük, kolay sindirilen öğünlerle başlanır.",
+      "Yemek yemeyen hastalarda beslenme tüpü ile destek; özellikle kedilerde erken gündeme gelir.",
+      "Ağır vakalarda plazma desteği, ek organ desteği ve yoğun takip."
+    ]},
+    {"type": "h2", "text": "Toparlanma ve uzun vadeli riskler"},
+    {"type": "p", "text": "Hafif vakaların çoğu birkaç gün içinde belirgin biçimde düzelir. Ağır vakalarda yatış süresi uzayabilir ve iyileşme haftalar alabilir. Bazı hayvanlarda hastalık tekrarlar; tekrarlayan ataklar zamanla pankreas dokusunda kalıcı hasara yol açarak diyabet ya da sindirim enzimi yetmezliği gelişmesine zemin hazırlayabilir."},
+    {"type": "p", "text": "Bu nedenle taburculuk süreci kadar sonrasındaki beslenme düzeni de önemlidir. Köpeklerde yağı düşük bir beslenme planına uzun süre sadık kalmak, tekrar sıklığını belirgin biçimde azaltır. Kedilerde ise beslenmenin sürekliliği ve eşlik eden bağırsak ile karaciğer sorunlarının yönetimi öne çıkar."},
+    {"type": "p", "text": "Pankreas dokusunun yeterli bölümü hasar gördüğünde iki ayrı sonuç ortaya çıkabilir. İnsülin üreten hücrelerin kaybı diyabete yol açar; sindirim enzimi üreten bölümün yetersizleşmesi ise yediğini sindiremeyen, sürekli aç görünen, kilo veren ve yağlı dışkı çıkaran bir tabloya neden olur. Her ikisi de yönetilebilir durumlardır ancak ömür boyu takip gerektirir; bu nedenle pankreatit geçirmiş hayvanlarda yıllık kontroller ihmal edilmemelidir."},
+    {"type": "h2", "text": "Tekrarı önlemek için"},
+    {"type": "p", "text": "Pankreatit geçirmiş bir hayvanda alınacak basit önlemler, yeni bir atağın olasılığını azaltır."},
+    {"type": "ul", "items": [
+      "Yağlı insan yiyeceklerini, artık yemekleri ve kızartmaları tamamen kesin.",
+      "Çöp kovalarını kapalı tutun ve mutfak artıklarına erişimi engelleyin.",
+      "Kilo fazlası varsa hekim gözetiminde kademeli bir zayıflama programı uygulayın.",
+      "Kan yağları yüksek seyreden köpeklerde düzenli kontrol yaptırın.",
+      "Mama değişikliklerini yavaş yapın ve önerilen diyete sadık kalın.",
+      "İştahsızlık, kusma ya da durgunluk tekrarlarsa beklemeden başvurun."
+    ]},
+    {"type": "p", "text": "Dostunuzda inatçı kusma, karın ağrısı ya da birkaç gündür süren iştahsızlık varsa değerlendirmeyi ertelemeyin; kedilerde tek belirti durgunluk olabilir. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne muayene ve randevu için 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Pankreatit kedilerde neden geç fark ediliyor?", "a": "Kediler ağrıyı gizleme konusunda ustadır ve köpeklerdeki gibi belirgin kusma ile karın ağrısı çoğu kedide görülmez. Sahibin fark ettiği tek bulgu genellikle durgunluk ve iştahsızlıktır; bu da hastalığın ilerlemesine kadar tanının gecikmesine yol açar."},
+    {"q": "fPL ve cPL testleri kesin tanı koyar mı?", "a": "Bu testler pankreasa özgüdür ve tanıya en çok katkı sağlayan araçlardır, ancak tek başlarına kesin tanı koymazlar. Klinik tablo, ultrason bulguları ve diğer kan sonuçlarıyla birlikte yorumlanmaları gerekir. Test sonucu hastalığın şiddetini de doğrudan yansıtmaz."},
+    {"q": "Pankreatitli hayvanı aç bırakmalı mıyım?", "a": "Hayır. Uzun süreli açlık artık önerilmiyor. Bulantı kontrol altına alındıktan sonra yağı düşük ve kolay sindirilen öğünlerle erken beslenme tercih edilir. Kedilerde açlık süresi uzadığında karaciğer yağlanması riski hızla arttığı için bu yaklaşım daha da önemlidir."},
+    {"q": "Hastalık tekrar eder mi?", "a": "Edebilir. Özellikle kan yağları yüksek seyreden köpeklerde ve beslenme düzenine dönülen hayvanlarda tekrar sık görülür. Tekrarlayan ataklar zamanla pankreas dokusunda kalıcı hasara ve diyabete zemin hazırlayabilir."},
+    {"q": "Ameliyat gerekir mi?", "a": "Pankreatitin kendisi genellikle cerrahi gerektirmez ve tedavi destekleyicidir. Cerrahi yalnızca safra yolu tıkanması, apse ya da pankreasta gelişen içi sıvı dolu kist gibi komplikasyonlarda gündeme gelir."},
+    {"q": "Hangi mama uygun?", "a": "Köpeklerde yağı düşük, sindirimi kolay ve sabit bir diyet önerilir; bu diyete uzun süre sadık kalmak tekrar riskini azaltır. Kedilerde yağ kısıtlaması köpeklerdeki kadar belirleyici değildir; öncelik kedinin yeterli kaloriyi düzenli biçimde almasıdır. Seçim hekiminizle birlikte yapılmalıdır."},
+    {"q": "Ağrı kesici verilmesi gerekir mi?", "a": "Evet. Pankreatit ağrılı bir hastalıktır ve ağrının kontrol edilmesi iyileşmenin bir parçasıdır. Ancak insanlar için üretilmiş ağrı kesiciler kedi ve köpeklerde ciddi zehirlenmelere yol açar; ağrı yönetimi mutlaka hekim tarafından planlanmalıdır."},
+    {"q": "Ne kadar sürede iyileşir?", "a": "Hafif vakalar genellikle birkaç gün içinde belirgin biçimde düzelir. Ağır vakalarda yatış süresi uzayabilir ve tam toparlanma haftalar alabilir. Kedilerde beslenme desteği gerekiyorsa süreç daha uzun ve daha yakın takipli yürütülür."}
+  ]
+}
