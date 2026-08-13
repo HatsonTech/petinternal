@@ -31,7 +31,7 @@ export const site = {
 
 // Root-anchored so they work from any route (e.g. /blog/...), not just home.
 export const navLinks = [
-  { label: "Hizmetler", href: "/#hizmetler" },
+  { label: "Hizmetler", href: "/hizmetler" },
   { label: "Hakkımızda", href: "/#hakkimizda" },
   { label: "Blog", href: "/blog" },
   { label: "İletişim", href: "/#iletisim" },

@@ -3,6 +3,10 @@ import { Brand } from "@/components/brand";
 import { WhatsAppIcon } from "@/components/icons";
 import { navLinks, site } from "@/lib/site";
 
+// Footer-only extra: the geo landing pages need one crawlable entry point.
+// Added here rather than in navLinks so the header stays as-is.
+const footerLinks = [...navLinks, { label: "Bölgeler", href: "/veteriner" }];
+
 const socials = [
   { icon: Instagram, href: site.social.instagram, label: "Instagram" },
   { icon: WhatsAppIcon, href: site.whatsapp, label: "WhatsApp" },
@@ -42,7 +46,7 @@ export function SiteFooter() {
               Hızlı Erişim
             </h3>
             <ul className="mt-4 space-y-2.5 text-sm">
-              {navLinks.map((l) => (
+              {footerLinks.map((l) => (
                 <li key={l.href}>
                   <a
                     href={l.href}
