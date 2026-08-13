@@ -1,0 +1,95 @@
+{
+  "slug": "kis-aylarinda-pati-bakimi",
+  "title": "Kış bakımı: antifriz, tuzlu yol ve motor kaputundaki kedi",
+  "category": "Mevsimsel Bakım",
+  "image": "/images/blog-poisoning.jpg",
+  "imageAlt": "Koyu zemin üzerinde duran bitter çikolata parçaları",
+  "date": "5 Kasım 2026",
+  "dateISO": "2026-11-05",
+  "updatedISO": "2026-11-05",
+  "excerpt": "Kışın en büyük riski soğuk değil, soğukla birlikte gelen maddelerdir. Antifrizin aldatıcı üç aşamalı seyri, yol tuzunun patilerde yaptığı tahriş ve motor bölmesine sığınan kediler için pratik bir kış rehberi.",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "kışın kedi köpek bakımı",
+    "antifriz zehirlenmesi",
+    "etilen glikol kedi",
+    "kışın pati bakımı",
+    "yol tuzu pati tahrişi",
+    "araba motorunda kedi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kış aylarında kedi ve köpeklerin karşılaştığı en ciddi tehlike, düşünülenin aksine soğuğun kendisi değildir. Asıl risk, mevsimle birlikte ortama giren maddelerdir: otoparklara damlayan antifriz, kaldırımlara serilen tuz ve ısınmak için motor bölmesine sığınan kediler. Bu yazıda bu üç başlığı, Ankara kışında pratikte karşılığı olan önlemlerle birlikte ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Antifriz: tatlı tadı olan bir zehir"},
+    {"type": "p", "text": "Antifrizlerin çoğunun ana maddesi etilen glikoldür. Bu maddenin tehlikeli olmasının iki nedeni vardır: tadı tatlıdır ve hem kediler hem köpekler tarafından isteyerek yalanır; ayrıca çok küçük miktarları bile ölümcül olabilir. Kedilerde birkaç yudum, köpeklerde ise vücut ağırlığına göre daha az bir miktar geri dönüşsüz böbrek hasarı için yeterlidir."},
+    {"type": "p", "text": "Otopark zeminine damlayan bir radyatör sıvısı, park hâlindeki bir aracın altında biriken bir gölet ya da garajda açık bırakılmış bir bidon kışın en sık karşılaşılan kaynaklardır. Ayrıca bazı buz çözücü ürünler ve cam suyu katkıları da benzer maddeler içerebilir."},
+    {"type": "h2", "text": "Aldatıcı üç aşama"},
+    {"type": "p", "text": "Antifriz zehirlenmesini bu kadar tehlikeli yapan şey, seyrinin sahibi yanıltmasıdır. Tablo üç aşamada ilerler ve ortadaki aşama iyileşme izlenimi verir."},
+    {"type": "ul", "items": [
+      "Birinci aşama, ilk saatlerde başlar: sarhoş görünüm, dengesiz yürüme, kusma, çok su içme ve çok idrar yapma.",
+      "İkinci aşama, yaklaşık on iki saat sonra gelir: hayvan toparlanmış gibi görünür, yürüyüşü düzelir ve sahip riskin geçtiğini düşünür. Oysa bu dönemde böbreklerde kristal birikimi sürmektedir.",
+      "Üçüncü aşama, bir ila üç gün içinde ortaya çıkar: idrar çıkışı azalır ya da tamamen durur, kusma yeniden başlar, halsizlik derinleşir ve böbrek yetmezliği tablosu yerleşir.",
+      "Üçüncü aşamaya ulaşmış vakalarda tedavi başarısı belirgin biçimde düşer.",
+      "Bu nedenle karar, belirtiye göre değil temas şüphesine göre verilmelidir."
+    ]},
+    {"type": "callout", "text": "Antifriz zehirlenmesinde tedavinin başarısı doğrudan geçen süreye bağlıdır. En etkili müdahale ilk saatlerde yapılır ve hayvan tamamen normal görünürken uygulanır. Bu nedenle şüphelenilen bir temas varsa belirti beklemeyin, evde kusturmaya çalışmayın ve hiç vakit kaybetmeden kliniği arayarak yola çıkın. Kediniz otoparkta bulunmuşsa ve dengesiz yürüyorsa bu tablo aksi ispatlanana kadar antifriz kabul edilmelidir."},
+    {"type": "h2", "text": "Antifrizden korunmak için"},
+    {"type": "p", "text": "Bu zehirlenmenin neredeyse tamamı önlenebilirdir ve alınacak önlemler basittir."},
+    {"type": "ul", "items": [
+      "Aracınızın altında sızıntı olup olmadığını kış başında kontrol ettirin.",
+      "Antifriz ve cam suyu bidonlarını kapalı, yüksek ve hayvanların ulaşamayacağı bir yerde saklayın.",
+      "Dökülen sıvıyı hemen ve bolca suyla temizleyin; emici bir malzemeyle toplayın.",
+      "Apartman otoparkında oluşan renkli gölcükleri yöneticiye bildirin.",
+      "Mümkünse propilen glikol içeren, daha az toksik alternatifleri tercih edin.",
+      "Köpeğinizi otopark ve garaj zeminlerinden bir şey yalarken kesinlikle serbest bırakmayın."
+    ]},
+    {"type": "h2", "text": "Motor bölmesine sığınan kediler"},
+    {"type": "p", "text": "Kışın sokak kedileri ısınmak için yeni park etmiş araçların motor bölmesine girer. Sıcak motor bloğu ideal bir sığınaktır ve kedi orada uykuya dalar. Araç çalıştırıldığında ise kayış ve fan kanatları arasında ağır, çoğu zaman ölümcül yaralanmalar meydana gelir."},
+    {"type": "p", "text": "Bunun önlenmesi son derece kolaydır ve yalnızca birkaç saniye sürer. Aracınızı çalıştırmadan önce kaputa birkaç kez sertçe vurun, korna çalın ve mümkünse tekerlek diplerine bakın. Bu alışkanlık kış boyunca sürdürüldüğünde çok sayıda kedinin hayatını kurtarır. Aynı şekilde park hâlindeki araçların altında uyuyan kedilere karşı da hareket etmeden önce kısa bir kontrol yapmak yerinde olur."},
+    {"type": "h2", "text": "Yol tuzu ve buz çözücüler"},
+    {"type": "p", "text": "Kaldırımlara ve merdivenlere serilen tuz, patiler için iki ayrı sorun yaratır. Birincisi doğrudan temas tahrişidir: tuz kristalleri pati yastıklarındaki mikro çatlaklara girer, yanma ve kızarıklık yapar. İkincisi ise yutulmasıdır; köpek eve döndüğünde patilerini yalar ve tuzu alır. Bu, mide bulantısı, kusma ve fazla miktarda alındığında daha ciddi tablolara yol açabilir."},
+    {"type": "ul", "items": [
+      "Yürüyüş dönüşü patileri ılık suyla yıkayıp iyice kurulayın; parmak aralarını ihmal etmeyin.",
+      "Parmak arasındaki tüyleri kısa tutun; uzun tüyler arasında buz topakları oluşur ve ağrı yapar.",
+      "Kaymaz tabanlı pati botları tolere ediliyorsa iyi bir çözümdür; alıştırma kademeli yapılmalıdır.",
+      "Pati yastıkları çatlıyorsa hekiminizin önerdiği bir bakım ürünü kullanın.",
+      "Evinizin girişinde hayvan dostu buz çözücü tercih edin.",
+      "Yürüyüş sırasında köpeğinizin biriken kar ve tuz karışımını yalamasına izin vermeyin."
+    ]},
+    {"type": "h2", "text": "Soğuk hangi hayvanlar için gerçekten risklidir?"},
+    {"type": "p", "text": "Sağlıklı, tüy örtüsü kalın ve orta-büyük ırk bir köpek Ankara kışını sorunsuz geçirir. Buna karşılık bazı gruplar için soğuk gerçek bir risktir ve bu hayvanlarda dışarıda geçirilen süre kısıtlanmalıdır."},
+    {"type": "ul", "items": [
+      "Yavrular ve çok yaşlı hayvanlar; vücut ısısını korumakta zorlanırlar.",
+      "Kısa tüylü ve ince yapılı ırklar.",
+      "Kronik hastalığı olanlar, özellikle kalp, böbrek ve hormonal hastalıklar.",
+      "Eklem kireçlenmesi olan hayvanlar; soğuk ağrıyı belirgin biçimde artırır.",
+      "Yeni tıraş edilmiş ya da ameliyat sonrası dönemdeki hayvanlar.",
+      "Zayıf, kilo kaybetmiş ve genel durumu düşkün olanlar."
+    ]},
+    {"type": "h2", "text": "Kışın gözden kaçan diğer riskler"},
+    {"type": "p", "text": "Mevsimle birlikte eve giren birkaç başka tehlike daha vardır ve bunlar genellikle akla gelmez."},
+    {"type": "ul", "items": [
+      "Elektrikli ısıtıcılar ve sobalar: temas yanıkları ve devrilme riski yaratır; hayvanın uzanabileceği mesafeye koruma yerleştirin.",
+      "Battaniyeli ısıtıcı pedler: uzun süreli temasta düşük ısıda bile yanık oluşturabilir.",
+      "Kapalı ortamda azalan havalandırma: baca gazı ve karbonmonoksit riski hayvanları da etkiler.",
+      "Kışın azalan hareket: kilo alımını hızlandırır, iç mekân oyunlarıyla dengelenmelidir.",
+      "Yılbaşı süsleri, çam iğneleri ve mumlar: yutulma ve yanık kaynağıdır.",
+      "Kuru hava: deride kaşıntı ve pullanmayı artırabilir."
+    ]},
+    {"type": "h2", "text": "Kış boyunca beslenme ve hareket"},
+    {"type": "p", "text": "Kışın kalori ihtiyacının arttığı yaygın bir inanıştır, ancak bu yalnızca dışarıda yaşayan hayvanlar için geçerlidir. Ev içinde yaşayan bir kedi ya da köpekte kışın hareket azaldığı için ihtiyaç genellikle düşer. Porsiyonu artırmak yerine hareketi korumaya çalışmak daha doğrudur."},
+    {"type": "p", "text": "Bahçede ya da dışarıda yaşayan hayvanlarda ise durum farklıdır: vücut ısısını korumak ek enerji gerektirir ve porsiyon artırılabilir. Bu hayvanlarda su kabının donmaması da en az mama kadar önemlidir; susuz kalmak kışın da sık bir sorundur."},
+    {"type": "p", "text": "Kedinizde ya da köpeğinizde antifriz teması şüphesi, ani dengesizlik, kusma veya idrar çıkışında azalma varsa vakit kaybetmeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak 7/24 acil değerlendirme için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Köpeğim otoparkta bir şey yaladı, ne yapmalıyım?", "a": "Belirti beklemeden hemen kliniği arayın ve yola çıkın. Antifriz zehirlenmesinde tedavinin başarısı doğrudan geçen süreye bağlıdır ve en etkili müdahale, hayvan henüz tamamen normal görünürken ilk saatlerde yapılır. Evde kusturmaya çalışmayın."},
+    {"q": "Antifriz zehirlenmesi neden iyileşiyor gibi görünüyor?", "a": "Tablo üç aşamada ilerler ve yaklaşık on iki saat sonraki ikinci aşamada hayvan toparlanmış gibi görünür. Bu yanıltıcı dönemde böbreklerde kristal birikimi sürmektedir. Üçüncü aşamada idrar çıkışı azalır ve böbrek yetmezliği yerleşir; bu noktada tedavi başarısı belirgin biçimde düşer."},
+    {"q": "Aracımı çalıştırmadan önce gerçekten kaputa vurmalı mıyım?", "a": "Evet. Kışın sokak kedileri ısınmak için motor bölmesine girer ve araç çalıştığında kayış ile fan kanatları arasında ağır yaralanmalar olur. Kaputa birkaç kez sertçe vurmak ve korna çalmak birkaç saniye sürer, ancak çok sayıda kedinin hayatını kurtarır."},
+    {"q": "Köpeğime kışın mont giydirmeli miyim?", "a": "Sağlıklı, kalın tüylü ve orta-büyük ırk köpeklerde genellikle gerekmez. Yavrular, yaşlılar, kısa tüylü ırklar, kronik hastalığı olanlar ve eklem ağrısı bulunanlar için ise yararlıdır. Giysinin hareketi kısıtlamaması ve ıslandığında değiştirilmesi önemlidir."},
+    {"q": "Yol tuzu patilere zarar verir mi?", "a": "Evet. Tuz kristalleri pati yastıklarında tahriş, yanma ve kızarıklık yapar. Ayrıca köpek eve döndüğünde patilerini yalayarak tuzu alır ve bu mide bulantısına yol açabilir. Yürüyüş dönüşü patileri ılık suyla yıkayıp kurulamak en etkili önlemdir."},
+    {"q": "Kışın mama miktarını artırmalı mıyım?", "a": "Ev içinde yaşayan hayvanlarda genellikle hayır; kışın hareket azaldığı için ihtiyaç çoğu zaman düşer. Dışarıda yaşayan hayvanlarda ise vücut ısısını korumak ek enerji gerektirdiği için porsiyon artırılabilir ve su kabının donmaması sağlanmalıdır."},
+    {"q": "Kedim kışın dışarı çıkmıyor, yine de risk var mı?", "a": "Antifriz ve yol tuzu riski azalır ama ortadan kalkmaz; bu maddeler ayakkabı ve kıyafetlerle eve taşınabilir. Ayrıca ısıtıcı temas yanıkları, azalan hareketle gelen kilo alımı ve yılbaşı süsleri ev içinde yaşayan kediler için kışa özgü risklerdir."},
+    {"q": "Patilerde buz topağı oluşuyor, ne yapmalıyım?", "a": "Parmak aralarındaki tüyleri kısa tutmak en etkili önlemdir; uzun tüyler arasında oluşan topaklar ağrı yapar ve yürüyüşü bozar. Yürüyüş dönüşü patileri ılık suyla yıkayıp kurulayın, topakları makasla değil suyla çözün."}
+  ]
+}

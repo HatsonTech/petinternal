@@ -1,0 +1,104 @@
+{
+  "slug": "kopeklerde-kusma-mi-regurgitasyon-mu",
+  "title": "Kusma mı, regurgitasyon mu? Köpeğinizde farkı nasıl anlarsınız?",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-dog-bloat.jpg",
+  "imageAlt": "Yere uzanmış derin göğüslü büyük ırk bir köpek",
+  "date": "19 Eylül 2026",
+  "dateISO": "2026-09-19",
+  "updatedISO": "2026-09-19",
+  "excerpt": "Mamayı olduğu gibi, hazmedilmemiş biçimde çıkaran bir köpek kusmuyor olabilir. Kusma ile regurgitasyon arasındaki fark, hastalık listesini ve yapılacak tetkikleri baştan sona değiştirir. İkisini evde nasıl ayırt edersiniz?",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "köpeklerde kusma",
+    "köpekte regurgitasyon",
+    "köpek mamayı olduğu gibi çıkarıyor",
+    "megaözofagus",
+    "köpek beyaz köpük kusuyor",
+    "köpekte yemek borusu hastalığı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Köpeğinin ağzından yiyecek çıktığını gören her sahip bunu kusma olarak tanımlar. Oysa veteriner hekimlikte iki farklı olay vardır ve ayrımları tanı sürecinin en belirleyici adımıdır: kusma midenin aktif olarak boşaltılmasıdır, regurgitasyon ise yemek borusunda biriken içeriğin zahmetsizce geri gelmesidir. Bu yazıda ikisini evde nasıl ayırt edeceğinizi, hangi hastalıkların hangi tabloya yol açtığını ve neden bu ayrımın hayati olduğunu anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "İki farklı olay, iki farklı hastalık listesi"},
+    {"type": "p", "text": "Kusma, beyindeki kusma merkezinin devreye girmesiyle başlayan aktif bir süreçtir. Öncesinde bulantı belirtileri görülür, karın kasları güçlü biçimde kasılır ve mide içeriği dışarı atılır. Regurgitasyonda ise böyle bir süreç yoktur: yemek borusunda ilerleyemeyen içerik, köpek başını eğdiğinde ya da hareket ettiğinde yerçekimiyle geri gelir."},
+    {"type": "p", "text": "Bu ayrım akademik bir ayrıntı değildir. Kusma araştırılırken mide, bağırsak, pankreas, böbrek, karaciğer ve bazı hormonal hastalıklar gündeme gelir. Regurgitasyon araştırılırken ise doğrudan yemek borusuna odaklanılır ve tamamen farklı bir hastalık listesi devreye girer. Yanlış kategoriye konan bir hasta, haftalarca yanlış testlerle takip edilebilir."},
+    {"type": "h2", "text": "Evde ayırt etmeyi sağlayan ipuçları"},
+    {"type": "p", "text": "Sahibin gözlemi, bu ayrımda hekimin elindeki en değerli bilgidir. Aşağıdaki farklar çoğu vakada yeterli olur."},
+    {"type": "ul", "items": [
+      "Kusmadan önce huzursuzluk, salya artışı, dudak yalama ve karın kasılmaları görülür; regurgitasyonda bu hazırlık dönemi yoktur.",
+      "Kusmuk genellikle sindirilmiş, sarımsı ya da safralı ve ekşi kokuludur; regurgite edilen içerik mamayı olduğu gibi, hazmedilmemiş biçimde içerir.",
+      "Regurgite edilen materyal sıklıkla silindir biçimindedir ve köpüklü bir salgıyla kaplıdır.",
+      "Regurgitasyon çoğu zaman öğünden hemen sonra ya da köpek başını eğdiğinde ortaya çıkar.",
+      "Kusma tekrarlandığında köpek genellikle halsizleşir; regurgite eden köpek olaydan hemen sonra yeniden yemek isteyebilir.",
+      "Regurgitasyonda öksürük, hırıltı ve tekrarlayan akciğer enfeksiyonları eşlik edebilir."
+    ]},
+    {"type": "p", "text": "Emin olamadığınız durumlarda en pratik yöntem, olayı telefonla kısa bir video olarak kaydetmektir. Bu video, kliniğe geldiğinizde tarif etmeye çalıştığınız her şeyden daha nettir ve tanı sürecini belirgin biçimde kısaltır."},
+    {"type": "h2", "text": "Regurgitasyonun arkasında ne olabilir?"},
+    {"type": "p", "text": "Regurgitasyon, yemek borusunun içeriği mideye taşıyamadığını gösterir. Bunun nedeni yemek borusunun kas işlevini kaybetmesi, daralması ya da dışarıdan basıya uğraması olabilir."},
+    {"type": "ul", "items": [
+      "Megaözofagus: yemek borusunun genişleyip kasılma yeteneğini kaybetmesi. Doğuştan olabileceği gibi sonradan da gelişebilir.",
+      "Damar halkası anomalisi: yavru köpeklerde, katı mamaya geçişle birlikte başlayan regurgitasyonun klasik nedenidir; yemek borusu doğuştan var olan bir damar yapısı tarafından sıkıştırılır.",
+      "Özofajit: mide asidinin geri kaçması, anestezi sonrası dönem ya da tahriş edici bir tabletin yemek borusunda takılması sonucu gelişen iltihap.",
+      "Darlık: geçirilmiş iltihabın iyileşirken yemek borusunu daraltması.",
+      "Yabancı cisim: kemik parçası, oyuncak ya da çiğneme çubuğunun takılması. Ani başlangıçlıdır ve acildir.",
+      "Sistemik nedenler: sinir-kas kavşağını etkileyen hastalıklar ve bazı hormonal bozukluklar yemek borusu işlevini bozabilir."
+    ]},
+    {"type": "callout", "text": "Regurgitasyonun en tehlikeli sonucu, geri gelen içeriğin soluk borusuna kaçarak akciğerde iltihaba yol açmasıdır. Regurgite eden bir köpekte ateş, öksürük, hızlı soluma, halsizlik ya da iştahsızlık ortaya çıkarsa bu tablo aspirasyon pnömonisi açısından acil olarak değerlendirilmelidir. Bu nedenle regurgitasyon, sık tekrarlıyorsa 'zararsız bir alışkanlık' olarak görülmemelidir."},
+    {"type": "h2", "text": "Kusmanın arkasında ne olabilir?"},
+    {"type": "p", "text": "Kusma çok daha geniş bir nedenler grubunu yansıtır. Kabaca üç başlık altında toplanabilir: mide ve bağırsağın kendi hastalıkları, karın içindeki diğer organlardan kaynaklanan sorunlar ve mideyle hiç ilgisi olmayan sistemik hastalıklar."},
+    {"type": "ul", "items": [
+      "Sindirim sistemi: mide iltihabı, yabancı cisim, bağırsak tıkanması, ülser, kronik enteropati, parazitler.",
+      "Komşu organlar: pankreas iltihabı, karaciğer ve safra yolları hastalıkları, rahim iltihabı, karın içi kitleler.",
+      "Sistemik nedenler: böbrek yetmezliği, karaciğer yetmezliği, diyabete bağlı komplikasyonlar, böbreküstü bezi yetmezliği.",
+      "Zehirlenmeler ve ilaç yan etkileri.",
+      "Sinir sistemi kaynaklı nedenler ve taşıt tutması.",
+      "Beslenmeye bağlı nedenler: ani mama değişikliği, aşırı hızlı yeme, uygunsuz gıda tüketimi."
+    ]},
+    {"type": "h2", "text": "Sabaha karşı sarı köpük kusan köpekler"},
+    {"type": "p", "text": "Sık karşılaşılan bir tablo, gece boyunca aç kalan bir köpeğin sabaha karşı sarımsı, köpüklü sıvı kusmasıdır. Bu genellikle midenin uzun süre boş kalmasıyla ilişkilidir ve çoğu köpekte akşam öğününün geç saate alınması ya da günlük porsiyonun daha küçük öğünlere bölünmesiyle düzelir. Buna karşılık düzenli tekrarlıyor, kilo kaybı ya da iştahsızlıkla birlikte seyrediyorsa mide ve bağırsak incelenmelidir."},
+    {"type": "h2", "text": "Beklemeye izin vermeyen bulgular"},
+    {"type": "p", "text": "Aşağıdaki tablolarda kusmanın türü ne olursa olsun beklenmez. Özellikle ilk madde, derin göğüslü büyük ırk köpeklerde dakikaların önemli olduğu bir acildir."},
+    {"type": "ul", "items": [
+      "Kusma çabasının sonuçsuz kalması, karnın gerginleşmesi ve huzursuzluk.",
+      "Kanlı ya da kahve telvesi görünümünde kusmuk.",
+      "Suyun bile tutulamaması ve aralıksız devam eden kusma.",
+      "Halsizlik, ayağa kalkamama, diş etlerinde solgunluk.",
+      "Karnın dokunulduğunda ağrılı ve sert olması.",
+      "Yabancı cisim yutulduğunun bilinmesi ya da şüphelenilmesi.",
+      "Regurgite eden bir köpekte ateş, öksürük veya hızlı soluma."
+    ]},
+    {"type": "h2", "text": "Klinikte hangi testler yapılır?"},
+    {"type": "p", "text": "Test seçimi, tabloyu hangi kategoriye koyduğumuza göre değişir. Bu nedenle muayenenin ilk bölümü, olayın kusma mı regurgitasyon mu olduğunu netleştirmeye ayrılır."},
+    {"type": "ul", "items": [
+      "Regurgitasyon düşünülüyorsa göğüs röntgeni ilk adımdır; genişlemiş yemek borusunu ve akciğerdeki iltihabı gösterir.",
+      "Gerektiğinde kontrast maddeli görüntüleme ya da endoskopi ile yemek borusunun içi değerlendirilir.",
+      "Kusma düşünülüyorsa hemogram, biyokimya, elektrolitler ve tam idrar tahlili ile sistemik nedenler taranır.",
+      "Karın ultrasonografisi ile tıkanma, pankreas iltihabı, kitleler ve bağırsak duvarı incelenir.",
+      "Yavru köpeklerde parvovirüs testi ve dışkı incelemesi eklenir.",
+      "Kronik vakalarda beslenme denemesi ve endoskopik örnekleme gündeme gelir."
+    ]},
+    {"type": "h2", "text": "Regurgitasyonda beslenme yönetimi"},
+    {"type": "p", "text": "Yemek borusu işlevini kaybetmiş köpeklerde tedavinin en önemli parçası ilaç değil, beslenme biçimidir. Yerçekiminden yararlanan bir düzen, geri kaçışı ve akciğere kaçma riskini belirgin biçimde azaltır. Uygulama ayrıntıları köpeğe göre değişir ve hekim tarafından planlanmalıdır."},
+    {"type": "ul", "items": [
+      "Öğünler dik pozisyonda verilir; köpek yemek boyunca ve sonrasında bir süre dik tutulur.",
+      "Yemek sonrası dik kalma süresi genellikle on-yirmi dakikadır ve alışkanlık hâline getirilmelidir.",
+      "Mamanın kıvamı denenerek belirlenir; bazı köpekler sıvı kıvamı, bazıları köfte biçimini daha iyi tolere eder.",
+      "Günlük miktar daha küçük ve daha sık öğünlere bölünür.",
+      "Kilo takibi yapılır; bu köpeklerde yetersiz kalori alımı sık bir sorundur.",
+      "Ateş, öksürük ya da hızlı soluma ortaya çıkarsa beklenmeden başvurulur."
+    ]},
+    {"type": "p", "text": "Köpeğiniz mamayı hazmedilmemiş biçimde çıkarıyor, sık kusuyor ya da bu iki durumdan hangisi olduğundan emin değilseniz kaydettiğiniz videoyla birlikte değerlendirme için randevu alabilirsiniz. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Kusma ile regurgitasyonu ayırt edemiyorum, ne yapmalıyım?", "a": "En pratik yöntem olayı telefonla kısa bir video olarak kaydetmektir. Video, hazırlık döneminin olup olmadığını ve çıkan materyalin görünümünü net biçimde gösterir; bu da tanı sürecini belirgin biçimde kısaltır."},
+    {"q": "Köpeğim mamayı olduğu gibi çıkarıyor, sindirim sorunu mu?", "a": "Hazmedilmemiş mamanın zahmetsizce geri gelmesi genellikle mideden değil, yemek borusundan kaynaklanır. Bu tabloda mide ilaçları çoğu zaman yarar sağlamaz; öncelikle yemek borusunun görüntülenmesi gerekir."},
+    {"q": "Yavru köpeğimde katı mamaya geçince başladı, bu normal mi?", "a": "Hayır. Katı mamaya geçişle başlayan regurgitasyon, yemek borusunu sıkıştıran doğuştan bir damar yapısını akla getirir. Bu durumun erken tanınması önemlidir, çünkü cerrahi ile düzeltilebilir ve gecikme kalıcı genişlemeye yol açabilir."},
+    {"q": "Sabahları sarı köpük kusması ciddi mi?", "a": "Genellikle midenin uzun süre boş kalmasıyla ilişkilidir ve akşam öğününün geç saate alınması ya da porsiyonun bölünmesiyle düzelir. Düzenli tekrarlaması, kilo kaybı ya da iştahsızlıkla birlikte görülmesi durumunda inceleme gerekir."},
+    {"q": "Kusan köpeğime evde ne verebilirim?", "a": "Genel durumu iyiyse kısa süreli olarak küçük ve sık su sunumu ile kolay sindirilen küçük öğünler denenebilir. İnsan mide ilaçları, bulantı kesiciler ve ağrı kesiciler verilmemelidir. Kusma tekrarlıyor ya da halsizlik eşlik ediyorsa beklenmemelidir."},
+    {"q": "Aspirasyon pnömonisi nasıl anlaşılır?", "a": "Regurgite eden bir köpekte ateş, öksürük, hızlı ve güç soluma, halsizlik ve iştahsızlık ortaya çıkması bu tabloyu düşündürür. Göğüs röntgeni ile değerlendirilir ve acil olarak ele alınması gerekir."},
+    {"q": "Megaözofagus tedavi edilebilir mi?", "a": "Bazı vakalarda altta yatan bir neden bulunur ve tedavi edilmesiyle yemek borusu işlevi kısmen düzelebilir. Çoğu vakada ise durum kalıcıdır ve yönetim, dik pozisyonda beslenme düzeni ile akciğer enfeksiyonlarının önlenmesi üzerine kurulur."},
+    {"q": "Ne zaman acil sayılır?", "a": "Sonuçsuz öğürme çabası ve gerginleşen karın, kanlı kusmuk, suyun tutulamaması, halsizlik ve karında ağrı beklemeye izin vermez. Regurgite eden köpeklerde ateş, öksürük veya hızlı soluma da acil değerlendirme gerektirir."}
+  ]
+}

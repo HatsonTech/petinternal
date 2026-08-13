@@ -1,0 +1,101 @@
+{
+  "slug": "kedilerde-hipertrofik-kardiyomiyopati-hcm",
+  "title": "Kedilerde HCM: sessiz ilerleyen kalp hastalığı ve erken tanı",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-thyroid.jpg",
+  "imageAlt": "Kucakta sevilen yaşlı bir tekir kedi",
+  "date": "2 Eylül 2026",
+  "dateISO": "2026-09-02",
+  "updatedISO": "2026-09-02",
+  "excerpt": "Hipertrofik kardiyomiyopati kedilerde en sık görülen kalp hastalığıdır ve çoğu kedide ilk belirti ortaya çıkana kadar tamamen sessiz seyreder. Üfürüm, NT-proBNP, ekokardiyografi ve pıhtı riski hakkında bilinmesi gerekenler.",
+  "readTime": "10 dk okuma",
+  "keywords": [
+    "kedilerde HCM",
+    "hipertrofik kardiyomiyopati kedi",
+    "kedilerde kalp hastalığı belirtileri",
+    "kedide arka bacak felci",
+    "NT-proBNP kedi",
+    "kedilerde üfürüm",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Hipertrofik kardiyomiyopati, kalbin sol karıncık duvarının kalınlaşmasıyla seyreden ve kedilerde en sık karşılaşılan kalp hastalığıdır. En zorlayıcı yanı, hastalığın uzun süre hiçbir belirti vermemesidir: birçok kedide ilk bulgu, akciğerde su toplanması ya da damar tıkanmasına bağlı ani felç şeklinde ortaya çıkar. Bu yazıda hastalığın nasıl geliştiğini, hangi kedilerde araştırılması gerektiğini ve erken tanının pratikte neyi değiştirdiğini anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "HCM nedir ve kalpte ne olur?"},
+    {"type": "p", "text": "Hipertrofik kardiyomiyopatide kalbin sol karıncık kası kalınlaşır. Kalınlaşan kas ilk bakışta güçlü görünse de asıl sorun kasılmada değil, gevşemededir: kalın ve sert bir duvar diyastol sırasında yeterince genişleyemez, dolayısıyla karıncığa dolan kan miktarı azalır. Vücuda pompalanan kan azalınca kalp bunu hızlanarak telafi etmeye çalışır ve bu döngü zamanla sol kulakçığın genişlemesine yol açar."},
+    {"type": "p", "text": "Genişleyen sol kulakçık iki büyük riski beraberinde getirir. Birincisi, basıncın akciğer damarlarına yansıyarak akciğerde ya da göğüs boşluğunda sıvı birikmesine yol açmasıdır. İkincisi, yavaşlayan kan akımının kulakçık içinde pıhtı oluşumuna zemin hazırlamasıdır. Kediyi acil servise getiren tablo genellikle bu iki komplikasyondan biridir."},
+    {"type": "h2", "text": "Hangi kediler risk altında?"},
+    {"type": "p", "text": "HCM her ırkta ve her yaşta görülebilir, ancak bazı gruplarda sıklık belirgin biçimde yüksektir. Bazı ırklarda hastalıkla ilişkili genetik değişiklikler tanımlanmıştır ve bu ırklarda genetik test seçeneği bulunmaktadır; ancak testin negatif olması hastalığın gelişmeyeceği anlamına gelmez."},
+    {"type": "ul", "items": [
+      "Maine Coon, Ragdoll, British Shorthair, Sphynx, Pers ve Bengal ırkları öne çıkar.",
+      "Erkek kediler kadar dişiler de etkilenir, ancak erkeklerde tanı yaşı genellikle daha erkendir.",
+      "Aynı soy hattında kalp hastalığı bilinen kedilerde tarama önerilir.",
+      "Hipertiroidi ve yüksek tansiyon, kalp duvarında benzer kalınlaşmaya yol açabildiği için birlikte değerlendirilmelidir.",
+      "Melez kedilerde de hastalık görülür; ırk yokluğu risksizlik anlamına gelmez."
+    ]},
+    {"type": "h2", "text": "Neden belirti vermez?"},
+    {"type": "p", "text": "Kediler doğaları gereği enerji harcamayı kendileri ayarlar. Bir köpek yürüyüşte çabuk yorulduğunda sahibi bunu hemen fark eder; buna karşılık bir kedi, kalbi yetersiz kalmaya başladığında yalnızca daha az oynar, daha çok uyur ve yüksek yerlere daha seyrek çıkar. Bu değişiklikler sahibe hastalık gibi değil, sakinleşme ya da yaşlanma gibi görünür."},
+    {"type": "p", "text": "Bu nedenle HCM'de erken bulguların çoğu davranışsaldır ve geriye dönüp bakıldığında fark edilir. Aşağıdaki değişiklikler tek başına tanı koydurmaz ama muayene için yeterli gerekçedir."},
+    {"type": "ul", "items": [
+      "Oyun süresinin kısalması ve daha çabuk yorulma.",
+      "Yüksek yerlere çıkmaktan vazgeçme.",
+      "Dinlenirken solunum sayısının kendi normalinin üzerine çıkması.",
+      "İştahta azalma ve yavaş ilerleyen kilo kaybı.",
+      "Muayenede duyulan üfürüm ya da düzensiz kalp ritmi."
+    ]},
+    {"type": "h2", "text": "Üfürüm duyulmaması hastalık yok demek değildir"},
+    {"type": "p", "text": "Kedilerde kalp hastalığı ile üfürüm arasındaki ilişki, köpeklerdeki kadar güvenilir değildir. HCM'si olan bir kedide üfürüm hiç duyulmayabilir; buna karşılık tamamen sağlıklı bir kedide stresle ortaya çıkan masum bir üfürüm işitilebilir. Bu nedenle üfürüm, tanıyı ne koyar ne de dışlar; yalnızca ileri incelemeyi başlatan bir bulgudur."},
+    {"type": "h2", "text": "Dinlenme solunum sayısı: evde yapılabilecek en değerli takip"},
+    {"type": "p", "text": "Kalp hastalığı bilinen ya da riskli kabul edilen kedilerde sahibin evde uygulayabileceği en yararlı yöntem, dinlenme solunum sayısını düzenli olarak saymaktır. Bu ölçüm, akciğerde sıvı birikmeye başladığında henüz hiçbir belirti yokken erken uyarı verir."},
+    {"type": "ul", "items": [
+      "Kediniz uyurken ya da tamamen sakinken sayın; oyun sonrası ölçüm yanıltıcıdır.",
+      "Göğüs kafesinin bir kez inip kalkmasını tek bir soluk olarak sayın.",
+      "Otuz saniye sayıp sonucu ikiyle çarpın.",
+      "Haftada birkaç kez ölçüp kedinizin kendi normal aralığını belirleyin.",
+      "Değerin kalıcı biçimde yükselmesi, başka bir belirti olmasa bile değerlendirme gerektirir."
+    ]},
+    {"type": "h2", "text": "Tanı nasıl konur?"},
+    {"type": "p", "text": "HCM tanısı tek bir testle konmaz; muayene, kan belirteçleri ve görüntülemenin birlikte yorumlanmasını gerektirir. Kesin tanı yalnızca ekokardiyografi, yani kalbin ultrason ile görüntülenmesiyle konur; röntgen kalp büyümesini ve akciğerdeki sıvıyı gösterir ama duvar kalınlığını ölçemez."},
+    {"type": "ul", "items": [
+      "Ekokardiyografi: duvar kalınlığını, sol kulakçık boyutunu ve kan akımını ölçer. Tanının temelidir.",
+      "NT-proBNP: kalp kasının gerilmesiyle salınan bir belirteçtir. Kan ya da hızlı test formatında bakılabilir ve kalp kaynaklı bir sorunun olasılığını artırır ya da azaltır; tek başına tanı koymaz.",
+      "Göğüs röntgeni: akciğerde ya da göğüs boşluğunda sıvı olup olmadığını gösterir.",
+      "Tansiyon ölçümü ve total T4: kalp duvarını kalınlaştıran diğer nedenleri dışlamak için gereklidir.",
+      "Elektrokardiyografi: ritim bozukluğu şüphesinde eklenir."
+    ]},
+    {"type": "p", "text": "Solunum sıkıntısıyla gelen bir kedide ilk adım görüntüleme değildir. Önce kedi oksijenle rahatlatılır; stabil hâle gelmeden yapılan zorlayıcı işlemler durumu ağırlaştırabilir. Görüntüleme, kedi sakinleştikten sonra yapılır."},
+    {"type": "callout", "text": "Arka bacaklarda ani güçsüzlük, bacakların soğuması, dokunmaya aşırı tepki ve şiddetli ağrı, kalpten kopan bir pıhtının damarı tıkadığı arteriyel tromboembolizm tablosunu düşündürür. Bu durum son derece acildir ve genellikle hastalığın ilk belirtisidir. Bacakları ovmayın, ağrı kesici vermeyin ve kediyi vakit kaybetmeden kliniğe ulaştırın."},
+    {"type": "h2", "text": "Tedavide ne hedeflenir?"},
+    {"type": "p", "text": "Bugün için kalınlaşmış kalp kasını geri döndüren bir tedavi bulunmamaktadır. Tedavinin hedefi hastalığı ortadan kaldırmak değil, komplikasyonları önlemek, ortaya çıktığında kontrol altına almak ve kedinin yaşam kalitesini korumaktır. Bu nedenle plan, hastalığın evresine göre belirlenir."},
+    {"type": "ul", "items": [
+      "Belirti vermeyen erken evrede genellikle ilaç başlanmaz; düzenli takip ve evde solunum sayısı ölçümü yeterlidir.",
+      "Sol kulakçık belirgin biçimde genişlemişse pıhtı oluşumunu azaltmak için kan pıhtılaşmasını engelleyen ilaçlar değerlendirilir; klopidogrel bu amaçla en sık çalışılmış moleküldür.",
+      "Akciğerde sıvı birikmişse idrar söktürücü tedavi uygulanır ve doz kediye göre ayarlanır.",
+      "Ritim bozukluğu ya da çıkış yolu darlığı olan kedilerde ek ilaçlar gündeme gelebilir.",
+      "Eşlik eden hipertiroidi ya da yüksek tansiyon varsa öncelikle bunlar tedavi edilir."
+    ]},
+    {"type": "p", "text": "İlaçların hangi ülkede ruhsatlı olduğu ve hangi formda bulunabildiği değişkenlik gösterir. Kedinize hangi ilacın uygun olduğuna, hangi dozda ve ne süreyle verileceğine yalnızca muayene ve ekokardiyografi sonrasında hekiminiz karar verebilir."},
+    {"type": "h2", "text": "Anestezi ve HCM: neden önceden bilinmesi gerekir?"},
+    {"type": "p", "text": "Kısırlaştırma, diş işlemi ya da herhangi bir cerrahi için anestezi alacak bir kedide tanı konmamış HCM ciddi bir risktir. Anestezi sırasında verilen sıvı miktarı ve kullanılan ilaçlar, sert bir kalpte akciğer ödemini tetikleyebilir. Bu nedenle riskli ırklarda ve muayenede üfürüm ya da ritim bozukluğu duyulan kedilerde işlem öncesi kalp değerlendirmesi önerilir."},
+    {"type": "h2", "text": "Takip nasıl planlanır?"},
+    {"type": "p", "text": "HCM tanısı almış bir kedide takip aralığı, hastalığın evresine ve sol kulakçığın durumuna göre belirlenir. Erken evrede yılda bir kontrol yeterli olabilirken, kulakçık genişlemesi olan kedilerde aralık belirgin biçimde kısalır."},
+    {"type": "ul", "items": [
+      "Evde ölçülen dinlenme solunum sayılarının bir not uygulamasına kaydedilmesi.",
+      "Kilo takibi; kilo kaybı hastalığın ilerlediğine işaret edebilir.",
+      "Kontrollerde ekokardiyografi ile sol kulakçık boyutunun yeniden ölçülmesi.",
+      "İlaç kullanan kedilerde böbrek değerleri ve elektrolitlerin izlenmesi.",
+      "Yeni ortaya çıkan öksürük, hızlı soluma ya da güçsüzlükte kontrol randevusunun beklenmemesi."
+    ]},
+    {"type": "p", "text": "Kedinizde hızlı soluma, çabuk yorulma ya da muayenede duyulan bir üfürüm varsa veya riskli bir ırka sahipse kalp değerlendirmesini ertelemeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak muayene ve randevu için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "HCM tedavi edilebilir mi?", "a": "Kalınlaşmış kalp kasını geri döndüren bir tedavi bugün için bulunmuyor. Buna karşılık hastalığın komplikasyonları büyük ölçüde yönetilebilir; akciğer ödemi tedavi edilebilir, pıhtı riski azaltılabilir ve düzenli takiple yaşam kalitesi uzun süre korunabilir."},
+    {"q": "Kedimde üfürüm duyulmadı, kalp hastalığı olmadığı anlamına gelir mi?", "a": "Hayır. Kedilerde HCM üfürüm olmadan da bulunabilir; tersine, sağlıklı bir kedide stresle ortaya çıkan masum bir üfürüm duyulabilir. Bu nedenle üfürüm ne tanı koydurur ne de hastalığı dışlar; karar ekokardiyografi ile verilir."},
+    {"q": "NT-proBNP testi ekokardiyografinin yerini tutar mı?", "a": "Tutmaz. NT-proBNP kalp kasının gerildiğini gösteren bir belirteçtir ve kalp kaynaklı bir sorunun olasılığını artırır ya da azaltır. Duvar kalınlığını ve sol kulakçık boyutunu yalnızca ekokardiyografi ölçebilir."},
+    {"q": "Arka bacak felci neden kalple ilgili olabiliyor?", "a": "Genişleyen sol kulakçıkta kan akımı yavaşladığında pıhtı oluşabilir. Bu pıhtı kalpten koptuğunda çoğunlukla arka bacaklara giden ana damarı tıkar. Ortaya çıkan ani güçsüzlük, soğukluk ve şiddetli ağrı acil bir tablodur ve sıklıkla hastalığın ilk belirtisidir."},
+    {"q": "Riskli bir ırkım var, ne zaman taramaya başlamalıyım?", "a": "Genellikle genç erişkin dönemde bir taban değerlendirme yapılması ve ardından hekiminizin belirleyeceği aralıklarla tekrarlanması önerilir. Üreme amaçlı kullanılan kedilerde tarama sıklığı daha yüksektir; genetik test bazı ırklarda ek bilgi verir ancak tek başına yeterli değildir."},
+    {"q": "Kedimin ilaç kullanması ömür boyu mu sürecek?", "a": "Akciğer ödemi geçirmiş ya da sol kulakçığı genişlemiş kedilerde tedavi genellikle uzun sürelidir. Dozlar takip sonuçlarına göre değişebilir; ilacı kendi başınıza kesmek ödemin geri dönmesine yol açabileceği için değişiklikler hekim kararıyla yapılmalıdır."},
+    {"q": "HCM'li kedinin beslenmesinde değişiklik gerekir mi?", "a": "Çoğu kedide özel bir kalp maması gerekmez; asıl önemli olan yeterli kalori alması ve kilosunu korumasıdır. İdrar söktürücü kullanan kedilerde tuz alımı ve su erişimi hekimle birlikte planlanır."},
+    {"q": "Kedim ameliyat olacak, kalp taraması gerekli mi?", "a": "Riskli ırklarda ve muayenede üfürüm ya da ritim bozukluğu duyulan kedilerde önerilir. Tanı konmamış HCM'de anestezi sırasında verilen sıvı ve kullanılan ilaçlar akciğer ödemini tetikleyebilir; önceden bilinmesi hem ilaç seçimini hem de sıvı planını değiştirir."}
+  ]
+}

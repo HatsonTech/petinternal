@@ -1,0 +1,87 @@
+{
+  "slug": "kopeklerde-cushing-sendromu",
+  "title": "Köpeklerde Cushing sendromu: yaşlanma mı, hastalık mı?",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-senior-dog-longevity.jpg",
+  "imageAlt": "Gözleri kapalı, keyifli görünen yaşlı bir köpek",
+  "date": "14 Eylül 2026",
+  "dateISO": "2026-09-14",
+  "updatedISO": "2026-09-14",
+  "excerpt": "Göbeği sarkan, çok su içen, simetrik biçimde tüy döken yaşlı köpeklerde akla gelmesi gereken hastalık: hiperadrenokortisizm. Belirtilerin neden yaşlanmayla karıştırıldığını, hangi testin ne işe yaradığını ve tedavinin nasıl yürütüldüğünü anlatıyoruz.",
+  "readTime": "10 dk okuma",
+  "keywords": [
+    "köpeklerde cushing sendromu",
+    "hiperadrenokortisizm köpek",
+    "köpekte göbek sarkması",
+    "köpekte simetrik tüy dökülmesi",
+    "ACTH stimülasyon testi",
+    "trilostan",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Cushing sendromu, vücudun uzun süre fazla kortizole maruz kalmasıyla ortaya çıkan bir iç salgı hastalığıdır. Belirtileri yavaş yerleştiği ve tek tek bakıldığında hepsi yaşlanmaya bağlanabildiği için tanı çoğu zaman gecikir. Oysa hastalık deri, karaciğer, böbrek ve damar sistemini birlikte etkiler ve tedavi edilebilir. Bu yazıda hastalığın nasıl geliştiğini, tanının neden birden fazla test gerektirdiğini ve tedavinin nasıl yürütüldüğünü ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Kortizol ne işe yarar, fazlası ne yapar?"},
+    {"type": "p", "text": "Kortizol, böbreküstü bezleri tarafından üretilen ve vücudun strese uyum sağlamasını mümkün kılan bir hormondur. Kan şekerini düzenler, iltihabi yanıtı baskılar, protein ve yağ metabolizmasını yönlendirir. Normal koşullarda üretimi beyindeki hipofiz bezi tarafından hassas biçimde dengelenir."},
+    {"type": "p", "text": "Bu denge bozulup kortizol sürekli yüksek kaldığında vücut adım adım değişir: kaslar erir, karın duvarı zayıflar, deri incelir, tüy döngüsü durur, bağışıklık baskılanır ve idrar çıkışı artar. Bu değişikliklerin hiçbiri bir gecede olmaz; aylar içinde yerleşir ve tam da bu yavaşlık nedeniyle yaşlanmanın doğal seyri sanılır."},
+    {"type": "h2", "text": "Üç farklı biçim, üç farklı yol"},
+    {"type": "p", "text": "Hastalığın kaynağı tedaviyi doğrudan belirlediği için ayrım önemlidir. Köpeklerde üç biçim tanımlanır."},
+    {"type": "ul", "items": [
+      "Hipofiz kaynaklı biçim: vakaların büyük çoğunluğunu oluşturur. Beyindeki hipofiz bezindeki küçük bir tümör, böbreküstü bezlerini sürekli uyarır.",
+      "Böbreküstü bezi kaynaklı biçim: bezlerden birinde gelişen bir tümör doğrudan aşırı kortizol üretir. Daha az sıklıkta görülür ve cerrahi seçeneği gündeme gelebilir.",
+      "İlaca bağlı biçim: uzun süre kullanılan kortizon türevi ilaçlar aynı tabloyu yaratır. Bu biçimde ilacın kademeli olarak azaltılması esastır; asla birden kesilmemelidir."
+    ]},
+    {"type": "h2", "text": "Sahiplerin fark ettiği belirtiler"},
+    {"type": "p", "text": "Cushing sendromunda belirtiler tek başına dikkat çekmez, ancak bir arada görüldüklerinde tablo tanınır hâle gelir. Aşağıdaki değişikliklerden birkaçı aynı köpekte varsa hastalık araştırılmalıdır."},
+    {"type": "ul", "items": [
+      "Belirgin biçimde artan su tüketimi ve idrar miktarı; ev eğitimli bir köpeğin eve kaçırmaya başlaması.",
+      "İştahta artış; çöp karıştırma ve daha önce yapmadığı biçimde yiyecek arama.",
+      "Karnın sarkması ve gerilmesi; köpek kilo almamış olsa bile göbekli bir görünüm.",
+      "Gövdede simetrik ve kaşıntısız tüy dökülmesi; baş ve bacaklarda tüylerin korunması.",
+      "Derinin incelmesi, damarların belirginleşmesi, yaraların geç iyileşmesi, tekrarlayan deri enfeksiyonları.",
+      "Kas güçsüzlüğü; merdiven çıkmakta ve arabaya atlamakta zorlanma.",
+      "Soluma sıklığında artış ve gün içinde artan yorgunluk."
+    ]},
+    {"type": "p", "text": "Bu belirtilerin özellikle iki tanesi, yaşlanmayla açıklanamayacak kadar ayırt edicidir: kaşıntısız ve simetrik tüy dökülmesi ile kilo almadan gelişen göbek sarkması. Yaşlanan bir köpek zayıflar ya da kilo alır, ancak vücudun sadece orta bölümünün genişlemesi normal bir yaşlanma bulgusu değildir."},
+    {"type": "h2", "text": "Neden erken tanı önemli?"},
+    {"type": "p", "text": "Cushing sendromu genellikle acil bir hastalık değildir, ancak tedavi edilmediğinde ikincil sorunlar birikir. Yüksek tansiyon, idrar yolu enfeksiyonları, böbrekten protein kaybı, pankreas iltihabı, diyabetin ortaya çıkması ve pıhtı oluşumuna eğilim bu hastalıkla birlikte daha sık görülür. Bu nedenle tanı, yalnızca belirtileri hafifletmek için değil, bu komplikasyonları önlemek için de değerlidir."},
+    {"type": "h2", "text": "Tanı neden tek testle konmuyor?"},
+    {"type": "p", "text": "Cushing sendromunun testleri, sağlıklı köpeklerde yanlış pozitif sonuç verebilir. Başka bir hastalığın yarattığı stres de kortizol düzeylerini yükseltir. Bu nedenle test yalnızca klinik tablo uygun olduğunda istenir; şüphe olmadan yapılan test yanıltıcı sonuçlara ve gereksiz tedaviye yol açar."},
+    {"type": "ul", "items": [
+      "Hemogram ve biyokimya: ALP enziminde belirgin yükselme, kolesterol artışı ve seyreltik idrar tipik ama tanı koydurucu değildir.",
+      "Tam idrar tahlili ve idrar kültürü: gizli idrar yolu enfeksiyonu bu hastalarda sıktır ve belirti vermeyebilir.",
+      "İdrar kortizol/kreatinin oranı: evde alınan örnekle bakılır. Negatif çıkması hastalığı büyük ölçüde dışlar; pozitif çıkması tanı koydurmaz.",
+      "ACTH stimülasyon testi: böbreküstü bezlerinin uyarıya verdiği yanıtı ölçer. Kısa sürer ve ilaca bağlı biçimi ayırt etmede üstündür; tedavinin izlenmesinde de kullanılır.",
+      "Düşük doz deksametazon baskılama testi: hipofiz kaynaklı biçimi yakalamada daha duyarlıdır ancak sekiz saat sürer ve eşlik eden hastalıklardan daha çok etkilenir.",
+      "Karın ultrasonografisi: böbreküstü bezlerinin boyutunu karşılaştırarak hipofiz kaynaklı biçimi bez kaynaklı biçimden ayırmaya yardımcı olur."
+    ]},
+    {"type": "callout", "text": "Cushing sendromu tedavisinde kullanılan ilaçlar, kortizol üretimini baskıladıkları için doz aşımında ters yönde ve ciddi bir tabloya yol açabilir. Halsizlik, kusma, ishal, iştahsızlık ya da ayakta duramama gibi bulgular ortaya çıkarsa ilacı kesin ve aynı gün hekiminize ulaşın. Bu ilaçlar hekim takibi olmadan, doz ayarı yapılmadan kullanılmamalıdır."},
+    {"type": "h2", "text": "Tedavi nasıl planlanır?"},
+    {"type": "p", "text": "Hipofiz kaynaklı biçimde standart yaklaşım ilaç tedavisidir. En yaygın kullanılan molekül trilostandır; kortizol üretiminde görevli bir enzimi geri dönüşümlü olarak baskılar. Avrupa Birliği ve Amerika Birleşik Devletleri'nde köpeklerde bu endikasyonla ruhsatlıdır. Ürünlerin hangi ülkede ruhsatlı olduğu ve hangi güçlerde bulunabildiği değişir; Türkiye'deki durumu ve köpeğinize uygunluğunu hekiminizle birlikte değerlendirmeniz gerekir."},
+    {"type": "p", "text": "Böbreküstü bezi kaynaklı biçimde, tümör tek taraflı ve komşu damarlara yayılmamışsa cerrahi ile bezin çıkarılması seçenek olabilir. Bu, deneyim gerektiren bir ameliyattır ve ameliyat öncesi ilaç tedavisiyle hazırlık yapılır. Cerrahi uygun değilse ilaç tedavisi sürdürülür."},
+    {"type": "h2", "text": "Takip: tedavinin asıl zor kısmı"},
+    {"type": "p", "text": "Cushing tedavisinde başlangıç dozu bir tahmindir; doğru doz takiple bulunur. Amaç kortizolü sıfırlamak değil, belirtileri kontrol altına alacak düzeye indirmektir. Bu nedenle ilk aylarda kontrol sıklığı yüksektir ve doz değişiklikleri hem klinik tabloya hem test sonuçlarına göre yapılır."},
+    {"type": "ul", "items": [
+      "Tedavi başlangıcından sonraki ilk haftalarda kontrol testi planlanır.",
+      "Doz stabilize olana kadar kontroller sık, sonrasında genellikle üç-altı ayda bir yapılır.",
+      "Evde su tüketimi, iştah ve idrar sıklığı kaydedilir; bu kayıtlar test sonuçları kadar yol göstericidir.",
+      "Tüy örtüsündeki düzelme genellikle aylar içinde olur ve en geç düzelen bulgudur.",
+      "Tansiyon ve idrarda protein kaybı düzenli aralıklarla değerlendirilir.",
+      "İlacın aç mı tok mu verileceği ve saatinin sabit tutulması test sonuçlarının yorumu için önemlidir."
+    ]},
+    {"type": "h2", "text": "Ne beklenmeli, ne beklenmemeli?"},
+    {"type": "p", "text": "Tedavi hastalığı ortadan kaldırmaz; hipofizdeki değişiklik yerinde kalır ve ilaç genellikle ömür boyu sürdürülür. Buna karşılık belirtilerin büyük bölümü belirgin biçimde geriler. Su tüketimi ve iştah çoğu köpekte ilk haftalarda normale yaklaşır, kas gücü ve karın duvarı aylar içinde toparlanır, tüy örtüsü en son düzelir."},
+    {"type": "p", "text": "Sahiplerin sık sorduğu bir soru, hastalığın ömrü kısaltıp kısaltmadığıdır. Tedavi edilen ve düzenli takip edilen köpeklerde uzun yıllar iyi yaşam kalitesi mümkündür; asıl belirleyici olan tanının zamanında konması ve takibin aksatılmamasıdır."},
+    {"type": "p", "text": "Köpeğinizde çok su içme, göbek sarkması, simetrik tüy dökülmesi ya da kas güçsüzlüğü gibi değişiklikler varsa bunları yaşlanmaya bağlamadan önce değerlendirilmesinde yarar var. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne muayene ve randevu için 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Cushing sendromu ölümcül mü?", "a": "Hastalığın kendisi genellikle yavaş ilerler; asıl sorun tedavi edilmediğinde biriken komplikasyonlardır. Yüksek tansiyon, diyabet, tekrarlayan enfeksiyonlar ve pıhtı eğilimi bunların başında gelir. Tanısı konmuş ve düzenli takip edilen köpeklerde uzun yıllar iyi yaşam kalitesi mümkündür."},
+    {"q": "ACTH stimülasyon testi ile deksametazon testi arasındaki fark ne?", "a": "ACTH stimülasyon testi kısa sürer ve kortizonlu ilaçlara bağlı biçimi ayırt etmede üstündür; ayrıca tedavi takibinde kullanılır. Deksametazon baskılama testi hipofiz kaynaklı biçimi yakalamada daha duyarlıdır ancak sekiz saat sürer ve eşlik eden hastalıklardan daha çok etkilenir."},
+    {"q": "Köpeğim kaşınmıyor ama tüyleri dökülüyor, bu Cushing olabilir mi?", "a": "Kaşıntısız ve gövdede simetrik biçimde ilerleyen tüy dökülmesi, hormonal hastalıkların tipik bulgusudur ve Cushing bunların başında gelir. Tiroit hormonu eksikliği de benzer görüntü yaratabilir; ayrım kan testleriyle yapılır."},
+    {"q": "Tedavi ömür boyu mu sürer?", "a": "Hipofiz kaynaklı biçimde ilaç tedavisi genellikle ömür boyu sürdürülür, çünkü tedavi kortizol üretimini baskılar ancak altta yatan değişikliği ortadan kaldırmaz. Böbreküstü bezi kaynaklı biçimde başarılı bir cerrahi sonrası ilaç gerekmeyebilir."},
+    {"q": "İlaç dozunu kendim ayarlayabilir miyim?", "a": "Hayır. Doz ayarı, klinik tablo ile kontrol testlerinin birlikte değerlendirilmesiyle yapılır. Kendi başına artırılan doz, kortizolün aşırı baskılanmasına ve ciddi bir tabloya yol açabilir. Halsizlik, kusma ya da iştahsızlık görülürse ilaç kesilip aynı gün hekime ulaşılmalıdır."},
+    {"q": "Kortizonlu ilaç kullanıyordu, ilacı kesersem düzelir mi?", "a": "İlaca bağlı biçimde belirtiler ilacın kademeli olarak azaltılmasıyla geriler. Ancak bu ilaçlar asla birden kesilmemelidir; baskılanmış böbreküstü bezleri hemen devreye giremediği için ciddi bir yetmezlik tablosu gelişebilir. Azaltma planı hekim tarafından yapılmalıdır."},
+    {"q": "Beslenmede değişiklik gerekir mi?", "a": "Standart bir Cushing diyeti yoktur. Yağı düşük, dengeli ve sabit bir beslenme düzeni önerilir; artan iştah nedeniyle porsiyon kontrolü önem kazanır. Eşlik eden pankreas iltihabı, diyabet ya da böbrekten protein kaybı varsa beslenme buna göre düzenlenir."},
+    {"q": "Belirtiler ne kadar sürede düzelir?", "a": "Su tüketimi ve iştah çoğu köpekte ilk haftalarda belirgin biçimde geriler. Kas gücü ve karın duvarındaki toparlanma birkaç ay alır. Tüy örtüsünün yenilenmesi en geç düzelen bulgudur ve altı ayı bulabilir."}
+  ]
+}

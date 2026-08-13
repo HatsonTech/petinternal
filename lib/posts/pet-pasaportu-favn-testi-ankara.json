@@ -1,0 +1,91 @@
+{
+  "slug": "pet-pasaportu-favn-testi-ankara",
+  "title": "Yurt dışına evcil hayvan: pet pasaportu, FAVN testi ve Ankara avantajı",
+  "category": "Yasal Rehber",
+  "image": "/images/blog-microchip.jpg",
+  "imageAlt": "Tasmalı, dışarıda duran sarı bir köpek",
+  "date": "2 Kasım 2026",
+  "dateISO": "2026-11-02",
+  "updatedISO": "2026-11-02",
+  "excerpt": "Türkiye'den Avrupa Birliği'ne evcil hayvan götürmek dört-beş aylık bir süreçtir ve sıralama hatası tüm takvimi baştan başlatır. Mikroçip, kuduz aşısı, FAVN kuduz titre testi ve sağlık sertifikasının doğru sırasını adım adım anlatıyoruz.",
+  "readTime": "10 dk okuma",
+  "keywords": [
+    "pet pasaportu",
+    "FAVN testi",
+    "kedi köpek yurt dışına çıkarma",
+    "kuduz titre testi Ankara",
+    "Etlik veteriner kontrol enstitüsü",
+    "AB pet seyahat",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Yurt dışına evcil hayvan götürmeyi planlayan sahiplerin en sık yaptığı hata, süreci bilet aldıktan sonra başlatmaktır. Türkiye'den Avrupa Birliği ülkelerine yapılan seyahatlerde işlemler doğru sırayla yürütüldüğünde bile dört-beş ay sürer ve tek bir adımın sırası şaşırdığında takvim baştan başlar. Bu yazıda süreci adım adım, doğrulanmış kaynaklara dayanarak ve Ankara'da yaşayan sahipler için geçerli olan pratik ayrıntılarıyla anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Neden Türkiye'den çıkış bu kadar uzun sürüyor?"},
+    {"type": "p", "text": "Avrupa Birliği, üçüncü ülkeleri kuduz durumuna göre iki gruba ayırır. Listeye alınmış ülkelerden gelen hayvanlarda mikroçip ve geçerli kuduz aşısı yeterli olurken, listede yer almayan ülkelerden gelen hayvanlarda ek olarak kuduz antikor düzeyinin ölçülmesi ve ardından belirli bir bekleme süresinin tamamlanması istenir. Türkiye bu ikinci gruptadır."},
+    {"type": "p", "text": "Sürenin uzunluğu bir bürokrasi sorunu değil, doğrudan bu bekleme kuralından kaynaklanır. Aşağıdaki adımlar birbirinin önkoşuludur; hiçbiri diğerinin yerine geçmez ve hiçbirinin sırası değiştirilemez."},
+    {"type": "h2", "text": "Adım 1: Mikroçip"},
+    {"type": "p", "text": "Hayvanın kimliklendirilmesi ilk adımdır. Çipin uluslararası standartlara uygun, on beş haneli ve okunabilir olması gerekir. Buradaki en kritik ayrıntı zamanlamadır: mikroçip, kuduz aşısından önce ya da en geç aynı gün takılmış olmalıdır."},
+    {"type": "p", "text": "Aşıdan sonra takılan bir çip, o aşıyı geçersiz kılar. Bu durumda aşı yeniden yapılır ve tüm takvim yeniden başlar. Daha önce çip takılmış hayvanlarda ise çipin gerçekten okunabildiğini kontrol ettirmek gerekir; okunamayan çip yeni takılmış sayılır."},
+    {"type": "h2", "text": "Adım 2: Kuduz aşısı"},
+    {"type": "p", "text": "Çip doğrulandıktan sonra kuduz aşısı yapılır ya da geçerli bir aşı varsa kayıtları kontrol edilir. Aşının tarihi, uygulayan hekim ve ürün bilgileri belgeye eksiksiz işlenmelidir. Aşının geçerli sayılabilmesi için hayvanın belirli bir asgari yaşı doldurmuş olması ve aşının süresinin dolmamış olması gerekir."},
+    {"type": "h2", "text": "Adım 3: FAVN kuduz titre testi"},
+    {"type": "p", "text": "Bu test, kuduz aşısının hayvanda yeterli antikor yanıtı oluşturup oluşturmadığını ölçer. Kan örneği, kuduz aşısından en az otuz gün sonra veteriner hekim tarafından alınır. Kabul edilen koruyucu düzey, mililitrede 0,5 uluslararası ünite ve üzeridir."},
+    {"type": "ul", "items": [
+      "Kan örneği kuduz aşısından en az otuz gün sonra alınmalıdır.",
+      "Örnek, yetkilendirilmiş bir laboratuvara gönderilir ve sonuç resmî belgeyle bildirilir.",
+      "Sonucun mililitrede 0,5 uluslararası ünite ve üzerinde olması gerekir.",
+      "Sonuç yetersiz çıkarsa aşı tekrarlanır ve süreç bu adımdan yeniden işletilir.",
+      "Sonuç belgesi seyahat boyunca yanınızda bulunmalıdır."
+    ]},
+    {"type": "h2", "text": "Adım 4: Üç aylık bekleme"},
+    {"type": "p", "text": "Bu, sürecin en çok yanlış anlaşılan adımıdır. Üç aylık bekleme süresi, testin sonucunun geldiği günden değil, kanın alındığı günden itibaren sayılır. Yani sonuç iki hafta sonra elinize geçse bile geri sayım kan alma tarihinde başlamıştır."},
+    {"type": "p", "text": "Bu ayrıntıyı bilmek takvimi doğru kurmanızı sağlar. Kan alma tarihini not edin ve seyahat planınızı bu tarihe doksan gün ekleyerek yapın. Bekleme süresi tamamlanmadan yapılan giriş girişimleri, hayvanın sınırda geri çevrilmesine ya da karantinaya alınmasına yol açabilir."},
+    {"type": "h2", "text": "Adım 5: Sağlık sertifikası ve seyahat"},
+    {"type": "p", "text": "Son adım, resmî sağlık sertifikasının düzenlenmesidir. Bu belge çıkıştan en geç kırk sekiz saat önce alınmalı ve düzenlendiği tarihten itibaren on gün geçerlidir. Belge, İl ya da İlçe Tarım ve Orman Müdürlüğü tarafından onaylanır."},
+    {"type": "ul", "items": [
+      "Sertifika çıkıştan en geç kırk sekiz saat önce düzenlenmelidir.",
+      "Geçerlilik süresi on gündür; dönüş planınızı buna göre gözden geçirin.",
+      "Aşı karnesi, FAVN sonuç belgesi ve mikroçip kaydı sertifikaya eklenir.",
+      "Havayolu şirketinin kendi taşıma kuralları ayrıca kontrol edilmelidir.",
+      "Bazı ülkeler ek parazit tedavisi ya da farklı belgeler talep eder."
+    ]},
+    {"type": "callout", "text": "Uluslararası seyahat kuralları ve varış ülkesine özgü ek şartlar değişebilir. Bu yazı genel bir yol haritasıdır; bilet almadan önce güncel gereklilikleri mutlaka bağlı bulunduğunuz İl ya da İlçe Tarım ve Orman Müdürlüğü ile varış ülkesinin resmî kaynağından teyit edin. Ayrıca havayolu şirketinin kabin ve kargo kurallarını da önceden öğrenin."},
+    {"type": "h2", "text": "Ankara'da yaşıyorsanız elinizdeki avantaj"},
+    {"type": "p", "text": "Türkiye'de FAVN testi için Avrupa Birliği tarafından tanınan referans laboratuvar, Ankara'daki Etlik Veteriner Kontrol Merkez Araştırma Enstitüsü'dür. Bu, Ankara'da yaşayan sahipler için pratik bir avantaj anlamına gelir."},
+    {"type": "ul", "items": [
+      "Örneğin şehirler arası kargo ile taşınmasına gerek kalmaz; taşıma süresi ve soğuk zincir riski azalır.",
+      "Örneğin kaybolması ya da uygunsuz koşullarda beklemesi ihtimali düşer.",
+      "Sonuç sürecinin takibi ve belge teslimi daha kısa sürede tamamlanabilir.",
+      "Eksik bir belge ya da tekrar gereken bir işlem çıktığında kayıp süre azalır.",
+      "Aşı, çip ve kan alma işlemleri aynı şehirde ardışık olarak planlanabilir."
+    ]},
+    {"type": "p", "text": "Bu avantajın pratikte işe yaraması için yine de planlama gerekir. Laboratuvarın örnek kabul günleri, gerekli başvuru evrakı ve ücretlendirme zaman zaman değişebildiği için kan alma randevusundan önce güncel koşulları teyit etmek yerinde olur. Örneği alan hekimin belgeleri eksiksiz doldurması da sürecin gecikmemesi açısından belirleyicidir."},
+    {"type": "h2", "text": "En sık yapılan hatalar"},
+    {"type": "p", "text": "Bu süreçte kaybedilen zamanın neredeyse tamamı, önlenebilir birkaç hatadan kaynaklanır."},
+    {"type": "ul", "items": [
+      "Mikroçipin kuduz aşısından sonra takılması; bu, aşıyı geçersiz kılar.",
+      "Kan örneğinin aşıdan otuz gün geçmeden alınması.",
+      "Üç aylık beklemenin sonuç tarihinden başlatıldığının sanılması.",
+      "Sağlık sertifikasının çok erken alınması ve geçerlilik süresinin seyahatten önce dolması.",
+      "Varış ülkesinin ek şartlarının bilet alındıktan sonra öğrenilmesi.",
+      "Aşı karnesindeki bilgilerin eksik ya da okunaksız olması.",
+      "Bilet tarihinin belirlenmesinden sonra sürecin başlatılması."
+    ]},
+    {"type": "h2", "text": "Yavru hayvanlar ve yeni sahiplenilenler"},
+    {"type": "p", "text": "Kuduz aşısının yapılabilmesi için hayvanın belirli bir asgari yaşı doldurmuş olması gerekir. Buna aşı sonrası otuz gün ve ardından doksan günlük bekleme eklendiğinde, çok küçük bir yavruyla planlanan seyahatlerin gerçekçi olmadığı görülür. Sokaktan yeni sahiplenilen hayvanlarda ise önce genel sağlık taraması, parazit kontrolü ve kayıt işlemlerinin tamamlanması gerekir; bu da takvime birkaç hafta ekler."},
+    {"type": "h2", "text": "Dönüş yolculuğu ve belgelerin saklanması"},
+    {"type": "p", "text": "Süreci tamamlayan sahiplerin sık atladığı nokta, belgelerin dönüşte de gerekebileceğidir. FAVN sonuç belgesi, aşı kayıtları ve mikroçip bilgisi seyahat boyunca yanınızda bulunmalı, dijital kopyaları ayrıca saklanmalıdır. Kuduz aşısının süresi kesintisiz olarak yenilendiği sürece FAVN testinin tekrar edilmesi genellikle gerekmez; ancak aşı takviminde bir boşluk oluşursa süreç yeniden işletilebilir. Bu nedenle aşı tarihini takvimde hatırlatıcı olarak işaretlemek en pratik önlemdir."},
+    {"type": "p", "text": "Yurt dışı seyahati planlıyorsanız takvimi geriye doğru kurmak için erken davranmanız gerekir. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak mikroçip, aşı planlaması ve FAVN örneği alınması konusunda değerlendirme için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Tüm süreç ne kadar sürüyor?", "a": "Doğru sırayla yürütüldüğünde yaklaşık dört-beş ay sürer. Bunun büyük bölümü, kan alma tarihinden itibaren sayılan üç aylık bekleme süresidir. Bu süre kısaltılamaz; bu nedenle sürecin bilet almadan önce başlatılması gerekir."},
+    {"q": "Üç aylık bekleme ne zaman başlar?", "a": "Test sonucunun geldiği gün değil, kanın alındığı gün başlar. Sonuç iki hafta sonra elinize geçse bile geri sayım kan alma tarihinden itibaren işlemektedir. Bu tarihi mutlaka not edin ve seyahat planınızı ona göre kurun."},
+    {"q": "FAVN testi nerede yapılıyor?", "a": "Türkiye'de Avrupa Birliği tarafından tanınan referans laboratuvar Ankara'daki Etlik Veteriner Kontrol Merkez Araştırma Enstitüsü'dür. Kan örneği veteriner hekim tarafından alınır ve bu laboratuvara gönderilir; sonuç resmî belgeyle bildirilir."},
+    {"q": "Sonuç yetersiz çıkarsa ne olur?", "a": "Kabul edilen düzey mililitrede 0,5 uluslararası ünite ve üzeridir. Bunun altında bir sonuçta kuduz aşısı tekrarlanır, otuz gün sonra yeniden kan alınır ve üç aylık bekleme yeni kan alma tarihinden itibaren başlar. Bu nedenle süreci erken başlatmak önemlidir."},
+    {"q": "Mikroçipi aşıdan sonra taktırdım, sorun olur mu?", "a": "Evet. Mikroçipin kuduz aşısından önce ya da en geç aynı gün takılmış olması gerekir. Aşıdan sonra takılan çip o aşıyı geçersiz kılar; aşının tekrarlanması ve takvimin yeniden başlatılması gerekir."},
+    {"q": "Sağlık sertifikasını ne zaman almalıyım?", "a": "Çıkıştan en geç kırk sekiz saat önce alınmalıdır ve düzenlendiği tarihten itibaren on gün geçerlidir. Çok erken alınan sertifika seyahat gününden önce geçerliliğini yitirebilir; bu nedenle zamanlaması dikkatle planlanmalıdır."},
+    {"q": "Yavru kedim ya da köpeğim seyahat edebilir mi?", "a": "Kuduz aşısı belirli bir asgari yaştan önce yapılamaz. Buna aşı sonrası otuz gün ve doksan günlük bekleme eklendiğinde çok küçük yavrularla planlanan seyahatler gerçekçi olmaz. Takvimi yavrunun yaşına göre geriye doğru kurmak gerekir."},
+    {"q": "Türkiye'ye dönüşte de aynı işlemler gerekir mi?", "a": "Dönüş koşulları çıkış koşullarından farklıdır ve zaman içinde değişebilir. Kuduz aşısı kesintisiz yenilendiği sürece testin tekrarı genellikle gerekmez. Yine de dönüş için geçerli şartları, seyahatten önce İl ya da İlçe Tarım ve Orman Müdürlüğü'nden teyit etmeniz gerekir."}
+  ]
+}

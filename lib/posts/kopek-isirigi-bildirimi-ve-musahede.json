@@ -1,0 +1,91 @@
+{
+  "slug": "kopek-isirigi-bildirimi-ve-musahede",
+  "title": "Köpek ısırdı ya da ısırıldı: yasal olarak ne yapmanız gerekiyor?",
+  "category": "Yasal Rehber",
+  "image": "/images/blog-dog-vaccine.jpg",
+  "imageAlt": "Sevimli bir labrador köpek yavrusu",
+  "date": "8 Kasım 2026",
+  "dateISO": "2026-11-08",
+  "updatedISO": "2026-11-08",
+  "excerpt": "Isırık olayları yalnızca tıbbi değil, yasal sonuçları da olan durumlardır. Aynı gün yapılması gereken bildirim, on günlük müşahede kuralı ve aşılı hayvanlarda neden aynı sürecin işlediğini açıklıyoruz.",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "köpek ısırığı bildirimi",
+    "kuduz müşahede 10 gün",
+    "hayvan ısırığı karantina",
+    "ısırık bildirimi tarım müdürlüğü",
+    "kuduz riskli temas",
+    "kedi ısırığı ne yapmalı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Bir ısırık olayı yaşandığında sahiplerin aklına ilk gelen soru yaranın bakımıdır. Oysa Türkiye'de bu durumun tıbbi boyutu kadar açık tanımlanmış bir yasal boyutu da vardır: bildirim yükümlülüğü ve on günlük müşahede. Bu kurallar, hayvan aşılı olsa dahi işler. Bu yazıda ısıran ve ısırılan taraf için yapılması gerekenleri, sürecin nasıl işlediğini ve hangi adımın kim tarafından yürütüldüğünü anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Neden bu kadar sıkı bir süreç var?"},
+    {"type": "p", "text": "Kuduz, belirtiler ortaya çıktıktan sonra tedavisi bulunmayan bir hastalıktır ve insanlara da bulaşır. Buna karşılık temas sonrasında zamanında uygulanan koruyucu tedavi son derece etkilidir. Bu nedenle mevzuat, hastalığın ortaya çıkmasını beklemek yerine her ısırık olayını riskli temas kabul eden bir yaklaşım benimser."},
+    {"type": "p", "text": "Sürecin merkezinde şu gerçek vardır: kuduz virüsü, hayvanın salyasına belirtiler ortaya çıkmadan kısa bir süre önce geçer. Bu nedenle ısırık anında sağlıklı görünen bir hayvan bile teorik olarak virüs saçıyor olabilir. On günlük gözlem süresi tam olarak bu belirsizliği kapatmak için tasarlanmıştır."},
+    {"type": "h2", "text": "İlk saatlerde ne yapılmalı?"},
+    {"type": "p", "text": "Isırık olayında ilk müdahale, yara bakımıdır ve bunun etkisi kanıtlanmıştır. Ardından bildirim adımları gelir."},
+    {"type": "ul", "items": [
+      "Yarayı bol akan su ve sabunla en az on beş dakika boyunca yıkayın; bu basit adım virüs yükünü belirgin biçimde azaltır.",
+      "Yaraya tuz, kül, diş macunu gibi maddeler sürmeyin ve yarayı sıkmayın.",
+      "İnsan yaralanmasında en yakın sağlık kuruluşuna başvurun; koruyucu tedavi kararını hekim verir.",
+      "Isıran hayvanın kime ait olduğunu, aşı durumunu ve nerede bulunduğunu kayıt altına alın.",
+      "Mümkünse olay yerini, tarihi ve tanıkları not edin.",
+      "Hayvanınız ısırıldıysa yarayı temizleyip aynı gün veteriner hekime gösterin."
+    ]},
+    {"type": "h2", "text": "Bildirim yükümlülüğü kimde?"},
+    {"type": "p", "text": "Kuduz mücadelesine ilişkin mevzuat, ısırık olaylarının aynı gün içinde bildirilmesini öngörür. Bildirim, olayın yaşandığı yerin bağlı olduğu İl ya da İlçe Tarım ve Orman Müdürlüğü'ne yapılır. Yükümlülük hayvan sahibine aittir ve olayın hangi tarafta gerçekleştiğinden bağımsızdır: hayvanınız ısırdıysa da ısırıldıysa da bildirim gerekir."},
+    {"type": "p", "text": "İnsan yaralanması söz konusuysa ayrıca en yakın sağlık kuruluşuna başvurulur ve olay sağlık birimlerince de kayda geçirilir. Veteriner hekimler de muayene sırasında ısırık öyküsü öğrendiklerinde ilgili müdürlüğe bildirimde bulunur. Bu iki kanalın birbirini tamamlaması, sürecin takip edilebilmesini sağlar."},
+    {"type": "h2", "text": "On günlük müşahede nasıl işler?"},
+    {"type": "p", "text": "Isıran kedi ya da köpek, olay anında sağlıklı görünüyorsa on gün süreyle gözlem altında tutulur. Bu gözlem çoğu durumda hayvanın sahibi tarafından, kendi evinde yürütülür ve amacı hayvanın bu süre içinde kuduz belirtisi gösterip göstermediğini izlemektir."},
+    {"type": "ul", "items": [
+      "Süre, ısırık olayının gerçekleştiği günden itibaren sayılır.",
+      "Hayvan bu süre boyunca başka insan ve hayvanlarla temas etmeyecek biçimde tutulur.",
+      "Adres ve iletişim bilgileri müdürlüğe bildirilir; gerektiğinde kontrol yapılabilir.",
+      "Süre boyunca hayvana kuduz aşısı yapılmaz; aşı belirtileri değerlendirmeyi zorlaştırabilir.",
+      "Davranış değişikliği, saldırganlık, aşırı salya, yutkunma güçlüğü ya da felç gibi bulgular derhal bildirilir.",
+      "Süre sonunda hayvan sağlıklıysa veteriner hekim değerlendirmesiyle müşahede sonlandırılır."
+    ]},
+    {"type": "callout", "text": "On günlük müşahede kuralı, ısıran hayvanın kuduz aşısı güncel olsa bile uygulanır. Aşının koruyuculuğu yüksektir ancak yüzde yüz değildir ve bu süreç insan sağlığını korumaya yöneliktir. Aşı karnesini göstermek, müşahede yükümlülüğünü ortadan kaldırmaz. Süreci veteriner hekiminizle ve bağlı bulunduğunuz müdürlükle birlikte yürütün."},
+    {"type": "h2", "text": "Müşahede sırasında sahip ne yapmalı?"},
+    {"type": "p", "text": "Gözlem süresi, hayvanı cezalandırmak ya da izole etmek için değil, güvenli biçimde takip etmek içindir. Bu dönemde hayvanın stresini azaltmak hem izlemeyi kolaylaştırır hem de yeni bir olayın önüne geçer."},
+    {"type": "ul", "items": [
+      "Hayvanı evde ayrı ve güvenli bir alanda barındırın; kaçış ihtimalini ortadan kaldırın.",
+      "Dışarı çıkarılması gerekiyorsa tasma ve gerektiğinde ağızlık kullanın.",
+      "Çocukların ve misafirlerin hayvanla temasını bu süre boyunca kısıtlayın.",
+      "Günlük olarak iştah, davranış, yutkunma ve hareket durumunu not edin.",
+      "Herhangi bir değişiklikte beklemeden veteriner hekiminize ve müdürlüğe haber verin.",
+      "Süre bitiminde kontrol muayenesi için randevu alın."
+    ]},
+    {"type": "h2", "text": "Sahipsiz bir hayvan ısırdıysa"},
+    {"type": "p", "text": "Isıran hayvanın sahibi yoksa süreç yine aynı bildirimle başlar, ancak gözlem yerel yönetim ve müdürlük tarafından yürütülür. Bu durumda hayvanı kendi başınıza yakalamaya çalışmayın; hem yeni bir yaralanma riski yaratırsınız hem de hayvanın kaçmasına yol açarak takip edilmesini zorlaştırırsınız."},
+    {"type": "p", "text": "Yapmanız gereken, olayın yerini ve saatini, hayvanın tanımlanabilir özelliklerini ve varsa küpe ya da tasma bilgisini not edip bildirimi yapmaktır. İnsan yaralanmasında koruyucu tedavi kararı, hayvanın bulunup bulunmamasından bağımsız olarak sağlık kuruluşunda verilir ve bekletilmez."},
+    {"type": "h2", "text": "Isırık yarasının kendisi neden ayrıca önemli?"},
+    {"type": "p", "text": "Hayvanınız ısırıldıysa kuduz süreci dışında ikinci bir tıbbi konu daha vardır: yaranın kendisi. Isırık yaraları dışarıdan küçük görünse bile derinlemesine doku hasarı bırakır. Diş, deriyi delip geçerken alttaki kas ve yağ dokusunu ezer; deri hızla kapanırken altta ölü doku ve bakteri kalır. Bu nedenle ilk gün önemsiz görünen bir yara, üç-dört gün sonra şişerek apseye dönüşebilir."},
+    {"type": "p", "text": "Kedi ısırıkları bu açıdan özellikle risklidir. Sivri dişler dar ve derin kanallar açar, giriş noktası neredeyse anında kapanır ve içeride kapalı bir enfeksiyon ortamı oluşur. Kedilerde ısırık sonrası apse, kliniğe en sık getirilme nedenlerinden biridir. Bu nedenle ısırılan bir hayvanın, yara küçük görünse dahi aynı gün değerlendirilmesi gerekir."},
+    {"type": "h2", "text": "Isırığı önlemek: sahiplerin çoğunun bilmediği işaretler"},
+    {"type": "p", "text": "Isırık olaylarının önemli bir bölümü, hayvanın önceden verdiği uyarı sinyallerinin okunamamasından kaynaklanır. Köpekler ve kediler saldırmadan önce neredeyse her zaman geri çekilme sinyali gösterir."},
+    {"type": "ul", "items": [
+      "Köpeklerde başını çevirme, dudak yalama, esneme ve gözün beyazının belirginleşmesi erken uyarı işaretleridir.",
+      "Vücudun gerilmesi, kulakların geriye yatması ve hareketsiz kalma, ısırıktan hemen önceki aşamadır.",
+      "Kedilerde kuyruk ucunun hızlı hareketi, kulakların yana yatması ve derinin sırt üzerinde seğirmesi uyarı sayılır.",
+      "Yemek yerken, uyurken ve ağrılı bir bölgesine dokunulduğunda hayvanı rahatsız etmeyin.",
+      "Çocuklarla hayvanları asla gözetimsiz bırakmayın ve çocuğa hayvanın sinyallerini öğretin.",
+      "Ani davranış değişikliği ya da yeni ortaya çıkan saldırganlıkta önce ağrı ve hastalık araştırılmalıdır."
+    ]},
+    {"type": "h2", "text": "Aşı takvimi neden asıl korumadır?"},
+    {"type": "p", "text": "Türkiye'de kedi ve köpeklerde kuduz aşısı yasal bir yükümlülüktür ve hayvanın kayıt sistemine işlenmesiyle birlikte yürütülür. Aşının güncel olması, ısırık olayında sürecin çok daha sakin ilerlemesini sağlar; hayvanın sağlığı açısından da en güvenli konumdur. Aşı karnenizi ve dijital kayıtlarınızı erişilebilir tutmanız, böyle bir durumda ihtiyaç duyacağınız ilk belgedir."},
+    {"type": "p", "text": "Bir ısırık olayı yaşadıysanız, müşahede sürecini planlamak ya da hayvanınızın aşı kayıtlarını güncellemek için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz. Bildirim işlemleri için bağlı bulunduğunuz İl ya da İlçe Tarım ve Orman Müdürlüğü ile de mutlaka iletişime geçin."}
+  ],
+  "faqs": [
+    {"q": "Köpeğim aşılı, yine de müşahede gerekir mi?", "a": "Evet. On günlük müşahede kuralı, ısıran hayvanın kuduz aşısı güncel olsa bile uygulanır. Aşının koruyuculuğu yüksektir ancak süreç insan sağlığını korumaya yönelik olduğu için aşı karnesi bu yükümlülüğü ortadan kaldırmaz."},
+    {"q": "Bildirimi ne zaman yapmalıyım?", "a": "Mevzuat ısırık olaylarının aynı gün içinde bildirilmesini öngörür. Bildirim, olayın yaşandığı yerin bağlı olduğu İl ya da İlçe Tarım ve Orman Müdürlüğü'ne yapılır. İnsan yaralanması varsa ayrıca en yakın sağlık kuruluşuna başvurulmalıdır."},
+    {"q": "Müşahede sırasında köpeğime aşı yaptırabilir miyim?", "a": "Bu süre boyunca kuduz aşısı yapılmaz, çünkü aşı sonrası ortaya çıkabilecek geçici belirtiler değerlendirmeyi zorlaştırabilir. Aşı takvimi, müşahede sonlandıktan sonra veteriner hekim değerlendirmesiyle güncellenir."},
+    {"q": "Süre neden tam on gün?", "a": "Kuduz virüsü hayvanın salyasına, belirtiler ortaya çıkmadan kısa bir süre önce geçer. On gün, virüs saçan bir hayvanın bu süre içinde mutlaka belirti göstereceği kabulüne dayanır. Sürenin sonunda hayvan sağlıklıysa, ısırık anında bulaş riski taşımadığı sonucuna varılır."},
+    {"q": "Sahipsiz bir hayvan ısırdı, ne yapmalıyım?", "a": "Hayvanı kendiniz yakalamaya çalışmayın. Olayın yerini, saatini ve hayvanın tanımlanabilir özelliklerini not edip müdürlüğe bildirin. İnsan yaralanmasında koruyucu tedavi kararı, hayvanın bulunup bulunmamasından bağımsız olarak sağlık kuruluşunda verilir ve bekletilmez."},
+    {"q": "Kedi ısırığı da aynı kapsamda mı?", "a": "Evet. Kural kedi ve köpekleri kapsar. Ayrıca kedi ısırıkları derin ve dar kanallar açtığı için bakteriyel enfeksiyon riski yüksektir; bu nedenle küçük görünen kedi ısırıkları da hafife alınmamalıdır."},
+    {"q": "Hayvanım ısırıldı, ne yapmalıyım?", "a": "Yarayı temizleyip aynı gün veteriner hekime gösterin. Isırık yaraları dışarıdan küçük görünse de altta doku hasarı ve enfeksiyon bulunabilir. Ayrıca olayın bildirimi ve karşı tarafın aşı durumunun öğrenilmesi gerekir."},
+    {"q": "Müşahede süresi bitince ne oluyor?", "a": "Süre sonunda hayvan veteriner hekim tarafından değerlendirilir. Kuduz belirtisi yoksa müşahede sonlandırılır ve durum ilgili müdürlüğe bildirilir. Bu aşamadan sonra aşı takvimi gözden geçirilerek gerekiyorsa güncellenir."}
+  ]
+}

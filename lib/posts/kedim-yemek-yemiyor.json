@@ -1,0 +1,103 @@
+{
+  "slug": "kedim-yemek-yemiyor",
+  "title": "Kedim yemek yemiyor: 24 saat neden bu kadar önemli?",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-vomiting.jpg",
+  "imageAlt": "Yumuşak bir battaniyede uyuyan tekir bir kedi",
+  "date": "29 Ağustos 2026",
+  "dateISO": "2026-08-29",
+  "updatedISO": "2026-08-29",
+  "excerpt": "Kedilerde iştahsızlık, köpeklerdekinden farklı olarak kendi başına bir tehlike yaratır: karaciğer yağlanması. Hangi süre sonunda müdahale gerekir, nedenler nasıl ayrılır ve iştahı yerine getirmek için klinikte hangi basamaklar izlenir?",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "kedim yemek yemiyor",
+    "kedilerde iştahsızlık",
+    "kedi hiçbir şey yemiyor",
+    "hepatik lipidozis",
+    "kedi iştah açıcı",
+    "kedim halsiz yemiyor",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Bir kedinin yemek yememesi, çoğu sahibin sandığından çok daha kısa sürede sorun hâline gelir. Kediler enerji açığını kapatmak için yağ depolarını hızla harekete geçirir; karaciğer bu yükü kaldıramadığında yağlanma başlar ve iştahsızlığın nedeni ne olursa olsun tabloya ikinci bir hastalık eklenir. Bu yazıda hangi sürede harekete geçmek gerektiğini, nedenlerin nasıl ayrıldığını ve iştahın yerine getirilmesi için izlenen basamakları anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Kedilerde açlık neden köpeklerdekinden farklıdır?"},
+    {"type": "p", "text": "Kediler zorunlu etçildir ve enerji ihtiyacını büyük ölçüde proteinden karşılar. Yemek yemedikleri dönemde vücut, depolanmış yağı enerjiye çevirmek üzere karaciğere gönderir. Ancak kedi karaciğeri bu yağı işleyip yeniden dolaşıma verme kapasitesi bakımından sınırlıdır; gelen yağ miktarı işleme hızını aştığında karaciğer hücrelerinde birikmeye başlar. Bu tablo hepatik lipidozis, yani karaciğer yağlanması olarak adlandırılır; kedinin ilk sorunundan bağımsız olarak gelişir ve tek başına hayatı tehdit edebilir. Özellikle kilolu kedilerde risk daha yüksektir, çünkü karaciğere gönderilecek yağ deposu daha büyüktür."},
+    {"type": "h2", "text": "Kaç saat sonra harekete geçilmeli?"},
+    {"type": "p", "text": "Pratik kural şudur: yirmi dört saat boyunca hiçbir şey yememiş bir kedi değerlendirilmelidir; kırk sekiz saat tam açlık ise gecikmeye izin vermez. İştahın azalması ama tamamen kesilmemesi durumunda süre biraz daha esnektir, ancak üç günden uzun süren yetersiz beslenme yine de araştırılmalıdır."},
+    {"type": "ul", "items": [
+      "Yirmi dört saat hiç yememe: aynı gün içinde değerlendirme planlanmalıdır.",
+      "Kırk sekiz saat hiç yememe: beklenmeden kliniğe başvurulmalıdır.",
+      "İştahsızlığa kusma, halsizlik ya da sarılık eşlik ediyorsa süre beklenmez.",
+      "Kilolu kedilerde ve yavrularda tolerans süresi daha kısadır.",
+      "Kronik hastalığı olan kedilerde iştah değişikliği erken bir uyarı sayılır."
+    ]},
+    {"type": "h2", "text": "Gerçekten yemiyor mu, yoksa daha mı az yiyor?"},
+    {"type": "p", "text": "Çok kedili evlerde ya da serbest mama bırakılan düzenlerde kimin ne kadar yediğini fark etmek zordur. İştahsızlığın süresini doğru saptamak, kliniğe geldiğinizde aciliyeti belirleyen en önemli bilgidir."},
+    {"type": "ul", "items": [
+      "Birkaç gün boyunca verilen mamayı tartıp kalanı ölçün ve farkı not edin.",
+      "Mümkünse kedileri ayrı odalarda besleyerek kimin yediğini netleştirin.",
+      "Kum kabını takip edin; dışkı miktarındaki azalma yeme azlığını doğrular.",
+      "Haftalık tartım yapın; yüz gram düzeyindeki kayıplar bile anlamlıdır.",
+      "Suya olan ilgide artış ya da azalma olup olmadığını gözleyin."
+    ]},
+    {"type": "h2", "text": "Arkasında ne olabilir?"},
+    {"type": "p", "text": "İştahsızlık bir hastalık değil, çok sayıda hastalığın ortak bulgusudur. Kedilerde en sık karşılaşılan nedenler dört başlıkta toplanabilir ve bunların bir kısmı dışarıdan hiç belli olmaz."},
+    {"type": "ul", "items": [
+      "Ağız içi sorunlar: diş kökü iltihabı, rezorptif lezyonlar, diş eti ve ağız mukozası iltihabı. Kedi mamaya yaklaşır, koklar, sonra vazgeçer.",
+      "Sindirim sistemi: mide-bağırsak iltihabı, yabancı cisim, pankreas iltihabı, kronik enteropati.",
+      "Sistemik hastalıklar: kronik böbrek hastalığı, karaciğer hastalıkları, hipertiroidi, diyabet, enfeksiyonlar ve tümörler.",
+      "Ağrı ve stres: eklem ağrısı, idrar yolu sorunları, ev düzeninde değişiklik, yeni hayvan, taşınma, kum kabının yeri.",
+      "Beslenmeye bağlı nedenler: ani mama değişikliği, bayat ya da uygunsuz saklanmış mama, mama kabının konumu ve derinliği."
+    ]},
+    {"type": "h2", "text": "Beklemeye izin vermeyen ek bulgular"},
+    {"type": "p", "text": "İştahsızlığa aşağıdaki bulgulardan biri eşlik ediyorsa, süreyi doldurmayı beklemeden değerlendirme gerekir."},
+    {"type": "ul", "items": [
+      "Sarılık: kulak kepçesinin iç yüzü, diş etleri ya da göz akında sarımsı renk.",
+      "Sürekli salya akıtma, ağzını pati ile ovuşturma ya da yutkunmakta zorlanma.",
+      "Tekrarlayan kusma ve suyun bile tutulamaması.",
+      "Karnın gerginleşmesi ya da dokunulmasına izin vermeme.",
+      "Hızlı soluma, ağız açık nefes alma.",
+      "Kum kabında ıkınma ile birlikte idrar çıkışının olmaması."
+    ]},
+    {"type": "callout", "text": "İştahsız bir kediye zorla mama yedirmeye çalışmak, enjektörle ağza mama basmak ya da başını mama kabına tutmak yarardan çok zarar verir. Bu girişimler kedide mamaya karşı kalıcı bir isteksizlik yaratabilir ve yutulan mamanın soluk borusuna kaçması riski taşır. Beslenme desteği, yöntemine uygun biçimde ve hekim gözetiminde planlanmalıdır."},
+    {"type": "h2", "text": "Evde güvenle denenebilecekler"},
+    {"type": "p", "text": "Kedinizin genel durumu iyiyse ve yukarıdaki uyarı bulguları yoksa, kliniğe gitmeden önceki kısa süre içinde birkaç basit değişiklik denenebilir. Bunlar tedavi değil, iştahı geri getirme girişimidir ve sonuç vermezse beklemeyi uzatmak için gerekçe oluşturmaz."},
+    {"type": "ul", "items": [
+      "Yaş mamayı vücut sıcaklığına yakın hâle getirin; koku yoğunlaştığında ilgi artabilir.",
+      "Mama kabını sığ ve geniş bir kapla değiştirin; bıyıklara değen derin kaplar birçok kediyi rahatsız eder.",
+      "Mama kabını kum kabından, çamaşır makinesinden ve yoğun geçiş alanlarından uzağa taşıyın.",
+      "Küçük porsiyonlar hâlinde, günde birkaç kez taze mama sunun.",
+      "Yeni bir mamayı zorla dayatmayın; hasta bir kedide zorlanan mama uzun süreli reddedilebilir.",
+      "Ortamı sessizleştirin ve kedinin yüksek, kapalı bir alandan yemesine izin verin."
+    ]},
+    {"type": "h2", "text": "Klinikte hangi basamaklar izlenir?"},
+    {"type": "p", "text": "İştahsız bir kedide değerlendirme iki koldan yürür: nedenin araştırılması ve beslenmenin sağlanması. İkincisi bekletilmez, çünkü açlık süresi uzadıkça karaciğer yağlanması riski artar."},
+    {"type": "ul", "items": [
+      "Ayrıntılı ağız içi muayene; gerekiyorsa sedasyon altında diş ve diş eti değerlendirmesi.",
+      "Hemogram, biyokimya, tam idrar tahlili ve orta yaş üstü kedilerde tiroit hormonu.",
+      "Karın ultrasonografisi; yabancı cisim, pankreas, karaciğer ve bağırsak duvarı değerlendirmesi.",
+      "Sıvı desteği ve elektrolit dengesinin düzeltilmesi.",
+      "Bulantı ve ağrının ilaçla kontrol altına alınması.",
+      "Gerektiğinde iştah düzenleyici ilaçların değerlendirilmesi."
+    ]},
+    {"type": "h2", "text": "İştah açıcı ilaçlar ne yapar, ne yapmaz?"},
+    {"type": "p", "text": "Kedilerde iştahı uyarmak için kullanılan ilaç grupları vardır; mirtazapin bunların en bilinenidir ve bazı ülkelerde deriye sürülen formu da ruhsatlıdır. Bir başka grup, büyüme hormonu salgılatıcı etkiyle iştahı artıran moleküllerden oluşur. Hangi ürünün hangi ülkede ruhsatlı olduğu değişir; Türkiye'deki durumu ve kedinize uygunluğunu yalnızca hekiminiz değerlendirebilir."},
+    {"type": "p", "text": "Önemli olan bu ilaçların ne olmadığını bilmektir: iştah açıcılar tanı koymaz ve altta yatan hastalığı tedavi etmez. Nedeni araştırılmadan verilen bir iştah açıcı, ilerleyen bir böbrek hastalığını ya da bir yabancı cismi bir süre gizleyebilir. Bu nedenle iştah düzenleyiciler her zaman tanı sürecinin yanında, onun yerine geçmeden kullanılır."},
+    {"type": "h2", "text": "Beslenme tüpü ne zaman gündeme gelir?"},
+    {"type": "p", "text": "Birkaç gündür yemeyen, kilo kaybeden ya da karaciğer yağlanması gelişmiş kedilerde en etkili çözüm, planlı bir beslenme desteğidir. Yemek borusuna yerleştirilen ince bir tüp, kısa bir sedasyon işlemiyle takılır ve kedinin günlük ihtiyacının evde, stressiz biçimde karşılanmasını sağlar. Sahipler bu öneriye çoğu zaman tedirginlikle yaklaşır, oysa pratikte tablo genellikle tersine döner: zorla besleme girişimlerinin yarattığı mücadele ortadan kalkar, ilaçlar tüpten kolayca verilebilir ve kedi iştahını geri kazandığında tüp basit bir işlemle çıkarılır. Karaciğer yağlanmasında iyileşmenin temel taşı, yeterli kalorinin düzenli biçimde verilmesidir."},
+    {"type": "h2", "text": "Toparlanma dönemi nasıl yönetilir?"},
+    {"type": "p", "text": "İştah geri geldiğinde süreç bitmez. Uzun süre aç kalan kedilerde beslenmeye yeniden başlarken elektrolit dengesi yakından izlenir ve kalori artışı kademeli yapılır. Kilo takibi, altta yatan hastalığın tedavisi ve düzenli kontroller nüksü önlemenin en güvenilir yoludur."},
+    {"type": "p", "text": "Kediniz bir gündür hiçbir şey yemediyse ya da iştahsızlığa halsizlik, kusma veya sarılık eşlik ediyorsa beklemeyin. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak muayene ve randevu için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Kedim sadece su içiyor, hiç yemiyor. Ne kadar bekleyebilirim?", "a": "Su içmesi güven verici görünse de açlık süresini değiştirmez. Yirmi dört saat boyunca hiç yememiş bir kedi aynı gün değerlendirilmeli, kırk sekiz saati bulan tam açlıkta ise beklenmeden kliniğe başvurulmalıdır."},
+    {"q": "İştahsızlık kedilerde neden bu kadar tehlikeli?", "a": "Kedi vücudu açlıkta yağ depolarını hızla karaciğere gönderir. Karaciğerin bu yağı işleme kapasitesi sınırlı olduğu için hücrelerde birikme başlar ve hepatik lipidozis gelişir. Bu tablo, ilk sorundan bağımsız olarak tek başına hayatı tehdit edebilir."},
+    {"q": "Kedimin iştahını açmak için evde ne verebilirim?", "a": "Yaş mamayı hafifçe ısıtmak, sığ bir kap kullanmak, mama yerini sessiz bir alana taşımak ve küçük porsiyonlarla sık sunmak denenebilir. İnsan gıdaları, süt ve baharatlı yiyecekler uygun değildir. Bu denemeler birkaç saat içinde sonuç vermezse beklemeyi uzatmayın."},
+    {"q": "Zorla mama yedirmem doğru olur mu?", "a": "Hayır. Zorla besleme kedide mamaya karşı kalıcı isteksizlik yaratabilir ve mamanın soluk borusuna kaçma riski taşır. Beslenme desteği gerekiyorsa doğru yöntem, hekim gözetiminde planlanan bir destek programı ya da gerektiğinde beslenme tüpüdür."},
+    {"q": "Yaşlı kedilerde iştahsızlık normal mi?", "a": "Hayır, yaşlanmanın kendisi iştahı ortadan kaldırmaz. Yaşlı kedilerde iştahsızlığın arkasında en sık kronik böbrek hastalığı, ağız içi sorunlar, hipertiroidi ve ağrı bulunur. Bu yaş grubunda iştah değişikliği erken bir uyarı olarak değerlendirilmelidir."},
+    {"q": "Aşı sonrası yememesi endişe verici mi?", "a": "Aşı sonrası bir gün süren hafif durgunluk ve iştahta azalma olağandır ve genellikle yirmi dört-kırk sekiz saatte düzelir. Kedinin hiç yememesi, kusması ya da bu sürenin uzaması durumunda değerlendirme gerekir."},
+    {"q": "Beslenme tüpü kedime zarar verir mi?", "a": "Tüp kısa bir sedasyonla takılır ve genellikle iyi tolere edilir. Uygulama, zorla besleme mücadelesini ortadan kaldırır, ilaçların kolayca verilmesini sağlar ve kedi iştahını geri kazandığında basit bir işlemle çıkarılır."},
+    {"q": "İştah açıcı ilaç yeterli olmaz mı?", "a": "İştah düzenleyiciler yardımcı olabilir ancak tanı koymaz ve altta yatan hastalığı tedavi etmez. Nedeni araştırılmadan kullanıldığında ilerleyen bir hastalığı geçici olarak gizleyebilir; bu nedenle her zaman tanı sürecinin yanında kullanılır."}
+  ]
+}

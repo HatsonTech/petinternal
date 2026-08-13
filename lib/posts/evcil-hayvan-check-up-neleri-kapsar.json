@@ -1,0 +1,102 @@
+{
+  "slug": "evcil-hayvan-check-up-neleri-kapsar",
+  "title": "Check-up gerçekte neleri kapsar? Tahlil tahlil açıklıyoruz",
+  "category": "Koruyucu Hekimlik",
+  "image": "/images/blog-cancer-screening.jpg",
+  "imageAlt": "Başı okşanan gri tüylü bir köpek",
+  "date": "20 Ağustos 2026",
+  "dateISO": "2026-08-20",
+  "updatedISO": "2026-08-20",
+  "excerpt": "Check-up denince akla gelen paketlerin içinde tam olarak ne var? Hemogram, biyokimya, tiroit, tam idrar tahlili ve tansiyon ölçümünün her birinin neyi gösterdiğini, hangi yaşta hangi sıklıkta gerektiğini tek tek açıklıyoruz.",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "evcil hayvan check up",
+    "kedi köpek check up neleri kapsar",
+    "veteriner kan tahlili nedir",
+    "hemogram biyokimya evcil hayvan",
+    "yaşlı kedi check up sıklığı",
+    "tam idrar tahlili kedi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Check-up, birçok klinikte bir paket adı olarak sunulur ama içeriğinin ne anlama geldiği çoğu zaman anlatılmaz. Oysa her testin sorduğu ayrı bir soru vardır ve hangi testin isteneceği hayvanın yaşına, türüne ve şikâyetine göre değişir. Bu yazıda bir check-up'ın içindeki testleri tek tek ele alıyor, her birinin hangi hastalıkları öne çıkardığını ve hangilerini dışladığını sade bir dille açıklıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Check-up neden hasta değilken yapılır?"},
+    {"type": "p", "text": "Kediler ve köpekler hastalıklarını gizlemekte oldukça beceriklidir. Böbrek işlevinin önemli bir bölümü kaybolmadan önce dışarıdan görünen hiçbir belirti olmayabilir; benzer şekilde karaciğer, tiroit ve kalp hastalıklarının erken dönemi sessizdir. Check-up'ın amacı hasta bir hayvanı tedavi etmek değil, henüz belirti vermemiş bir değişikliği sayısal olarak yakalamaktır. İkinci ve daha az konuşulan faydası ise karşılaştırma imkânıdır: sağlıklıyken alınmış bir kan tablosu, ileride hastalandığında hekimin elindeki en değerli referanstır. Aynı değer bir hayvanda normal, diğerinde erken uyarı olabilir; bunu ancak kendi geçmişiyle karşılaştırarak anlarsınız."},
+    {"type": "h2", "text": "Her check-up bir muayeneyle başlar"},
+    {"type": "p", "text": "Laboratuvar sonuçları muayenenin yerini almaz. Fiziksel muayenede elde edilen bulguların bir kısmı hiçbir tahlilde görünmez ve çoğu zaman hangi testlerin isteneceğini de bu bulgular belirler."},
+    {"type": "ul", "items": [
+      "Vücut ağırlığı ve vücut kondisyon skoru; küçük kilo kayıpları erken bir uyarıdır.",
+      "Kalp ve akciğerlerin dinlenmesi, üfürüm ve ritim bozukluğu araştırması.",
+      "Ağız içi değerlendirme; diş taşı, diş eti iltihabı ve kırık dişler.",
+      "Karın palpasyonu ile organ büyüklüklerinin ve ağrının değerlendirilmesi.",
+      "Deri, tüy örtüsü, lenf düğümleri ve göz muayenesi.",
+      "Eklem hareket açıklığı ve ağrı yanıtı."
+    ]},
+    {"type": "h2", "text": "Hemogram: kan hücrelerinin sayımı"},
+    {"type": "p", "text": "Tam kan sayımı, alyuvar, akyuvar ve trombositlerin sayısını ve özelliklerini gösterir. Kansızlığın varlığını ve türünü ortaya koyar, enfeksiyon ile iltihabi süreçlere işaret eden akyuvar değişikliklerini yakalar, kanama eğilimi açısından trombosit sayısını verir. Ancak tek başına tanı koydurmaz; hangi yöne bakılacağını söyler. Alyuvar sayısının düşük olması kansızlığı gösterir ama nedenini söylemez: kanama, kemik iliği sorunu, kronik böbrek hastalığı ve bazı parazit hastalıkları benzer tabloya yol açabilir. Bu nedenle biyokimya ve idrar tahlili ile birlikte okunur."},
+    {"type": "h2", "text": "Biyokimya paneli: organ işlevlerinin haritası"},
+    {"type": "p", "text": "Biyokimya, kandaki enzim, protein, şeker ve elektrolit düzeylerini ölçerek organların nasıl çalıştığını gösterir. Panel dar ya da geniş tutulabilir; kapsamı yaşa, şikâyete ve önceki sonuçlara göre belirlenir."},
+    {"type": "ul", "items": [
+      "Kreatinin ve üre: böbrek süzme işlevinin klasik göstergeleridir, ancak işlev kaybının ileri aşamasında yükselir.",
+      "SDMA: böbrek işlev kaybını kreatinine göre daha erken dönemde yansıtabilen bir belirteçtir.",
+      "ALT, ALP ve bilirubin: karaciğer hücre hasarı, safra akımı ve sarılık açısından değerlendirilir.",
+      "Glukoz ve gerektiğinde fruktozamin: diyabet şüphesinde kullanılır; fruktozamin son haftaların ortalamasını gösterdiği için stres kaynaklı geçici yükselmeleri ayırt eder.",
+      "Total protein ve albümin: beslenme durumu, karaciğer üretimi ve protein kaybı hakkında bilgi verir.",
+      "Kalsiyum, fosfor, sodyum ve potasyum: böbrek hastalığı, hormonal bozukluklar ve bazı tümörlerde değişir."
+    ]},
+    {"type": "h2", "text": "Tam idrar tahlili: check-up'ın en çok atlanan parçası"},
+    {"type": "p", "text": "İdrar tahlili çoğu paket içinde yer almaz, oysa kan tahlilinin tek başına cevaplayamadığı soruları yanıtlar. En kritik değeri idrar yoğunluğudur: böbrekler idrarı yoğunlaştırma yeteneğini, kreatinin yükselmeden önce kaybetmeye başlar. Kreatinini normal görünen bir kedide sürekli seyrek idrar, erken dönem böbrek hastalığının ilk ipucu olabilir."},
+    {"type": "ul", "items": [
+      "İdrar yoğunluğu: böbreklerin idrarı yoğunlaştırma kapasitesini gösterir.",
+      "Protein varlığı ve idrar protein/kreatinin oranı: böbrekten protein kaybını ölçer.",
+      "Glukoz: kanda şeker yüksekliğiyle birlikte değerlendirilerek diyabeti destekler.",
+      "Sediment incelemesi: kristal, bakteri, kan hücresi ve silendirleri gösterir.",
+      "pH ve kristal tipi: idrar yolu taşı riskini ve beslenme planını etkiler."
+    ]},
+    {"type": "h2", "text": "Tiroit hormonu: yaşlı kedilerde vazgeçilmez"},
+    {"type": "p", "text": "Total T4 ölçümü, orta yaş üstü kedilerde check-up'ın standart parçası olmalıdır. Hipertiroidi kedilerde iştahın artmasına rağmen kilo kaybı, huzursuzluk, aşırı seslenme ve kusma ile ortaya çıkar; sahipler bu tabloyu sıklıkla yaşlanma ya da davranış değişikliği sanır. Köpeklerde ise ters yönde bir sorun daha sık görülür: tiroit hormonunun azalması kilo alımı, uyuşukluk, tüy dökülmesi ve deri sorunlarına yol açar. Köpeklerde tiroit değerlendirmesi rutin değildir, klinik şüphe varlığında istenir."},
+    {"type": "callout", "text": "Tek bir anormal değer tek başına tanı değildir. Stres, açlık süresi, kan alma sırasındaki hemoliz ve son yenen öğün pek çok parametreyi geçici olarak değiştirir. Sonuçlar mutlaka muayene bulgularıyla birlikte ve gerektiğinde tekrarlanarak yorumlanmalıdır."},
+    {"type": "h2", "text": "Tansiyon ölçümü: sessiz organ hasarının anahtarı"},
+    {"type": "p", "text": "Kan basıncı yüksekliği kedilerde özellikle böbrek hastalığı ve hipertiroidiye eşlik eder; köpeklerde ise böbrek hastalığı ve hormonal bozukluklarla birlikte görülür. Uzun süre fark edilmediğinde gözde retina ayrılmasına bağlı ani körlüğe, beyin ve böbrekte kalıcı hasara yol açabilir. Ölçüm ağrısızdır ve genellikle ön ya da arka bacağa yerleştirilen küçük bir manşonla yapılır; klinik ortamının yarattığı gerginlik değeri yükseltebildiği için sakin bir odada ve birkaç kez tekrarlanarak alınır."},
+    {"type": "h2", "text": "Dışkı incelemesi ve parazit taraması"},
+    {"type": "p", "text": "Dışkı incelemesi, belirti vermeyen bağırsak parazitlerini ortaya çıkarır. Bazı parazitler insanlara da geçebildiği için özellikle çocuklu evlerde ve bahçeye erişimi olan hayvanlarda düzenli tarama önem taşır. Tek bir örnek her zaman yeterli olmayabilir; yumurta atılımı aralıklı olduğundan gerektiğinde birkaç güne yayılan örnekleme istenir."},
+    {"type": "h2", "text": "Görüntüleme ne zaman eklenir?"},
+    {"type": "p", "text": "Röntgen ve ultrason her check-up'ın parçası değildir, ancak belirli durumlarda temel testlere eklenir. Bu kararı muayene bulguları, yaş ve ırk riskleri belirler."},
+    {"type": "ul", "items": [
+      "Muayenede üfürüm, ritim bozukluğu ya da solunum sesi değişikliği duyulması.",
+      "Karın palpasyonunda büyümüş bir organ ya da kitle hissedilmesi.",
+      "Açıklanamayan kilo kaybı ya da iştahsızlık bulunması.",
+      "İleri yaş grubunda taban değer oluşturma isteği.",
+      "Anestezi gerektiren bir işlem öncesinde risk değerlendirmesi yapılması."
+    ]},
+    {"type": "h2", "text": "Hangi yaşta, hangi sıklıkta?"},
+    {"type": "p", "text": "Türkiye'deki kliniklerde yaygın olarak kullanılan pratik kural, yedi yaş altındaki kedi ve köpeklerde yılda bir, yedi yaş ve üzerindekilerde altı ayda bir kontroldür. Bu bir mevzuat kuralı değil, hastalıkların yaşla birlikte hızlanan seyrine dayanan bir uygulama alışkanlığıdır ve hayvanın durumuna göre kişiselleştirilir."},
+    {"type": "ul", "items": [
+      "Yavru dönem: aşı ve parazit takvimiyle birlikte temel muayene ve gerekirse dışkı incelemesi.",
+      "Genç erişkin: yılda bir muayene, kısırlaştırma ya da anestezi planlanıyorsa temel kan tahlili.",
+      "Orta yaş: yılda bir muayene ve taban değer oluşturmak için hemogram, biyokimya ve idrar tahlili.",
+      "Yedi yaş üstü: altı ayda bir muayene, yılda bir kapsamlı panel, kedilerde T4 ve tansiyon ölçümü.",
+      "Kronik hastalığı olanlar: sıklık hastalığa ve evreye göre hekim tarafından belirlenir."
+    ]},
+    {"type": "h2", "text": "Check-up öncesi hazırlık"},
+    {"type": "p", "text": "Birkaç basit hazırlık sonuçların doğruluğunu belirgin biçimde artırır. Randevunuzu alırken hangi testlerin planlandığını sorup hazırlığı ona göre yapmanız en pratik yoldur."},
+    {"type": "ul", "items": [
+      "Genellikle sekiz-on iki saatlik açlık istenir; su kısıtlanmaz.",
+      "Mümkünse sabah alınmış taze bir idrar örneğini yanınızda getirin.",
+      "Kullanılan tüm ilaç ve takviyeleri, dozlarıyla birlikte not edin.",
+      "Kedinizi taşıma çantasına birkaç gün önceden alıştırarak stresi azaltın.",
+      "Önceki tahlil sonuçlarınızı getirin; karşılaştırma tek bir ölçümden daha değerlidir."
+    ]},
+    {"type": "p", "text": "Dostunuz için yaşına ve sağlık geçmişine uygun bir kontrol planı oluşturmak, hangi testlerin gerçekten gerektiğini konuşmak ya da mevcut sonuçlarınızı değerlendirmek isterseniz Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Sağlıklı görünen bir hayvana check-up gerçekten gerekli mi?", "a": "Evet, çünkü kedi ve köpeklerde hastalıkların erken dönemi genellikle sessizdir. Check-up'ın amacı hastalık aramak kadar, sağlıklıyken bir taban değer oluşturmaktır; bu değerler ileride yapılacak her ölçümün karşılaştırma noktası olur."},
+    {"q": "Kan tahlili yapıldıysa idrar tahlili de gerekir mi?", "a": "Gerekir. İdrar yoğunluğu, kandaki kreatinin henüz normalken böbreklerin yoğunlaştırma yeteneğinin azaldığını gösterebilir. Ayrıca idrarda protein kaybı, kristaller ve gizli enfeksiyonlar yalnızca idrar incelemesiyle ortaya çıkar."},
+    {"q": "Tahlil öncesi kaç saat aç bırakmalıyım?", "a": "Genellikle sekiz-on iki saatlik açlık yeterlidir ve su kısıtlanmaz. Diyabetli, yavru ya da kronik hastalığı olan hayvanlarda bu süre değişebilir; randevunuzu alırken kliniğe sormanız en doğrusudur."},
+    {"q": "Sonuçlarımda tek bir değer sınırın dışında çıktı, endişelenmeli miyim?", "a": "Çoğu zaman hayır. Açlık süresi, stres, kan alma tekniği ve son öğün pek çok parametreyi geçici olarak değiştirebilir. Böyle durumlarda değer belirli bir süre sonra tekrarlanır ve muayene bulgularıyla birlikte yorumlanır."},
+    {"q": "Kediler için check-up köpeklerden farklı mı?", "a": "Temel testler ortaktır, ancak öncelikler değişir. Orta yaş üstü kedilerde tiroit hormonu, idrar yoğunluğu ve tansiyon ölçümü öne çıkar; köpeklerde ise kalp değerlendirmesi, eklem muayenesi ve ırka özgü riskler daha fazla ağırlık taşır."},
+    {"q": "Check-up'ta kanser taraması yapılabilir mi?", "a": "Rutin panel tek başına bir kanser taraması değildir, ancak kansızlık, kalsiyum yüksekliği, protein değişiklikleri ve muayenede saptanan bir kitle ileri incelemeye yönlendirir. Şüphe durumunda görüntüleme ve örnekleme gerekir."},
+    {"q": "Ne sıklıkla tekrarlanmalı?", "a": "Yaygın uygulama, yedi yaş altında yılda bir, yedi yaş ve üzerinde altı ayda bir kontroldür. Kronik hastalığı olan ya da ilaç kullanan hayvanlarda takip aralığı çok daha sık olabilir ve hekim tarafından belirlenir."}
+  ]
+}

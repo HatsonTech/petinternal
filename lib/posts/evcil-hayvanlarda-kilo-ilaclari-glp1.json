@@ -1,0 +1,96 @@
+{
+  "slug": "evcil-hayvanlarda-kilo-ilaclari-glp1",
+  "title": "Kediler için zayıflama iğnesi mi? GLP-1 ilaçları ve evcil hayvanlar",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-pet-obesity.jpg",
+  "imageAlt": "Sırtüstü uzanmış, rahat görünen tekir bir kedi",
+  "date": "17 Ekim 2026",
+  "dateISO": "2026-10-17",
+  "updatedISO": "2026-10-17",
+  "excerpt": "İnsanlarda yaygınlaşan GLP-1 ilaçlarının kedi ve köpeklerde karşılığı var mı? Araştırma aşamasındaki implantın nerede durduğunu, insan ilaçlarının evcil hayvanlara neden asla verilmemesi gerektiğini ve bugün işe yarayan yöntemi anlatıyoruz.",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "kedilerde kilo verme ilacı",
+    "GLP-1 kedi",
+    "OKV-119",
+    "evcil hayvanlarda obezite tedavisi",
+    "kediye Ozempic verilir mi",
+    "köpekte kilo verme",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "İnsanlarda kilo kontrolü için kullanılan GLP-1 grubu ilaçların yaygınlaşmasıyla birlikte, kedi ve köpek sahiplerinden gelen soru da arttı: benzer bir seçenek evcil hayvanlar için var mı? Kısa cevap, bugün için hayır. Bu yazıda araştırma aşamasındaki çalışmanın nerede olduğunu, insanlar için üretilmiş bu ilaçların evcil hayvanlara verilmesinin neden ciddi bir risk taşıdığını ve kilo yönetiminde bugün gerçekten işe yarayan yöntemi ele alıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Önce çerçeve: evcil hayvanlarda kilo neden bir sağlık sorunu?"},
+    {"type": "p", "text": "Fazla kilo, kedi ve köpeklerde tek başına bir estetik mesele değildir. Yağ dokusu pasif bir depo değil, iltihabi molekül üreten aktif bir organdır. Bu nedenle kilo fazlası, insülin direncinden eklem yüküne ve solunum kapasitesine kadar geniş bir alanda etki gösterir."},
+    {"type": "ul", "items": [
+      "Kedilerde diyabet riskini belirgin biçimde artırır.",
+      "Eklem kireçlenmesinin ağrısını artırır ve hareketliliği azaltır.",
+      "Anestezi risklerini yükseltir ve ilaç dozlarının hesaplanmasını zorlaştırır.",
+      "Kedilerde idrar yolu sorunlarına ve kum kabına erişim güçlüğüne zemin hazırlar.",
+      "Sıcak havada ısı stresine karşı toleransı düşürür.",
+      "Tımarlanma güçleştiği için deri ve tüy sorunlarına yol açar."
+    ]},
+    {"type": "h2", "text": "Kilo fazlası nasıl ölçülür?"},
+    {"type": "p", "text": "Tartıdaki sayı tek başına yeterli değildir, çünkü aynı ırkın bireyleri arasında bile iskelet yapısı belirgin biçimde farklılaşır. Kliniklerde kullanılan yöntem, vücut kondisyon skorudur: hayvanın kaburgaları, beli ve karın hattı elle ve gözle değerlendirilerek bir ölçekte puanlanır. Bu değerlendirmeyi evde de yapabilirsiniz."},
+    {"type": "ul", "items": [
+      "Kaburgaları elinizin sırtıyla hafifçe bastırarak hissedebilmelisiniz; hissetmek için bastırmanız gerekiyorsa kilo fazlası vardır.",
+      "Yukarıdan bakıldığında bel bölgesinde hafif bir daralma görünmelidir.",
+      "Yandan bakıldığında karın hattı göğüs hizasından yukarıya doğru içeri çekilmelidir.",
+      "Kedilerde karın altında sarkan cilt kıvrımı normal olabilir; belirleyici olan bu kıvrımın içinde yağ bulunup bulunmadığıdır.",
+      "Değerlendirmeyi her ay aynı koşullarda tekrarlayın ve tartım sonucuyla birlikte kaydedin."
+    ]},
+    {"type": "h2", "text": "GLP-1 ilaçları nasıl çalışır?"},
+    {"type": "p", "text": "GLP-1, bağırsaktan yemek sonrası salınan doğal bir hormondur. İnsülin salgısını uyarır, mide boşalmasını yavaşlatır ve beyindeki tokluk merkezine sinyal göndererek iştahı azaltır. İnsanlarda kullanılan ilaçlar bu hormonun etkisini taklit eder ve vücutta daha uzun süre kalacak biçimde tasarlanmıştır."},
+    {"type": "p", "text": "Aynı mekanizmanın kedi ve köpeklerde de çalışıp çalışmadığı, çalışıyorsa hangi dozda güvenli olduğu ayrı bir araştırma konusudur. Türler arasında hormonal yanıtlar, ilaç metabolizması ve yan etki profilleri belirgin biçimde farklılaşır; insanlarda güvenli bir molekül başka bir türde aynı biçimde davranmayabilir."},
+    {"type": "h2", "text": "Araştırma bugün nerede?"},
+    {"type": "p", "text": "Kedilerde kilo yönetimi için geliştirilen bir GLP-1 yaklaşımı bulunmaktadır. Etkin madde deri altına yerleştirilen ve maddeyi aylar boyunca yavaşça salan bir implant aracılığıyla verilmektedir. Bu yaklaşımın klinik çalışması, ilk kediye 2 Aralık 2025 tarihinde uygulama yapılarak başlatılmıştır."},
+    {"type": "ul", "items": [
+      "Çalışma Amerika Birleşik Devletleri'nde, ilaç otoritesinin araştırma amaçlı yeni ilaç dosyası kapsamında yürütülmektedir.",
+      "Ürün hiçbir ülkede onaylanmış değildir; araştırma aşamasındadır.",
+      "Türkiye'de erişim yoktur ve klinik çalışma yürütülmemektedir.",
+      "Güvenlik ve etkinlik verileri henüz yayımlanmamıştır.",
+      "Köpekler için benzer bir çalışma bildirilmemiştir."
+    ]},
+    {"type": "p", "text": "Bir başka deyişle bu, bugün konuşulabilecek ama uygulanamayacak bir gelişmedir. Sonuçlar yayımlandığında ve bir ruhsat süreci tamamlandığında değerlendirme yeniden yapılmalıdır."},
+    {"type": "callout", "text": "İnsanlar için reçete edilmiş GLP-1 ilaçlarını kedinize ya da köpeğinize kesinlikle vermeyin. Bu ilaçların evcil hayvanlarda güvenli dozu belirlenmemiştir, insan kalem ve şırıngalarıyla küçük bir hayvana doğru doz ayarlamak mümkün değildir ve ağır kusma, iştahın tamamen kesilmesi, pankreas iltihabı gibi ciddi sonuçlar bildirilmektedir. Kedilerde birkaç gün süren iştahsızlık, tek başına hayatı tehdit eden karaciğer yağlanmasına yol açabilir."},
+    {"type": "h2", "text": "İnsan ilacı neden bu kadar tehlikeli?"},
+    {"type": "p", "text": "Riskin ilk kaynağı dozdur. İnsan için üretilmiş kalemler, birkaç kilogramlık bir kedide anlamlı olacak kadar küçük dozları ayarlamaya uygun değildir. İkinci kaynak, iştahın baskılanmasının kedilerde köpeklerdekinden çok daha tehlikeli olmasıdır: kediler yemeyi kestiğinde yağ depoları hızla karaciğere yönelir ve karaciğer yağlanması gelişir. Bu tablo, hangi nedenle başlarsa başlasın tek başına ölümcül olabilir."},
+    {"type": "p", "text": "Üçüncü kaynak ise gözlemsizliktir. Bu ilaçlar insanlarda bile düzenli takiple kullanılır. Evde, hekim değerlendirmesi olmadan başlanan bir uygulamada bulantı, kusma ve pankreas iltihabı gibi yan etkiler geç fark edilir. Bu nedenle ev eczanesindeki hiçbir insan ilacı evcil hayvana verilmemelidir."},
+    {"type": "h2", "text": "Peki kedilerde ve köpeklerde kilo nasıl verdirilir?"},
+    {"type": "p", "text": "Kilo yönetiminin ilaçsız yolu sıkıcı görünür ama işe yarayan yol budur. Başarının sırrı iradede değil, ölçmede ve planı yazılı hâle getirmededir. Göz kararı verilen mama, kilo verme programlarının en sık başarısızlık nedenidir."},
+    {"type": "ul", "items": [
+      "Hedef kiloyu hekiminizle birlikte belirleyin; vücut kondisyon skoru bu değerlendirmenin temelidir.",
+      "Günlük kalori ihtiyacını hedef kiloya göre hesaplatın ve mamayı mutlaka tartarak verin.",
+      "Ödülleri günlük kalorinin küçük bir payıyla sınırlayın ve bu payı toplam hesaba dahil edin.",
+      "Serbest mama düzenini bırakın; öğün sayısını artırıp porsiyonu küçültün.",
+      "Kilo kaybını haftada vücut ağırlığının yüzde bir ila ikisiyle sınırlı tutun; hızlı kilo kaybı kedilerde tehlikelidir.",
+      "İki-dört haftada bir tartım yapın ve planı sonuçlara göre yeniden ayarlayın.",
+      "Evdeki herkesin aynı kurallara uyduğundan emin olun; ek besleme programı sessizce bozar."
+    ]},
+    {"type": "h2", "text": "Hareketi artırmanın gerçekçi yolu"},
+    {"type": "p", "text": "Kilo kaybının büyük bölümü beslenmeden gelir, ancak hareket kas kütlesinin korunmasını sağlar. Kedilerde bu, uzun yürüyüşlerle değil kısa ve sık oyun seanslarıyla mümkündür. Köpeklerde ise sürenin kademeli artırılması gerekir; kilolu bir köpekte ani yüklenme eklemleri zorlar ve sıcak havada risk yaratır."},
+    {"type": "ul", "items": [
+      "Kedilerde günde birkaç kez, beş-on dakikalık avlanma temalı oyun seansları.",
+      "Mamanın bir bölümünün yiyecek dağıtan oyuncaklarla verilmesi.",
+      "Dikey alanların artırılması; tırmanma hem hareket hem uyarım sağlar.",
+      "Köpeklerde yürüyüş süresinin haftalık olarak kademeli artırılması.",
+      "Eklem ağrısı olan hayvanlarda önce ağrının kontrol altına alınması.",
+      "Sıcak saatlerden kaçınılması ve su erişiminin sürekli olması."
+    ]},
+    {"type": "h2", "text": "Kilo vermeyen hayvanda ne araştırılır?"},
+    {"type": "p", "text": "Plana uyulduğu hâlde kilo vermeyen bir hayvanda önce hesaplama gözden geçirilir; ardından altta yatan tıbbi nedenler araştırılır. Köpeklerde tiroit hormonu eksikliği ve Cushing sendromu bu listenin başında gelir. Kedilerde ise kilo verememekten çok, hızlı kilo kaybının araştırılması gerekir."},
+    {"type": "p", "text": "Bu nedenle kilo verme programları hekim takibiyle yürütülmelidir. Programın parçası olan düzenli tartımlar, aynı zamanda beklenmedik bir kilo kaybının erken yakalanmasını da sağlar."},
+    {"type": "p", "text": "Kedinizin ya da köpeğinizin kilosu için gerçekçi bir hedef ve ölçülebilir bir plan oluşturmak isterseniz Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Kediye Ozempic ya da benzeri bir ilaç verilebilir mi?", "a": "Hayır. İnsanlar için üretilmiş GLP-1 ilaçlarının kedi ve köpeklerde güvenli dozu belirlenmemiştir, insan kalemleriyle küçük bir hayvana doğru doz vermek mümkün değildir ve ağır kusma, iştahın kesilmesi ile pankreas iltihabı gibi ciddi sonuçlar ortaya çıkabilir."},
+    {"q": "Kediler için geliştirilen GLP-1 ürünü satın alınabiliyor mu?", "a": "Hayır. Ürün araştırma aşamasındadır ve hiçbir ülkede onaylanmamıştır. Klinik çalışması Amerika Birleşik Devletleri'nde, ilaç otoritesinin araştırma amaçlı dosyası kapsamında yürütülmektedir. Türkiye'de erişim bulunmamaktadır."},
+    {"q": "Kedimin iştahını kesmek kilo vermesini sağlar mı?", "a": "Kedilerde iştahın hızla kesilmesi tehlikelidir. Birkaç gün yeterince beslenmeyen bir kedide karaciğer yağlanması gelişebilir ve bu tablo tek başına hayatı tehdit eder. Kilo kaybı yavaş ve kontrollü olmalı, haftada vücut ağırlığının yüzde bir ila ikisini aşmamalıdır."},
+    {"q": "Kilo verme maması gerçekten fark yaratır mı?", "a": "Bu mamalar aynı kalori ile daha fazla doygunluk sağlayacak biçimde tasarlanır ve vitamin-mineral dengesini korur. Ancak asıl belirleyici olan mamanın türü değil, verilen miktarın tartılarak ölçülmesi ve ödüllerin hesaba katılmasıdır."},
+    {"q": "Kısırlaştırma kilo aldırır mı?", "a": "Kısırlaştırma sonrası enerji ihtiyacı düşer, iştah ise çoğu hayvanda aynı kalır ya da artar. Bu dönemde porsiyonun yeniden hesaplanması kilo alımını büyük ölçüde önler. Sorun ameliyatın kendisi değil, beslenme planının güncellenmemesidir."},
+    {"q": "Köpeğim plana uyduğu hâlde kilo vermiyor, neden?", "a": "Önce günlük alınan toplam kalori yeniden hesaplanmalı ve evdeki ek beslemeler sorgulanmalıdır. Bunlar dışlandığında tiroit hormonu eksikliği ve Cushing sendromu gibi tıbbi nedenler araştırılır; bu değerlendirme kan testleriyle yapılır."},
+    {"q": "Kilo vermesi ne kadar sürer?", "a": "Güvenli hız, haftada vücut ağırlığının yüzde bir ila ikisidir. Buna göre birkaç kilo fazlası olan bir hayvanda süreç genellikle birkaç ay alır. Hızlandırma girişimleri kas kaybına ve kedilerde karaciğer sorunlarına yol açtığı için önerilmez."},
+    {"q": "Kedim sürekli mama istiyor, açlıktan mı?", "a": "Çoğu zaman hayır. Kediler alışkanlıkla ve dikkat çekmek için mama ister; serbest mama düzeninden gelen kedilerde bu davranış özellikle belirgindir. Öğün sayısını artırıp porsiyonu küçültmek, mamanın bir bölümünü yiyecek dağıtan oyuncaklarla vermek ve mama isteğine oyunla karşılık vermek bu döngüyü kırar. Buna karşılık iştahta ani ve belirgin artış hipertiroidi ve diyabet gibi hastalıkların da bulgusu olabileceği için değerlendirilmelidir."}
+  ]
+}

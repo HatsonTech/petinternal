@@ -1,0 +1,96 @@
+{
+  "slug": "mikrocip-cezasi-ve-petvet-2026",
+  "title": "Mikroçip süresi doldu: 2026 cezaları ve PETVET kaydını tamamlama",
+  "category": "Yasal Rehber",
+  "image": "/images/blog-microchip.jpg",
+  "imageAlt": "Tasmalı, dışarıda duran sarı bir köpek",
+  "date": "12 Kasım 2026",
+  "dateISO": "2026-11-12",
+  "updatedISO": "2026-11-12",
+  "excerpt": "Mikroçip ve kayıt yükümlülüğünün son tarihi 31 Aralık 2025'ti; uygulama 1 Ocak 2026 itibarıyla yürürlükte. Süreyi kaçırdıysanız ne yapmanız gerektiğini, kaydın nasıl tamamlandığını ve idari yaptırımların çerçevesini anlatıyoruz.",
+  "readTime": "9 dk okuma",
+  "keywords": [
+    "mikroçip cezası 2026",
+    "PETVET kaydı nasıl yapılır",
+    "çipsiz kedi cezası",
+    "5199 sayılı kanun ceza",
+    "mikroçip zorunluluğu son tarih",
+    "evcil hayvan kayıt sistemi",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kedi ve köpeklerin mikroçiple kimliklendirilmesi ve kayıt sistemine işlenmesi Türkiye'de yasal bir yükümlülüktür. Bu yükümlülük için tanınan süre 31 Aralık 2025 tarihinde sona ermiş, uygulama 1 Ocak 2026 itibarıyla yürürlüğe girmiştir. Bu yazıda süreyi kaçıranların ne yapması gerektiğini, kayıt sürecinin nasıl işlediğini ve idari yaptırımların hangi çerçevede uygulandığını anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Yükümlülüğün dayanağı ve kapsamı"},
+    {"type": "p", "text": "Düzenlemenin dayanağı 5199 sayılı Hayvanları Koruma Kanunu'dur. Kanun, ev hayvanı sahiplerine hayvanlarını kayıt altına aldırma sorumluluğu yükler ve bu sorumluluğun yerine getirilmemesi hâlinde idari para cezası öngörür. Kayıt işlemi, hayvana mikroçip takılması ve bu çipin sahibiyle birlikte resmî sisteme işlenmesinden oluşur."},
+    {"type": "p", "text": "Uygulamada yükümlülük, hayvanın altı aylık olmasından itibaren doğar. Yani yavru bir kedi ya da köpek sahiplendiyseniz süre, sahiplenme tarihinden değil hayvanın yaşından itibaren işler. Sonradan sahiplenilen erişkin hayvanlarda ise kayıt, sahiplenmeyle birlikte devredilmelidir."},
+    {"type": "h2", "text": "Mikroçip nedir, nasıl takılır?"},
+    {"type": "p", "text": "Mikroçip, pirinç tanesi büyüklüğünde ve içinde yalnızca bir kimlik numarası taşıyan pasif bir cihazdır. Ense bölgesinde deri altına, aşı yapmaya benzer tek bir uygulamayla yerleştirilir. İşlem birkaç saniye sürer ve genellikle anestezi gerektirmez."},
+    {"type": "ul", "items": [
+      "Çipin içinde pil bulunmaz; yalnızca okuyucu yaklaştırıldığında numarasını iletir.",
+      "Konum takibi yapmaz; kayıp hayvanın bulunmasını sağlayan şey, bulunduğu yerde okutulmasıdır.",
+      "Uygulama sonrası hafif bir hassasiyet dışında olağan bir tepki beklenmez.",
+      "Çip zamanla birkaç santimetre yer değiştirebilir; bu normaldir ve okunmasını engellemez.",
+      "Yaptırdıktan sonra numaranın okunabildiğini kontrol ettirin ve numarayı kendiniz de kaydedin."
+    ]},
+    {"type": "h2", "text": "Kayıt nasıl tamamlanır?"},
+    {"type": "p", "text": "Çip takılması tek başına yeterli değildir; asıl belirleyici olan kaydın sisteme işlenmesidir. Bu iki adımın karıştırılması, sahiplerin en sık düştüğü hatadır. Çipi olan ama kaydı bulunmayan bir hayvan, sistem açısından kayıtsız sayılır."},
+    {"type": "ul", "items": [
+      "Kayıt, Tarım ve Orman Bakanlığı'nın evcil hayvan kayıt sistemi üzerinden yürütülür.",
+      "İşlem yetkili veteriner hekim ya da İl ve İlçe Müdürlükleri aracılığıyla yapılır.",
+      "Kimlik bilgileriniz, adresiniz ve iletişim bilgileriniz kayda işlenir.",
+      "Hayvanın türü, ırkı, cinsiyeti, doğum tarihi ve çip numarası sisteme girilir.",
+      "Kayıt tamamlandığında hayvana ait kimlik belgesi düzenlenir.",
+      "Kayıtlarınızı bakanlığın mobil uygulaması üzerinden görüntüleyip kontrol edebilirsiniz."
+    ]},
+    {"type": "p", "text": "Adres ya da telefon değişikliğinde kaydın güncellenmesi de sahibin sorumluluğundadır. Kayıp bir hayvanda çip okunduğunda sistemde görünen numara güncel değilse, çipin tek başına bir faydası kalmaz. Bu nedenle taşındığınızda kaydınızı güncellemeyi ihmal etmeyin."},
+    {"type": "h2", "text": "Süreyi kaçırdıysanız ne yapmalısınız?"},
+    {"type": "p", "text": "Süre dolmuş olsa bile yapılacak şey aynıdır: kaydı en kısa sürede tamamlatmak. Geciken kaydın tamamlanması, yükümlülüğün yerine getirilmiş olmasını sağlar ve olası bir denetimde durumunuzu doğrudan değiştirir."},
+    {"type": "ul", "items": [
+      "Hayvanınızda çip varsa önce okutup numarasının sistemde kayıtlı olup olmadığını kontrol ettirin.",
+      "Çip yoksa yetkili bir veteriner hekimde uygulama randevusu alın.",
+      "Kayıt işlemi için kimlik belgenizi ve güncel adres bilginizi hazır bulundurun.",
+      "Sokaktan sahiplendiğiniz bir hayvanda önce genel sağlık kontrolü, ardından kayıt işlemi planlanır.",
+      "Birden fazla hayvanınız varsa her biri ayrı ayrı kaydedilir.",
+      "Kayıt sonrası düzenlenen belgeyi ve çip numarasını saklayın."
+    ]},
+    {"type": "callout", "text": "2026 yılı için geçerli idari para cezaları: kayıt yükümlülüğünün yerine getirilmemesi hâlinde hayvan başına yaklaşık 8.306 ila 10.423 TL, sahipli bir hayvanın terk edilmesi hâlinde yaklaşık 86.350 TL, tehlike arz eden ırkların sahiplenilmesi ve kayıt dışı bulundurulması hâlinde hayvan başına yaklaşık 95.589 TL. Bu tutarlar her yıl yeniden değerleme oranına göre güncellenir ve uygulama ayrıntıları değişebilir. Güncel tutarları ve durumunuza özgü uygulamayı mutlaka bağlı bulunduğunuz İl ya da İlçe Tarım ve Orman Müdürlüğü'nden teyit edin."},
+    {"type": "h2", "text": "Kayıt sırasında hangi bilgiler isteniyor?"},
+    {"type": "p", "text": "Kayıt işlemini gecikmeden tamamlamak için gerekli belgeleri önceden hazırlamak en pratik yoldur. İşlem sırasında hem sizin hem hayvanınıza ait bilgiler sisteme girilir ve bu bilgilerin doğru olması, ileride kaydın işe yaraması açısından belirleyicidir."},
+    {"type": "ul", "items": [
+      "Sahibin kimlik bilgileri, güncel adresi ve ulaşılabilir telefon numarası.",
+      "Hayvanın türü, ırkı ya da ırk karışımı, cinsiyeti ve kısırlaştırılmış olup olmadığı.",
+      "Yaklaşık doğum tarihi ve renk ile ayırt edici özellikleri.",
+      "Mikroçip numarası ve uygulama tarihi.",
+      "Varsa önceki kayıt bilgileri ve aşı karnesi.",
+      "Sahiplenme yoluyla devir yapılıyorsa önceki sahibin onayı."
+    ]},
+    {"type": "p", "text": "Kayıt tamamlandıktan sonra bilgilerinizi bakanlığın mobil uygulaması üzerinden görüntüleyebilir, çip numarasının ve iletişim bilgilerinizin doğru göründüğünü kontrol edebilirsiniz. Bu kontrolü yılda bir kez yapmayı alışkanlık hâline getirmenizi öneririz."},
+    {"type": "h2", "text": "Denetim nasıl işliyor?"},
+    {"type": "p", "text": "Denetim yetkisi İl ve İlçe Tarım ve Orman Müdürlükleri ile yerel yönetimlerdedir. Uygulamada kontroller genellikle veteriner kliniği başvuruları, barınak kayıtları, şikâyet üzerine yapılan incelemeler ve sokakta yapılan denetimler sırasında gündeme gelir. Yükümlülük hayvan sahibine aittir; kaydın yapılmamış olmasından sorumlu taraf sahiptir."},
+    {"type": "p", "text": "Sık sorulan bir konu da veteriner kliniklerinin rolüdür. Klinikler kayıt işlemini sizin adınıza yapabilen taraflardan biridir, ancak bir ceza kesme ya da bildirimde bulunma makamı değildir. Kaydı eksik bir hayvanla kliniğe başvurmaktan çekinmeyin; doğru adım, muayene sırasında eksiği tamamlatmaktır. Kayıt korkusuyla veteriner başvurusunu ertelemek, hem hayvanın sağlığı hem yükümlülüğün büyümesi açısından en kötü seçenektir."},
+    {"type": "h2", "text": "Neden yalnızca bir yükümlülük değil?"},
+    {"type": "p", "text": "Kayıt sisteminin yaptırım boyutu tartışılırken asıl işlevi çoğu zaman göz ardı edilir. Mikroçip, kaybolan bir hayvanın sahibine dönmesini sağlayan en güvenilir yöntemdir; tasma ve künye düşebilir, çip düşmez. Ayrıca kayıt, seyahat işlemlerinin, aşı takibinin ve sahiplendirme süreçlerinin de temelini oluşturur."},
+    {"type": "ul", "items": [
+      "Kaybolan hayvanın sahibine ulaştırılmasını sağlar; barınaklar ve klinikler çip okuyucusu bulundurur.",
+      "Yurt dışı seyahat işlemlerinde zorunlu ilk adımdır.",
+      "Aşı ve sağlık kayıtlarının hayvanla birlikte takip edilmesini mümkün kılar.",
+      "Sahiplendirme ve devir işlemlerinde kayıt geçmişinin izlenebilmesini sağlar.",
+      "Terk edilen hayvanların sorumlusunun belirlenmesine imkân verir."
+    ]},
+    {"type": "h2", "text": "Sık sorulan pratik konular"},
+    {"type": "p", "text": "Sahiplerin en çok tereddüt ettiği başlıklar, işlemin hayvana zarar verip vermeyeceği ve kaydın devri konusundadır. Çip uygulaması ağrı açısından bir aşıyla karşılaştırılabilir ve kalıcı bir rahatsızlık bırakmaz. Kaydın devri ise hayvan el değiştirdiğinde mutlaka yapılmalıdır; aksi hâlde sorumluluk önceki sahipte kalmaya devam eder."},
+    {"type": "p", "text": "Ayrıca hayvanınıza daha önce başka bir ülkede çip takılmışsa, bu çipin okunabildiğini doğrulatmanız ve numaranın Türkiye'deki sisteme işlenmesini sağlamanız gerekir. Okunamayan bir çip, çip yokmuş gibi işlem görür."},
+    {"type": "p", "text": "Mikroçip uygulaması, kayıt işlemleri ya da mevcut kaydınızın kontrolü için Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği'ne 0536 290 69 58 numaralı telefondan ulaşabilirsiniz. Güncel ceza tutarları ve uygulama ayrıntıları için bağlı bulunduğunuz İl ya da İlçe Tarım ve Orman Müdürlüğü'ne danışmanızı öneririz."}
+  ],
+  "faqs": [
+    {"q": "Son tarih ne zamandı, şu an durum ne?", "a": "Kayıt yükümlülüğü için tanınan süre 31 Aralık 2025 tarihinde sona ermiş, uygulama 1 Ocak 2026 itibarıyla yürürlüğe girmiştir. Süreyi kaçırmış olmak kaydı yaptıramayacağınız anlamına gelmez; yapılacak şey işlemi en kısa sürede tamamlatmaktır."},
+    {"q": "Çipim var ama kaydım yok, sorun olur mu?", "a": "Evet. Çip takılması ile kaydın sisteme işlenmesi iki ayrı adımdır ve yalnızca çip takılmış olması yeterli değildir. Kaydı bulunmayan bir hayvan sistem açısından kayıtsız sayılır. Çip numaranızın sistemde görünüp görünmediğini kontrol ettirin."},
+    {"q": "Ceza tutarları ne kadar?", "a": "2026 yılı için kayıt yükümlülüğünün yerine getirilmemesinde hayvan başına yaklaşık 8.306 ila 10.423 TL uygulanmaktadır. Bu tutarlar her yıl yeniden değerleme oranına göre güncellenir; güncel rakamı bağlı bulunduğunuz İl ya da İlçe Tarım ve Orman Müdürlüğü'nden teyit etmeniz gerekir."},
+    {"q": "Kaç aylıktan itibaren zorunlu?", "a": "Uygulamada yükümlülük hayvanın altı aylık olmasından itibaren doğar. Yavru sahiplenen kişilerde süre, sahiplenme tarihinden değil hayvanın yaşından itibaren işler. Erişkin bir hayvan sahiplenildiğinde ise kayıt devri hemen yapılmalıdır."},
+    {"q": "Mikroçip hayvanıma zarar verir mi?", "a": "Uygulama, aşı yapmaya benzer tek bir işlemle yapılır ve birkaç saniye sürer. Çipin içinde pil bulunmaz, ısınmaz ve konum takibi yapmaz. Uygulama sonrası hafif bir hassasiyet dışında olağan bir tepki beklenmez."},
+    {"q": "Çip kayıp hayvanımı bulmamı sağlar mı?", "a": "Çip konum bildirmez; işlevi, hayvan bulunduğunda kimliğinin okunabilmesidir. Klinikler, barınaklar ve belediye ekipleri okuyucu bulundurur. Bu nedenle kaydınızdaki telefon ve adres bilgisinin güncel olması, çipin kendisi kadar önemlidir."},
+    {"q": "Sokaktan hayvan sahiplendim, ne yapmalıyım?", "a": "Önce genel sağlık kontrolü, parazit taraması ve aşı planlaması yapılır. Ardından çip uygulaması ve kayıt işlemi tamamlanır. Hayvanın önceden çipi varsa numarası okutulur ve kayıt sizin adınıza devredilir."},
+    {"q": "Adresim değişti, kaydı güncellemem gerekir mi?", "a": "Evet, kayıt bilgilerinin güncel tutulması sahibin sorumluluğundadır. Kayıp bir hayvanda çip okunduğunda sistemde görünen iletişim bilgisi eskiyse çipin pratik faydası kalmaz. Taşındığınızda kaydınızı güncellemeyi ihmal etmeyin."}
+  ]
+}
