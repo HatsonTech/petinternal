@@ -31,6 +31,29 @@ function wordCount(post: BlogPost): number {
   return parts.join(" ").trim().split(/\s+/).filter(Boolean).length;
 }
 
+// Maps a post's category to the clinic services it belongs to. Names mirror
+// components/services.tsx so the graph stays consistent with the site.
+const CATEGORY_SERVICES: Record<string, string[]> = {
+  "Acil Durumlar": ["Acil Müdahale", "Laboratuvar & Görüntüleme"],
+  Aşılama: ["Aşılama & Mikroçip", "Genel Muayene & Check-up"],
+  Beslenme: ["Beslenme Danışmanlığı", "Genel Muayene & Check-up"],
+  Cerrahi: ["Kısırlaştırma & Cerrahi", "Laboratuvar & Görüntüleme"],
+  Davranış: ["Genel Muayene & Check-up"],
+  "Diş Sağlığı": ["Diş Sağlığı"],
+  "Güncel Tıp": ["Dermatoloji & Dahiliye", "Laboratuvar & Görüntüleme"],
+  "Kedi Sağlığı": ["Dermatoloji & Dahiliye", "Laboratuvar & Görüntüleme"],
+  "Köpek Sağlığı": ["Dermatoloji & Dahiliye", "Laboratuvar & Görüntüleme"],
+  "Koruyucu Hekimlik": ["Genel Muayene & Check-up", "Laboratuvar & Görüntüleme"],
+  "Mevsimsel Bakım": ["Genel Muayene & Check-up", "Pet Kuaför & Bakım"],
+  "Parazit Kontrolü": ["Genel Muayene & Check-up", "Aşılama & Mikroçip"],
+  "Yaşlı Dostlar": ["Genel Muayene & Check-up", "Dermatoloji & Dahiliye"],
+  "Yasal Rehber": ["Aşılama & Mikroçip"],
+};
+
+function servicesFor(post: BlogPost): string[] {
+  return CATEGORY_SERVICES[post.category] ?? ["Genel Muayene & Check-up"];
+}
+
 export function generateMetadata({
   params,
 }: {
@@ -65,7 +88,23 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = getPost(params.slug);
   if (!post) notFound();
 
-  const others = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
+  // Related posts: prefer the same category, then posts sharing keywords, then
+  // fill from the rest. Without this the list is date-sorted, so every post
+  // links to the same three newest ones and the internal-link graph collapses.
+  const pool = blogPosts.filter((p) => p.slug !== post.slug);
+  const keywordSet = new Set(post.keywords.map((k) => k.toLocaleLowerCase("tr")));
+  const scored = pool
+    .map((p) => {
+      const sharedKeywords = p.keywords.filter((k) =>
+        keywordSet.has(k.toLocaleLowerCase("tr")),
+      ).length;
+      return {
+        post: p,
+        score: (p.category === post.category ? 100 : 0) + sharedKeywords,
+      };
+    })
+    .sort((a, b) => b.score - a.score || (a.post.dateISO < b.post.dateISO ? 1 : -1));
+  const others = scored.slice(0, 3).map((s) => s.post);
   const updated = trFull.format(new Date(post.updatedISO));
 
   const blogPostingLd = {
@@ -93,7 +132,44 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         url: "https://www.petinternal.com/logo-icon.png",
       },
     },
-    mainEntityOfPage: `https://www.petinternal.com/blog/${post.slug}`,
+    mainEntityOfPage: {
+      "@id": `https://www.petinternal.com/blog/${post.slug}#webpage`,
+    },
+  };
+
+  // MedicalWebPage wrapper: tells search engines the page is owner-facing
+  // health information published by the clinic, and ties it to the services
+  // the topic belongs to. `about` = the post's primary subject, `mentions` =
+  // the clinic's matching service areas.
+  const services = servicesFor(post);
+  const medicalWebPageLd = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": `https://www.petinternal.com/blog/${post.slug}#webpage`,
+    url: `https://www.petinternal.com/blog/${post.slug}`,
+    name: post.title,
+    description: post.excerpt,
+    inLanguage: "tr-TR",
+    datePublished: post.dateISO,
+    dateModified: post.updatedISO,
+    audience: { "@type": "Audience", audienceType: "Evcil hayvan sahipleri" },
+    // Owner education only — not diagnosis or treatment guidance.
+    audienceType: "Evcil hayvan sahipleri",
+    about: {
+      "@type": "Thing",
+      name: post.category,
+    },
+    mentions: services.map((s) => ({
+      "@type": "Service",
+      name: s,
+      provider: { "@id": "https://www.petinternal.com" },
+    })),
+    isPartOf: {
+      "@type": "Blog",
+      "@id": "https://www.petinternal.com/blog",
+      name: `${site.shortName} Blog`,
+    },
+    publisher: { "@id": "https://www.petinternal.com" },
   };
 
   const faqLd = {
@@ -271,7 +347,12 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([blogPostingLd, faqLd, breadcrumbLd]),
+          __html: JSON.stringify([
+            blogPostingLd,
+            medicalWebPageLd,
+            faqLd,
+            breadcrumbLd,
+          ]),
         }}
       />
     </>
