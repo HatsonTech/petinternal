@@ -1,0 +1,119 @@
+{
+  "slug": "kopegim-cok-zayifladi-istahi-yerinde",
+  "title": "Köpeğim iyi yiyor ama zayıflıyor: iştah varken kilo kaybı neyin işareti?",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-pet-obesity.jpg",
+  "imageAlt": "Mama kabının başında bekleyen orta boy bir köpek",
+  "date": "14 Ağustos 2026",
+  "dateISO": "2026-08-14",
+  "updatedISO": "2026-08-14",
+  "excerpt": "İyi yiyen bir köpeğin zayıflaması, mamayla açıklanabilecek bir durum değildir. Kalori ya emilmiyor, ya kaybediliyor, ya da olağandışı biçimde harcanıyor demektir. Bu üç mekanizmanın arkasındaki hastalıkları ve ayrımın nasıl yapıldığını anlatıyoruz.",
+  "readTime": "12 dk okuma",
+  "keywords": [
+    "köpek iştahı var ama zayıflıyor",
+    "köpekte kilo kaybı nedenleri",
+    "köpekte EPI belirtileri",
+    "köpekte diyabet kilo kaybı",
+    "köpekte emilim bozukluğu",
+    "yaşlı köpekte kilo kaybı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Köpeğinizin iştahı yerinde, hatta belki eskisinden bile iyi. Mamasını bitiriyor, mutfağa koşuyor, ödül peşinde. Buna rağmen kaburgaları belirginleşti, omurgası elinize geliyor ve tasması gevşedi. Bu tablo, sahiplerin en geç fark ettiği ve en çok geciktirdiği tablodur, çünkü iyi yiyen bir hayvanın hasta olamayacağı sezgisi çok güçlüdür. Oysa mantık tam tersini söyler: kalori giriyorsa ve kilo düşüyorsa, o kalori ya emilmiyor, ya vücuttan kaybediliyor, ya da olağandışı biçimde harcanıyordur. Bu yazıda bu üç mekanizmayı ve arkalarındaki hastalıkları, mama değişikliğine gitmeden önce nelerin araştırılması gerektiğini anlatıyoruz.",
+  "body": [
+    {"type": "h2", "text": "Kısa cevap: bu bir mama sorunu değildir"},
+    {"type": "p", "text": "Bu şikâyetle internete bakan bir sahibin karşısına çıkan ilk yanıtlar genellikle beslenmeye yöneliktir: mamanın kalorisi düşüktür, porsiyon yetersizdir, daha zengin bir formüle geçilmelidir. Bu yanıtların büyük bölümünün mama üreticilerinin sayfalarından gelmesi tesadüf değildir."},
+    {"type": "p", "text": "Klinik gerçek şudur: yeterli miktarda yiyen bir köpekte devam eden kilo kaybı, beslenmeyle açıklanmaz. Yetersiz beslenmeye bağlı kilo kaybında iştah zaten artmış olsa da hayvan genellikle aç kalır ve kilo kaybı porsiyon düzeltildiğinde durur. Porsiyonun yeterli olduğu ve hayvanın yediği bir tabloda kilo düşmeye devam ediyorsa, sorun mamanın kendisinde değil, mamanın vücutta ne olduğundadır. Bu nedenle bu şikâyette ilk adım mama değiştirmek değil, mekanizmayı bulmaktır."},
+    {"type": "callout", "text": "Vücut ağırlığının kısa sürede belirgin biçimde azalması, iştah iyi olsa bile araştırılması gereken bir bulgudur. Bu yazı bilgilendirme amaçlıdır ve muayenenin yerini tutmaz."},
+    {"type": "h2", "text": "Önce doğrulayalım: gerçekten kilo kaybı var mı?"},
+    {"type": "p", "text": "Gözle yapılan değerlendirme yanıltıcıdır, özellikle uzun tüylü ırklarda. Mevsimsel tüy dökümü sonrası birçok köpek 'zayıflamış' görünür. Bunun tersi de doğrudur: kısa tüylü bir köpekte gerçek kayıp geç fark edilir."},
+    {"type": "ul", "items": [
+      "Tartı: mümkünse aynı tartıda, benzer saatte ve düzenli aralıklarla ölçüm yapın. Küçük ırklarda evde bir bebek tartısı, büyük ırklarda önce sizin ağırlığınız sonra köpekle birlikte ölçüm işe yarar.",
+      "Elle değerlendirme: kaburgaların üzerinde ince bir doku tabakası hissedilmeli, kemikler çıplak elde keskin biçimde hissedilmemelidir.",
+      "Bel çizgisi: yukarıdan bakıldığında kaburgaların arkasında hafif bir daralma normaldir; belirgin bir çöküntü kayıp anlamına gelir.",
+      "Karşılaştırma fotoğrafı: aynı açıdan çekilmiş birkaç aylık aralıklı fotoğraflar, gözün alıştığı yavaş değişimi ortaya çıkarır.",
+      "Kayıt: eski muayene kilolarınız varsa mutlaka yanınızda getirin; eğilim, tek ölçümden çok daha değerlidir."
+    ]},
+    {"type": "h2", "text": "Üç mekanizma"},
+    {"type": "p", "text": "İştah korunmuşken kilo kaybının arkasında yatan mekanizmalar üç başlıkta toplanır ve hangi grupta olduğunuzu çoğu zaman eşlik eden bulgular ele verir."},
+    {"type": "ul", "items": [
+      "Kalori emilmiyor: yenen besin sindirilemiyor ya da bağırsaktan kana geçemiyor. Dışkı bulguları belirgindir.",
+      "Kalori kaybediliyor: emilen besin idrarla ya da bağırsak yoluyla vücuttan çıkıyor. İdrar miktarı ya da ödem gibi bulgular eşlik eder.",
+      "Kalori olağandışı harcanıyor: metabolizma hızlanmış ya da vücutta enerjiyi tüketen bir süreç var. Sıklıkla başka sistemik bulgular eşlik eder."
+    ]},
+    {"type": "h2", "text": "Mekanizma 1: emilim ve sindirim sorunları"},
+    {"type": "p", "text": "Bu grupta köpek yer, ama yediği işe yaramaz. En tipik bulgu dışkıdadır: miktar artar, kıvam bozulur, rengi açılır ve kokusu belirgin biçimde değişir. Sahipler çoğu zaman bunu 'mama tutmadı' diye yorumlayıp mama değiştirir ve sorun devam eder."},
+    {"type": "ul", "items": [
+      "Ekzokrin pankreas yetmezliği (EPI): pankreasın sindirim enzimlerini yeterince üretememesi durumudur. Klasik tablo, çok yiyen ve buna rağmen hızla zayıflayan, bol miktarda açık renkli ve yağlı görünümlü dışkı çıkaran bir köpektir. Bazı köpeklerde dışkı yeme davranışı ve karında guruldama eşlik eder. Bazı ırklarda daha sık bildirilmiştir ve genç erişkin yaşta ortaya çıkabilir. Tanısı özel bir kan testiyle konur ve doğru tanı konulduğunda yönetilebilir bir tablodur.",
+      "Kronik enteropatiler: bağırsak duvarının kronik iltihabi hastalıklarıdır. Kilo kaybı, aralıklı ishal ve kusma, iştahta dalgalanma görülür.",
+      "Protein kaybettiren bağırsak hastalığı: bağırsak duvarından kan proteinlerinin kaybedildiği tablodur. Kilo kaybının yanında karında sıvı toplanması, bacaklarda şişlik ve halsizlik görülebilir. Kan tahlilinde albümin düşüklüğü tipiktir.",
+      "Ağır parazit yükü: özellikle genç köpeklerde ve düzenli parazit koruması yapılmayanlarda kilo kaybı ve karın şişkinliği ile seyredebilir.",
+      "Kobalamin eksikliği: uzun süren bağırsak hastalıklarında gelişir ve tabloyu ağırlaştırır; bu nedenle sıklıkla birlikte değerlendirilir."
+    ]},
+    {"type": "h2", "text": "Mekanizma 2: kalorinin vücuttan kaybedilmesi"},
+    {"type": "ul", "items": [
+      "Diyabet: kandaki şeker hücrelere alınamadığında belirli bir düzeyi aşar ve idrara geçerek yanında su çeker. Sonuç, çok yemesine rağmen zayıflayan, çok su içen ve çok idrar yapan bir köpektir. Bu tablo klasiktir ve erken tanı seyri belirgin biçimde değiştirir. Şeker hastalığı düşünülen bir köpekte kan ve idrar birlikte değerlendirilir.",
+      "Böbrekten protein kaybı: böbrek süzgecinin bozulduğu durumlarda idrarla protein kaybedilir. Kilo kaybı sinsi ilerler, albümin düşer ve ödem gelişebilir. İdrarda protein/kreatinin oranıyla ölçülür.",
+      "Kronik böbrek hastalığı: ileri evrelerde iştah genellikle azalır, ancak erken dönemde iştah korunmuşken kilo kaybı ve artmış su tüketimi görülebilir."
+    ]},
+    {"type": "h2", "text": "Mekanizma 3: kalorinin olağandışı harcanması"},
+    {"type": "ul", "items": [
+      "Kalp hastalıkları: ilerlemiş kalp yetmezliğinde vücut, kas dokusunu da kaybettiren bir zayıflama sürecine girebilir. Öksürük, çabuk yorulma ve nefes darlığı eşlik edebilir.",
+      "Kronik iltihabi ve enfeksiyöz hastalıklar: uzun süreli iltihabi süreçler enerji dengesini bozar. Ülkemizde kene ve tatarcık kaynaklı hastalıklar bu başlıkta akılda tutulmalıdır; kilo kaybı bazen ilk fark edilen bulgudur.",
+      "Tümöral hastalıklar: bazı tümörler, iştah korunmuş olsa bile ilerleyici kilo kaybına yol açan metabolik bir sürece neden olur. Bu, özellikle ileri yaşta ayırıcı tanının parçasıdır.",
+      "Diş ve ağız hastalıkları: burada mekanizma farklıdır. Köpek yemek ister, mamaya yaklaşır ama ağrı nedeniyle yeterince çiğneyemez. Sahip iştahı iyi görür, alınan kalori ise azdır. Ağızdan gelen kötü koku, tek taraflı çiğneme ve mamayı ağzından düşürme ipucudur.",
+      "Artan fiziksel yük ya da çevresel etkenler: egzersiz düzeninde belirgin artış, soğuk ortamda barınma, emziren dişilerde artan enerji ihtiyacı. Bunlar hastalık değildir ama tabloyu açıklayabilir ve öyküde sorgulanır."
+    ]},
+    {"type": "p", "text": "Kedilerde bu tablonun en sık nedeni olan hipertiroidi, köpeklerde nadirdir ve rutin olarak ilk sıraya konmaz. Kedisi olan okurlarımız için bu konuyu 'Kedilerde hipertiroidi' başlıklı yazımızda ayrıca ele alıyoruz."},
+    {"type": "h2", "text": "Eşlik eden bulgular hangi yöne işaret eder?"},
+    {"type": "p", "text": "Kilo kaybının yanındaki ikinci bulgu, olasılık sıralamasını en çok daraltan bilgidir. Aşağıdaki eşleştirmeler kesin tanı değildir; hekimin hangi testi önce isteyeceğini belirleyen yön işaretleridir."},
+    {"type": "ul", "items": [
+      "Bol, açık renkli, yağlı görünümlü ve kötü kokulu dışkı: sindirim ve emilim sorunları öne çıkar.",
+      "Çok su içme ve çok idrar yapma: diyabet ve böbrek başlıkları öncelik kazanır.",
+      "Karında sıvı toplanması ya da bacaklarda şişlik: protein kaybı araştırılır.",
+      "Öksürük, çabuk yorulma, nefes darlığı: kalp ve akciğer değerlendirmesi öne alınır.",
+      "Ağız kokusu, çiğnerken zorlanma, mamayı düşürme: ağız içi muayene önceliklidir.",
+      "Aralıklı kusma ve yumuşak dışkı: kronik bağırsak hastalıkları düşünülür.",
+      "Ateş, halsizlik, burun kanaması ya da deride küçük kanama odakları: enfeksiyöz nedenler değerlendirilir.",
+      "Hiçbir ek bulgunun olmaması: bu da bir bilgidir ve geniş bir tarama gerektirir."
+    ]},
+    {"type": "h2", "text": "Klinikte hangi basamaklar izlenir?"},
+    {"type": "p", "text": "Değerlendirme, öykü ve muayeneyle başlar. Kilo kaybının hızı, süresi, dışkı özellikleri, su tüketimi ve verilen tüm mama, ödül ve takviyeler ayrıntılı olarak sorgulanır. Ardından ilk basamak testler planlanır."},
+    {"type": "ul", "items": [
+      "Tam kan sayımı, biyokimya paneli ve tam idrar tahlili: organ işlevlerini, kan şekerini, protein düzeylerini ve iltihabi durumu birlikte tarar.",
+      "Dışkı incelemesi: parazit ve sindirim bulguları açısından değerlendirilir.",
+      "İdrarda protein/kreatinin oranı: albümin düşükse böbrek kaynaklı kaybı ölçer.",
+      "Pankreas işlevine yönelik özel kan testi: emilim sorunu düşünülen olgularda tanıyı doğrudan koyabilen testtir.",
+      "Kobalamin ve folat düzeyleri: kronik bağırsak hastalıklarında değerlendirilir.",
+      "Kene kaynaklı hastalıklara yönelik testler: öykü ve bölgesel risk uygunsa istenir.",
+      "Karın ultrasonografisi: organ yapısını, bağırsak duvarını ve karın içi kitleleri değerlendirir.",
+      "Göğüs görüntülemesi ve kalp değerlendirmesi: ilgili bulgular varsa eklenir."
+    ]},
+    {"type": "p", "text": "Bu testlerin tamamı her hastada istenmez; sıra, muayene bulgularına ve ilk basamak sonuçlarına göre belirlenir. Tanı ve görüntüleme hizmetlerimizi Laboratuvar & Görüntüleme sayfamızda, iç hastalıkları değerlendirmesini Dermatoloji & Dahiliye sayfamızda ayrıntılı olarak anlatıyoruz."},
+    {"type": "h2", "text": "Tanı konulduktan sonra beslenmenin yeri"},
+    {"type": "p", "text": "Beslenme bu tablolarda önemsiz değildir; ancak sırası ikincidir. Tanı konulduktan sonra beslenme planı, hastalığa göre tamamen farklı biçimde kurulur: sindirim sorunlarında sindirilebilirliği yüksek bir düzen, protein kaybettiren hastalıklarda özel protein ayarı, diyabette öğün düzeni ve içerik dengesi öne çıkar."},
+    {"type": "p", "text": "Bu nedenle tanı konmadan yapılan mama değişiklikleri iki yönlü zarar verir: tabloyu geçici olarak değiştirerek teşhisi zorlaştırır ve doğru tedavinin başlamasını geciktirir. Tanı sonrası beslenme planlaması için Beslenme Danışmanlığı hizmetimizden yararlanabilirsiniz."},
+    {"type": "callout", "text": "Kilo kaybı olan bir köpeğe tanı konmadan yüksek kalorili mama, kilo aldırıcı takviye ya da iştah artırıcı ürünler vermek, altta yatan hastalığı gizleyebilir ve değerlendirmeyi zorlaştırır. Önce neden bulunur, beslenme planı tanının üzerine kurulur."},
+    {"type": "h2", "text": "Ne zaman beklemeden başvurmalı?"},
+    {"type": "ul", "items": [
+      "Kilo kaybı hızlıysa ya da haftalar içinde belirginleştiyse.",
+      "Kilo kaybına kusma, ishal ya da dışkıda kan eşlik ediyorsa.",
+      "Karında şişlik, bacaklarda ödem ya da nefes darlığı varsa.",
+      "Diş etleri solgunsa ya da köpek belirgin biçimde halsizse.",
+      "Çok su içme ve çok idrar yapma tabloya eklendiyse.",
+      "Köpek yaşlıysa ya da bilinen kronik bir hastalığı varsa.",
+      "Ateş, burun kanaması ya da deride küçük kanama odakları varsa."
+    ]},
+    {"type": "p", "text": "Köpeğiniz iyi yediği hâlde zayıflıyorsa, bu tablo bir mama sorunu değil, araştırılması gereken klinik bir bulgudur. Çankaya, Öveçler'deki Pet Internal Veteriner Kliniği olarak iç hastalıkları değerlendirmesi ve randevu için 0536 290 69 58 numaralı telefondan bize ulaşabilirsiniz."}
+  ],
+  "faqs": [
+    {"q": "Köpeğim iyi yiyorsa gerçekten hasta olabilir mi?", "a": "Evet. Korunmuş iştah, sağlığın güvencesi değildir. Diyabet, emilim bozuklukları ve bazı kronik hastalıklarda köpek normal, hatta artmış bir iştahla yer; buna rağmen kalori ya emilmediği, ya kaybedildiği ya da olağandışı harcandığı için kilo düşer. Bu tabloda iyi iştah, tanıyı geciktiren en yaygın nedendir."},
+    {"q": "Mamayı değiştirsem düzelir mi?", "a": "Yeterli miktarda yiyen bir köpekte devam eden kilo kaybı, mama değişikliğiyle çözülmez ve tanı konmadan yapılan değişiklik değerlendirmeyi zorlaştırır. Beslenme planı önemlidir ancak sırası tanıdan sonradır; çünkü sindirim sorunu, protein kaybı ve diyabet birbirinden tamamen farklı beslenme düzenleri gerektirir."},
+    {"q": "Dışkının yağlı ve açık renkli olması ne anlama gelir?", "a": "Bu, yenen besinin sindirilemediğini ya da emilemediğini düşündüren tipik bir bulgudur ve ekzokrin pankreas yetmezliği gibi sindirim kaynaklı tabloların akla gelmesini sağlar. Miktarın artması, kokunun belirgin biçimde değişmesi ve buna hızlı kilo kaybının eşlik etmesi bu olasılığı güçlendirir. Tanı özel bir kan testiyle konur."},
+    {"q": "Parazit ilacı versem yeterli olur mu?", "a": "Ağır parazit yükü kilo kaybı yapabilir ve düzenli parazit koruması her köpekte gereklidir, ancak kilo kaybının tek başına parazite bağlanması güvenli değildir. Özellikle düzenli koruma uygulanan, erişkin ve başka bulguları olan köpeklerde diğer nedenler araştırılmadan bu tabloya parazit tanısı konmamalıdır. Dışkı incelemesi değerlendirmenin bir parçasıdır, tamamı değil."},
+    {"q": "Yaşlandığı için zayıflıyor olabilir mi?", "a": "Yaşlanmayla birlikte kas kütlesinde bir miktar azalma beklenir, ancak belirgin ve ilerleyici kilo kaybı yaşlanmanın normal bir sonucu değildir. İleri yaşta böbrek hastalıkları, kalp hastalıkları, diş sorunları ve tümöral hastalıklar bu tablonun sık nedenleridir. 'Yaşlandı' açıklaması, ancak diğer nedenler dışlandıktan sonra kabul edilebilir."},
+    {"q": "Kaç kilo kayıp anlamlı sayılır?", "a": "Tek bir sayı vermek doğru olmaz, çünkü anlamlılık köpeğin başlangıç ağırlığına ve kaybın hızına bağlıdır; küçük ırk bir köpekte küçük bir kayıp, büyük ırkta aynı miktardan çok daha önemlidir. Pratik ölçüt orandır ve eğilimdir: birkaç ay içinde süregelen, durmayan bir azalma miktarından bağımsız olarak değerlendirilmelidir."},
+    {"q": "Kan tahlili normal çıktı ama zayıflama devam ediyor. Sırada ne var?", "a": "Rutin panel bazı tabloları göstermez. Pankreas işlev testi, kobalamin ve folat düzeyleri, idrarda protein/kreatinin oranı, kene kaynaklı hastalık testleri ve karın ultrasonografisi bu aşamada sık kullanılan ikinci basamak incelemelerdir. Ayrıca ağız içi ayrıntılı muayene atlanmamalıdır; ağrı nedeniyle yeterince yiyemeyen bir köpek, sahibine iyi yiyor gibi görünebilir."},
+    {"q": "Muayeneye giderken ne hazırlamalıyım?", "a": "En değerlisi kilo kayıtlarıdır; varsa eski tartı ve muayene kiloları eğilimi gösterir. Bunun yanında dışkının son hâlinin fotoğrafı, günlük verilen mamanın markası ve miktarı, tüm ödül ve takviyeler, parazit koruma tarihleri ve su tüketimindeki değişikliğe dair gözleminiz süreci belirgin biçimde hızlandırır."}
+  ]
+}
