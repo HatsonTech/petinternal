@@ -130,6 +130,9 @@ export const services: Service[] = [
       "kedilerde-kronik-bobrek-hastaligi",
       "kopegim-cok-su-iciyor",
       "veteriner-ucretlerini-ne-belirler",
+    
+      "yasli-kedide-yillik-kontrol-hangi-testler",
+      "veteriner-fiyatlari-neden-farkli",
     ],
   },
   {
@@ -215,6 +218,8 @@ export const services: Service[] = [
       "mikrocip-ve-yasal-sorumluluklar",
       "mikrocip-cezasi-ve-petvet-2026",
       "pet-pasaportu-favn-testi-ankara",
+    
+      "kene-cikardim-simdi-ne-olacak",
     ],
   },
   {
@@ -301,6 +306,8 @@ export const services: Service[] = [
       "evcil-hayvanlarda-obezite",
       "kopeklerde-mide-burulmasi-gdv",
       "veteriner-ucretlerini-ne-belirler",
+    
+      "kedim-ameliyat-olacak-anestezi-guvenli-mi",
     ],
   },
   {
@@ -471,6 +478,9 @@ export const services: Service[] = [
       "kedilerde-kronik-bobrek-hastaligi",
       "veterinerlikte-yapay-zeka-teshis",
       "kanserde-erken-tani-sivi-biyopsi",
+    
+      "kan-tahlili-sonucu-nasil-okunur",
+      "kedi-ultrason-ne-zaman-gerekir-ankara",
     ],
   },
   {
@@ -557,6 +567,9 @@ export const services: Service[] = [
       "kedilerde-hipertiroidi",
       "kedilerde-kronik-bobrek-hastaligi",
       "kopeklerde-kronik-ishal-mikrobiyota-nakli",
+    
+      "kedimde-ic-hastalik-belirtileri-ayirici-tani",
+      "kopegim-cok-zayifladi-istahi-yerinde",
     ],
   },
   {
@@ -644,6 +657,9 @@ export const services: Service[] = [
       "kedilerde-idrar-tikanikligi-flutd",
       "kopeklerde-mide-burulmasi-gdv",
       "kedilerde-nefes-darligi",
+    
+      "kopekte-nobet-havale-ne-yapmali",
+      "kedi-kum-kabina-girip-cikiyor-idrar-yapamiyor",
     ],
   },
   {
