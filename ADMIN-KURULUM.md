@@ -9,7 +9,7 @@ Cloudflare Worker bunu yapar. Tek seferlik kurulum:
 
 ## 1) GitHub erişim anahtarı (token)
 1. GitHub → Settings → Developer settings → **Fine-grained tokens** → *Generate new token*.
-2. **Repository access:** Only select repositories → `EcoFluxion/petinternal`.
+2. **Repository access:** Only select repositories → `HatsonTech/petinternal`.
 3. **Permissions → Repository permissions → Contents: Read and write**.
 4. Token'ı oluştur ve **kopyala** (bir daha gösterilmez).
 
@@ -27,7 +27,7 @@ Cloudflare Worker bunu yapar. Tek seferlik kurulum:
 |---|---|---|
 | `ADMIN_PASSWORD` | Secret | Vet'in gireceği şifre (kendin belirle) |
 | `GITHUB_TOKEN` | Secret | 1. adımdaki token |
-| `GH_REPO` | Text | `EcoFluxion/petinternal` |
+| `GH_REPO` | Text | `HatsonTech/petinternal` |
 | `GH_BRANCH` | Text | `main` |
 | `ALLOW_ORIGIN` | Text | `https://www.petinternal.com` |
 

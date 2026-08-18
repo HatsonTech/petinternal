@@ -4,7 +4,7 @@
  * (publish / update / list / get / delete), which triggers the Pages rebuild.
  *
  * Required env (Worker variables/secrets):
- *   ADMIN_PASSWORD, GITHUB_TOKEN, GH_REPO (e.g. "EcoFluxion/petinternal"),
+ *   ADMIN_PASSWORD, GITHUB_TOKEN, GH_REPO (e.g. "HatsonTech/petinternal"),
  *   GH_BRANCH (e.g. "main"), ALLOW_ORIGIN (e.g. "https://www.petinternal.com")
  */
 
