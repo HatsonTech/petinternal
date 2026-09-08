@@ -1,0 +1,142 @@
+{
+  "slug": "evde-kediye-kopege-ilac-verme",
+  "title": "Evde ilaç verme: hap, şurup ve damlayı kavga etmeden vermenin yolu",
+  "category": "Koruyucu Hekimlik",
+  "image": "/images/blog-cat-vaccine.jpg",
+  "imageAlt": "Sahibinin kucağında sakin biçimde duran bir kedi",
+  "date": "8 Eylül 2026",
+  "dateISO": "2026-09-08",
+  "updatedISO": "2026-09-08",
+  "metaDescription": "Tedavinin yarıda kalmasının en sık nedeni ilacın verilememesidir. Hap, şurup ve kulak damlasını evde doğru ve güvenli verme rehberi.",
+  "excerpt": "Doğru teşhis konmuş, doğru ilaç yazılmış ama tedavi işe yaramamış. Bu durumların önemli bir kısmında sorun ilaçta değil, ilacın hayvana ulaşmamasındadır.",
+  "readTime": "3 dk okuma",
+  "keywords": [
+    "kediye hap verme",
+    "köpeğe ilaç verme",
+    "kediye şurup verme",
+    "kulak damlası nasıl damlatılır",
+    "evde ilaç uygulama",
+    "kedi hap yutmuyor",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kontrol muayenesinde en sık duyduğumuz cümlelerden biri şudur: ilacı vermeye çalıştık ama beceremedik. Bu hiç de utanılacak bir şey değil; özellikle kedilerde ilaç vermek gerçekten zordur. Ancak yarım kalan bir tedavi, hiç başlanmamış bir tedaviden bazen daha kötü sonuç verir. Bu yüzden tekniği baştan doğru öğrenmek önemlidir.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Önce güvenlik: neyi asla yapmamalısınız"
+    },
+    {
+      "type": "p",
+      "text": "İnsan ilaçlarını kendi kararınızla vermeyin. Parasetamol kedilerde öldürücüdür. İbuprofen hem kedilerde hem köpeklerde böbrek ve mide hasarına yol açar. İyi niyetle verilen tek bir tablet ciddi zehirlenme tablosu yaratabilir."
+    },
+    {
+      "type": "p",
+      "text": "Bir hayvana yazılan ilacı diğerine vermeyin. Köpek için uygun bir doz kedide toksik olabilir; bazı köpek parazit ürünleri kediler için ölümcüldür."
+    },
+    {
+      "type": "callout",
+      "text": "İlaç veremiyorsanız tedaviyi sessizce bırakmak yerine bize haber verin. Çoğu ilacın farklı formu ya da alternatifi vardır; bunu birlikte çözebiliriz."
+    },
+    {
+      "type": "h2",
+      "text": "Kediye hap verme"
+    },
+    {
+      "type": "p",
+      "text": "Kedilerde en sık hata, mücadeleyi uzatmaktır. Ne kadar uzun sürerse kedi o kadar direnir ve bir sonraki sefer daha zor olur. Hedef hızlı, kararlı ve sakin bir uygulamadır."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kediyi kucağınıza sırtı size dönük alın; kaçış yönünü kapatmış olursunuz",
+        "Çok huzursuzsa bir havluya sarın, yalnızca başı dışarıda kalsın",
+        "Bir elinizle elmacık kemiklerinin üzerinden kavrayıp başı hafifçe yukarı kaldırın",
+        "Alt çeneyi parmakla aşağı indirin, hapı dilin arka kısmına bırakın",
+        "Ağzı kapatıp burnuna kısa bir üfleme yapın ya da boğazını okşayın; yutma refleksini tetikler",
+        "Ardından birkaç mililitre su verin: hapın yemek borusunda takılmasını önler"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Son madde kedilerde özellikle önemlidir. Kuru yutulan bazı tabletler yemek borusunda kalıp tahrişe yol açabilir. Hap sonrası küçük bir miktar su ya da yaş mama bu riski belirgin biçimde azaltır."
+    },
+    {
+      "type": "h2",
+      "text": "Köpeğe hap verme"
+    },
+    {
+      "type": "p",
+      "text": "Köpeklerde iş genellikle daha kolaydır çünkü çoğu köpek hapı gıdanın içinde kabul eder. Küçük bir parça kokulu yiyeceğin içine gizlemek çoğu zaman yeterlidir."
+    },
+    {
+      "type": "p",
+      "text": "İşe yarayan bir taktik şudur: önce içinde ilaç olmayan bir parça verin, sonra ilaçlı olanı, hemen ardından yine boş bir parça. Köpek üçüncüyü beklediği için ikinciyi çiğnemeden yutar."
+    },
+    {
+      "type": "p",
+      "text": "Yalnız dikkat: bazı ilaçlar aç karnına, bazıları tokken verilmelidir; bazıları süt ürünleriyle birlikte emilmez. Gizleyeceğiniz gıdayı seçmeden önce bunu bize sorun."
+    },
+    {
+      "type": "h2",
+      "text": "Sıvı ilaç ve şurup"
+    },
+    {
+      "type": "p",
+      "text": "Enjektörü ağzın önünden değil, yan taraftan, köpek dişinin arkasındaki boşluktan sokun. Yavaş yavaş, küçük miktarlarla verin ve yutmasına zaman tanıyın."
+    },
+    {
+      "type": "p",
+      "text": "Hızlı boşaltmak en tehlikeli hatadır: hayvan sıvıyı soluk borusuna kaçırabilir. Öksürük başlarsa hemen durun ve başını aşağı doğru eğik tutun."
+    },
+    {
+      "type": "h2",
+      "text": "Kulak ve göz damlası"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kulakta: damlayı kanala akıtın, kulak dibine on beş saniye masaj yapın, sonra silkelemesine izin verin",
+        "Şişenin ucunu kulağa ya da göze değdirmeyin; kontaminasyon olur",
+        "Gözde: alt göz kapağını hafifçe aşağı çekip cebe damlatın, doğrudan korneaya damlatmayın",
+        "Birden fazla göz damlası varsa aralarında birkaç dakika bekleyin"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Süreyi tamamlamak neden şart?"
+    },
+    {
+      "type": "p",
+      "text": "En sık gördüğümüz hata, hayvan iyi görününce ilacı kesmektir. Özellikle antibiyotiklerde bu, direncin ve tekrarın en önemli nedenidir. İyileşme belirtisi tedavinin bittiği anlamına gelmez."
+    },
+    {
+      "type": "p",
+      "text": "Bir doz atlarsanız panik yapmayın: hatırladığınızda verin, ancak bir sonraki dozun saati yaklaştıysa atlayın ve iki dozu birleştirmeyin."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kedim hapı sürekli tükürüyor, ne yapmalıyım?",
+      "a": "Hapı dilin mümkün olduğunca arkasına bırakmak ve ardından birkaç mililitre su vermek işe yarar. Yine olmuyorsa bize haber verin; ilacın sıvı formu ya da alternatifi olabilir."
+    },
+    {
+      "q": "İlacı mamaya karıştırabilir miyim?",
+      "a": "Bazı ilaçlarda uygundur, bazılarında emilimi bozar. Karıştırmadan önce o ilaç için uygun olup olmadığını sorun."
+    },
+    {
+      "q": "İnsan ağrı kesici verebilir miyim?",
+      "a": "Hayır. Parasetamol kedilerde öldürücüdür, ibuprofen her iki türde de ciddi hasar yapar. Ağrı için mutlaka bize danışın."
+    },
+    {
+      "q": "Bir dozu atladım, iki katını verebilir miyim?",
+      "a": "Hayır. Hatırladığınızda tek doz verin; bir sonraki dozun saati yakınsa atlayın. Dozları birleştirmek zehirlenmeye yol açabilir."
+    },
+    {
+      "q": "Antibiyotiği erken kesebilir miyim?",
+      "a": "Kesmeyin. Hayvan iyi görünse bile süreyi tamamlamak gerekir; erken kesme tekrarın ve direncin başlıca nedenidir."
+    }
+  ],
+  "metaTitle": "Kedi ve köpeğe evde ilaç nasıl verilir?",
+  "published": false
+}
