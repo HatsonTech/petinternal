@@ -10,7 +10,7 @@ const BASE = "https://www.petinternal.com";
 export const metadata: Metadata = {
   title: "Hizmetlerimiz",
   description:
-    "Çankaya Öveçler'deki kliniğimizde sunduğumuz veteriner hizmetleri: genel muayene, aşılama ve mikroçip, kısırlaştırma, diş sağlığı, laboratuvar, dermatoloji, 7/24 acil, bakım ve beslenme danışmanlığı.",
+    "Çankaya Öveçler'de veteriner hizmetlerimiz: genel muayene, aşılama ve mikroçip, kısırlaştırma, diş sağlığı, laboratuvar, dermatoloji ve 7/24 acil.",
   keywords: [
     "veteriner hizmetleri Çankaya",
     "Ankara veteriner kliniği hizmetler",

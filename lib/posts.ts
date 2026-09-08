@@ -14,7 +14,11 @@ export type FAQ = { q: string; a: string };
 export type BlogPost = {
   slug: string;
   title: string;
+  /** Shorter title for the <title> tag when `title` would be truncated in SERPs. */
+  metaTitle?: string;
   category: string;
+  /** Shorter description for the meta tag; `excerpt` stays the on-page teaser. */
+  metaDescription?: string;
   excerpt: string;
   image: string;
   imageAlt: string;
