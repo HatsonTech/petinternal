@@ -1,0 +1,159 @@
+{
+  "slug": "kedilerde-hcm-sirolimus-tedavisi",
+  "title": "Kedilerde sessiz kalp kalınlaşmasına ilk onaylı ilaç: sirolimus",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-dog-heart.jpg",
+  "imageAlt": "Muayene masasında sakin biçimde bekleyen gri bir kedi",
+  "date": "4 Eylül 2026",
+  "dateISO": "2026-09-04",
+  "updatedISO": "2026-09-04",
+  "metaDescription": "Belirti vermeyen HCM'li kediler için haftada bir verilen sirolimus, FDA'dan şartlı onay aldı. Bu onay ne anlama geliyor, kedinize uyar mı?",
+  "excerpt": "Kedilerde en sık görülen kalp hastalığı olan hipertrofik kardiyomiyopatide yıllarca yalnızca komplikasyonları bekleyip tedavi ettik. Haftada bir verilen düşük doz sirolimus, hastalığın sessiz döneminde kalp kasının kalınlaşmasını yönetmek için onay alan ilk ilaç oldu.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "kedilerde HCM tedavisi",
+    "sirolimus kedi",
+    "kedilerde kalp kalınlaşması",
+    "subklinik hipertrofik kardiyomiyopati",
+    "kedi kalp ilacı",
+    "kedilerde kalp hastalığı",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Hipertrofik kardiyomiyopati (HCM), kedilerde açık ara en sık görülen kalp hastalığıdır ve uzun yıllar sinsi ilerler. Kalbin sol karıncık duvarı yavaşça kalınlaşır, kedi hiçbir belirti göstermez ve hastalık çoğu zaman ancak bir üfürüm duyulduğunda ya da daha kötüsü ani bir felç veya solunum sıkıntısı geliştiğinde fark edilir. Bugüne kadar bu sessiz dönemde yapabildiğimiz tek şey izlemekti. Artık ilk kez, tam da bu dönem için onay almış bir ilaç var.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "HCM'de sessiz dönem neden bu kadar önemli?"
+    },
+    {
+      "type": "p",
+      "text": "HCM'de kalp kasının kalınlaşması, kalbin kasılma gücünü değil gevşeme yeteneğini bozar. Kalınlaşmış ve sertleşmiş bir sol karıncık, iki atım arasında yeterince gevşeyip kanla dolamaz. Kan geriye, sol kulakçığa ve oradan akciğerlere doğru birikmeye başlar."
+    },
+    {
+      "type": "p",
+      "text": "Bu süreç aylar hatta yıllar sürebilir ve kedi bu süre boyunca tamamen normal görünür. Kediler doğaları gereği efor kısıtlamasını kendiliğinden yaparlar: daha az koşar, daha çok uyurlar. Sahip bunu çoğu zaman yaşlanmaya yorar. Hastalığın sessiz dönemi budur ve müdahale için elimizdeki en değerli zaman aralığıdır."
+    },
+    {
+      "type": "p",
+      "text": "Sessiz dönem sona erdiğinde tablo genellikle iki şekilden biriyle açılır: akciğerde su birikmesiyle ortaya çıkan ani solunum sıkıntısı, ya da sol kulakçıkta oluşan pıhtının kopup arka bacaklara giden damarı tıkamasıyla gelişen ani felç ve şiddetli ağrı. Her ikisi de acildir ve her ikisinin de zemininde aylardır süren sessiz kalınlaşma vardır."
+    },
+    {
+      "type": "h2",
+      "text": "Yeni ilaç tam olarak ne yapıyor?"
+    },
+    {
+      "type": "p",
+      "text": "Etken madde sirolimus. İnsan hekimliğinde uzun süredir bilinen, organ nakli hastalarında yüksek dozda bağışıklık baskılayıcı olarak kullanılan bir molekül. Kedilerde onaylanan doz ise bunun çok altında: haftada bir kez, kilogram başına yaklaşık 0,3 miligram. Bu dozda bağışıklık sistemini baskılaması beklenmiyor."
+    },
+    {
+      "type": "p",
+      "text": "Sirolimus, hücrelerin büyüme ve çoğalma sinyallerini yöneten mTOR adlı bir yolağı hedefler. Kalp kası hücrelerinde bu yolağın aşırı çalışması, hücrelerin büyümesine ve dolayısıyla duvarın kalınlaşmasına katkıda bulunur. İlacın amacı bu büyüme sinyalini yavaşlatmak; yani belirtileri değil, kalınlaşma sürecinin kendisini hedeflemek."
+    },
+    {
+      "type": "callout",
+      "text": "Önemli ayrım: bu ilaç HCM'yi iyileştiren bir tedavi değildir. Amaç, sessiz dönemdeki kalınlaşmayı yönetmek ve hastalığın belirti veren evreye geçişini geciktirmektir."
+    },
+    {
+      "type": "h2",
+      "text": "Şartlı onay ne demek?"
+    },
+    {
+      "type": "p",
+      "text": "Bu ilaç, FDA'nın şartlı onay yolundan geçti. Bu yol; ciddi ya da hayati bir hastalığı hedefleyen, karşılanmamış bir ihtiyacı gideren ve etkinliğini kanıtlamak için uzun, zor çalışmalar gerektiren ilaçlar için ayrılmıştır."
+    },
+    {
+      "type": "p",
+      "text": "Şartlı onay, ilacın güvenli olduğunun gösterildiği ve etkili olması için makul bir beklenti bulunduğu anlamına gelir. Üreticinin, tam onay için gereken kapsamlı etkinlik verisini belirli bir süre içinde tamamlaması gerekir. Yani elimizde umut verici ama henüz nihai olmayan bir kanıt düzeyi var. Bunu sahiplerimize açıkça söylemeyi tercih ediyoruz."
+    },
+    {
+      "type": "h2",
+      "text": "Kedim bu ilaca aday mı?"
+    },
+    {
+      "type": "p",
+      "text": "Aday seçimi tahminle değil ölçümle yapılır. Öncelikle HCM tanısının ekokardiyografi ile net biçimde konmuş olması gerekir. Üfürüm duyulması tek başına yeterli değildir; bazı HCM'li kedilerde üfürüm hiç duyulmaz, buna karşılık tamamen sağlıklı kedilerde masum üfürümler sıkça bulunur."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Ekokardiyografi ile ölçülmüş, gerçek bir sol karıncık duvar kalınlaşması",
+        "Kedinin henüz kalp yetmezliği belirtisi göstermiyor olması",
+        "Kalınlaşmayı taklit eden nedenlerin dışlanmış olması: özellikle hipertiroidi ve yüksek tansiyon",
+        "Böbrek ve karaciğer değerlerinin kan tahliliyle görülmesi",
+        "Sahibin düzenli kontrol ve tekrar ölçüm için istekli olması"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu son madde göründüğünden önemlidir. Sessiz dönemde verilen bir ilacın işe yarayıp yaramadığını anlamanın tek yolu, belirli aralıklarla ekokardiyografiyi tekrarlayıp duvar kalınlığını karşılaştırmaktır. Ölçüm yapılmıyorsa tedavi de yönetilemiyor demektir."
+    },
+    {
+      "type": "h2",
+      "text": "Neyin taklit ettiğini dışlamak neden şart?"
+    },
+    {
+      "type": "p",
+      "text": "Kedilerde kalp duvarının kalınlaşmış görünmesinin tek nedeni HCM değildir. Hipertiroidi ve yüksek tansiyon da aynı görüntüyü oluşturabilir ve bu iki durumun tedavisi tamamen farklıdır. Altta yatan tiroit sorunu düzeltildiğinde kalınlaşmanın gerilediği kediler görüyoruz."
+    },
+    {
+      "type": "p",
+      "text": "Bu yüzden orta yaş ve üzeri her kedide, kalp bulgusu varken tiroit hormonu ve tansiyon ölçümü isteriz. Yanlış tanıyla başlanan bir kalp ilacı hem gereksizdir hem de asıl sorunun gecikmesine yol açar."
+    },
+    {
+      "type": "h2",
+      "text": "Riskli ırklar ve tarama"
+    },
+    {
+      "type": "p",
+      "text": "HCM her kedide görülebilir ama bazı ırklarda kalıtsal yatkınlık belirgindir: Maine Coon, Ragdoll, British Shorthair, Sphynx ve Pers kedileri başta gelir. Tekir ve melez kedilerde de sık görülür; ırk kedisi olmamak koruma sağlamaz."
+    },
+    {
+      "type": "p",
+      "text": "Yatkın ırklarda ve orta yaşa gelen her kedide yıllık kontrolde kalbin dinlenmesini, şüphe varsa ekokardiyografiyi öneriyoruz. Sessiz dönemi yakalamanın başka yolu yok; çünkü tanım gereği kedi hiçbir şey belli etmiyor."
+    },
+    {
+      "type": "h2",
+      "text": "Evde neye dikkat etmelisiniz?"
+    },
+    {
+      "type": "p",
+      "text": "Kalp hastalığı olan ya da riskli sayılan bir kedide en değerli ev takibi dinlenme solunum sayısıdır. Kedi derin uykuda ya da sakin dinlenirken göğsün bir dakikada kaç kez inip kalktığını sayın. Sağlıklı bir kedide bu sayı genellikle kırkın altındadır."
+    },
+    {
+      "type": "p",
+      "text": "Kendi kedinizin normal aralığını bilmek tek bir ölçümden çok daha değerlidir. Bu sayı birkaç gün içinde belirgin biçimde yükseliyorsa, kedi henüz iyi görünse bile bize haber verin."
+    },
+    {
+      "type": "callout",
+      "text": "Ani arka bacak felci, bacaklarda soğukluk ve yüksek sesle acı belirtisi: bu üçlü kedilerde pıhtı atmasının klasik tablosudur ve dakikaların önemli olduğu bir acildir."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bu ilaç Türkiye'de bulunuyor mu?",
+      "a": "Söz konusu onay ABD'de verildi ve ilacın ülkemizdeki bulunabilirliği zaman içinde değişebilir. Kedinizde HCM saptandıysa güncel durumu ve mevcut seçenekleri kliniğimizde birlikte değerlendirmemiz en doğrusu olur."
+    },
+    {
+      "q": "Kedimde üfürüm duyuldu, HCM mi?",
+      "a": "Mutlaka değil. Kedilerde masum üfürümler oldukça sık görülür ve HCM'li bazı kedilerde hiç üfürüm duyulmaz. Ayrımı yapabilen tek yöntem ekokardiyografidir."
+    },
+    {
+      "q": "Sirolimus bağışıklığı baskılar mı?",
+      "a": "İnsanlarda kullanılan yüksek dozlarda baskılayıcıdır, ancak kedilerde onaylanan haftalık düşük dozda bağışıklık baskılaması beklenmez. Yine de tedavi süresince düzenli kontrol öneriyoruz."
+    },
+    {
+      "q": "İlaç kalınlaşmayı geri döndürür mü?",
+      "a": "Hedef, kalınlaşma sürecini yavaşlatmak ve hastalığın belirti veren evreye geçişini geciktirmektir. Yanıtın kediden kediye değişebileceğini ve ancak tekrar ekokardiyografi ile anlaşılabileceğini unutmamak gerekir."
+    },
+    {
+      "q": "Kedim iyi görünüyorsa neden ilaç vereyim?",
+      "a": "HCM'nin doğası tam olarak budur: kedi hastalık ilerlerken iyi görünür. Sessiz dönem elimizdeki tek müdahale penceresidir. Yine de karar, ekokardiyografi bulgularına ve kedinizin genel durumuna göre birlikte verilir."
+    },
+    {
+      "q": "Ne sıklıkta kontrol gerekir?",
+      "a": "Tedaviye başlarken kan tahlili, ardından belirli aralıklarla ekokardiyografi tekrarı planlanır. Sıklık kedinizin bulgularına göre belirlenir; kontrol yapılmadan tedavinin yönetilmesi mümkün değildir."
+    }
+  ],
+  "metaTitle": "Kedilerde HCM'de sirolimus: ilk onaylı tedavi"
+}
