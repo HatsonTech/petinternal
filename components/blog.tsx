@@ -6,6 +6,9 @@ import { CoverImage } from "@/components/cover-image";
 import { Reveal } from "@/components/reveal";
 import { blogPosts } from "@/lib/posts";
 
+// Homepage shows only the newest few posts; the full archive lives at /blog.
+const HOME_POST_COUNT = 6;
+
 export function Blog() {
   return (
     <section id="blog" className="scroll-mt-24 bg-paper py-20 sm:py-24">
@@ -20,7 +23,7 @@ export function Blog() {
         </SectionHeading>
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post, i) => (
+          {blogPosts.slice(0, HOME_POST_COUNT).map((post, i) => (
             <Reveal key={post.slug} delay={(i % 3) * 70}>
               <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-hairline bg-surface shadow-soft transition-all duration-200 ease-gentle hover:-translate-y-1 hover:shadow-card">
                 <div className="relative aspect-[3/2] overflow-hidden bg-cream">

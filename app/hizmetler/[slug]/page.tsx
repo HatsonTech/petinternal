@@ -22,7 +22,7 @@ export function generateMetadata({
   const service = getService(params.slug);
   if (!service) return {};
   return {
-    title: service.metaTitle,
+    title: { absolute: service.metaTitle },
     description: service.metaDescription,
     keywords: service.keywords,
     alternates: { canonical: `/hizmetler/${service.slug}` },

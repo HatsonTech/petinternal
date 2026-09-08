@@ -61,9 +61,11 @@ export function generateMetadata({
 }): Metadata {
   const post = getPost(params.slug);
   if (!post) return {};
+  // SERP title/description are length-capped; the long conversational title
+  // stays as the on-page H1 and on the social cards.
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: { absolute: post.metaTitle ?? post.title },
+    description: post.metaDescription ?? post.excerpt,
     keywords: post.keywords,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
@@ -121,8 +123,15 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     inLanguage: "tr-TR",
     author: {
       "@type": "Person",
-      name: post.author ?? "Öykü Yalçın",
-      jobTitle: "Uzman Veteriner Hekim",
+      name: post.author ?? site.vet.name,
+      alternateName: site.vet.alternateName,
+      jobTitle: site.vet.jobTitle,
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: site.vet.alumniOf,
+      },
+      knowsAbout: site.vet.knowsAbout,
+      ...(site.vet.sameAs.length ? { sameAs: site.vet.sameAs } : {}),
     },
     publisher: {
       "@type": "VeterinaryCare",
@@ -152,6 +161,19 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     inLanguage: "tr-TR",
     datePublished: post.dateISO,
     dateModified: post.updatedISO,
+    lastReviewed: post.updatedISO,
+    reviewedBy: {
+      "@type": "Person",
+      name: site.vet.name,
+      alternateName: site.vet.alternateName,
+      jobTitle: site.vet.jobTitle,
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: site.vet.alumniOf,
+      },
+      knowsAbout: site.vet.knowsAbout,
+      ...(site.vet.sameAs.length ? { sameAs: site.vet.sameAs } : {}),
+    },
     audience: { "@type": "Audience", audienceType: "Evcil hayvan sahipleri" },
     // Owner education only — not diagnosis or treatment guidance.
     audienceType: "Evcil hayvan sahipleri",

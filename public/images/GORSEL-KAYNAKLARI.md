@@ -29,3 +29,33 @@ Görseller [Openverse](https://openverse.org) üzerinden bulunmuş, 1000x667 (3:
 | `blog-dog-heart.jpg` | kopeklerde-kalp-hastaligi-mmvd | CC0 | stocksnap | [Dog Puppy](https://stocksnap.io/photo/dog-puppy-TBA5BQMCQE) |
 | `blog-pet-obesity.jpg` | evcil-hayvanlarda-obezite | CC0 | rawpixel | [Close-up face tabby cat brown](https://www.rawpixel.com/image/3285718/free-photo-image-cat-carpet-laying-sleep) |
 | `blog-puppy-care.jpg` | yavru-kopek-bakim-rehberi | CC0 | stocksnap | [Brown Dog](https://stocksnap.io/photo/brown-dog-MT7FEOQT1M) |
+
+## Eylül 2026 — 20 yeni yazı
+
+Bu partide **yeni görsel indirilmedi**. Aşağıdaki yazılar, konu olarak en yakın
+mevcut CC0 görseli yeniden kullanıyor. Lisans durumu değişmez (hepsi CC0), ancak
+aynı görsel birden fazla yazıda görünür. Özgün kapak istenirse bu yazılar için
+Openverse üzerinden CC0 görsel eklenip yukarıdaki tablo güncellenmelidir.
+
+| Yeni yazı | Yeniden kullanılan görsel |
+|---|---|
+| kedilerde-hcm-sirolimus-tedavisi | `blog-dog-heart.jpg` |
+| kopeklerde-akut-pankreatit-yeni-ilac | `blog-dog-bloat.jpg` |
+| yilda-tek-doz-pire-kene-enjeksiyonu | `blog-tick-flea.jpg` |
+| kopeklerde-chiari-siringomiyeli-agri | `blog-dog-joint-pain.jpg` |
+| kedilerde-pihti-atmasi-arka-bacak-felci | `blog-cat-urinary.jpg` |
+| kopeklerde-kulak-enfeksiyonu-otit | `blog-dog-itching.jpg` |
+| kopeklerde-diz-kapagi-kaymasi-patella | `blog-dog-joint-pain.jpg` |
+| kedilerde-felv-fiv-testi-ne-zaman | `blog-cat-vaccine.jpg` |
+| kopeklerde-anal-kese-sorunlari | `blog-puppy-care.jpg` |
+| kedilerde-tuy-yumagi-ne-zaman-sorun | `blog-cat-vomiting.jpg` |
+| evde-kediye-kopege-ilac-verme | `blog-cat-vaccine.jpg` |
+| asi-sonrasi-yan-etkiler-ne-normal | `blog-dog-vaccine.jpg` |
+| brakisefalik-irklarda-solunum-sorunlari | `blog-dog-heart.jpg` |
+| kedilerde-agri-belirtileri | `blog-senior-pet-care.jpg` |
+| yavrularda-sosyallesme-donemi | `blog-puppy-care.jpg` |
+| kedilerde-su-tuketimini-artirmak | `blog-cat-kidney.jpg` |
+| kopeklerde-kalca-displazisi | `blog-dog-joint-pain.jpg` |
+| yasli-kopeklerde-bilissel-bozukluk | `blog-senior-dog-longevity.jpg` |
+| kedilerde-stres-ve-cevre-duzenlemesi | `blog-cat-litter-behavior.jpg` |
+| ameliyat-sonrasi-evde-bakim | `blog-spay-neuter.jpg` |

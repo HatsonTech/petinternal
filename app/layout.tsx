@@ -78,6 +78,7 @@ const jsonLd = {
   "@id": "https://www.petinternal.com",
   url: "https://www.petinternal.com",
   telephone: "+905362906958",
+  sameAs: [site.social.instagram],
   email: site.email,
   address: {
     "@type": "PostalAddress",

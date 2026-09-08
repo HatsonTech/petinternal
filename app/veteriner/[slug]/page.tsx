@@ -27,7 +27,7 @@ export function generateMetadata({
   const loc = getLocation(params.slug);
   if (!loc) return {};
   return {
-    title: loc.metaTitle,
+    title: { absolute: loc.metaTitle },
     description: loc.metaDescription,
     keywords: loc.keywords,
     alternates: { canonical: `/veteriner/${loc.slug}` },
