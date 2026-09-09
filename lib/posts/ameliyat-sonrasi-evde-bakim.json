@@ -4,9 +4,9 @@
   "category": "Cerrahi",
   "image": "/images/blog-spay-neuter.jpg",
   "imageAlt": "Ameliyat sonrası dinlenen, üzerine battaniye örtülmüş bir kedi",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "9 Eylül 2026",
+  "dateISO": "2026-09-09",
+  "updatedISO": "2026-09-09",
   "metaDescription": "Ameliyat sonrası komplikasyonların çoğu evde önlenebilir. Dikiş bakımı, yaka kullanımı ve hangi bulguda aramanız gerektiği.",
   "excerpt": "Ameliyatın başarısı yalnızca masada belirlenmez. Dikişlerin açılması ve enfeksiyon gibi sorunların büyük kısmı, evdeki ilk on günde yapılan birkaç hatadan kaynaklanır.",
   "readTime": "3 dk okuma",
@@ -129,6 +129,5 @@
       "a": "İyileşme sırasında hafif bir sertlik oluşabilir. Ancak büyüyen, ağrılı ya da akıntılı bir şişlik normal değildir; göstermeniz gerekir."
     }
   ],
-  "metaTitle": "Ameliyat sonrası evde bakım: ilk on gün",
-  "published": false
+  "metaTitle": "Ameliyat sonrası evde bakım: ilk on gün"
 }

@@ -135,7 +135,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
           </div>
         </section>
 
-        {/* İç hastalıkları positioning */}
+        {/* Hizmet kapsamı + iç hastalıkları uzmanlığı */}
         <section className="bg-paper pb-4">
           <div className="container-px">
             <Reveal>
@@ -145,12 +145,13 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                   aria-hidden="true"
                 />
                 <p className="leading-relaxed text-ink/90">
-                  Kliniğimiz kedi ve köpeklerde iç hastalıklarına — böbrek,
-                  karaciğer, pankreas, hormon sistemi, kalp ve sindirim sistemi
-                  sorunlarına — odaklanıyor. Bu alanda tanı, tek bir muayeneden
-                  çok laboratuvar ve görüntüleme bulgularının birlikte
-                  yorumlanmasıyla ilerler; bu yüzden kontrol aralıklarını ve
-                  tetkik planını her hasta için ayrı belirliyoruz.
+                  Kliniğimizde genel muayene ve aşılamadan cerrahiye, diş
+                  sağlığından acil müdahaleye kadar tüm veteriner hizmetlerini
+                  veriyoruz. İç hastalıkları — böbrek, karaciğer, pankreas,
+                  hormon sistemi ve kalp sorunları — özel ilgi alanımız; bu
+                  alanda tanı tek bir muayeneden çok laboratuvar ve görüntüleme
+                  bulgularının birlikte yorumlanmasıyla ilerlediği için tetkik
+                  planını her hasta için ayrı belirliyoruz.
                 </p>
               </div>
             </Reveal>
