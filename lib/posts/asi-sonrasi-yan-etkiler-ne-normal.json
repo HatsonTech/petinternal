@@ -4,9 +4,9 @@
   "category": "Aşılama",
   "image": "/images/blog-dog-vaccine.jpg",
   "imageAlt": "Aşı sonrası sahibinin yanında dinlenen genç bir köpek",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "10 Eylül 2026",
+  "dateISO": "2026-09-10",
+  "updatedISO": "2026-09-10",
   "metaDescription": "Aşıdan sonra bir gün halsizlik ve iştah azalması beklenir. Yüz şişmesi, kusma ve solunum güçlüğü ise acildir. İkisini ayırt etmeyi anlatıyoruz.",
   "excerpt": "Aşı sonrası hafif halsizlik bağışıklık sisteminin çalıştığının işaretidir ve beklenen bir durumdur. Ancak bazı tepkiler dakikalar içinde ciddileşebilir. Aradaki farkı bilmek önemlidir.",
   "readTime": "3 dk okuma",
@@ -125,6 +125,5 @@
       "a": "Reaksiyon öyküsü aşıdan tamamen vazgeçmeyi gerektirmez. Programı bölerek ve önlem alarak devam etmek çoğu zaman mümkündür; birlikte planlayalım."
     }
   ],
-  "metaTitle": "Aşı sonrası yan etkiler: normal olan ve olmayan",
-  "published": false
+  "metaTitle": "Aşı sonrası yan etkiler: normal olan ve olmayan"
 }
