@@ -33,7 +33,7 @@ const commonKeywords = (d: string) => [
   `${d} veteriner kliniği`,
   `veteriner ${d} Ankara`,
   `${d} acil veteriner`,
-  `${d} iç hastalıkları veteriner`,
+  `${d} 7/24 açık veteriner`,
 ];
 
 /** Shared FAQ answers that are true for every page (single clinic, 7/24). */
@@ -48,15 +48,15 @@ export const locations: Location[] = [
     district: "Çankaya",
     kind: "primary",
     title: "Çankaya Veteriner Kliniği",
-    metaTitle: "Çankaya Veteriner Kliniği · İç Hastalıkları ve 7/24 Acil",
+    metaTitle: "Çankaya Veteriner Kliniği · Öveçler, 7/24 Açık ve Acil",
     metaDescription:
-      "Çankaya Öveçler'de 7/24 açık veteriner kliniği. İç hastalıkları odaklı muayene, laboratuvar, görüntüleme ve acil bakım. 0536 290 69 58.",
+      "Çankaya Öveçler'de 7/24 açık veteriner kliniği. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi ve acil bakım. 0536 290 69 58.",
     keywords: commonKeywords("Çankaya"),
     intro:
-      "Pet Internal Veteriner Kliniği, Çankaya'nın Öveçler mahallesinde, 1335. Sokak üzerinde hizmet veriyor. Kedi ve köpeklerde iç hastalıkları — böbrek, karaciğer, hormon, kalp ve sindirim sistemi sorunları — üzerine yoğunlaşan bir klinik olarak, ilçe genelinden gelen hastaları 7/24 kabul ediyoruz.",
+      "Pet Internal Veteriner Kliniği, Çankaya'nın Öveçler mahallesinde, 1335. Sokak üzerinde hizmet veriyor. Kedi ve köpeklerin yanı sıra muhabbet kuşu, tavşan ve ginepig gibi küçük dostlar için de koruyucu hekimlikten cerrahiye, tahlilden acil müdahaleye kadar hizmet veriyor; ilçe genelinden gelen hastaları 7/24 kabul ediyoruz.",
     gettingHere: [
       "Kliniğimiz Çankaya ilçe sınırları içinde, Öveçler'de yer alıyor. Kızılay, Bahçelievler, Yıldız ve Öveçler yönlerinden özel araçla ortalama 10–20 dakikada ulaşabilirsiniz; trafik yoğunluğu saatine göre değişir.",
-      "İç hastalıkları vakalarında tanı çoğu zaman tek bir muayeneyle bitmez: kan ve idrar tahlili, ultrason ya da röntgen gerekebilir. Bu nedenle randevunuzu telefonla oluşturup dostunuzun şikâyetini önceden aktarmanız, aynı ziyarette gerekli tetkiklerin planlanmasını kolaylaştırır.",
+      "Bazı şikâyetlerde tanı tek bir muayeneyle bitmez: kan ve idrar tahlili, ultrason ya da röntgen gerekebilir. Bu nedenle randevunuzu telefonla oluşturup dostunuzun şikâyetini önceden aktarmanız, aynı ziyarette gerekli tetkiklerin planlanmasını kolaylaştırır.",
     ],
     access: [
       "Adres: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara.",
@@ -67,8 +67,8 @@ export const locations: Location[] = [
     faqs: [
       emergencyFaq,
       {
-        q: "Çankaya'da iç hastalıkları için ayrı bir randevu almak gerekiyor mu?",
-        a: "Ayrı bir hat yok; tüm başvurular aynı randevu numarasından alınıyor. Ancak şikâyetiniz kronik bir iç hastalığı takibiyse (böbrek, tiroid, diyabet, kalp) telefonda belirtmeniz, tahlil ve görüntüleme için yeterli süre ayırmamızı sağlar.",
+        q: "Aşı, kontrol ve hastalık muayenesi için ayrı randevu hattı var mı?",
+        a: "Ayrı bir hat yok; tüm başvurular aynı randevu numarasından alınıyor. Ancak ziyaretin amacını (aşı, kontrol, ameliyat öncesi görüşme ya da kronik bir hastalığın takibi) telefonda belirtmeniz, tahlil ve görüntüleme için yeterli süre ayırmamızı sağlar.",
       },
       {
         q: "Önceki tahlil sonuçlarımızı getirmeli miyiz?",
@@ -94,10 +94,10 @@ export const locations: Location[] = [
     title: "Öveçler Veteriner Kliniği",
     metaTitle: "Öveçler Veteriner Kliniği · 1335. Sokak, 7/24 Açık",
     metaDescription:
-      "Öveçler 1335. Sokak'ta bulunan veteriner kliniğimiz 7/24 açık. Kedi ve köpeklerde iç hastalıkları, laboratuvar, görüntüleme ve acil muayene.",
+      "Öveçler 1335. Sokak'ta bulunan veteriner kliniğimiz 7/24 açık. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Öveçler"),
     intro:
-      "Kliniğimizin adresi Öveçler, 1335. Sokak 8/B. Mahallenin içinde olduğumuz için Öveçler'de yaşayan pek çok aile bize yürüyerek geliyor. Kedi ve köpeklerde iç hastalıkları odaklı çalışıyor, acil başvuruları gece gündüz kabul ediyoruz.",
+      "Kliniğimizin adresi Öveçler, 1335. Sokak 8/B. Mahallenin içinde olduğumuz için Öveçler'de yaşayan pek çok aile bize yürüyerek geliyor. Kedi ve köpeklerin yanı sıra kuş ve tavşan gibi küçük dostlara da bakıyor, acil başvuruları gece gündüz kabul ediyoruz.",
     gettingHere: [
       "1335. Sokak, Öveçler'in ana arterlerinden yürüme mesafesinde. Mahalle içinden gelen komşularımız için klinik genellikle 5–10 dakikalık bir yürüyüş mesafesindedir; tabelamız sokak üzerindedir.",
       "Öveçler'de oturuyorsanız kronik hastalık takibi ciddi bir avantaja dönüşüyor: böbrek, tiroid ya da diyabet takibinde tahlil aralıklarını aksatmadan sürdürmek, hastalığın seyrini değiştiren en önemli faktörlerden biri.",
@@ -112,7 +112,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Öveçler'de eve muayene hizmeti veriyor musunuz?",
-        a: "Muayene ve tetkikler klinikte yapılıyor. İç hastalıklarında tanı için laboratuvar ve görüntüleme cihazlarına ihtiyaç duyulduğundan, dostunuzun kliniğe getirilmesi hem daha hızlı hem de daha doğru sonuç veriyor.",
+        a: "Muayene ve tetkikler klinikte yapılıyor. Pek çok şikâyette tanı için laboratuvar ve görüntüleme cihazlarına ihtiyaç duyulduğundan, dostunuzun kliniğe getirilmesi hem daha hızlı hem de daha doğru sonuç veriyor.",
       },
       {
         q: "Yavru kedi/köpek aşılarını da yaptırabilir miyiz?",
@@ -138,7 +138,7 @@ export const locations: Location[] = [
     title: "Balgat'tan Gelen Dostlarımız İçin",
     metaTitle: "Balgat'a Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
     metaDescription:
-      "Balgat'tan araçla kısa sürede ulaşabileceğiniz Öveçler'deki kliniğimiz 7/24 açık. İç hastalıkları odaklı muayene, laboratuvar ve acil bakım.",
+      "Balgat'tan araçla kısa sürede ulaşabileceğiniz Öveçler'deki kliniğimiz 7/24 açık. Muayene, aşı, cerrahi, laboratuvar ve acil bakım.",
     keywords: commonKeywords("Balgat"),
     intro:
       "Kliniğimiz Balgat'ta değil, komşu mahalle Öveçler'de: 1335. Sokak 8/B. Balgat'tan gelen kedi ve köpek sahipleri düzenli hastalarımız arasında; bu sayfada bize nasıl ulaşacağınızı ve ne beklemeniz gerektiğini anlattık.",
@@ -181,7 +181,7 @@ export const locations: Location[] = [
     title: "Dikmen'den Gelen Dostlarımız İçin",
     metaTitle: "Dikmen'e Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
     metaDescription:
-      "Dikmen'den ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Kedi ve köpeklerde iç hastalıkları, tahlil, görüntüleme ve acil muayene.",
+      "Dikmen'den ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Dikmen"),
     intro:
       "Kliniğimiz Dikmen'de değil, Öveçler'de — 1335. Sokak 8/B. Dikmen ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, park ve acil başvuru konularını burada topladık.",
@@ -206,8 +206,8 @@ export const locations: Location[] = [
         a: "Aracı durdurup bizi arayın. Solunum güçlüğü, bilinç kaybı ya da durmayan kanama gibi durumlarda telefonda size yolda uygulayabileceğiniz temel önlemleri anlatabilir, siz gelene kadar hazırlığı yapabiliriz.",
       },
       {
-        q: "İç hastalıkları odaklı olmanız ne anlama geliyor?",
-        a: "Kliniğimiz kedi ve köpeklerde iç organ hastalıklarının tanı ve takibine yoğunlaşıyor: böbrek, karaciğer, pankreas, hormon sistemi, kalp ve sindirim sistemi. Bu alanlarda tanı, tek bir muayeneden çok laboratuvar ve görüntüleme sonuçlarının birlikte yorumlanmasıyla ilerliyor.",
+        q: "Hangi hizmetleri ve hangi hayvanları kabul ediyorsunuz?",
+        a: "Kedi ve köpeklerin yanı sıra muhabbet kuşu, tavşan ve ginepig gibi küçük dostları da kabul ediyoruz. Genel muayene, aşı ve mikroçip, kısırlaştırma ve cerrahi, diş bakımı, laboratuvar ve görüntüleme, deri ve iç hastalıkları, beslenme danışmanlığı ve acil müdahale tek adreste sunuluyor.",
       },
     ],
     relatedPosts: [
@@ -224,7 +224,7 @@ export const locations: Location[] = [
     title: "Çukurambar'dan Gelen Dostlarımız İçin",
     metaTitle: "Çukurambar'a Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
     metaDescription:
-      "Çukurambar'dan kısa sürede ulaşabileceğiniz Öveçler'deki veteriner kliniği. 7/24 açık; iç hastalıkları, tahlil, görüntüleme ve acil bakım.",
+      "Çukurambar'dan kısa sürede ulaşabileceğiniz Öveçler'deki veteriner kliniği. 7/24 açık; muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Çukurambar"),
     intro:
       "Kliniğimiz Çukurambar'da değil, komşu bölge Öveçler'de: 1335. Sokak 8/B. Çukurambar'daki sitelerden gelen kedi ve köpek sahipleri için ulaşım ve randevu bilgilerini bu sayfada topladık.",
@@ -267,7 +267,7 @@ export const locations: Location[] = [
     title: "Or-An'dan Gelen Dostlarımız İçin",
     metaTitle: "Or-An'a Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
     metaDescription:
-      "Or-An'dan ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. İç hastalıkları odaklı muayene, laboratuvar, görüntüleme ve acil bakım.",
+      "Or-An'dan ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Muayene, aşı, cerrahi, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Or-An"),
     intro:
       "Kliniğimiz Or-An'da değil, Öveçler'de: 1335. Sokak 8/B. Or-An ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, randevu ve acil başvuru bilgilerini burada bulabilirsiniz.",
@@ -310,7 +310,7 @@ export const locations: Location[] = [
     title: "Söğütözü'nden Gelen Dostlarımız İçin",
     metaTitle: "Söğütözü'ne Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
     metaDescription:
-      "Söğütözü'nden ulaşabileceğiniz Öveçler'deki veteriner kliniği. 7/24 açık; iç hastalıkları odaklı muayene, tahlil, görüntüleme ve acil bakım.",
+      "Söğütözü'nden ulaşabileceğiniz Öveçler'deki veteriner kliniği. 7/24 açık; muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Söğütözü"),
     intro:
       "Kliniğimiz Söğütözü'nde değil, Öveçler'de: 1335. Sokak 8/B. Söğütözü'nde çalışan ve yaşayan kedi-köpek sahipleri için ulaşım ve randevu bilgilerini bu sayfada topladık.",
@@ -353,7 +353,7 @@ export const locations: Location[] = [
     title: "Emek'ten Gelen Dostlarımız İçin",
     metaTitle: "Emek'e Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
     metaDescription:
-      "Emek'ten ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Kedi ve köpeklerde iç hastalıkları, tahlil, görüntüleme ve acil muayene.",
+      "Emek'ten ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Emek"),
     intro:
       "Kliniğimiz Emek'te değil, Öveçler'de: 1335. Sokak 8/B. Emek ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, park ve acil başvuru bilgilerini burada topladık.",

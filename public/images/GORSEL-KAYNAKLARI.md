@@ -59,3 +59,6 @@ Openverse üzerinden CC0 görsel eklenip yukarıdaki tablo güncellenmelidir.
 | yasli-kopeklerde-bilissel-bozukluk | `blog-senior-dog-longevity.jpg` |
 | kedilerde-stres-ve-cevre-duzenlemesi | `blog-cat-litter-behavior.jpg` |
 | ameliyat-sonrasi-evde-bakim | `blog-spay-neuter.jpg` |
+| `blog-budgie.jpg` | muhabbet-kusu-hastalik-belirtileri, kuslarda-ev-ici-zehirlenmeler | CC0 | wordpress | [Two budgerigars in a cage](https://wordpress.org/photos/photo/62168938ab/) |
+| `blog-rabbit.jpg` | tavsanlarda-bagirsak-durmasi, tavsanlarda-dis-uzamasi | CC0 | wikimedia (HutchRock) | [Rabbit - Lionhead breed](https://commons.wikimedia.org/w/index.php?curid=66619296) |
+| `blog-guinea-pig.jpg` | ginepiglerde-c-vitamini-eksikligi | CC0 | rawpixel | [Brown guinea pig, cute pet](https://www.rawpixel.com/image/6023278/photo-image-public-domain-nature-cute) |

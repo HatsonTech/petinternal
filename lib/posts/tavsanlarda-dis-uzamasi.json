@@ -1,0 +1,96 @@
+{
+  "slug": "tavsanlarda-dis-uzamasi",
+  "title": "Tavşanlarda diş uzaması: dişler neden hiç durmadan büyür?",
+  "metaTitle": "Tavşanlarda Diş Uzaması: Belirtiler ve Korunma",
+  "category": "Kuş ve Küçük Dostlar",
+  "image": "/images/blog-rabbit.jpg",
+  "imageAlt": "Çimenlerin üzerinde oturan turuncu tüylü bir aslan başlı tavşan",
+  "date": "16 Eylül 2026",
+  "dateISO": "2026-09-16",
+  "updatedISO": "2026-09-16",
+  "metaDescription": "Tavşan dişleri ömür boyu uzar. Diş uzamasının belirtileri, salya akması ve iştahsızlıkla ilişkisi, kuru otun önemi ve evde kesimin riskleri.",
+  "excerpt": "Tavşanların tüm dişleri ömür boyu uzamaya devam eder. Aşınma yeterli olmadığında diş uzaması iştahsızlıktan göz akıntısına kadar pek çok soruna yol açabilir.",
+  "readTime": "6 dk okuma",
+  "keywords": [
+    "tavşan diş uzaması",
+    "tavşan dişleri",
+    "tavşan salya akıtıyor",
+    "tavşan diş kesimi",
+    "tavşan diş sorunu",
+    "tavşan veterineri Çankaya"
+  ],
+  "intro": "Tavşan sahiplerinin çoğu, ön dişlerin sürekli uzadığını bilir; ancak yanaklarda kalan azı dişlerinin de ömür boyu büyüdüğü daha az bilinir. Dişler çiğneme sırasında birbirine sürtünerek aşınır. Bu denge bozulduğunda dişler uzar, sivri uçlar oluşur ve tavşan yemek yemekte zorlanır.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Diş uzaması neden olur?"
+    },
+    {
+      "type": "p",
+      "text": "En sık neden, beslenmede yeterli kuru ot bulunmamasıdır. Kuru ot uzun süre çiğnenir ve dişlerin doğal aşınmasını sağlar; pelet ve yumuşak besinler bu aşınmayı yeterince sağlamaz. Kalıtsal çene yapısı (özellikle kısa yüzlü cüce ırklarda), düşme ya da kafes tellerini ısırmaya bağlı diş yaralanmaları ve bazı beslenme eksiklikleri de diş sorunlarına zemin hazırlayabilir."
+    },
+    {
+      "type": "h2",
+      "text": "Belirtiler"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Yemeği ağzına alıp bırakmak, seçici yemek ya da yalnızca yumuşak besinleri tercih etmek",
+        "Salya akması, çene altında ve ön bacak içlerinde ıslaklık",
+        "Kilo kaybı ve dışkı miktarında azalma",
+        "Göz akıntısı ya da tek taraflı göz yaşarması",
+        "Çenede şişlik",
+        "Ön dişlerin ağız dışına doğru uzaması ya da çapraz kapanması"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Azı dişlerindeki sorunlar dışarıdan görülmez. Salya, iştah değişikliği ve kilo kaybı fark ettiğinizde ağız içinin muayene edilmesi gerekir."
+    },
+    {
+      "type": "h2",
+      "text": "Klinikte değerlendirme"
+    },
+    {
+      "type": "p",
+      "text": "Ön dişler kolayca görülebilir; azı dişleri için ağız içi muayenesi yapılır. Kök sorunu ya da apse şüphesinde görüntüleme gerekebilir. Uzamış dişlerin düzeltilmesi uygun ekipmanla yapılmalıdır; bazı durumlarda sedasyon ya da anestezi gerekir."
+    },
+    {
+      "type": "h2",
+      "text": "Evde diş kesimi yapılmalı mı?"
+    },
+    {
+      "type": "p",
+      "text": "Hayır. Tırnak makası ya da pense ile yapılan kesimler dişi çatlatabilir, köke kadar ilerleyen kırıklar oluşturabilir ve enfeksiyona zemin hazırlayabilir. Ayrıca yalnızca ön dişlerle ilgilenmek, azı dişlerindeki asıl sorunun gözden kaçmasına neden olabilir."
+    },
+    {
+      "type": "h2",
+      "text": "Korunma"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Beslenmenin temeline sınırsız, kaliteli kuru ot koyun.",
+        "Pelet miktarını sınırlı tutun, şekerli atıştırmalıklardan kaçının.",
+        "Kafes tellerini sürekli ısıran tavşanlarda nedenini araştırın ve yaşam alanını zenginleştirin.",
+        "Düzenli kontrolde dişlerin de muayene edilmesini isteyin; diş sorunu yaşamış tavşanlarda kontroller daha sık planlanır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tavşan dişleri sürekli mi uzar?",
+      "a": "Evet. Tavşanların ön ve azı dişleri ömür boyu uzar; bu nedenle aşınmadaki küçük bir aksaklık zamanla soruna dönüşebilir. Düzenli kuru ot tüketimi aşınmanın temelidir."
+    },
+    {
+      "q": "Tavşanım salya akıtıyor, neden?",
+      "a": "Tavşanlarda salya akması çoğu zaman azı dişlerindeki sivri uçlara ya da ağız içi yaralarına işaret eder. Muayene ile ağız içinin değerlendirilmesi gerekir."
+    },
+    {
+      "q": "Tavşanıma kemirme oyuncağı yeterli mi?",
+      "a": "Kemirme oyuncakları daha çok ön dişlere etki eder. Azı dişlerinin aşınması için asıl gerekli olan, uzun süre çiğnenen kuru ottur."
+    }
+  ],
+  "published": false
+}

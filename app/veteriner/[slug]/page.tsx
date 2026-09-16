@@ -135,7 +135,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
           </div>
         </section>
 
-        {/* Hizmet kapsamı + iç hastalıkları uzmanlığı */}
+        {/* Hizmet kapsamı */}
         <section className="bg-paper pb-4">
           <div className="container-px">
             <Reveal>
@@ -146,12 +146,10 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                 />
                 <p className="leading-relaxed text-ink/90">
                   Kliniğimizde genel muayene ve aşılamadan cerrahiye, diş
-                  sağlığından acil müdahaleye kadar tüm veteriner hizmetlerini
-                  veriyoruz. İç hastalıkları — böbrek, karaciğer, pankreas,
-                  hormon sistemi ve kalp sorunları — özel ilgi alanımız; bu
-                  alanda tanı tek bir muayeneden çok laboratuvar ve görüntüleme
-                  bulgularının birlikte yorumlanmasıyla ilerlediği için tetkik
-                  planını her hasta için ayrı belirliyoruz.
+                  sağlığından deri ve iç hastalıklarına, laboratuvardan acil
+                  müdahaleye kadar tüm veteriner hizmetlerini veriyoruz. Kedi
+                  ve köpeklerin yanı sıra muhabbet kuşu, tavşan ve ginepig gibi
+                  küçük dostlarınızı da kabul ediyoruz.
                 </p>
               </div>
             </Reveal>
