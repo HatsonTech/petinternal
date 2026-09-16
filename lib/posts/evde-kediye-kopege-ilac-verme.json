@@ -4,9 +4,9 @@
   "category": "Koruyucu Hekimlik",
   "image": "/images/blog-cat-vaccine.jpg",
   "imageAlt": "Sahibinin kucağında sakin biçimde duran bir kedi",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "12 Eylül 2026",
+  "dateISO": "2026-09-12",
+  "updatedISO": "2026-09-12",
   "metaDescription": "Tedavinin yarıda kalmasının en sık nedeni ilacın verilememesidir. Hap, şurup ve kulak damlasını evde doğru ve güvenli verme rehberi.",
   "excerpt": "Doğru teşhis konmuş, doğru ilaç yazılmış ama tedavi işe yaramamış. Bu durumların önemli bir kısmında sorun ilaçta değil, ilacın hayvana ulaşmamasındadır.",
   "readTime": "3 dk okuma",
@@ -137,6 +137,5 @@
       "a": "Kesmeyin. Hayvan iyi görünse bile süreyi tamamlamak gerekir; erken kesme tekrarın ve direncin başlıca nedenidir."
     }
   ],
-  "metaTitle": "Kedi ve köpeğe evde ilaç nasıl verilir?",
-  "published": false
+  "metaTitle": "Kedi ve köpeğe evde ilaç nasıl verilir?"
 }
