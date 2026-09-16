@@ -4,9 +4,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-senior-pet-care.jpg",
   "imageAlt": "Bir köşede kıvrılmış, sessizce duran yaşlı bir kedi",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "13 Eylül 2026",
+  "dateISO": "2026-09-13",
+  "updatedISO": "2026-09-13",
   "metaDescription": "Kediler ağrıdığında miyavlamaz, saklanır. Duruş, tımar alışkanlığı ve zıplama davranışındaki değişiklikler en güvenilir işaretlerdir.",
   "excerpt": "Kedilerde ağrının en büyük sorunu belirti vermemesi değil, verdiği belirtilerin sessiz olmasıdır. Ağrıyan bir kedi bağırmaz; daha az zıplar, daha çok saklanır ve tımarını değiştirir.",
   "readTime": "3 dk okuma",
@@ -112,6 +112,5 @@
       "a": "En iyi ölçüt davranıştır: eskiden çıktığı yerlere yeniden çıkmaya başlaması, tımarının düzelmesi ve saklanmanın azalması anlamlı göstergelerdir."
     }
   ],
-  "metaTitle": "Kedilerde ağrı belirtileri nasıl anlaşılır?",
-  "published": false
+  "metaTitle": "Kedilerde ağrı belirtileri nasıl anlaşılır?"
 }

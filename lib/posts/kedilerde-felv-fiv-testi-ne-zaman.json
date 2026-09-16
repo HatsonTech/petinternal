@@ -4,9 +4,9 @@
   "category": "Koruyucu Hekimlik",
   "image": "/images/blog-cat-vaccine.jpg",
   "imageAlt": "Muayene masasında meraklı biçimde bakan genç bir kedi",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "14 Eylül 2026",
+  "dateISO": "2026-09-14",
+  "updatedISO": "2026-09-14",
   "metaDescription": "FeLV ve FIV yıllarca belirti vermeden taşınabilir. Yeni kedide testin neden ilk hafta yapılması gerektiğini ve sonucun ne anlama geldiğini anlatıyoruz.",
   "excerpt": "Sokaktan alınan ya da sahiplendirilen bir kedi tamamen sağlıklı görünebilir ve yine de virüs taşıyor olabilir. FeLV ve FIV testi, hem o kedinin hem evdeki diğer kedilerin geleceğini belirleyen tek adımdır.",
   "readTime": "3 dk okuma",
@@ -124,6 +124,5 @@
       "a": "FeLV için aşı bulunmaktadır ve risk altındaki kedilerde önerilir. Aşı öncesi test yapılması gerekir; pozitif bir kediyi aşılamanın yararı yoktur."
     }
   ],
-  "metaTitle": "Kedilerde FeLV ve FIV testi ne zaman yapılır?",
-  "published": false
+  "metaTitle": "Kedilerde FeLV ve FIV testi ne zaman yapılır?"
 }
