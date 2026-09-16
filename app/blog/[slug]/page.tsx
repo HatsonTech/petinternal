@@ -43,6 +43,7 @@ const CATEGORY_SERVICES: Record<string, string[]> = {
   "Güncel Tıp": ["Dermatoloji & Dahiliye", "Laboratuvar & Görüntüleme"],
   "Kedi Sağlığı": ["Dermatoloji & Dahiliye", "Laboratuvar & Görüntüleme"],
   "Köpek Sağlığı": ["Dermatoloji & Dahiliye", "Laboratuvar & Görüntüleme"],
+  "Kuş ve Küçük Dostlar": ["Kuş, Tavşan & Küçük Dostlar", "Acil Müdahale"],
   "Koruyucu Hekimlik": ["Genel Muayene & Check-up", "Laboratuvar & Görüntüleme"],
   "Mevsimsel Bakım": ["Genel Muayene & Check-up", "Pet Kuaför & Bakım"],
   "Parazit Kontrolü": ["Genel Muayene & Check-up", "Aşılama & Mikroçip"],

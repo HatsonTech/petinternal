@@ -10,6 +10,7 @@
 
 import {
   Bath,
+  Bird,
   HeartPulse,
   Microscope,
   Salad,
@@ -42,7 +43,7 @@ export type Service = {
   /** "Gelmeden önce" preparation bullets. */
   prepare: string[];
   faqs: FAQ[];
-  /** Blog slugs — every one verified to exist in lib/posts/*.json. */
+  /** Blog slugs — every one verified to exist in lib/posts/*.json (drafts are skipped until published). */
   relatedPosts: string[];
 };
 
@@ -832,6 +833,95 @@ export const services: Service[] = [
       "yavru-kedi-beslenmesi",
       "cig-mama-kus-gribi-riski",
       "evcil-hayvanlarda-kilo-ilaclari-glp1",
+    ],
+  },
+  {
+    slug: "kus-tavsan-kucuk-memeliler",
+    icon: Bird,
+    title: "Kuş, Tavşan & Küçük Dostlar",
+    desc: "Muhabbet kuşu, papağan, tavşan, ginepig ve hamsterlar için muayene ve bakım.",
+    h1: "Kuş, Tavşan ve Küçük Memeli Muayenesi",
+    metaTitle: "Kuş ve Tavşan Veterineri · Çankaya Öveçler",
+    metaDescription:
+      "Çankaya Öveçler'de muhabbet kuşu, papağan, tavşan, ginepig ve hamster muayenesi. Hastalık belirtileri, beslenme, tırnak ve gaga bakımı. 7/24 açık.",
+    keywords: [
+      "kuş veterineri Ankara",
+      "muhabbet kuşu veteriner Çankaya",
+      "tavşan veterineri Ankara",
+      "ginepig veteriner Ankara",
+      "hamster veteriner Çankaya",
+      "egzotik hayvan veteriner Ankara",
+    ],
+    intro:
+      "Kuşlar, tavşanlar ve ginepigler doğada av hayvanıdır; bu yüzden hastalıklarını son ana kadar saklarlar. Sahibin fark ettiği ilk belirti çoğu zaman sorunun epeydir sürdüğü anlamına gelir. Bu küçük dostlarda da kedi ve köpeklerdeki gibi düzenli kontrol, doğru beslenme ve erken başvuru en etkili korumadır.",
+    covers: [
+      "Muhabbet kuşu, sultan papağanı ve diğer kafes kuşlarının genel muayenesi",
+      "Tavşan, ginepig, hamster ve diğer küçük memelilerin genel muayenesi",
+      "Tüy kabarması, iştahsızlık, dışkı değişikliği gibi hastalık belirtilerinin değerlendirilmesi",
+      "Tırnak ve gaga kontrolü, uzamış tırnakların kesilmesi",
+      "Tavşan ve kemirgenlerde diş kontrolü",
+      "Dış parazit (akar, bit) kontrolü",
+      "Türe uygun beslenme, kafes ve barınma düzeni danışmanlığı",
+      "Yeni sahiplenilen küçük dostlar için ilk kontrol",
+    ],
+    visit: [
+      {
+        step: "Taşıma",
+        text: "Kuşunuzu kendi kafesinde ya da küçük bir taşıma kutusunda, üstü hafifçe örtülü getirin. Tavşan ve ginepigler için içinde havlu olan sağlam bir taşıma kabı yeterlidir.",
+      },
+      {
+        step: "Gözlem ve öykü",
+        text: "Küçük dostlarda muayene, hayvana dokunmadan önce başlar: duruş, solunum, tüy ve hareket izlenir. Beslenme, barınma ve son günlerde fark ettiğiniz değişiklikleri konuşuruz.",
+      },
+      {
+        step: "Muayene",
+        text: "Stresi en aza indirmek için muayeneyi kısa ve sakin tutarız. Kilo takibi bu türlerde özellikle önemlidir; küçük bir düşüş bile anlamlıdır.",
+      },
+      {
+        step: "Plan",
+        text: "Bulgulara göre evde bakım önerilerini, gerekiyorsa tetkik ve tedavi planını ve kontrol zamanını birlikte belirleriz.",
+      },
+    ],
+    prepare: [
+      "Kuşlarda kafesin tabanındaki son dışkıları temizlemeden getirin; dışkı görünümü muayene için önemli bilgidir",
+      "Kullandığınız yem ya da mamanın paketini veya fotoğrafını yanınızda bulundurun",
+      "Tavşan ve ginepiglerde son 24 saatte yeme ve dışkılama durumunu not edin",
+      "Soğuk havalarda taşıma kabını örterek hayvanın üşümesini önleyin",
+      "Kafes ve yaşam alanının bir fotoğrafını çekmeniz değerlendirmeyi kolaylaştırır",
+    ],
+    faqs: [
+      {
+        q: "Muhabbet kuşumun hasta olduğunu nasıl anlarım?",
+        a: "Gün boyu kabarık oturmak, gözlerini sık kapatmak, kafesin tabanında durmak, kuyruğun her nefeste inip kalkması, iştahsızlık ve dışkının renk ya da kıvamındaki değişiklik başlıca uyarı işaretleridir. Kuşlar hastalığı gizlediği için bu belirtilerden biri bile görüldüğünde beklemeden aramanızı öneririz.",
+      },
+      {
+        q: "Tavşanım yemek yemiyor, bekleyebilir miyim?",
+        a: "Hayır. Tavşanlarda iştahsızlık ve dışkının azalması ya da kesilmesi, sindirim sisteminin yavaşladığını gösterebilir ve kısa sürede ciddileşebilir. Tavşanınız birkaç saattir yemiyor ya da dışkı yapmıyorsa acil olarak başvurun.",
+      },
+      {
+        q: "Ginepigler neden C vitaminine ihtiyaç duyar?",
+        a: "Ginepigler, insanlar gibi C vitaminini kendi vücutlarında üretemez; bu yüzden günlük olarak besinle almaları gerekir. Eksiklikte eklem ağrısı, diş eti sorunları ve halsizlik görülebilir. Uygun yem ve taze sebze seçimini muayenede birlikte planlayabiliriz.",
+      },
+      {
+        q: "Kuşumun tırnak veya gagasını evde kesebilir miyim?",
+        a: "Önermiyoruz. Tırnak ve gagada damar ve sinir bulunur; yanlış kesim kanamaya yol açabilir. Ayrıca aşırı uzayan gaga çoğu zaman altta yatan bir sorunun işaretidir ve muayene edilmesi gerekir.",
+      },
+      {
+        q: "Tavşan ve ginepigler de kısırlaştırılabilir mi?",
+        a: "Evet, bu türlerde de kısırlaştırma yapılabilir; ancak anestezi ve hazırlık kedi ve köpeklerden farklıdır. Uygun olup olmadığını ve zamanlamasını ön muayeneden sonra konuşuruz.",
+      },
+      {
+        q: "Acil durumda gece gelebilir miyiz?",
+        a: "Evet, kliniğimiz 7/24 açık. Kuşlarda nefes darlığı ya da kanama, tavşanlarda yemenin ve dışkılamanın durması acil kabul edilmelidir. Yola çıkmadan önce 0536 290 69 58 numarasını aramanız hazırlık yapmamızı sağlar.",
+      },
+    ],
+    relatedPosts: [
+      "muhabbet-kusu-hastalik-belirtileri",
+      "kuslarda-ev-ici-zehirlenmeler",
+      "tavsanlarda-bagirsak-durmasi",
+      "tavsanlarda-dis-uzamasi",
+      "ginepiglerde-c-vitamini-eksikligi",
+      "veteriner-acil-hangi-durumlar",
     ],
   },
 ];
