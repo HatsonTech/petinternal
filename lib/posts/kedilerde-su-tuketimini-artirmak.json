@@ -8,19 +8,19 @@
   "dateISO": "2026-09-17",
   "updatedISO": "2026-09-17",
   "metaDescription": "Kediler susuzluk hissini zayıf algılar. Böbrek ve idrar yolu sağlığı için su tüketimini artırmanın pratik ve işe yarayan yolları.",
-  "excerpt": "Kedilerin atası çöl hayvanıdır ve suyun büyük kısmını avından alacak biçimde evrimleşmiştir. Kuru mamayla beslenen bir kedide bu düzen bozulur ve böbrekler ile idrar yolları bedelini öder.",
+  "excerpt": "Kedilerin atası çöl hayvanıdır ve suyun büyük kısmını avından alacak biçimde evrimleşmiştir. Bu yüzden kediler çoğu zaman ihtiyaçlarından az su içer. Su kabı seçiminden beslenme düzenine, su tüketimini artırmanın pratik yolları.",
   "readTime": "3 dk okuma",
   "keywords": [
     "kedilerde su tüketimi",
     "kedi az su içiyor",
     "kedilerde böbrek sağlığı",
     "kedide idrar yolu sağlığı",
-    "yaş mama kuru mama",
+    "kedi karma beslenme",
     "kedi su kabı seçimi",
     "Çankaya veteriner",
     "Ankara veteriner kliniği"
   ],
-  "intro": "Evcil kedinin atası çölde yaşayan bir avcıdır. Suyunu içerek değil, avının vücut sıvısından alacak biçimde evrimleşmiştir. Bu nedenle kedilerde susuzluk hissi, köpeklere kıyasla belirgin biçimde zayıftır. Kuru mamayla beslenen bir kedi, kaybettiği suyu içerek telafi etmeye çalışırken çoğu zaman yetersiz kalır ve kronik hafif bir susuzlukla yaşar.",
+  "intro": "Evcil kedinin atası çölde yaşayan bir avcıdır. Suyunu içerek değil, avının vücut sıvısından alacak biçimde evrimleşmiştir. Bu nedenle kedilerde susuzluk hissi, köpeklere kıyasla belirgin biçimde zayıftır. Bu nedenle özellikle kuru mamayla beslenen kedilerde su kabının düzeni ve günlük su tüketimini takip etmek önem kazanır.",
   "body": [
     {
       "type": "h2",
@@ -36,19 +36,19 @@
     },
     {
       "type": "h2",
-      "text": "En etkili tek değişiklik: yaş mama"
+      "text": "Mama tercihi: kuru, yaş ya da karma beslenme"
     },
     {
       "type": "p",
-      "text": "Kuru mamanın nem oranı düşüktür; yaş mamanın büyük bölümü ise sudur. Beslenmenin bir kısmını yaş mamaya çevirmek, su alımını artırmanın açık ara en etkili yoludur."
+      "text": "Kuru mamanın nem oranı düşüktür; yaş mamanın ise büyük bölümü sudur. Araştırmalar, beslenmesinde yaş mama bulunan kedilerin gün içinde toplamda daha fazla su aldığını gösteriyor. Öte yandan kuru mamanın porsiyon kontrolü daha kolaydır, açıkta bozulmaz ve bazı çalışmalarda diş taşı birikimini bir miktar azalttığı görülmüştür."
     },
     {
       "type": "p",
-      "text": "Tamamen değiştirmek zorunda değilsiniz. Günün bir öğününü yaş mamaya çevirmek bile ölçülebilir fark yaratır. Değişikliği birkaç gün içinde kademeli yapın; kediler ani mama değişikliğine dirençlidir."
+      "text": "Bu yüzden tek bir doğru yoktur. Pek çok veteriner hekim sağlıklı kedilerde kuru mamayı temel alır; su alımını artırmak gerektiğinde ise günün bir öğününü yaş mamayla desteklemek, yani karma beslenme, sık önerilen bir yoldur. Mama değişikliğini birkaç gün içinde kademeli yapın; kediler ani değişikliğe dirençlidir. Kediniz için hangi düzenin uygun olduğunu muayenede birlikte değerlendirelim."
     },
     {
       "type": "callout",
-      "text": "İdrar yolu tıkanıklığı öyküsü olan ya da böbrek değerleri sınırda seyreden kedilerde yaş mamayı yalnızca öneri değil, tedavinin parçası olarak görüyoruz."
+      "text": "İdrar yolu tıkanıklığı öyküsü olan ya da böbrek değerleri sınırda seyreden kedilerde beslenme, tedavi planının bir parçasıdır. Bu kedilerde mama türünü ve miktarını kendi başınıza değiştirmeden önce hekiminize danışın."
     },
     {
       "type": "h2",
@@ -109,7 +109,7 @@
     },
     {
       "q": "Kuru mama zararlı mı?",
-      "a": "Zararlı demiyoruz, ancak nem içeriği düşüktür. Sorun mamanın kendisi değil, kedinin bu açığı içerek kapatamamasıdır."
+      "a": "Hayır. Kaliteli bir kuru mama sağlıklı kediler için yeterli ve pratik bir seçenektir. Nem içeriği düşük olduğundan önemli olan, kedinin suyu yeterince içmesini sağlamaktır; bunun için su kabı düzeni ve gerekirse karma beslenme yardımcı olur."
     },
     {
       "q": "Kaç su kabı olmalı?",
