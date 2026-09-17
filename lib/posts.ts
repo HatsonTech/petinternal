@@ -11,6 +11,8 @@ export type BlogBlock =
 
 export type FAQ = { q: string; a: string };
 
+export type Source = { title: string; publisher: string; url: string };
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -31,6 +33,10 @@ export type BlogPost = {
   body?: BlogBlock[]; // legacy/structured posts
   contentHtml?: string; // HTML posts written via /admin
   faqs: FAQ[];
+  /** Scientific / official references shown under "Kaynaklar". Only for
+   *  posts that make evidence-based or legal claims — not for price or
+   *  common-sense care guides. Every URL must be opened and checked. */
+  sources?: Source[];
   author?: string;
   published?: boolean;
 };

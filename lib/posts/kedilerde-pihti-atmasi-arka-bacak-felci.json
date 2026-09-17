@@ -126,5 +126,12 @@
       "a": "Çoğu zaman evde anlaşılmaz; hastalık sessizdir. Yıllık kontrolde kalbin dinlenmesi ve gerektiğinde ekokardiyografi tek güvenilir yoldur."
     }
   ],
-  "metaTitle": "Kedilerde ani arka bacak felci: pıhtı atması"
+  "metaTitle": "Kedilerde ani arka bacak felci: pıhtı atması",
+  "sources": [
+    {
+      "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats",
+      "publisher": "Journal of Veterinary Internal Medicine (ACVIM)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7255676/"
+    }
+  ]
 }
