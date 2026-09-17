@@ -145,6 +145,16 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     mainEntityOfPage: {
       "@id": `https://www.petinternal.com/blog/${post.slug}#webpage`,
     },
+    ...(post.sources?.length
+      ? {
+          citation: post.sources.map((s) => ({
+            "@type": "CreativeWork",
+            name: s.title,
+            url: s.url,
+            publisher: { "@type": "Organization", name: s.publisher },
+          })),
+        }
+      : {}),
   };
 
   // MedicalWebPage wrapper: tells search engines the page is owner-facing
@@ -321,6 +331,28 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                     Sık Sorulan Sorular
                   </h2>
                   <FaqAccordion items={post.faqs} />
+                </section>
+              )}
+
+              {/* Sources */}
+              {post.sources && post.sources.length > 0 && (
+                <section className="mt-10 border-t border-hairline pt-6">
+                  <h2 className="font-display text-lg font-semibold text-ink">Kaynaklar</h2>
+                  <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-sm leading-relaxed text-muted">
+                    {post.sources.map((s) => (
+                      <li key={s.url}>
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener"
+                          className="text-brand underline-offset-2 hover:underline"
+                        >
+                          {s.title}
+                        </a>{" "}
+                        — {s.publisher}
+                      </li>
+                    ))}
+                  </ol>
                 </section>
               )}
 

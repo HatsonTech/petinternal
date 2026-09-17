@@ -155,5 +155,17 @@
       "a": "Tedaviye başlarken kan tahlili, ardından belirli aralıklarla ekokardiyografi tekrarı planlanır. Sıklık kedinizin bulgularına göre belirlenir; kontrol yapılmadan tedavinin yönetilmesi mümkün değildir."
     }
   ],
-  "metaTitle": "Kedilerde HCM'de sirolimus: ilk onaylı tedavi"
+  "metaTitle": "Kedilerde HCM'de sirolimus: ilk onaylı tedavi",
+  "sources": [
+    {
+      "title": "FDA Conditionally Approves Drug for Management of Ventricular Hypertrophy in Cats",
+      "publisher": "ABD Gıda ve İlaç Dairesi (FDA)",
+      "url": "https://www.fda.gov/animal-veterinary/cvm-updates/fda-conditionally-approves-drug-management-ventricular-hypertrophy-cats"
+    },
+    {
+      "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats",
+      "publisher": "Journal of Veterinary Internal Medicine (ACVIM)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7255676/"
+    }
+  ]
 }

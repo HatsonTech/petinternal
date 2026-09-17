@@ -120,5 +120,22 @@
       "a": "Hayır, bu bir uyarı bulgusudur. Ani artış böbrek hastalığı, şeker hastalığı ya da hipertiroidi işareti olabilir; muayene öneriyoruz."
     }
   ],
-  "metaTitle": "Kedilerde su tüketimi nasıl artırılır?"
+  "metaTitle": "Kedilerde su tüketimi nasıl artırılır?",
+  "sources": [
+    {
+      "title": "Diet format, protein, amino acids, salt and osmolytes affect water consumption in domestic cats: a scoping review",
+      "publisher": "Journal of Animal Science (2026)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12893781/"
+    },
+    {
+      "title": "Wet Cat Food: More Than a Meal, a Key Ingredient for Feline Wellbeing",
+      "publisher": "American Animal Hospital Association (AAHA)",
+      "url": "https://www.aaha.org/newstat/publications/wet-cat-food-more-than-a-meal-a-key-ingredient-for-feline-wellbeing/"
+    },
+    {
+      "title": "Oral health indices and microbiota populations of adult cats consuming wet or dry diets",
+      "publisher": "Frontiers in Veterinary Science (2025)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12687729/"
+    }
+  ]
 }
