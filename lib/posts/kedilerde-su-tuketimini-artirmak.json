@@ -4,9 +4,9 @@
   "category": "Beslenme",
   "image": "/images/blog-cat-kidney.jpg",
   "imageAlt": "Su kabından su içen kısa tüylü bir kedi",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "17 Eylül 2026",
+  "dateISO": "2026-09-17",
+  "updatedISO": "2026-09-17",
   "metaDescription": "Kediler susuzluk hissini zayıf algılar. Böbrek ve idrar yolu sağlığı için su tüketimini artırmanın pratik ve işe yarayan yolları.",
   "excerpt": "Kedilerin atası çöl hayvanıdır ve suyun büyük kısmını avından alacak biçimde evrimleşmiştir. Kuru mamayla beslenen bir kedide bu düzen bozulur ve böbrekler ile idrar yolları bedelini öder.",
   "readTime": "3 dk okuma",
@@ -120,6 +120,5 @@
       "a": "Hayır, bu bir uyarı bulgusudur. Ani artış böbrek hastalığı, şeker hastalığı ya da hipertiroidi işareti olabilir; muayene öneriyoruz."
     }
   ],
-  "metaTitle": "Kedilerde su tüketimi nasıl artırılır?",
-  "published": false
+  "metaTitle": "Kedilerde su tüketimi nasıl artırılır?"
 }
