@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-guinea-pig.jpg",
   "imageAlt": "Çimenlerin arasında yeşillik yiyen turuncu-beyaz tüylü bir ginepig",
-  "date": "16 Eylül 2026",
-  "dateISO": "2026-09-16",
-  "updatedISO": "2026-09-16",
+  "date": "17 Eylül 2026",
+  "dateISO": "2026-09-17",
+  "updatedISO": "2026-09-17",
   "metaDescription": "Ginepigler C vitaminini kendileri üretemez. Eksikliğin belirtileri, C vitamini açısından zengin sebzeler ve suya vitamin eklemenin sakıncaları.",
   "excerpt": "İnsanlar gibi ginepigler de C vitaminini kendi vücutlarında üretemez. Günlük beslenmede yeterli C vitamini olmazsa eklem, diş eti ve bağışıklık sorunları gelişebilir.",
   "readTime": "6 dk okuma",
@@ -79,6 +79,5 @@
       "q": "Tavşan yemi ginepige verilebilir mi?",
       "a": "Önerilmez. Tavşan yemleri ginepiglerin ihtiyacına göre hazırlanmaz ve genellikle yeterli C vitamini içermez. Ginepigler için üretilmiş yemleri tercih edin."
     }
-  ],
-  "published": false
+  ]
 }
