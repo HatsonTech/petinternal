@@ -135,14 +135,19 @@
   ],
   "sources": [
     {
-      "title": "FDA: Adverse events in dogs reported with monoclonal antibody drug",
-      "publisher": "American Veterinary Medical Association (AVMA)",
-      "url": "https://www.avma.org/news/fda-adverse-events-dogs-reported-monoclonal-antibody-drug"
+      "title": "Dear Veterinarian Letter Notifying Veterinarians about Adverse Events Reported in Dogs Treated with Librela",
+      "publisher": "ABD Gıda ve İlaç Dairesi (FDA)",
+      "url": "https://www.fda.gov/animal-veterinary/product-safety-information/dear-veterinarian-letter-notifying-veterinarians-about-adverse-events-reported-dogs-treated-librela"
     },
     {
       "title": "Global pharmacovigilance reporting of the first monoclonal antibody for canine osteoarthritis: bedinvetmab",
       "publisher": "Frontiers in Veterinary Science (2025)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12061024/"
+    },
+    {
+      "title": "Labeling Update Alert: Librela (bedinvetmab injection), 18 Şubat 2025",
+      "publisher": "American College of Veterinary Pharmacists",
+      "url": "https://vetmeds.org/librela/"
     }
   ]
 }
