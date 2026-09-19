@@ -4,9 +4,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-cat-vomiting.jpg",
   "imageAlt": "Kendini yalayarak temizleyen uzun tüylü bir kedi",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "18 Eylül 2026",
+  "dateISO": "2026-09-18",
+  "updatedISO": "2026-09-18",
   "metaDescription": "Ayda birkaç kez tüy yumağı çıkarmak normal sayılmaz. Sıklık arttığında altında hangi sorunlar olabilir ve ne zaman muayene gerekir?",
   "excerpt": "Kedi sahiplerinin çoğu tüy yumağını kedi olmanın doğal bir parçası sayar. Oysa sık tekrarlayan tüy yumağı, çoğu zaman aşırı yalanmaya ya da bağırsak hareketlerindeki bir soruna işaret eder.",
   "readTime": "3 dk okuma",
@@ -131,6 +131,5 @@
       "a": "Evet, en etkili önlemdir. Yutulmayan tüy yumak hâline gelemez; düzenli tarama sıklığı belirgin biçimde azaltır."
     }
   ],
-  "metaTitle": "Kedilerde tüy yumağı ne zaman sorun olur?",
-  "published": false
+  "metaTitle": "Kedilerde tüy yumağı ne zaman sorun olur?"
 }
