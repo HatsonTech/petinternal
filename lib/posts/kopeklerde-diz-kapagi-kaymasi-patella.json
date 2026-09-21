@@ -4,9 +4,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-dog-joint-pain.jpg",
   "imageAlt": "Parkta yürüyen küçük ırk bir köpek",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "21 Eylül 2026",
+  "dateISO": "2026-09-21",
+  "updatedISO": "2026-09-21",
   "metaDescription": "Küçük ırk köpeklerde bir iki adım sekip sonra normale dönmek diz kapağı kaymasının klasik belirtisidir. Evreleri, tedavi eşiği ve kilo faktörü.",
   "excerpt": "Köpeğinizin koşarken aniden bir arka bacağını havada tutup birkaç adım sonra hiçbir şey olmamış gibi devam etmesi, sahiplerin genellikle önemsemediği ama ilerleyici bir eklem sorununun ilk işaretidir.",
   "readTime": "3 dk okuma",
@@ -128,6 +128,5 @@
       "a": "Evet, rutin muayene sırasında diz kapağı kontrol edilebilir. Riskli ırklarda bunu erken yaşta bakmayı öneriyoruz."
     }
   ],
-  "metaTitle": "Köpeklerde diz kapağı kayması (patella luksasyonu)",
-  "published": false
+  "metaTitle": "Köpeklerde diz kapağı kayması (patella luksasyonu)"
 }

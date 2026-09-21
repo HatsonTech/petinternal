@@ -4,9 +4,9 @@
   "category": "Güncel Tıp",
   "image": "/images/blog-dog-joint-pain.jpg",
   "imageAlt": "Yere uzanmış, başını patilerine yaslamış küçük ırk bir köpek",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "20 Eylül 2026",
+  "dateISO": "2026-09-20",
+  "updatedISO": "2026-09-20",
   "metaDescription": "Boynunu kaşıyan, dokunulmaya tepki veren küçük ırk köpeklerde sinir kaynaklı ağrı olabilir. Yeni onaylanan pregabalin bu tabloda ne sunuyor?",
   "excerpt": "Havayı kaşıyan, boynuna dokunulmasına izin vermeyen ve gece huzursuzlanan küçük ırk köpeklerde çoğu zaman cilt sorunu aranır. Oysa tablo kafatası ile beyin arasındaki uyumsuzluktan kaynaklanan sinir ağrısı olabilir. Bu tablo için ilk kez hedefe yönelik bir ilaç onaylandı.",
   "readTime": "3 dk okuma",
@@ -129,7 +129,6 @@
     }
   ],
   "metaTitle": "Köpeklerde Chiari ve siringomiyeli: sinir ağrısı",
-  "published": false,
   "sources": [
     {
       "title": "FDA Conditionally Approves Drug to Control Pain and Clinical Signs of Chiari-Like Malformation and Syringomyelia in Dogs",
