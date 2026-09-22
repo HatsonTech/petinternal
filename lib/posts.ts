@@ -50,6 +50,24 @@ export const blogPosts: BlogPost[] = (ctx.keys() as string[])
   .filter((p) => p.published !== false)
   .sort((a, b) => (a.dateISO < b.dateISO ? 1 : -1)); // newest first
 
+
+// Kuyruktaki (henüz yayınlanmamış) bir yazıya verilen satır içi bağlantı, o yazı
+// çıkana kadar 404 olurdu. Yükleme sırasında bu bağlantıları düz metne çeviriyoruz;
+// hedef yayınlandığında bağlantı kendiliğinden geri gelir.
+const liveSlugs = new Set(blogPosts.map((p) => p.slug));
+const dropDeadLinks = (html: string) =>
+  html.replace(
+    /<a href="\/blog\/([^"]+)">(.*?)<\/a>/g,
+    (full, slug: string, label: string) => (liveSlugs.has(slug) ? full : label),
+  );
+
+for (const post of blogPosts) {
+  for (const block of post.body ?? []) {
+    if ("text" in block) block.text = dropDeadLinks(block.text);
+    if ("items" in block) block.items = block.items.map(dropDeadLinks);
+  }
+}
+
 export function getPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
 }

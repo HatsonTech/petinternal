@@ -270,7 +270,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               </div>
             </div>
 
-            <div className="mx-auto mt-10 max-w-3xl">
+            <div className="post-body mx-auto mt-10 max-w-3xl">
               <p className="text-lg leading-relaxed text-ink/90">{post.intro}</p>
 
               {post.contentHtml ? (
@@ -292,10 +292,14 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   );
                 }
                 if (b.type === "p") {
+                  // Gövde metni depodaki JSON'dan gelir (yalnızca bizim yazdığımız
+                  // içerik) ve satır içi bağlantı/vurgu taşıyabilir; HTML basılır.
                   return (
-                    <p key={i} className="mt-3 leading-relaxed text-muted">
-                      {b.text}
-                    </p>
+                    <p
+                      key={i}
+                      className="mt-3 leading-relaxed text-muted"
+                      dangerouslySetInnerHTML={{ __html: b.text }}
+                    />
                   );
                 }
                 if (b.type === "ul") {
@@ -306,7 +310,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                           <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
                             <Check className="h-3.5 w-3.5" aria-hidden="true" />
                           </span>
-                          <span className="leading-relaxed text-muted">{it}</span>
+                          <span
+                            className="leading-relaxed text-muted"
+                            dangerouslySetInnerHTML={{ __html: it }}
+                          />
                         </li>
                       ))}
                     </ul>
@@ -319,7 +326,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                     className="mt-6 flex items-start gap-3 rounded-2xl border-l-4 border-brand bg-cream p-4 sm:p-5"
                   >
                     <Info className="mt-0.5 h-5 w-5 shrink-0 text-brand" aria-hidden="true" />
-                    <p className="leading-relaxed text-ink/90">{b.text}</p>
+                    <p
+                      className="leading-relaxed text-ink/90"
+                      dangerouslySetInnerHTML={{ __html: b.text }}
+                    />
                   </div>
                 );
               })}

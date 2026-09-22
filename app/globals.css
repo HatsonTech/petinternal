@@ -141,3 +141,11 @@
     @apply mt-2 text-center text-sm text-muted;
   }
 }
+
+/* Blog gövdesindeki satır içi bağlantılar (lib/posts/*.json içinden gelir). */
+@layer components {
+  .post-body p a,
+  .post-body li a {
+    @apply font-medium text-brand underline underline-offset-2 hover:text-brand-700;
+  }
+}
