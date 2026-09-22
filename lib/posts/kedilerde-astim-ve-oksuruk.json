@@ -1,0 +1,120 @@
+{
+  "slug": "kedilerde-astim-ve-oksuruk",
+  "title": "Kedim öksürüyor: tüy yumağı mı, astım mı?",
+  "metaTitle": "Kedilerde Astım ve Öksürük: Ayırt Etme Rehberi",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-cough.jpg",
+  "imageAlt": "Ağzı açık şekilde esneyen tekir bir kedi",
+  "metaDescription": "Kedilerde öksürük çoğu zaman tüy yumağı sanılır. Astımın belirtileri, tanı yöntemleri, inhaler tedavi ve krizde yapılacaklar.",
+  "excerpt": "Kedilerde öksürük sık sık tüy yumağı sanılır ve yıllarca gözden kaçar. Oysa çömelmiş, boyun uzatılmış öksürük tablosu astımın klasik görüntüsüdür.",
+  "readTime": "7 dk okuma",
+  "keywords": [
+    "kedim öksürüyor",
+    "kedilerde astım",
+    "kedi hırıltılı nefes",
+    "kedilerde öksürük nedenleri",
+    "kedi astım inhaler",
+    "Çankaya veteriner",
+    "Ankara veteriner kliniği"
+  ],
+  "intro": "Kediler öksürdüğünde çoğu sahip bunu tüy yumağı çıkarma çabası sanır. Aradaki fark önemlidir: tüy yumağında kedi öğürür ve bir şey çıkarır, astımda ise çömelir, boynunu uzatır ve kuru bir öksürük atağı yaşar. Astım, kedilerde sanıldığından yaygındır ve tedavi edilebilir bir hastalıktır.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Astım nasıl bir tablo?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Tekrarlayan kuru öksürük atakları; kedi çömelir, boynunu uzatır",
+        "Hırıltılı soluma, bazı ataklarda ağzı açık nefes alma",
+        "Atak sonrası halsizlik, sonra tamamen normale dönme",
+        "Egzersiz toleransında azalma, oyunu erken bırakma",
+        "Belirtilerin toz, sprey, sigara dumanı, kedi kumu tozu gibi tetikleyicilerle artması"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Ağzı açık soluma kedilerde her zaman ciddiye alınmalıdır. Dinlenirken bu tabloyu görürseniz beklemeden arayın."
+    },
+    {
+      "type": "h2",
+      "text": "Tüy yumağı ile farkı"
+    },
+    {
+      "type": "p",
+      "text": "Tüy yumağında ses daha çok öğürme şeklindedir, karın kasları çalışır ve sonunda tüy ya da mide içeriği çıkar. Astımda öksürük kurudur, bir şey çıkmaz ve ataklar tekrarlar. Ayrıntılar için <a href=\"/blog/kedilerde-tuy-yumagi-ne-zaman-sorun\">tüy yumağı</a> yazımıza bakabilirsiniz."
+    },
+    {
+      "type": "h2",
+      "text": "Tanı nasıl konur?"
+    },
+    {
+      "type": "p",
+      "text": "Astımın tek bir kesin testi yoktur; tanı benzer tablo yapan hastalıkları dışlayarak konur. Genellikle göğüs röntgeni, kan tahlili ve parazit değerlendirmesi ile başlanır. Kalp hastalıkları, akciğer parazitleri ve enfeksiyonlar ayırt edilmelidir. Nefes darlığının diğer nedenlerini <a href=\"/blog/kedilerde-nefes-darligi\">kedilerde nefes darlığı</a> yazımızda anlattık."
+    },
+    {
+      "type": "h2",
+      "text": "Tedavi: inhaler yaklaşımı"
+    },
+    {
+      "type": "p",
+      "text": "Astımda amaç hava yollarındaki iltihabı baskılamak ve atakları azaltmaktır. Tedavinin temelini kortikosteroidler oluşturur; ağızdan verilebildiği gibi, kediler için üretilmiş yüz maskesi ve ara hazneli sistemlerle solunum yoluyla da verilebilir. Solunum yoluyla verilen tedavi, ilacı doğrudan hava yollarına ulaştırdığı için vücudun geri kalanını daha az etkiler. Kedinin maskeye alışması birkaç haftalık kademeli bir çalışma gerektirir; bunu birlikte planlıyoruz."
+    },
+    {
+      "type": "p",
+      "text": "Tedavi planını ve ilaç seçimini hekim belirler. Astım tanısı almış bir kedide kendi başınıza doz değiştirmek ya da ilacı kesmek atakların ağırlaşmasına yol açabilir."
+    },
+    {
+      "type": "h2",
+      "text": "Evde tetikleyicileri azaltmak"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Tozsuz kedi kumu tercih edin; kumu kedi yokken dökün",
+        "Evde sigara içilmesin",
+        "Oda spreyi, parfüm ve güçlü temizlik kokularından kaçının",
+        "Halı ve kumaş yüzeyleri düzenli temizleyin, tozu nemli bezle alın",
+        "Şömine, mangal dumanı ve tütsüden uzak tutun"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Atak anında ne yapmalı?"
+    },
+    {
+      "type": "p",
+      "text": "Kediyi sakin tutun, taşımaya çalışırken zorlamayın ve havalandırın. Ağzı açık soluma, dilde morarma ya da atak sonrası toparlayamama durumunda hemen kliniğe gelin. Astım kronik bir hastalıktır; düzenli takip ile pek çok kedi uzun yıllar rahat yaşar."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kedim öksürüyor ama bir şey çıkarmıyor, bu ne?",
+      "a": "Kuru ve tekrarlayan öksürük astımın tipik bulgusudur. Muayene ve röntgenle değerlendirilmesi gerekir."
+    },
+    {
+      "q": "Kedilerde astım geçer mi?",
+      "a": "Kronik bir hastalıktır; amaç iyileştirmek değil, iltihabı kontrol altında tutup atakları azaltmaktır. Düzenli tedaviyle yaşam kalitesi genellikle iyi olur."
+    },
+    {
+      "q": "İnhaler kediye nasıl uygulanır?",
+      "a": "Kediler için üretilmiş maske ve ara hazne kullanılır. Alıştırma kademeli yapılır; klinikte uygulamalı olarak gösteriyoruz."
+    },
+    {
+      "q": "Astım krizinde ne yapmalıyım?",
+      "a": "Kediyi sakinleştirin, zorlamayın ve hemen kliniğe getirin. Ağzı açık soluma acil bir bulgudur."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Feline Asthma: What You Need To Know",
+      "publisher": "Cornell Feline Health Center",
+      "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-asthma-what-you-need-know"
+    }
+  ],
+  "published": false,
+  "date": "1 Ocak 2026",
+  "dateISO": "2026-01-01",
+  "updatedISO": "2026-01-01"
+}
