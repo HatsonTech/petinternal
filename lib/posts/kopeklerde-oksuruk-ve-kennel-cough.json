@@ -1,0 +1,115 @@
+{
+  "slug": "kopeklerde-oksuruk-ve-kennel-cough",
+  "title": "Köpeğim öksürüyor: üşütme mi, kennel cough mu?",
+  "metaTitle": "Köpeklerde Öksürük: Kennel Cough ve Diğer Nedenler",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-dog-vaccine.jpg",
+  "imageAlt": "Aşı öncesi muayene edilen bir köpek",
+  "metaDescription": "Köpeklerde kuru ve tıslamalı öksürük çoğu zaman bulaşıcı solunum yolu hastalığına bağlıdır. Nedenleri, bulaş yolları, aşı ve acil işaretler.",
+  "excerpt": "Pansiyon, park ve eğitim gruplarından sonra başlayan kuru öksürük genellikle bulaşıcıdır. Hangi öksürük beklenir, hangisi acildir?",
+  "readTime": "7 dk okuma",
+  "keywords": [
+    "köpeğim öksürüyor",
+    "köpeklerde öksürük",
+    "kennel cough",
+    "köpek üşüttü",
+    "köpeklerde bronşit",
+    "bordetella aşısı",
+    "Çankaya veteriner"
+  ],
+  "intro": "\"Köpeğim üşüttü galiba\" cümlesi kliniğe en sık gelen ifadelerden biridir. Köpeklerde soğuk hava tek başına hastalık yapmaz; ancak kalabalık ortamlar, pansiyonlar ve parklar bulaşıcı solunum yolu hastalıkları için elverişli koşullar oluşturur. Bu yazıda öksürüğün nedenlerini ve hangi durumun beklemeye gelmediğini anlatıyoruz.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Tipik tablo: bulaşıcı solunum yolu hastalığı"
+    },
+    {
+      "type": "p",
+      "text": "Halk arasında \"kennel cough\" denen tablo, birden fazla virüs ve bakterinin tek başına ya da birlikte yol açtığı bulaşıcı bir üst solunum yolu hastalığıdır. Tipik öksürük kuru, sert ve ani başlangıçlıdır; sahipler çoğu zaman \"boğazına bir şey takılmış gibi\" diye tarif eder. Öksürük sonrası beyazımsı köpük çıkarmak kusmayla karıştırılabilir."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Bulaş, yakın temas ve ortak hava ile olur: pansiyon, kuaför, park, eğitim grubu, barınak",
+        "Kuluçka dönemi kısadır; temastan günler sonra başlayabilir",
+        "Genel durumu iyi olan köpeklerde tablo çoğu zaman kendini sınırlar",
+        "Yavrular, yaşlılar ve bağışıklığı zayıf köpeklerde zatürreye ilerleyebilir"
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Öksüren bir köpeği parka, pansiyona ve kuaföre götürmeyin. Klinikte de geldiğinizi telefonda haber verin; sizi bekleme alanında diğer hastalardan ayırabiliriz."
+    },
+    {
+      "type": "h2",
+      "text": "Öksürüğün diğer nedenleri"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kalp hastalığı: özellikle yaşlı ve küçük ırklarda gece artan öksürük",
+        "Trakea kollapsı: küçük ırklarda kaz sesine benzer öksürük",
+        "Yabancı cisim: ani başlayan, boğulur gibi öksürük",
+        "Akciğer hastalıkları ve parazitler",
+        "Tasma baskısı: dar tasmayla çeken köpeklerde tahriş"
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Kalp kaynaklı öksürüğü <a href=\"/blog/kopeklerde-kalp-hastaligi-mmvd\">köpeklerde kalp hastalığı</a> yazımızda ayrıntılı anlattık. Ayrıca öksürük ile kusmanın karıştırıldığı durumlar için <a href=\"/blog/kopeklerde-kusma-mi-regurgitasyon-mu\">kusma mı regurgitasyon mu</a> yazımıza bakabilirsiniz."
+    },
+    {
+      "type": "h2",
+      "text": "Hangi durumda beklemeden gelinmeli?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dinlenirken nefes darlığı, hızlı ya da zorlu soluma",
+        "Dilde ve diş etlerinde morarma",
+        "Halsizlik, yemeyi bırakma, ateş",
+        "Öksürüğün birkaç günde gerilemeyip ağırlaşması",
+        "Kanlı balgam",
+        "Yavru ya da yaşlı bir köpekte öksürüğün başlaması"
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Tedavi ve evde bakım"
+    },
+    {
+      "type": "p",
+      "text": "Tedavi tabloya göre planlanır; her öksürük antibiyotik gerektirmez. Evde yardımcı olan basit şeyler vardır: tasma yerine göğüs tasması kullanmak, sigara dumanı ve keskin kokulardan uzak tutmak, ortamı çok kuru bırakmamak, egzersizi azaltmak. İnsan öksürük şurubu ya da ağrı kesici vermek tehlikelidir; bazı etkin maddeler köpeklerde zehirlenmeye yol açar."
+    },
+    {
+      "type": "h2",
+      "text": "Aşı ile korunma"
+    },
+    {
+      "type": "p",
+      "text": "Bulaşıcı solunum yolu hastalıklarının bir kısmına karşı aşı vardır. Pansiyona, kuaföre, eğitim grubuna ya da köpek parkına düzenli giden köpeklerde bu aşılar özellikle gündeme gelir. Hangi aşının uygun olduğunu köpeğinizin yaşam tarzına göre planlıyoruz; genel takvim için <a href=\"/blog/kopek-asi-takvimi\">köpek aşı takvimi</a> yazımıza bakabilirsiniz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Köpeğim öksürüyor, üşütmüş olabilir mi?",
+      "a": "Soğuk hava tek başına hastalık yapmaz. Ani başlayan kuru öksürük çoğu zaman bulaşıcı solunum yolu hastalığına bağlıdır."
+    },
+    {
+      "q": "Kennel cough bulaşıcı mı?",
+      "a": "Evet, yakın temas ve ortak hava yoluyla kolay bulaşır. Öksüren köpek diğer köpeklerden ayrı tutulmalıdır."
+    },
+    {
+      "q": "Öksürük şurubu verebilir miyim?",
+      "a": "İnsan ürünlerini vermeyin; bazı etkin maddeler köpeklerde zehirlenmeye yol açar."
+    },
+    {
+      "q": "İnsanlara bulaşır mı?",
+      "a": "Tablodan sorumlu etkenlerin çoğu köpekten insana geçmez. Bağışıklığı baskılanmış kişiler için hekime danışmak yerinde olur."
+    }
+  ],
+  "published": false,
+  "date": "1 Ocak 2026",
+  "dateISO": "2026-01-01",
+  "updatedISO": "2026-01-01"
+}
