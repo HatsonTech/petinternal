@@ -1,6 +1,7 @@
 {
   "slug": "kopek-asi-takvimi",
   "title": "Köpeğinizin aşı takvimi",
+  "metaTitle": "Köpek aşı takvimi: hangi aşı, kaç haftalıkken?",
   "category": "Aşılama",
   "image": "/images/blog-dog-vaccine.jpg",
   "imageAlt": "Sevimli bir labrador köpek yavrusu",
@@ -8,6 +9,7 @@
   "dateISO": "2026-06-06",
   "updatedISO": "2026-06-26",
   "excerpt": "Köpeklerde aşı takvimi rehberi: çekirdek ve çekirdek dışı aşılar, yavru aşı programı, rapeller, kuduzun yasal zorunluluğu ve aşı sonrası bakım.",
+  "metaDescription": "Yavru köpekte karma aşı kaç haftalıkken başlar, kaç rapel yapılır, kuduz ne zaman zorunlu olur? Çekirdek ve çekirdek dışı aşıların tam takvimi.",
   "readTime": "6 dk okuma",
   "keywords": [
     "köpek aşı takvimi",
