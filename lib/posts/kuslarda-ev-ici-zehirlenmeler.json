@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-budgie.jpg",
   "imageAlt": "Kafeste duran sarı-yeşil bir muhabbet kuşu",
-  "date": "16 Eylül 2026",
-  "dateISO": "2026-09-16",
-  "updatedISO": "2026-09-16",
+  "date": "22 Eylül 2026",
+  "dateISO": "2026-09-22",
+  "updatedISO": "2026-09-22",
   "metaDescription": "Yapışmaz tava dumanı, avokado, çikolata, aerosol spreyler ve ağır metaller kuşlar için tehlikelidir. Evde kuşunuzu korumanın yolları.",
   "excerpt": "Kuşların solunum sistemi son derece hassastır. İnsanların fark etmediği mutfak dumanları ve bazı yiyecekler kuşlar için ciddi tehlike oluşturabilir.",
   "readTime": "6 dk okuma",
@@ -108,6 +108,5 @@
       "q": "Kuşlar hangi meyve ve sebzeleri yiyebilir?",
       "a": "Pek çok taze sebze ve az miktarda meyve kuş beslenmesine eklenebilir. Hangi türlerin uygun olduğunu ve beslenmenin nasıl dengeleneceğini muayenede birlikte konuşabiliriz."
     }
-  ],
-  "published": false
+  ]
 }

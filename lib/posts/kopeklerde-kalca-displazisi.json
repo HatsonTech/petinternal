@@ -4,9 +4,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-dog-joint-pain.jpg",
   "imageAlt": "Çimenlikte yatan büyük ırk bir köpek",
-  "date": "8 Eylül 2026",
-  "dateISO": "2026-09-08",
-  "updatedISO": "2026-09-08",
+  "date": "22 Eylül 2026",
+  "dateISO": "2026-09-22",
+  "updatedISO": "2026-09-22",
   "metaDescription": "Kalça displazisi büyük ırklarda yavrulukta başlar. Tavşan sıçrayışı, oturmakta zorlanma ve kalkarken duraksama en erken işaretlerdir.",
   "excerpt": "Kalça displazisi genç yaşta başlayan ama belirtileri yıllar sonra belirginleşen bir gelişim bozukluğudur. Erken fark edilirse ilerlemesini yavaşlatmak büyük ölçüde mümkündür.",
   "readTime": "3 dk okuma",
@@ -124,6 +124,5 @@
       "a": "Yatkınlık kalıtsaldır, ancak ağırlığı çevresel etkenlerle değişir. Kilo ve büyüme hızı kontrolü riski belirgin biçimde azaltır."
     }
   ],
-  "metaTitle": "Köpeklerde kalça displazisi belirtileri",
-  "published": false
+  "metaTitle": "Köpeklerde kalça displazisi belirtileri"
 }
