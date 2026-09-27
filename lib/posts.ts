@@ -62,6 +62,7 @@ const dropDeadLinks = (html: string) =>
   );
 
 for (const post of blogPosts) {
+  post.intro = dropDeadLinks(post.intro);
   for (const block of post.body ?? []) {
     if ("text" in block) block.text = dropDeadLinks(block.text);
     if ("items" in block) block.items = block.items.map(dropDeadLinks);
