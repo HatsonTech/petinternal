@@ -271,7 +271,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             </div>
 
             <div className="post-body mx-auto mt-10 max-w-3xl">
-              <p className="text-lg leading-relaxed text-ink/90">{post.intro}</p>
+              <p
+                className="text-lg leading-relaxed text-ink/90"
+                dangerouslySetInnerHTML={{ __html: post.intro }}
+              />
 
               {post.contentHtml ? (
                 <div
