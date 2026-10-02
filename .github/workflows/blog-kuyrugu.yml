@@ -1,0 +1,58 @@
+name: Blog kuyrugu - gunluk yayin
+
+on:
+  schedule:
+    - cron: '29 6 * * *' # 09:29 Europe/Istanbul
+    - cron: '29 18 * * *' # 21:29 sabah calismadiysa tekrar dener
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  TZ: Europe/Istanbul
+
+concurrency:
+  group: blog-kuyrugu
+  cancel-in-progress: false
+
+jobs:
+  yayinla:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Kuyrugu dogrula
+        run: node scripts/kontrol.mjs
+      - name: Bugun yayin yoksa siradaki taslagi yayinla
+        id: yazi
+        run: |
+          node scripts/yayinla.mjs --gunluk
+          if git diff --quiet; then
+            echo "yayinlandi=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "yayinlandi=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Derlemeyi dogrula
+        if: steps.yazi.outputs.yayinlandi == 'true'
+        run: npm run build
+      - name: Commit ve push
+        if: steps.yazi.outputs.yayinlandi == 'true'
+        run: |
+          git config user.name "petinternal-yayinci[bot]"
+          git config user.email "petinternal-yayinci[bot]@users.noreply.github.com"
+          git add lib/posts scripts/yayin-gunlugu.txt
+          git commit -m "Blog: kuyruktan gunluk yazi ($(date +%F))"
+          git push
+      # GITHUB_TOKEN ile yapilan push deploy.yml'i tetiklemez; elle baslatiyoruz.
+      - name: Siteyi yayina al
+        if: steps.yazi.outputs.yayinlandi == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main

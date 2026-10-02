@@ -1,0 +1,171 @@
+{
+  "slug": "kedi-ve-kopeklerde-kan-grubu-ve-kan-nakli",
+  "title": "Kedi ve köpeklerde kan grubu ve kan nakli: sahiplerin bilmesi gerekenler",
+  "metaTitle": "Kedi ve köpeklerde kan grubu ve kan nakli rehberi",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-cancer-screening.jpg",
+  "imageAlt": "Laboratuvarda incelenen kan örnekleri",
+  "date": "2 Ekim 2026",
+  "dateISO": "2026-10-02",
+  "updatedISO": "2026-10-02",
+  "metaDescription": "Kedi ve köpeklerde kan grubu nedir, kan naklinden önce neden test yapılır? Kedilerde A, B, AB grupları, köpeklerde DEA 1 ve nakil sonrası dikkat edilecekler.",
+  "excerpt": "Kedilerde uyumsuz tek bir kan nakli bile hayati tepkiye yol açabilir; köpeklerde ise risk özellikle ikinci nakilde ortaya çıkar. Kan gruplarını, nakil öncesi testleri ve sahiplerin dikkat etmesi gereken belirtileri anlatıyoruz.",
+  "readTime": "6 dk okuma",
+  "keywords": [
+    "kedi kan grubu",
+    "köpek kan grubu",
+    "kedi ve köpeklerde kan nakli",
+    "veteriner kan nakli",
+    "DEA 1",
+    "çapraz eşleştirme testi",
+    "kan bağışçısı köpek",
+    "Çankaya veteriner"
+  ],
+  "intro": "Kedilerin A, B ve nadir görülen AB olmak üzere üç ana kan grubu vardır ve kediler kendi gruplarına uymayan kana karşı doğuştan antikor taşıdıkları için, kan naklinden önce kan grubu tayini her zaman zorunludur. Köpeklerde ise klinik açıdan en önemli grup DEA 1'dir; köpekler genellikle doğuştan antikor taşımasa da ilk nakil sonrasında duyarlılaşabildikleri için nakil öncesi tiplendirme ve gerektiğinde çapraz eşleştirme önerilir. Bu yazıda kan gruplarının neden önemli olduğunu, nakil sürecinin nasıl işlediğini ve sahiplerin nelere dikkat etmesi gerektiğini anlatıyoruz.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Kedilerde kan grupları"
+    },
+    {
+      "type": "p",
+      "text": "Merck Veteriner El Kitabı'na göre kedilerde baskın kan grubu sistemi AB sistemidir. Kedilerin büyük çoğunluğu A grubudur; B grubunun sıklığı coğrafi bölgeye ve ırka göre değişir, AB grubu ise nadirdir. A grubu B grubuna baskın kalıtılır."
+    },
+    {
+      "type": "p",
+      "text": "Kedileri özel kılan, daha önce hiç kan almamış olsalar bile diğer gruba karşı doğal antikor taşımalarıdır. B grubu kedilerde A grubuna karşı çok güçlü antikorlar bulunur; bu kedilere A grubu kan verilmesi az miktarda bile olsa ağır ve hayatı tehdit eden bir tepkiye yol açabilir. A grubu kedilerdeki B karşıtı antikorlar ise daha zayıftır ama yine de verilen kanın kısa sürede yıkılmasına neden olabilir. AB grubu kediler her iki gruba karşı da antikor taşımaz. Bu nedenle kedilerde kan grubu tayini olmadan kan nakli yapılmamalıdır."
+    },
+    {
+      "type": "p",
+      "text": "Son yıllarda kedilerde AB sistemi dışında da kan grubu antijenleri tanımlanmıştır. Bu nedenle ilk kez kan alacak kedilerde bile, mümkün olduğunda verici ile alıcı arasında çapraz eşleştirme testi yapılması güvenliği artırır. Merck, daha önce kan almış kedilerde de önceki nakilden iki günden uzun süre geçtiyse çapraz eşleştirme yapılmasını önerir."
+    },
+    {
+      "type": "h2",
+      "text": "Yavru kedilerde kan grubu uyuşmazlığı"
+    },
+    {
+      "type": "p",
+      "text": "B grubu bir anne kedi, A ya da AB grubu yavrular doğurduğunda, yavrular doğumdan sonraki ilk saatlerde anne sütüyle birlikte bu güçlü antikorları alabilir. Bu durum yavruların kırmızı kan hücrelerinin yıkılmasına yol açabilir ve yenidoğan izoeritrolizi olarak adlandırılır. Bu nedenle B grubunun daha sık görüldüğü ırklarda üretim yapılacaksa anne ve babanın kan grubunun önceden bilinmesi önemlidir. Gebelik ve doğum hazırlığı için <a href=\"/blog/kedilerde-gebelik-ve-dogum\">kedilerde gebelik ve doğum</a> yazımıza bakabilirsiniz."
+    },
+    {
+      "type": "h2",
+      "text": "Köpeklerde kan grupları"
+    },
+    {
+      "type": "p",
+      "text": "Köpeklerde çok sayıda kan grubu antijeni tanımlanmıştır ve bunlar DEA (köpek eritrosit antijeni) olarak adlandırılır. Klinik açıdan en önemlisi DEA 1'dir; Merck'e göre bölgeye bağlı olarak köpeklerin yaklaşık yüzde 33 ile 65'i DEA 1 pozitiftir."
+    },
+    {
+      "type": "p",
+      "text": "Köpekler kedilerden farklı olarak genellikle doğuştan önemli antikor taşımaz. Bu yüzden ilk nakil çoğunlukla ciddi bir uyuşmazlık tepkisine yol açmaz. Ancak DEA 1 negatif bir köpek DEA 1 pozitif kan aldığında bu antijene karşı antikor geliştirir ve sonraki bir nakilde ağır tepki görülebilir. Bu nedenle Merck, köpeklerde de nakil öncesi DEA 1 tiplendirmesini güçlü biçimde önerir; daha önce kan almış köpeklerde ise çapraz eşleştirme gerekir."
+    },
+    {
+      "type": "h2",
+      "text": "Kan nakli ne zaman gerekir?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kaza, ameliyat ya da iç kanamaya bağlı ani kan kaybı.",
+        "Fare zehiri gibi pıhtılaşmayı bozan zehirlenmeler.",
+        "Bağışıklık sisteminin kırmızı kan hücrelerini yıktığı hastalıklar.",
+        "Kene ile bulaşan kan parazitleri, ağır pire enfestasyonu ya da kemik iliği hastalıklarına bağlı ağır kansızlık.",
+        "Bazı ileri böbrek hastalıklarında gelişen kansızlık."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Kansızlık belirtileri arasında soluk diş etleri, halsizlik, hızlı soluma, egzersize dayanıksızlık ve bayılma sayılabilir. Bu belirtiler aniden ortaya çıktıysa beklemeden acile başvurun. Zehirlenme şüphesinde ne yapılacağı <a href=\"/blog/evcil-hayvanlarda-zehirlenme\">evcil hayvanlarda zehirlenme</a> yazımızda; acil durumların genel listesi <a href=\"/blog/veteriner-acil-hangi-durumlar\">veteriner acil hangi durumlar</a> yazımızda yer alıyor."
+    },
+    {
+      "type": "h2",
+      "text": "Nakil sürecinde neler yapılır?"
+    },
+    {
+      "type": "p",
+      "text": "Planlı bir ameliyat öncesinde ya da acil bir durumda, kan nakli kararı hekimin muayenesi ve kan tahlilleriyle verilir. Süreç kabaca şu adımlardan oluşur:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Alıcının kan grubu tayini: Kedilerde zorunlu, köpeklerde DEA 1 için güçlü biçimde önerilir. Hızlı testlerle dakikalar içinde yapılabilir.",
+        "Çapraz eşleştirme: Alıcının serumu ile verici kanının uyumu test edilir. Daha önce kan almış hayvanlarda ve kedilerde özellikle önemlidir.",
+        "Verici seçimi: Sağlıklı, uygun kiloda, aşıları güncel ve kan yoluyla bulaşabilen enfeksiyonlar açısından taranmış bir verici seçilir.",
+        "Yavaş başlangıç ve izlem: Merck'e göre nakil sırasında ilk saatte yaşam bulguları sık aralıklarla kontrol edilir, nakil boyunca ve sonrasında izlem sürer.",
+        "Nakil sonrası kontrol: Kansızlığın ne kadar düzeldiği kan sayımıyla değerlendirilir ve asıl neden tedavi edilir."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Ameliyat öncesi yapılan kan testlerinin ne işe yaradığını <a href=\"/blog/ameliyat-oncesi-kan-tahlili\">ameliyat öncesi kan tahlili</a> yazımızda anlattık."
+    },
+    {
+      "type": "h2",
+      "text": "Nakil sonrası evde nelere dikkat etmelisiniz?"
+    },
+    {
+      "type": "p",
+      "text": "Kan nakli tepkileri çoğunlukla nakil sırasında ya da hemen sonrasında, klinik ortamında görülür. Yine de taburcu olduktan sonraki birkaç gün hayvanınızı yakından izleyin."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Hemen arayın: Hızlı ya da zor soluma, öksürük, ani halsizlik, kusma, yüzde şişlik veya kaşıntı, idrarın koyu kırmızı-kahverengi olması, diş etlerinde ya da göz akında sararma.",
+        "Aynı gün bildirin: Ateş, iştahsızlık, belirgin durgunluk.",
+        "Kontrol randevusunda konuşun: Enerji ve iştahta artış, diş eti renginde düzelme gibi olumlu değişiklikler ve verilen ilaçların kullanımı."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Kan grubu belli olan bir hayvanın grubunu not edin ve başka bir klinikte tedavi görecekse mutlaka söyleyin. Daha önce kan almış olması, bir sonraki nakilde çapraz eşleştirme gerektirdiği için önemli bir bilgidir."
+    },
+    {
+      "type": "h2",
+      "text": "Kan bağışçısı olmak"
+    },
+    {
+      "type": "p",
+      "text": "Hayvanlarda kan nakli büyük ölçüde gönüllü bağışçı köpek ve kedilere dayanır. Sağlıklı, sakin mizaçlı ve uygun kilodaki hayvanlar, hekim değerlendirmesi ve tarama testleri sonrasında bağışçı olabilir. Kan yoluyla bulaşan hastalıkların taranması bağışçı için de faydalıdır; bu hastalıklardan biri olan leishmania için <a href=\"/blog/kopeklerde-leishmania-ve-tatarcik\">köpeklerde leishmania</a> yazımıza bakabilirsiniz. Tarama ve kan grubu tayini <a href=\"/hizmetler/laboratuvar-goruntuleme\">laboratuvar</a> hizmetimiz kapsamında yapılabilir."
+    },
+    {
+      "type": "p",
+      "text": "Öveçler'deki kliniğimizde kan grubu tayinini ve çapraz eşleştirme testlerini nakil öncesinde rutin olarak yapıyoruz; köpeğinizin ya da kedinizin bağışçı olmasıyla ilgileniyorsanız bir sonraki kontrolde konuşabiliriz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kedilerin kaç kan grubu vardır?",
+      "a": "Kedilerde temel sistem AB sistemidir: A, B ve nadir görülen AB grupları vardır. Kedilerin çoğu A grubudur. Son yıllarda bu sistemin dışında başka antijenler de tanımlanmıştır."
+    },
+    {
+      "q": "Kediye kan grubu bakılmadan kan verilebilir mi?",
+      "a": "Hayır. Kediler diğer gruba karşı doğuştan antikor taşır; özellikle B grubu bir kediye A grubu kan verilmesi hayati tepkiye yol açabilir. Kan grubu tayini her zaman gereklidir."
+    },
+    {
+      "q": "Köpeklerde ilk kan naklinde test gerekir mi?",
+      "a": "Köpekler genellikle doğuştan antikor taşımadığı için ilk nakil daha düşük risklidir, ancak DEA 1 tiplendirmesi yine de güçlü biçimde önerilir. Daha önce kan almış köpeklerde çapraz eşleştirme gerekir."
+    },
+    {
+      "q": "Kan nakli tepkisinin belirtileri nelerdir?",
+      "a": "Ateş, hızlı soluma, öksürük, kusma, yüzde şişlik, kaşıntı, koyu renkli idrar ve sararma tepkiyi düşündürür. Bu belirtiler görülürse hemen kliniği arayın."
+    },
+    {
+      "q": "Kedi ve köpeklere insan kanı verilebilir mi?",
+      "a": "Hayır. Kan nakli yalnızca aynı türden, kan grubu uygun ve taranmış bir vericiyle yapılır."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blood Groups in Dogs and Cats",
+      "publisher": "Merck Veterinary Manual",
+      "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/blood-groups-in-dogs-and-cats"
+    },
+    {
+      "title": "Blood Transfusions in Dogs and Cats",
+      "publisher": "Merck Veterinary Manual",
+      "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/blood-transfusions-in-dogs-and-cats"
+    }
+  ],
+  "published": false,
+  "queue": 23
+}
