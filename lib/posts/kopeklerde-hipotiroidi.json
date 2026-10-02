@@ -1,0 +1,163 @@
+{
+  "slug": "kopeklerde-hipotiroidi",
+  "title": "Köpeklerde hipotiroidi: Belirtiler, tanı ve tedavi",
+  "metaTitle": "Köpeklerde hipotiroidi: belirtiler, tanı, tedavi",
+  "category": "Köpek Sağlığı",
+  "image": "/images/blog-senior-dog-longevity.jpg",
+  "imageAlt": "Yerde dinlenen orta yaşlı bir köpek",
+  "date": "2 Ekim 2026",
+  "dateISO": "2026-10-02",
+  "updatedISO": "2026-10-02",
+  "metaDescription": "Köpeklerde hipotiroidi; halsizlik, iştah artmadan kilo alma, üşüme ve kaşıntısız tüy dökülmesiyle görülür. Tanı neden tek testle konmaz, tedavi nasıl izlenir?",
+  "excerpt": "Halsizlik, iştahı artmadan kilo alma, sıcak yerleri arama ve kaşımadığı hâlde tüy dökme... Köpeklerde tiroid bezinin az çalışması yavaş başlar ve kolayca yaşlanmaya bağlanır. Belirtiler, tanının inceliği ve tedavinin evde izlenmesi.",
+  "readTime": "7 dk okuma",
+  "keywords": [
+    "köpeklerde hipotiroidi",
+    "köpek tiroid hastalığı",
+    "köpeklerde tiroid belirtileri",
+    "köpek T4 testi",
+    "köpek tiroid ilacı",
+    "köpek kilo alıyor halsiz",
+    "Çankaya veteriner"
+  ],
+  "intro": "Köpeklerde hipotiroidi, tiroid bezinin yeterli hormon üretmemesi sonucu metabolizmanın yavaşlamasıdır ve çoğunlukla halsizlik, iştah artmadan kilo alma ve kaşıntısız tüy dökülmesiyle kendini gösterir. Tanı tek bir düşük hormon değeriyle konmaz; ancak doğru konduğunda tedavi basittir ve köpeklerin çoğu ömür boyu günlük tabletle normal bir yaşam sürer. Bu yazıda hangi belirtilere dikkat etmeniz gerektiğini, tanının neden dikkat istediğini ve tedavi sürecini nasıl izleyeceğinizi anlatıyoruz.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Hipotiroidi neden olur?"
+    },
+    {
+      "type": "p",
+      "text": "Köpeklerdeki vakaların büyük çoğunluğu, tiroid bezinin kendisinin zamanla hasar görmesinden kaynaklanır. Bunun en sık iki nedeni, bağışıklık sisteminin tiroid dokusuna saldırdığı lenfositik tiroidit ve bezin nedeni bilinmeyen biçimde küçülüp yağ dokusuyla yer değiştirdiği idiyopatik atrofidir. Her iki süreç de yavaş ilerler; bu yüzden belirtiler aylar içinde, fark edilmeden yerleşir."
+    },
+    {
+      "type": "p",
+      "text": "Hastalık en sık dört ile on yaş arasındaki orta ve büyük ırk köpeklerde görülür; toy ırklarda nadirdir. Golden Retriever, Doberman Pinscher, İrlanda Setteri, Minyatür Schnauzer, Dachshund ve Cocker Spaniel daha sık etkilenen ırklar arasındadır. Kedilerde ise tablo tam tersidir; yaşlı kedilerde tiroid genellikle fazla çalışır. Onu <a href=\"/blog/kedilerde-hipertiroidi\">kedilerde hipertiroidi</a> yazımızda anlattık."
+    },
+    {
+      "type": "h2",
+      "text": "Belirtiler: Yaşlılık sanılan değişiklikler"
+    },
+    {
+      "type": "p",
+      "text": "Tiroid hormonu vücudun hemen her hücresinin çalışma hızını belirler. Hormon azaldığında ortaya çıkan değişiklikler çoğu sahibe 'köpeğim yaşlandı' gibi gelir. Aşağıdaki listede birden fazla madde köpeğinize uyuyorsa bir değerlendirme yaptırmanız yerinde olur."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Halsizlik, uykuya eğilim, yürüyüşe ve oyuna isteksizlik; zihinsel olarak daha durgun görünme.",
+        "İştah artmadığı hâlde kilo alma.",
+        "Üşüme, kalorifer ya da güneş gibi sıcak yerleri arama.",
+        "Kuru, mat ve kolay dökülen tüyler; tıraştan sonra tüylerin geç çıkması.",
+        "Kaşıntı olmadan, genellikle iki yanda simetrik tüy seyrelmesi; özellikle gövde, arka bacaklar ve kuyrukta. Kuyruğun tüysüzleşmesi tipik bir bulgudur.",
+        "Derinin kalınlaşması ya da koyulaşması, tekrarlayan deri ve kulak enfeksiyonları.",
+        "İleri vakalarda yüzde şişkinlik ve gözlerin üzerinde kalın deri kıvrımları, sanki üzgün bir ifade."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tüy dökülmesinin pek çok başka nedeni vardır; ayrımı <a href=\"/blog/evcil-hayvanlarda-tuy-dokulmesi\">tüy dökülmesi</a> yazımızda ele aldık. Kilo artışı ise çoğu zaman yalnızca fazla kaloriyle ilgilidir. Hipotiroidiyi akla getiren, kilo artışının halsizlik, üşüme ve deri değişiklikleriyle birlikte görülmesidir."
+    },
+    {
+      "type": "h2",
+      "text": "Tanı neden tek bir testle konmaz?"
+    },
+    {
+      "type": "p",
+      "text": "Hipotiroidi köpeklerde hem az hem de fazla teşhis edilebilen bir hastalıktır. Bunun nedeni, kandaki toplam T4 değerinin tiroid dışındaki pek çok etkenle de düşebilmesidir. Başka bir hastalığı olan köpeklerde tiroid bezi sağlam olduğu hâlde hormon düzeyi geçici olarak düşer; buna 'ötiroid hasta sendromu' denir. Kortizon türevleri, bazı nöbet ilaçları ve başka bazı ilaçlar da sonuçları etkiler. Tazı grubu gibi bazı ırklarda ise sağlıklı köpeklerde bile değerler genel referans aralığının altında olabilir."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Tanı, belirtiler ile laboratuvar sonuçlarının birlikte uyumlu olmasına dayanır.",
+        "Toplam T4 tarama testi olarak kullanılır; normal bir sonuç hipotiroidiyi büyük olasılıkla dışlar.",
+        "Düşük T4 varsa serbest T4 ve TSH gibi ek testlerle doğrulanır.",
+        "Hemogram ve biyokimyada hafif kansızlık ve yüksek kolesterol destekleyici bulgulardır.",
+        "Köpek başka bir hastalık nedeniyle hastaysa, tiroid testinin iyileşme sonrasına ertelenmesi daha doğru sonuç verir.",
+        "Belirti olmayan bir köpekte tesadüfen bulunan düşük T4, tek başına tedavi nedeni değildir."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu ayrıntıların önemi şudur: Gerçekte hipotiroidisi olmayan bir köpeğe ömür boyu tablet başlamak hem gereksizdir hem de asıl sorunu gözden kaçırır. Kan değerlerinin nasıl okunduğunu <a href=\"/blog/kan-tahlili-sonucu-nasil-okunur\">kan tahlili sonucu nasıl okunur</a> yazımızda anlattık. Yüksek kolesterol ve tüy dökülmesi <a href=\"/blog/kopeklerde-cushing-sendromu\">Cushing sendromunda</a> da görülebildiği için iki hastalık bazen birlikte değerlendirilir."
+    },
+    {
+      "type": "h2",
+      "text": "Tedavi: Eksik hormonun yerine konması"
+    },
+    {
+      "type": "p",
+      "text": "Tedavi, eksik hormonun sentetik tiroid hormonu tabletleriyle her gün yerine konmasıdır. Doz köpeğin kilosuna göre hekim tarafından belirlenir ve kontrol kan testlerine göre ayarlanır. Tedavi genellikle ömür boyu sürer, çünkü hasar görmüş tiroid bezi kendini yenilemez."
+    },
+    {
+      "type": "p",
+      "text": "Düzelme belli bir sırayla gelir. Enerji ve canlılıkta artış çoğu zaman ilk birkaç hafta içinde fark edilir. Tüy ve deri değişikliklerinin düzelmesi ise daha uzun sürer; kilo ve tüy değerlendirmesi için tedaviye en az dört ile sekiz hafta devam etmek gerekir, tam deri yanıtı birkaç ayı bulabilir. Hiç düzelme olmuyorsa tanının yeniden gözden geçirilmesi gerekir."
+    },
+    {
+      "type": "h2",
+      "text": "Evde izleme tablosu"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "İlk haftalar: Enerji, yürüyüş isteği ve uyku süresinde değişiklik var mı? Kısa notlar alın.",
+        "Her ay: Köpeğinizi aynı tartıda tartın; bel çizgisine ve kaburgalara bakın.",
+        "İlk birkaç ay: Tüysüz bölgelerin fotoğrafını ayda bir aynı açıdan çekin; tüy çıkışını karşılaştırmak kolaylaşır.",
+        "Hekiminizin belirlediği zamanda: Kontrol kan testi. Testin tabletten kaç saat sonra alınacağı önemlidir, bunu randevu öncesi sorun.",
+        "Dengelendikten sonra: Yılda bir ya da iki kez kontrol."
+      ]
+    },
+    {
+      "type": "callout",
+      "text": "Tedavi sırasında aşırı su içme, sık idrar, nefes nefese kalma, huzursuzluk, iştahın belirgin artması ya da kilo kaybı başlarsa hormon dozu fazla olabilir. Dozu kendiniz değiştirmeyin; aynı gün hekiminizi arayın."
+    },
+    {
+      "type": "h2",
+      "text": "Ne zaman beklemeden gelmeli?"
+    },
+    {
+      "type": "p",
+      "text": "Hipotiroidi genellikle acil bir hastalık değildir. Ancak çok ileri ve tedavi edilmemiş vakalarda belirgin uyuşukluk, vücut ısısının düşmesi ve bilinç bulanıklığı görülebilir; bu tablo hemen değerlendirme gerektirir. Ayrıca tedavi altındaki bir köpekte nöbet, bayılma, nefes darlığı ya da kalp çarpıntısı gibi yeni bir bulgu çıkarsa beklemeyin."
+    },
+    {
+      "type": "p",
+      "text": "Kilo yönetimi tedavinin doğal bir parçasıdır. Hormon düzeldikten sonra da fazla kilolar kendiliğinden gitmeyebilir; bu konuda <a href=\"/blog/evcil-hayvanlarda-obezite\">obezite yazımızdaki</a> pratik önerilerden yararlanabilirsiniz. Tiroid testlerini <a href=\"/hizmetler/laboratuvar-goruntuleme\">laboratuvar hizmetimiz</a> kapsamında yapıyor, sonuçları köpeğinizin belirtileriyle birlikte yorumluyoruz. Köpeğinizde bu belirtileri fark ettiyseniz Öveçler, Çankaya'daki kliniğimizde bir muayeneyle başlayabiliriz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Köpeklerde hipotiroidi tedavi edilmezse ne olur?",
+      "a": "Belirtiler yavaşça ağırlaşır; kilo artışı, deri ve kulak enfeksiyonları, halsizlik ve yaşam kalitesinde düşüş görülür. Çok ileri vakalarda bilinç bulanıklığı ve vücut ısısının düşmesi gibi ciddi bir tablo gelişebilir."
+    },
+    {
+      "q": "Tiroid ilacı ömür boyu mu kullanılır?",
+      "a": "Çoğu köpekte evet. Hasar görmüş tiroid bezi yeniden yeterli hormon üretemez. Doğru dozda kullanıldığında tablet iyi tolere edilir ve köpekler normal bir yaşam sürer."
+    },
+    {
+      "q": "Kan testinde T4 düşük çıktı, köpeğim kesin hipotiroidi mi?",
+      "a": "Hayır. Başka bir hastalık, bazı ilaçlar ve ırk özellikleri de T4'ü düşürebilir. Tanı için belirtilerin uyumlu olması ve genellikle serbest T4 ve TSH gibi ek testlerle doğrulanması gerekir."
+    },
+    {
+      "q": "Tedaviye başladıktan ne kadar sonra düzelme görülür?",
+      "a": "Canlılıktaki artış çoğu zaman ilk birkaç haftada fark edilir. Tüy ve kilo değişikliklerini değerlendirmek için en az dört ile sekiz hafta gerekir; derinin tam düzelmesi birkaç ay sürebilir."
+    },
+    {
+      "q": "Kilolu her köpekte tiroid testi yapılmalı mı?",
+      "a": "Hayır. Kilo artışının en sık nedeni fazla kalori ve az harekettir. Tiroid testi; halsizlik, üşüme ya da kaşıntısız tüy dökülmesi gibi başka uyumlu belirtiler varsa anlamlıdır."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hypothyroidism in Animals",
+      "publisher": "Merck Veterinary Manual",
+      "url": "https://www.merckvetmanual.com/endocrine-system/the-thyroid-gland/hypothyroidism-in-animals"
+    },
+    {
+      "title": "Disorders of the Thyroid Gland in Dogs",
+      "publisher": "MSD Veterinary Manual (Dog Owners)",
+      "url": "https://www.merckvetmanual.com/dog-owners/hormonal-disorders-of-dogs/disorders-of-the-thyroid-gland-in-dogs"
+    }
+  ],
+  "published": false,
+  "queue": 18
+}

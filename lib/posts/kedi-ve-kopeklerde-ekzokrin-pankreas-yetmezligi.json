@@ -1,0 +1,167 @@
+{
+  "slug": "kedi-ve-kopeklerde-ekzokrin-pankreas-yetmezligi",
+  "title": "Kedi ve köpeklerde pankreas yetmezliği (EPI): yediği yaramayan hayvan",
+  "metaTitle": "Kedilerde pankreas yetmezliği (EPI): belirtiler ve TLI testi",
+  "category": "Kedi Sağlığı",
+  "image": "/images/blog-cat-diabetes.jpg",
+  "imageAlt": "Mama kabının yanında oturan zayıf bir kedi",
+  "date": "2 Ekim 2026",
+  "dateISO": "2026-10-02",
+  "updatedISO": "2026-10-02",
+  "excerpt": "Pankreas yetmezliğinde pankreas yeterli sindirim enzimi üretemez; hayvan yediği hâlde kilo verir, dışkı çoğu zaman yumuşak ve hacimli olur. Kedilerde nedeni çoğunlukla kronik pankreatittir ve tablo köpeklerden farklı seyredebilir. Tanı, belirtiler ve ömür boyu yönetim.",
+  "metaDescription": "Kedilerde pankreas yetmezliği (EPI): kilo kaybı, ishal ve kötü tüy görünümü. Tanı kandaki TLI testiyle konur; tedavi enzim ve B12 desteğidir.",
+  "readTime": "7 dk okuma",
+  "keywords": [
+    "kedilerde pankreas yetmezliği",
+    "köpeklerde pankreas yetmezliği",
+    "ekzokrin pankreas yetmezliği",
+    "EPI kedi",
+    "TLI testi",
+    "kedi yiyor ama zayıflıyor",
+    "Çankaya veteriner"
+  ],
+  "intro": "Kedilerde pankreas yetmezliği, yani ekzokrin pankreas yetmezliği (EPI), pankreasın besinleri sindirmek için gereken enzimleri yeterince üretememesidir; en tipik bulgular kilo kaybı ve yumuşak, hacimli dışkıdır; köpeklerde buna sıklıkla artmış iştah eşlik ederken kedilerde kusma ve iştahsızlık da görülebilir. Tanı kanda TLI adı verilen testle konur ve doğru enzim desteğiyle çoğu hayvan kilo alarak normal bir yaşam sürdürür. Bu yazı EPI'yi, yani pankreasın sindirim işlevinin kaybını anlatıyor; pankreasın iltihaplanması olan pankreatit ayrı bir konudur ve <a href=\"/blog/kedi-ve-kopeklerde-pankreatit\">pankreatit yazımızda</a> ele alınmıştır.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "Pankreatit ile pankreas yetmezliği aynı şey mi?"
+    },
+    {
+      "type": "p",
+      "text": "Hayır, ama ilişkilidirler. Pankreasın iki görevi vardır: kana insülin salgılamak ve bağırsağa sindirim enzimleri göndermek. Pankreatit, organın iltihaplanmasıdır ve çoğu zaman kusma, karın ağrısı ve iştahsızlıkla kendini gösterir. Ekzokrin pankreas yetmezliğinde ise enzim üreten dokunun büyük kısmı kaybolmuştur; hayvan yediğini sindiremez; köpeklerde iştah çoğu zaman yerinde, hatta artmıştır. Yıllar içinde tekrarlayan ya da sinsi seyreden pankreatit, enzim üreten dokuyu tüketerek EPI'ye yol açabilir."
+    },
+    {
+      "type": "h2",
+      "text": "Kedilerde ve köpeklerde nedenler farklıdır"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kedilerde en sık neden kronik pankreatittir; bu nedenle EPI çoğunlukla orta yaşlı ve yaşlı kedilerde görülür.",
+        "Köpeklerde en sık neden pankreatik asiner atrofidir; enzim üreten hücreler, belirgin bir iltihap tablosu olmadan körelir.",
+        "Pankreatik asiner atrofi en çok Alman çoban köpeklerinde, uzun tüylü collie'lerde ve Eurasier'lerde, genellikle genç erişkin dönemde görülür.",
+        "Diğer ırklardaki köpeklerde de kronik pankreatit EPI'ye neden olabilir."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Belirtiler: neye dikkat etmeli?"
+    },
+    {
+      "type": "p",
+      "text": "MSD Veteriner El Kitabı'na göre en belirgin bulgular kilo kaybı ve bol miktarda yumuşak dışkıdır. Belirtiler aylar içinde yavaş yavaş belirginleşebilir. Köpeklerde sahipler çoğu zaman önce \"çok yiyor ama göstermiyor\" diye fark eder. Kedilerde tablo daha değişkendir: 2021 tarihli bir çalışmada EPI tanılı kedilerde en sık bulgular kilo kaybı ve ishaldi; kusma ve iştahsızlık da sık görülürken artmış iştah yalnızca bir kısmında vardı."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Yediği hâlde kilo kaybı; köpeklerde sıklıkla artmış iştah.",
+        "Açık renkli, soluk, hacimli ve kötü kokulu dışkı; kedilerde dışkı her zaman belirgin ishal görünümünde olmayabilir.",
+        "Dışkının yağlı görünmesi; kedilerde kuyruk altı ve arka bacak tüylerinde yağlanma.",
+        "Dışkı miktarında ve sıklığında artış.",
+        "Tüylerin matlaşması ve bakımsız görünüm.",
+        "Kedilerde kusma ve iştahsızlık; köpeklerde dışkı yeme ya da alışılmadık şeyleri yemeye çalışma."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Evde hızlı kontrol: EPI'yi düşündüren tablo"
+    },
+    {
+      "type": "p",
+      "text": "Aşağıdaki maddelerden üç veya daha fazlası birlikte varsa randevu alıp EPI'nin de değerlendirilmesini isteyebilirsiniz. Bu liste tanı koymaz, yalnızca hekiminize ne anlatacağınızı netleştirir."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Son birkaç ayda tartıyla doğrulanmış kilo kaybı var.",
+        "Mama miktarı aynı ya da daha fazla olduğu hâlde kilo artmıyor.",
+        "Dışkı her zamankinden açık renkli ve belirgin şekilde daha bol.",
+        "Dışkı yağlı görünüyor ya da kum kabında yağlı iz bırakıyor.",
+        "Tüyler matlaştı, kedimde kuyruk altı yağlı görünüyor.",
+        "Kedimin geçmişte pankreatit atağı oldu ya da köpeğim yatkın bir ırktan."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Tanı: TLI testi"
+    },
+    {
+      "type": "p",
+      "text": "EPI tanısında temel test, kanda serum tripsin benzeri immünoreaktivite (TLI) ölçümüdür. Pankreasın enzim üreten dokusu azaldığında bu değer düşer. Kedilerde ve köpeklerde kullanılan testler ve referans aralıkları türe özgüdür; bu nedenle kedi için kediye özgü TLI testi istenir. Test genellikle belirli bir süre aç bırakıldıktan sonra alınan kan örneğiyle yapılır; açlık süresini hekiminiz size bildirir."
+    },
+    {
+      "type": "p",
+      "text": "Aynı örnekte kobalamin (B12 vitamini) ve folat düzeylerine de bakılması önerilir. EPI'li hayvanlarda kobalamin sık olarak düşüktür ve düşük kobalamin, tedaviye yanıtı zayıflatabilir. Benzer belirtiler veren kronik bağırsak hastalıkları, hipertiroidi ve diyabet gibi tablolar da genel kan ve idrar testleriyle değerlendirilir. Kedilerde EPI'ye neden olan kronik pankreas hasarı nadiren insülin üreten hücreleri de etkileyebildiği için şeker hastalığı açısından da kontrol yapılır. Testler hakkında ayrıntı için <a href=\"/blog/kan-tahlili-sonucu-nasil-okunur\">kan tahlili sonuçlarını okuma yazımıza</a> bakabilirsiniz."
+    },
+    {
+      "type": "h2",
+      "text": "Tedavi: eksik olanı yerine koymak"
+    },
+    {
+      "type": "p",
+      "text": "EPI geri dönüşsüzdür, ancak yönetimi oldukça başarılıdır. Tedavinin temeli her öğünle birlikte verilen pankreas enzim takviyesidir. Ürün ve miktar hayvanın kilosuna ve yanıtına göre hekim tarafından belirlenir ve zamanla ayarlanır. Kobalamini düşük olan hayvanlarda B12 desteği tedavinin ayrılmaz parçasıdır. Diyet tarafında genellikle kolay sindirilen, sindirilemeyen lif oranı düşük bir mama tercih edilir."
+    },
+    {
+      "type": "callout",
+      "text": "İnsanlar için satılan sindirim enzimi ya da vitamin ürünlerini kendi başınıza başlamayın. İçerik ve güç bakımından veteriner ürünlerinden farklıdırlar; yanlış ürün ya da miktar hem etkisiz kalabilir hem de ağızda tahrişe neden olabilir. Enzimin nasıl karıştırılacağını hekiminizden öğrenin."
+    },
+    {
+      "type": "h2",
+      "text": "Takip ve günlük yaşam"
+    },
+    {
+      "type": "p",
+      "text": "Uygun tedaviyle çoğu hayvanda dışkı birkaç hafta içinde normale döner ve kilo alımı başlar. İlk haftalarda düzenli tartı ve dışkı gözlemi tedavinin ayarlanmasında en değerli bilgidir. Kilo alımı beklenenden yavaşsa enzim uygulama biçimi, kobalamin düzeyi, eşlik eden bağırsak hastalıkları ya da bağırsakta bakteri dengesizliği yeniden değerlendirilir. Tedavi ömür boyu sürer; enzim verilmeyen öğünlerde belirtilerin geri dönmesi beklenir."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "İlk ay her hafta aynı saatte tartın ve kaydedin.",
+        "Enzimi her öğüne ekleyin; ara ödül verecekseniz hekiminize sorun.",
+        "Dışkının rengi, miktarı ve kıvamı için kısa notlar tutun.",
+        "Kobalamin kontrollerini önerilen aralıklarla yaptırın.",
+        "Kusma, karın ağrısı ya da iştahsızlık eklenirse pankreatit atağı açısından aynı gün arayın."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "İştahı yerindeyken zayıflayan köpekler için genel yaklaşımı <a href=\"/blog/kopegim-cok-zayifladi-istahi-yerinde\">bu yazımızda</a>, kedilerde ayırıcı tanı sürecini <a href=\"/blog/kedimde-ic-hastalik-belirtileri-ayirici-tani\">iç hastalık belirtileri yazımızda</a> anlattık. Öveçler, Çankaya'daki kliniğimizde <a href=\"/hizmetler/dermatoloji-dahiliye\">dahiliye</a> muayenesi sırasında TLI, kobalamin ve folat örneklerini aynı kan alımında planlıyoruz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kedilerde pankreas yetmezliği tedavi edilebilir mi?",
+      "a": "Hastalık geri dönüşsüzdür ama iyi yönetilir. Her öğünle verilen enzim desteği ve gerekiyorsa B12 takviyesiyle çoğu kedi kilo alır, dışkısı normale döner ve kaliteli bir yaşam sürer."
+    },
+    {
+      "q": "TLI testi için aç gelmek gerekir mi?",
+      "a": "Genellikle evet. Doğru sonuç için test öncesi belirli bir süre aç kalınması istenir. Süreyi randevu alırken hekiminize sorun; su genellikle kısıtlanmaz."
+    },
+    {
+      "q": "Pankreatit geçiren her kedide EPI gelişir mi?",
+      "a": "Hayır. EPI, enzim üreten dokunun büyük kısmı kaybolduğunda ortaya çıkar. Ancak tekrarlayan ya da kronik pankreatit geçiren kedilerde kilo kaybı ve kalıcı dışkı değişikliği başlarsa EPI de akla gelmelidir."
+    },
+    {
+      "q": "Enzim takviyesi ömür boyu mu verilir?",
+      "a": "Evet, çoğu hayvanda ömür boyu gerekir. Enzim verilmeyen dönemlerde açık renkli, hacimli dışkı ve kilo kaybı geri döner. Miktar zamanla hekim kontrolünde ayarlanabilir."
+    },
+    {
+      "q": "B12 vitamini neden önemli?",
+      "a": "EPI'li hayvanlarda kobalamin sıklıkla düşüktür ve eksikliği kilo alımını ve tedaviye yanıtı olumsuz etkileyebilir. Bu yüzden tanı sırasında ölçülür ve düşükse hekim kontrolünde yerine konur."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Exocrine Pancreatic Insufficiency in Small Animals",
+      "publisher": "MSD Veterinary Manual",
+      "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/exocrine-pancreatic-insufficiency-in-small-animals"
+    },
+    {
+      "title": "Signalment and Clinical Data of Cats with Exocrine Pancreatic Insufficiency Diagnosed Using Feline Trypsin-like Immunoreactivity in Routine Diagnostics (2021)",
+      "publisher": "Veterinary Sciences (Törner ve ark.)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8402856/"
+    }
+  ],
+  "published": false,
+  "queue": 4
+}

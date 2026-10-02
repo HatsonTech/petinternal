@@ -1,0 +1,159 @@
+{
+  "slug": "sdma-testi-nedir",
+  "title": "SDMA testi nedir? Kedi ve köpeklerde böbrek işlevinin erken göstergesi",
+  "metaTitle": "SDMA testi nedir? Kedi ve köpekte ne anlama gelir",
+  "category": "Güncel Tıp",
+  "image": "/images/blog-cat-kidney.jpg",
+  "imageAlt": "Muayene sonrası dinlenen bir kedi",
+  "date": "2 Ekim 2026",
+  "dateISO": "2026-10-02",
+  "updatedISO": "2026-10-02",
+  "metaDescription": "SDMA testi nedir, kreatininden farkı ne? Kedi ve köpeklerde yüksek SDMA sonucu ne anlama gelir, hangi durumda tekrar edilir? Sade bir rehber.",
+  "excerpt": "SDMA, böbreklerin süzme gücündeki azalmayı kreatininden daha erken gösterebilen bir kan değeridir. Ne ölçtüğünü, sonucun nasıl okunduğunu ve tek bir yüksek değerin neden tanı anlamına gelmediğini anlatıyoruz.",
+  "readTime": "5 dk okuma",
+  "keywords": [
+    "sdma testi nedir",
+    "sdma yüksekliği",
+    "kedide sdma",
+    "köpekte sdma",
+    "sdma kreatinin farkı",
+    "böbrek erken tanı testi",
+    "Çankaya veteriner"
+  ],
+  "intro": "SDMA testi, kanda simetrik dimetilarjinin adlı küçük bir molekülün düzeyini ölçen ve böbreklerin kanı ne kadar iyi süzdüğünü gösteren bir böbrek işlev testidir. Kreatinine göre daha erken yükselebildiği ve kas kütlesinden daha az etkilendiği için, özellikle yaşlı ve zayıf kedi ve köpeklerde böbrek hastalığını daha erken fark etmeye yardım eder. Bu yazıda SDMA'nın ne ölçtüğünü, sonucun nasıl okunduğunu ve yüksek bir değer gördüğünüzde atılacak adımları anlatıyoruz.",
+  "body": [
+    {
+      "type": "h2",
+      "text": "SDMA ne ölçer?"
+    },
+    {
+      "type": "p",
+      "text": "SDMA vücuttaki proteinlerin doğal yıkımı sırasında ortaya çıkar ve neredeyse tamamen böbrekler yoluyla atılır. Böbreklerin süzme hızı, yani glomerüler filtrasyon hızı azaldığında SDMA kanda birikir. Bu nedenle kandaki SDMA düzeyi, süzme işlevinin dolaylı bir göstergesidir."
+    },
+    {
+      "type": "p",
+      "text": "Kreatinin de aynı amaçla yıllardır kullanılır. Ancak kreatinin kas dokusundan kaynaklanır; kas kütlesi azalmış yaşlı ya da zayıf bir hayvanda böbrek işlevi bozulmuş olsa bile normal aralıkta kalabilir. Merck Veteriner El Kitabı'na göre kanda belirgin azotemi, işlevsel nefronların yaklaşık dörtte üçü kaybedildiğinde ortaya çıkar. SDMA ise süzme işlevindeki daha küçük kayıplara duyarlıdır ve kas kütlesinden çok daha az etkilenir."
+    },
+    {
+      "type": "p",
+      "text": "Pratikte bunun anlamı şudur: Kreatinin yükseldiğinde böbrek kaybı çoğu zaman zaten belirgindir. SDMA ise aynı hastada daha erken bir aşamada sinyal verebilir. Bu, iki testten birinin diğerinin yerini aldığı anlamına gelmez. Hekimler SDMA ve kreatinini birlikte, idrar bulgularıyla yan yana okur; iki değerin birbirini doğrulaması tanıyı güçlendirir, çelişmesi ise ek incelemeyi gerektirir. Kas kaybı belirgin, yaşlı bir kedide kreatinin normal ama SDMA yüksekse, ikinci değer genellikle daha güvenilir kabul edilir."
+    },
+    {
+      "type": "h2",
+      "text": "SDMA sonucu nasıl okunur?"
+    },
+    {
+      "type": "p",
+      "text": "Uluslararası Böbrek İlgi Derneği (IRIS), kedi ve köpekler için SDMA'nın üst referans sınırını 14 µg/dL olarak kabul eder. Laboratuvarlar arasında küçük farklar olabileceğinden sonucunuzu her zaman raporun kendi referans aralığıyla birlikte değerlendirin. Aşağıdaki çerçeve, hekiminizin sonucu nasıl yorumlayacağına dair genel bir fikir verir."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "14 µg/dL ve altı: Normal kabul edilir. Diğer bulgular da normalse ek işlem gerekmez.",
+        "15 ile 17 µg/dL arası, kreatinin normal: Böbrek işlevinde hafif bir azalma olabilir. Tek başına tanı koydurmaz; birkaç hafta içinde tekrar ölçüm, idrar tahlili ve gerekirse ultrason önerilir.",
+        "Kalıcı olarak 18 µg/dL ve üzeri: IRIS rehberine göre kreatinin normal olsa bile hayvan, böbrek hastalığında daha ileri bir evre gibi değerlendirilebilir. Hekiminiz evrelemeyi diğer testlerle birlikte yapar.",
+        "Ani ve belirgin yükselme, kusma veya iştahsızlıkla birlikte: Akut böbrek hasarı, idrar yolu tıkanıklığı ya da ciddi sıvı kaybı ihtimali nedeniyle aynı gün değerlendirme gerekir."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Böbrek hastalığının evrelendirilmesi yalnızca hayvan stabil olduğunda yapılır. IRIS, evreleme öncesinde değerlerin birkaç hafta arayla tekrar ölçülerek sabit olduğunun gösterilmesini önerir. Evreler ve tedavi seçenekleri için <a href=\"/blog/kedilerde-kronik-bobrek-hastaligi\">kedilerde kronik böbrek hastalığı yazımıza</a> göz atabilirsiniz."
+    },
+    {
+      "type": "h2",
+      "text": "Tek bir yüksek sonuç tanı anlamına gelir mi?"
+    },
+    {
+      "type": "p",
+      "text": "Hayır. SDMA güçlü bir tarama aracıdır ama tek başına böbrek hastalığı tanısı koydurmaz. Sıvı kaybı, kalp hastalığı ya da yeni yapılmış ağır egzersiz gibi böbrek dışı nedenler de böbreklere giden kan akışını azaltarak geçici bir yükselme yapabilir. Laboratuvar farklılıkları ve ölçüm hatası da olasıdır. Bu nedenle sınırda bir sonuç, genellikle birkaç hafta sonra tekrarlanır ve aşağıdaki testlerle birlikte yorumlanır."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Kreatinin ve üre: Böbrek işlevinin klasik göstergeleri.",
+        "İdrar dansitesi: Böbreklerin idrarı yoğunlaştırma becerisi; erken böbrek hastalığında ilk bozulan işlevlerden biridir.",
+        "İdrarda protein ve protein kreatinin oranı: Böbrek hasarının ve hastalığın ilerleme riskinin göstergesi.",
+        "Kan basıncı: Böbrek hastalığı ile yüksek tansiyon birbirini besler.",
+        "Böbrek ultrasonu: Böbreklerin boyutu, yapısı, taş ya da kist varlığı."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Bu testlerin rapordaki yerini ve neyi anlattığını <a href=\"/blog/kan-tahlili-sonucu-nasil-okunur\">kan tahlili sonucu nasıl okunur</a> yazımızda daha ayrıntılı anlattık."
+    },
+    {
+      "type": "h2",
+      "text": "Kimlerde SDMA bakılmalı?"
+    },
+    {
+      "type": "p",
+      "text": "SDMA, yıllık kontrol panellerine eklenmesi en anlamlı testlerden biridir. Özellikle şu gruplarda hekiminiz bu testi önerebilir:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Yedi yaş ve üzeri kedi ve köpekler, yıllık sağlık kontrolünde.",
+        "Çok su içen, sık idrara çıkan veya kilo kaybeden hayvanlar.",
+        "Yüksek tansiyonu ya da hipertiroidisi olan kediler.",
+        "Böbrek yoluyla atılan ilaçları uzun süre kullanacak hayvanlar ve anestezi öncesi değerlendirme.",
+        "Kas kütlesi az olduğu için kreatininin yanıltıcı olabileceği zayıf ya da yaşlı hayvanlar."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Yaşlı kedilerde hangi testlerin önerildiğini <a href=\"/blog/yasli-kedide-yillik-kontrol-hangi-testler\">yaşlı kedide yıllık kontrol</a> yazımızda sıraladık. Bu testler <a href=\"/hizmetler/genel-muayene-check-up\">genel muayene ve check-up</a> ziyaretiyle aynı gün yapılabilir."
+    },
+    {
+      "type": "callout",
+      "text": "SDMA hafif yüksek çıktı diye mamayı kendiniz değiştirmeyin, internetten böbrek desteği almayın ve su kabını kaldırmayın. Bol ve kolay ulaşılabilir su her zaman önemlidir. Kusma, iştahsızlık, idrar yapamama ya da belirgin halsizlik varsa aynı gün kliniğe başvurun."
+    },
+    {
+      "type": "h2",
+      "text": "Yüksek SDMA ile neler yapılabilir?"
+    },
+    {
+      "type": "p",
+      "text": "Erken tanının asıl değeri, böbrek işlevini korumaya yönelik adımlara zamanında başlanabilmesidir. Kalıcı bir yükselme doğrulandığında hekiminiz böbreğe zarar verebilecek ilaçları gözden geçirir, kan basıncını ve idrar proteinini ölçer, gerekirse böbrek diyetini ve su tüketimini artırma yollarını planlar. <a href=\"/blog/kedilerde-su-tuketimini-artirmak\">Kedilerde su tüketimini artırmak</a> ile ilgili pratik öneriler bu aşamada işe yarar."
+    },
+    {
+      "type": "p",
+      "text": "Öveçler'deki kliniğimizde yaşlı hastalarda SDMA'yı kreatinin ve idrar testleriyle birlikte değerlendiriyor, sınırda sonuçları aceleyle etiketlemek yerine tekrar ölçümle doğruluyoruz."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "SDMA testi nedir?",
+      "a": "SDMA, kanda simetrik dimetilarjinin düzeyini ölçen ve böbreklerin süzme işlevini gösteren bir testtir. Kreatinine göre daha erken yükselebilir ve kas kütlesinden daha az etkilenir."
+    },
+    {
+      "q": "SDMA normal değeri kaçtır?",
+      "a": "IRIS, kedi ve köpekler için üst referans sınırını 14 µg/dL olarak kabul eder. Laboratuvarlar arasında küçük farklar olabileceği için raporun kendi referans aralığına da bakın."
+    },
+    {
+      "q": "SDMA yüksek, kreatinin normal; bu ne demek?",
+      "a": "Böbrek işlevinde erken bir azalma olabilir ama tek ölçüm tanı koydurmaz. Hekiminiz genellikle birkaç hafta sonra tekrar ölçüm, idrar tahlili ve kan basıncı ölçümü ister."
+    },
+    {
+      "q": "SDMA testi için aç gelmek gerekir mi?",
+      "a": "SDMA beslenmeden çok az etkilenir, ancak aynı kan örneğinde başka değerlere de bakılacaksa hekiminiz kısa bir açlık isteyebilir. Randevu öncesi kliniğe sormanız en doğrusudur."
+    },
+    {
+      "q": "Köpeklerde de SDMA bakılır mı?",
+      "a": "Evet. SDMA hem kedilerde hem köpeklerde böbrek işlevinin değerlendirilmesinde kullanılır ve IRIS evrelemesinde her iki tür için yer alır. Yorumlama ilkeleri benzerdir; sonuç her zaman idrar bulguları ve klinik tabloyla birlikte değerlendirilir."
+    }
+  ],
+  "sources": [
+    {
+      "title": "IRIS Staging System",
+      "publisher": "International Renal Interest Society (IRIS)",
+      "url": "https://www.iris-kidney.com/iris-staging-system"
+    },
+    {
+      "title": "Renal Dysfunction in Dogs and Cats",
+      "publisher": "Merck Veterinary Manual",
+      "url": "https://www.merckvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/renal-dysfunction-in-dogs-and-cats"
+    }
+  ],
+  "published": false,
+  "queue": 7
+}
