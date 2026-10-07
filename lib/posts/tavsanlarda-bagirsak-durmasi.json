@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-rabbit.jpg",
   "imageAlt": "Çimenlerin üzerinde oturan turuncu tüylü bir aslan başlı tavşan",
-  "date": "16 Eylül 2026",
-  "dateISO": "2026-09-16",
-  "updatedISO": "2026-09-16",
+  "date": "8 Ekim 2026",
+  "dateISO": "2026-10-08",
+  "updatedISO": "2026-10-08",
   "metaDescription": "Tavşanlarda iştahsızlık ve dışkının kesilmesi acildir. Bağırsak durmasının nedenleri, belirtileri, evde yapılmaması gerekenler ve korunma.",
   "excerpt": "Tavşanlarda sindirim sistemi hiç durmadan çalışmak üzere yapılanmıştır. Yemenin ve dışkılamanın durması saatler içinde ciddileşebilen bir tablodur. Belirtiler, nedenler ve korunma.",
   "readTime": "7 dk okuma",
@@ -99,6 +99,5 @@
       "q": "Tavşan diş gıcırdatıyor, bu normal mi?",
       "a": "Hafif ve rahat bir şekilde yapılan diş sürtme memnuniyet işareti olabilir; ancak kamburlaşma ve hareketsizlikle birlikte yüksek sesli diş gıcırdatma genellikle acı belirtisidir ve muayene gerektirir."
     }
-  ],
-  "published": false
+  ]
 }
