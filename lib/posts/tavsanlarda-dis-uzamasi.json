@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-rabbit.jpg",
   "imageAlt": "Çimenlerin üzerinde oturan turuncu tüylü bir aslan başlı tavşan",
-  "date": "16 Eylül 2026",
-  "dateISO": "2026-09-16",
-  "updatedISO": "2026-09-16",
+  "date": "9 Ekim 2026",
+  "dateISO": "2026-10-09",
+  "updatedISO": "2026-10-09",
   "metaDescription": "Tavşan dişleri ömür boyu uzar. Diş uzamasının belirtileri, salya akması ve iştahsızlıkla ilişkisi, kuru otun önemi ve evde kesimin riskleri.",
   "excerpt": "Tavşanların tüm dişleri ömür boyu uzamaya devam eder. Aşınma yeterli olmadığında diş uzaması iştahsızlıktan göz akıntısına kadar pek çok soruna yol açabilir.",
   "readTime": "6 dk okuma",
@@ -91,6 +91,5 @@
       "q": "Tavşanıma kemirme oyuncağı yeterli mi?",
       "a": "Kemirme oyuncakları daha çok ön dişlere etki eder. Azı dişlerinin aşınması için asıl gerekli olan, uzun süre çiğnenen kuru ottur."
     }
-  ],
-  "published": false
+  ]
 }
