@@ -6,3 +6,4 @@
 2026-10-08 tavsanlarda-bagirsak-durmasi
 2026-10-09 tavsanlarda-dis-uzamasi
 2026-10-10 yasli-kedilerde-bilissel-bozukluk
+2026-10-11 yasli-kopeklerde-bilissel-bozukluk
