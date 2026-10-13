@@ -5,9 +5,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-cat-cough.jpg",
   "imageAlt": "Yumuşak bir örtü üzerinde uyuyan kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "13 Ekim 2026",
+  "dateISO": "2026-10-13",
+  "updatedISO": "2026-10-13",
   "metaDescription": "Kedi solunum sayısı uykuda genellikle dakikada 30'un altındadır. Evde nasıl sayılır, hangi sayıda veterinerinizi aramalısınız? Tablo ile anlatıyoruz.",
   "excerpt": "Sağlıklı bir kedi uyurken genellikle dakikada 30'dan az nefes alır. Solunum sayısını evde doğru saymanın yolu, kendi kedinizin normalini öğrenmek ve hangi sayıda aramanız gerektiğini gösteren basit bir tablo.",
   "readTime": "6 dk okuma",
@@ -155,7 +155,5 @@
       "publisher": "Journal of Veterinary Internal Medicine (ACVIM)",
       "url": "https://academic.oup.com/jvim/article/34/3/1062/8448248"
     }
-  ],
-  "published": false,
-  "queue": 1
+  ]
 }

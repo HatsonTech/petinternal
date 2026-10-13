@@ -8,3 +8,4 @@
 2026-10-10 yasli-kedilerde-bilissel-bozukluk
 2026-10-11 yasli-kopeklerde-bilissel-bozukluk
 2026-10-12 yavrularda-sosyallesme-donemi
+2026-10-13 kedilerde-normal-solunum-sayisi
