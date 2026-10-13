@@ -5,9 +5,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-puppy-care.jpg",
   "imageAlt": "Mama kabının başında bekleyen bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "14 Ekim 2026",
+  "dateISO": "2026-10-14",
+  "updatedISO": "2026-10-14",
   "excerpt": "Genel durumu iyi bir köpekte ishale en çok iyi gelen şey; bol su, küçük porsiyonlarla verilen yağsız ve kolay sindirilen bir öğün ve birkaç günlük sabırdır. Ne yedirilir, ne verilmez, mamaya nasıl dönülür ve hangi durumda beklemeden kliniğe gidilir?",
   "metaDescription": "Köpek ishaline ne iyi gelir? Genel durumu iyi köpekte su, yağsız ve kolay sindirilen öğün ve sabır. Ne yedirilir, ne verilmez, ne zaman veterinere gidilir?",
   "readTime": "7 dk okuma",
@@ -192,7 +192,5 @@
       "publisher": "ENOVAT / WSAVA",
       "url": "https://wsava.org/wp-content/uploads/2024/09/ENOVAT-GUIDELINES-FOR-ANTIMICROBIAL-USE-IN-CANINE-ACUTE-DIARRHEA.pdf"
     }
-  ],
-  "published": false,
-  "queue": 2
+  ]
 }
