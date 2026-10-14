@@ -5,9 +5,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-dog-joint-pain.jpg",
   "imageAlt": "Veteriner hekimin muayene ettiği yaşlı bir evcil hayvan",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "15 Ekim 2026",
+  "dateISO": "2026-10-15",
+  "updatedISO": "2026-10-15",
   "metaDescription": "Kedinin arka ayaklarının tutmaması ani başladıysa acildir. Arka bacak güçsüzlüğünün nedenleri, evde gözlem tablosu ve veterinere ne zaman gidilmeli.",
   "excerpt": "Arka bacak güçsüzlüğü kedilerde pıhtıdan şekere, potasyum düşüklüğünden eklem ağrısına kadar çok farklı nedenle ortaya çıkar. Belirtinin ne kadar hızlı başladığı, hangi adımı atmanız gerektiğini belirler.",
   "readTime": "5 dk okuma",
@@ -135,7 +135,5 @@
       "publisher": "Journal of Veterinary Internal Medicine (ACVIM)",
       "url": "https://academic.oup.com/jvim/article/34/3/1062/8448248"
     }
-  ],
-  "published": false,
-  "queue": 3
+  ]
 }
