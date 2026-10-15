@@ -5,9 +5,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-cat-diabetes.jpg",
   "imageAlt": "Mama kabının yanında oturan zayıf bir kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "16 Ekim 2026",
+  "dateISO": "2026-10-16",
+  "updatedISO": "2026-10-16",
   "excerpt": "Pankreas yetmezliğinde pankreas yeterli sindirim enzimi üretemez; hayvan yediği hâlde kilo verir, dışkı çoğu zaman yumuşak ve hacimli olur. Kedilerde nedeni çoğunlukla kronik pankreatittir ve tablo köpeklerden farklı seyredebilir. Tanı, belirtiler ve ömür boyu yönetim.",
   "metaDescription": "Kedilerde pankreas yetmezliği (EPI): kilo kaybı, ishal ve kötü tüy görünümü. Tanı kandaki TLI testiyle konur; tedavi enzim ve B12 desteğidir.",
   "readTime": "7 dk okuma",
@@ -161,7 +161,5 @@
       "publisher": "Veterinary Sciences (Törner ve ark.)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8402856/"
     }
-  ],
-  "published": false,
-  "queue": 4
+  ]
 }
