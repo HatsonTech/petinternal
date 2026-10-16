@@ -5,9 +5,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-parvo-puppy.jpg",
   "imageAlt": "Battaniyeye uzanmış halsiz bir yavru köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "17 Ekim 2026",
+  "dateISO": "2026-10-17",
+  "updatedISO": "2026-10-17",
   "excerpt": "Yavru köpeklerde ishal çoğu zaman mama değişikliği, stres ya da bağırsak parazitlerinden kaynaklanır; ancak aşıları tamamlanmamış bir yavruda parvovirüs her zaman akılda tutulmalıdır. Hangi yavru evde izlenebilir, hangisi aynı gün muayene ister?",
   "metaDescription": "Yavru köpeklerde ishal çoğu zaman mama, stres ya da parazitle ilgilidir; aşısı eksik yavruda parvo düşünülür. Yavru köpek ishali nasıl geçer, ne zaman acil?",
   "readTime": "7 dk okuma",
@@ -161,7 +161,5 @@
       "publisher": "Cornell University College of Veterinary Medicine",
       "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/diarrhea"
     }
-  ],
-  "published": false,
-  "queue": 5
+  ]
 }
