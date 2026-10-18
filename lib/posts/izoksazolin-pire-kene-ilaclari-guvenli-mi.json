@@ -5,9 +5,9 @@
   "category": "Parazit Kontrolü",
   "image": "/images/blog-tick-flea.jpg",
   "imageAlt": "Köpeğin tüyleri arasında kene kontrolü yapılırken",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "18 Ekim 2026",
+  "dateISO": "2026-10-18",
+  "updatedISO": "2026-10-18",
   "metaDescription": "İzoksazolin grubu pire-kene ilaçları çoğu köpek ve kedide güvenlidir; nadiren titreme, denge kaybı ve nöbet bildirilmiştir. Kimler dikkatli olmalı?",
   "excerpt": "Ağızdan verilen tablet ya da damla şeklindeki birçok modern pire-kene ilacı izoksazolin grubundandır. FDA'nın nörolojik yan etki uyarısı ne diyor, kimlerde başka seçenek düşünülmeli ve ilacı verdikten sonra nelere dikkat edilmeli?",
   "readTime": "7 dk okuma",
@@ -154,7 +154,5 @@
       "publisher": "Clinician's Brief",
       "url": "https://www.cliniciansbrief.com/article/isoxazolines-flea-tick-medication-side-effects"
     }
-  ],
-  "published": false,
-  "queue": 6
+  ]
 }
