@@ -5,9 +5,9 @@
   "category": "Güncel Tıp",
   "image": "/images/blog-cat-kidney.jpg",
   "imageAlt": "Muayene sonrası dinlenen bir kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "19 Ekim 2026",
+  "dateISO": "2026-10-19",
+  "updatedISO": "2026-10-19",
   "metaDescription": "SDMA testi nedir, kreatininden farkı ne? Kedi ve köpeklerde yüksek SDMA sonucu ne anlama gelir, hangi durumda tekrar edilir? Sade bir rehber.",
   "excerpt": "SDMA, böbreklerin süzme gücündeki azalmayı kreatininden daha erken gösterebilen bir kan değeridir. Ne ölçtüğünü, sonucun nasıl okunduğunu ve tek bir yüksek değerin neden tanı anlamına gelmediğini anlatıyoruz.",
   "readTime": "5 dk okuma",
@@ -153,7 +153,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/renal-dysfunction-in-dogs-and-cats"
     }
-  ],
-  "published": false,
-  "queue": 7
+  ]
 }
