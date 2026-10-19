@@ -5,9 +5,9 @@
   "category": "Güncel Tıp",
   "image": "/images/blog-cat-kidney.jpg",
   "imageAlt": "Battaniye üzerinde dinlenen yaşlı bir kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "20 Ekim 2026",
+  "dateISO": "2026-10-20",
+  "updatedISO": "2026-10-20",
   "metaDescription": "Kedilerde üre ve kreatinin yüksekliği her zaman böbrek yetmezliği demek değildir. Nedenleri, IRIS evreleri ve ne zaman acil olduğu tek rehberde.",
   "excerpt": "Tahlilde üre ve kreatinin yüksek çıktığında ilk akla gelen böbrek yetmezliğidir, ama sıvı kaybından idrar tıkanıklığına kadar farklı nedenler aynı sonucu verebilir. Değerlerin nasıl yorumlandığını ve IRIS evrelemesini anlatıyoruz.",
   "readTime": "5 dk okuma",
@@ -149,7 +149,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/urinary-system/noninfectious-diseases-of-the-urinary-system-in-small-animals/renal-dysfunction-in-dogs-and-cats"
     }
-  ],
-  "published": false,
-  "queue": 8
+  ]
 }
