@@ -5,9 +5,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-dog-vaccine.jpg",
   "imageAlt": "Parkta yürüyüş sırasında tasmalı bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "21 Ekim 2026",
+  "dateISO": "2026-10-21",
+  "updatedISO": "2026-10-21",
   "excerpt": "Kahverengi ve şekilli dışkı normaldir; siyah ve katran gibi dışkı ise acildir. Aradaki renkler ve kıvamlar ne anlatır, hangisi evde izlenebilir, hangisi aynı gün muayene ister? Renk ve kıvam için pratik bir kontrol tablosu.",
   "metaDescription": "Köpeklerde ishal rengi ne anlatır? Siyah, kırmızı, sarı, yeşil, gri ve beyaz dışkının anlamı, kıvam ölçeği ve hangi rengin acil olduğunu gösteren tablo.",
   "readTime": "7 dk okuma",
@@ -174,7 +174,5 @@
       "publisher": "MSD Veterinary Manual",
       "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/exocrine-pancreatic-insufficiency-in-small-animals"
     }
-  ],
-  "published": false,
-  "queue": 9
+  ]
 }
