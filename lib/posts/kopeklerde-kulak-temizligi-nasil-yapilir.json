@@ -5,9 +5,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-dog-itching.jpg",
   "imageAlt": "Kulağını kaşıyan bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "22 Ekim 2026",
+  "dateISO": "2026-10-22",
+  "updatedISO": "2026-10-22",
   "metaDescription": "Köpeklerde kulak enfeksiyonuna ne iyi gelir? Evde sağlıklı kulak nasıl temizlenir, sirke ve oksijenli su neden dökülmez, ne zaman otit düşünülür?",
   "excerpt": "Köpeklerde kulak enfeksiyonuna evde iyi gelen bir karışım yoktur; ama sağlıklı bir kulağı doğru temizlemek sorunların önüne geçmeye yardım eder. Adım adım temizlik, kulağa dökülmemesi gerekenler ve temizliğin artık yetmediği durumlar.",
   "readTime": "7 dk okuma",
@@ -166,7 +166,5 @@
       "publisher": "American Kennel Club",
       "url": "https://www.akc.org/expert-advice/health/how-to-clean-dogs-ears/"
     }
-  ],
-  "published": false,
-  "queue": 10
+  ]
 }
