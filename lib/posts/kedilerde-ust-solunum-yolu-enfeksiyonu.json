@@ -5,9 +5,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-cat-vaccine.jpg",
   "imageAlt": "Muayene masasında bekleyen genç bir kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "23 Ekim 2026",
+  "dateISO": "2026-10-23",
+  "updatedISO": "2026-10-23",
   "metaDescription": "Kedi gribi (nezle) hapşırık, burun ve göz akıntısıyla başlar. Nedenleri, evde destekleyici bakım, aşının rolü ve veterinere hemen gitmeniz gereken belirtiler.",
   "excerpt": "Hapşıran, burnu ve gözü akan bir kedi çoğu zaman üst solunum yolu enfeksiyonu, yani halk arasındaki adıyla kedi gribi ya da nezlesi geçiriyordur. Evde neler yapabileceğinizi ve hangi belirtilerin beklemeye izin vermediğini anlatıyoruz.",
   "readTime": "5 dk okuma",
@@ -149,7 +149,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/cat-owners/eye-disorders-of-cats/chlamydial-conjunctivitis-in-cats-feline-pneumonitis"
     }
-  ],
-  "published": false,
-  "queue": 11
+  ]
 }
