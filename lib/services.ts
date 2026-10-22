@@ -22,6 +22,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import type { FAQ } from "@/lib/posts";
+import { site } from "@/lib/site";
 
 export type Service = {
   slug: string;
@@ -45,6 +46,10 @@ export type Service = {
   faqs: FAQ[];
   /** Blog slugs — every one verified to exist in lib/posts/*.json (drafts are skipped until published). */
   relatedPosts: string[];
+  /** Emergency layout: call + directions buttons right under the H1 and the
+   *  named reviewers' Google quotes near the top. Names must match
+   *  `testimonials` in lib/site.ts; quotes are rendered verbatim from there. */
+  urgent?: { reviewers: string[] };
 };
 
 export const services: Service[] = [
@@ -578,15 +583,16 @@ export const services: Service[] = [
     icon: Siren,
     title: "Acil Müdahale",
     desc: "Beklenmedik durumlarda 7/24 hızlı, sakin ve etkin destek.",
-    h1: "7/24 Acil Müdahale",
-    metaTitle: "7/24 Acil Veteriner · Çankaya, Ankara",
-    metaDescription:
-      "Çankaya Öveçler'de 7/24 acil veteriner hizmeti. Hangi durumlar acildir, kliniğe gelmeden önce ne yapmalı ve bize nasıl ulaşırsınız.",
+    h1: "Çankaya'da 7/24 Acil ve Nöbetçi Veteriner",
+    metaTitle: "Çankaya 7/24 Acil ve Nöbetçi Veteriner · Öveçler",
+    metaDescription: `Çankaya'da 7/24 açık acil veteriner: ${site.address.full}. Yola çıkmadan arayın: ${site.phoneDisplay}. Hangi durumlar acildir?`,
+    urgent: { reviewers: ["Mert A.", "Özden Ece K."] },
     keywords: [
       "acil veteriner Çankaya",
       "7/24 veteriner Ankara",
       "gece açık veteriner Çankaya",
       "Öveçler acil veteriner kliniği",
+      "nöbetçi veteriner Çankaya",
     ],
     intro:
       "Acil durumlar plan yapmaya izin vermez. Bu nedenle kliniğimiz kesintisiz açıktır ve telefonla her saat ulaşabilirsiniz. Bu sayfanın amacı, hangi belirtilerin beklemeye gelmediğini tanımanıza ve yola çıkmadan önce hangi bilgileri hazırlayacağınızı bilmenize yardımcı olmaktır. Tereddüt ettiğiniz her durumda aramak doğru olandır.",
@@ -634,6 +640,14 @@ export const services: Service[] = [
       {
         q: "Gece de açık mısınız?",
         a: "Evet, kliniğimiz kesintisiz hizmet vermektedir ve acil durumlarda gece saatlerinde de telefonla ulaşabilirsiniz. Gelmeden önce aramanız, hem yönlendirme almanızı hem de biz hazırlanırken zaman kazanmanızı sağlar.",
+      },
+      {
+        q: "Nöbetçi veteriner aramalı mıyım?",
+        a: `Ankara'da eczanelerdeki gibi resmî bir nöbetçi veteriner çizelgesi yoktur; Ankara Veteriner Hekimleri Odası da nöbet listesi yayımlamaz. Bu yüzden liste aramak yerine o saatte açık olan bir kliniği doğrudan aramak en hızlı yoldur. Kliniğimiz Öveçler'de 7/24 açıktır; yola çıkmadan önce ${site.phoneDisplay} numarasını arayıp durumu kısaca anlatmanız, siz gelene kadar hazırlık yapmamızı sağlar.`,
+      },
+      {
+        q: "Pazar ve bayramda açık mısınız?",
+        a: "Evet. Kliniğimiz 7/24 açıktır; pazar dâhil hafta sonlarında ve bayramlar gibi resmî tatillerde de acil başvuruları kabul ediyoruz. Acil durumda randevu gerekmez; yola çıkarken aramanız yeterlidir.",
       },
       {
         q: "Yola çıkmadan önce evde ilk yardım uygulamalı mıyım?",

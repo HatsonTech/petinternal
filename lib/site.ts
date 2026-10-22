@@ -1,16 +1,29 @@
 // ── Single source of truth for clinic content (Turkish) ──────────────
 // Blog post types + loader now live in lib/posts.ts
 
+/** Production origin, no trailing slash. Page URLs append "/path/". */
+export const SITE_URL = "https://www.petinternal.com";
+/** @id of the single VeterinaryCare node defined in app/layout.tsx. Every
+ *  other schema block references the clinic through this id. */
+export const CLINIC_ID = `${SITE_URL}/#clinic`;
+
 export const site = {
   name: "Pet Internal Veteriner Kliniği",
+  // Spelling on the Google Maps listing. The site keeps the "Pet Internal"
+  // brand; this only goes into schema.org alternateName so both resolve to
+  // one business.
+  alternateName: "Pet İnternal Veteriner Kliniği",
   shortName: "Pet Internal",
   phoneDisplay: "0536 290 69 58",
   phoneHref: "tel:+905362906958",
   whatsapp: "https://wa.me/905362906958",
   email: "pati@petinternal.com",
+  // NAP: `full` is the one address string shown anywhere on the site and must
+  // stay identical to the Google Maps listing. `line` + ", " + `district` ===
+  // `full`; never retype the address by hand elsewhere.
   address: {
     line: "Öveçler, 1335. Sk. 8/B",
-    district: "06460 Çankaya / Ankara",
+    district: "06460 Çankaya/Ankara",
     full: "Öveçler, 1335. Sk. 8/B, 06460 Çankaya/Ankara",
   },
   // Exact clinic coordinates → single pin (keyless Google Maps embed)
@@ -19,6 +32,9 @@ export const site = {
     "https://maps.google.com/maps?q=39.8925626,32.8300456&z=16&output=embed",
   mapsLink:
     "https://www.google.com/maps/place/Pet+%C4%B0nternal+Veteriner+Klini%C4%9Fi/@39.8925626,32.8300456,17z/data=!4m6!3m5!1s0x14d3456948de1403:0xe35bbafbc16bf703!8m2!3d39.8925626!4d32.8300456",
+  // Canonical Google Maps listing (same place as mapsLink: cid = 0xe35bbafbc16bf703).
+  // Used as schema.org sameAs.
+  mapsCid: "https://maps.google.com/?cid=16382893659934947075",
   hours: [
     { day: "Hafta içi", time: "7/24 Açık" },
     { day: "Hafta sonu", time: "7/24 Açık" },
@@ -33,6 +49,9 @@ export const site = {
     // anything the visitor sees.
     alternateName: "Öznur Öykü Şimay",
     jobTitle: "Uzman Veteriner Hekim",
+    /** Shown on the homepage trust strip; matches knowsAbout below. */
+    specialty: "İç hastalıkları",
+    image: "/images/oyku.jpg",
     alumniOf: "Ankara Üniversitesi",
     // Drives Person.knowsAbout — the clinic's actual clinical focus, and what
     // the blog is overwhelmingly about.
@@ -50,11 +69,26 @@ export const site = {
   },
 } as const;
 
+/**
+ * Google Maps driving directions to the clinic pin. Without an origin, Maps
+ * starts from the visitor's current location (what the mobile bar wants);
+ * with one, e.g. "Balgat, Çankaya, Ankara", it routes from that district.
+ */
+export function directionsUrl(origin?: string): string {
+  const params = new URLSearchParams({
+    api: "1",
+    destination: `${site.geo.lat},${site.geo.lng}`,
+  });
+  if (origin) params.set("origin", origin);
+  return `https://www.google.com/maps/dir/?${params.toString()}`;
+}
+
 // Root-anchored so they work from any route (e.g. /blog/...), not just home.
+// Trailing slashes match next.config's `trailingSlash: true` and the canonicals.
 export const navLinks = [
-  { label: "Hizmetler", href: "/hizmetler" },
+  { label: "Hizmetler", href: "/hizmetler/" },
   { label: "Hakkımızda", href: "/#hakkimizda" },
-  { label: "Blog", href: "/blog" },
+  { label: "Blog", href: "/blog/" },
   { label: "İletişim", href: "/#iletisim" },
 ] as const;
 

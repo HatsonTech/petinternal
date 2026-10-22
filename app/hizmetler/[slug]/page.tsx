@@ -1,14 +1,23 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { ArrowLeft, Check, Info, Stethoscope } from "lucide-react";
+import {
+  ArrowLeft,
+  Check,
+  Info,
+  MapPin,
+  Navigation,
+  Phone,
+  Quote,
+  Stethoscope,
+} from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/faq";
-import { site } from "@/lib/site";
+import { LocationLinks } from "@/components/location-links";
+import { ButtonLink } from "@/components/ui/button";
+import { CLINIC_ID, SITE_URL, directionsUrl, site, testimonials } from "@/lib/site";
 import { getPost } from "@/lib/posts";
 import { services, getService } from "@/lib/services";
-
-const BASE = "https://www.petinternal.com";
 
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -44,7 +53,11 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const service = getService(params.slug);
   if (!service) notFound();
 
-  const url = `${BASE}/hizmetler/${service.slug}`;
+  const url = `${SITE_URL}/hizmetler/${service.slug}/`;
+  // Verbatim Google quotes for the emergency layout, looked up by reviewer.
+  const quotes = (service.urgent?.reviewers ?? [])
+    .map((name) => testimonials.find((t) => t.name === name))
+    .filter((t): t is NonNullable<typeof t> => Boolean(t));
   // Only render links whose target actually exists in lib/posts.
   const related = service.relatedPosts
     .map((slug) => getPost(slug))
@@ -59,7 +72,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     url,
     // Reference the VeterinaryCare defined once in app/layout.tsx rather than
     // redefining the business on every page.
-    provider: { "@id": BASE },
+    provider: { "@id": CLINIC_ID },
     areaServed: [
       { "@type": "AdministrativeArea", name: "Çankaya" },
       { "@type": "City", name: "Ankara" },
@@ -90,12 +103,12 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: BASE },
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: `${SITE_URL}/` },
       {
         "@type": "ListItem",
         position: 2,
         name: "Hizmetler",
-        item: `${BASE}/hizmetler`,
+        item: `${SITE_URL}/hizmetler/`,
       },
       { "@type": "ListItem", position: 3, name: service.title, item: url },
     ],
@@ -108,7 +121,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           <div className="container-px">
             <div className="mx-auto max-w-3xl">
               <Link
-                href="/hizmetler"
+                href="/hizmetler/"
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-muted transition-colors hover:text-brand"
               >
                 <ArrowLeft className="h-4 w-4" aria-hidden="true" />
@@ -125,6 +138,60 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               <h1 className="mt-4 text-balance font-display text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-4xl">
                 {service.h1}
               </h1>
+
+              {service.urgent && (
+                <>
+                  <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                    <ButtonLink
+                      href={site.phoneHref}
+                      variant="primary"
+                      size="lg"
+                      external={false}
+                    >
+                      <Phone className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
+                      Hemen Ara: {site.phoneDisplay}
+                    </ButtonLink>
+                    <ButtonLink href={directionsUrl()} variant="secondary" size="lg">
+                      <Navigation className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
+                      Yol tarifi al
+                    </ButtonLink>
+                  </div>
+                  <p className="mt-4 flex items-start gap-2 text-sm leading-relaxed text-muted">
+                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand" aria-hidden="true" />
+                    <span>
+                      <a
+                        href={site.mapsLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition-colors hover:text-brand"
+                      >
+                        {site.address.full}
+                      </a>{" "}
+                      · 7/24 açık
+                    </span>
+                  </p>
+
+                  {quotes.length > 0 && (
+                    <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+                      {quotes.map((t) => (
+                        <figure
+                          key={t.name}
+                          className="flex flex-col rounded-2xl border border-hairline bg-surface p-5 shadow-soft"
+                        >
+                          <Quote className="h-5 w-5 text-brand-300" aria-hidden="true" />
+                          <blockquote className="mt-2 flex-1 text-[0.95rem] leading-relaxed text-ink/90">
+                            “{t.quote}”
+                          </blockquote>
+                          <figcaption className="mt-3 text-sm text-muted">
+                            <span className="font-semibold text-ink">{t.name}</span>
+                            {t.source ? ` · ${t.source} yorumu` : null}
+                          </figcaption>
+                        </figure>
+                      ))}
+                    </div>
+                  )}
+                </>
+              )}
 
               <p className="mt-6 text-lg leading-relaxed text-ink/90">
                 {service.intro}
@@ -251,6 +318,18 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   </ul>
                 </div>
               )}
+
+              {/* Location pages — one crawlable entry per district */}
+              <div className="mt-12 border-t border-hairline pt-8">
+                <h2 className="font-display text-xl font-semibold text-ink">
+                  Bölgenizden kliniğe ulaşım
+                </h2>
+                <p className="mt-2 text-sm leading-relaxed text-muted">
+                  Tek kliniğimiz Öveçler&apos;de. Semtinizden yol tarifi ve
+                  ulaşım bilgisi için:
+                </p>
+                <LocationLinks className="mt-4" />
+              </div>
 
               {/* Other services */}
               <div className="mt-12 border-t border-hairline pt-8">

@@ -5,6 +5,10 @@
 // imply a branch, office or second address in that district.
 
 import type { FAQ } from "@/lib/posts";
+import { site } from "@/lib/site";
+
+/** The single NAP address string (identical to Google Maps). */
+const ADDRESS = site.address.full;
 
 export type LocationKind = "primary" | "nearby";
 
@@ -12,6 +16,12 @@ export type Location = {
   slug: string;
   /** District name as used in headings, e.g. "Çankaya" */
   district: string;
+  /** Ablative form with the apostrophe, e.g. "Balgat'tan", "Söğütözü'nden".
+   *  Turkish vowel harmony and consonant assimilation can't be derived from
+   *  the name reliably, so it's written out per district. */
+  fromDistrict: string;
+  /** Origin passed to Google Maps directions, e.g. "Balgat, Çankaya, Ankara". */
+  directionsFrom: string;
   kind: LocationKind;
   title: string;
   metaTitle: string;
@@ -39,16 +49,18 @@ const commonKeywords = (d: string) => [
 /** Shared FAQ answers that are true for every page (single clinic, 7/24). */
 const emergencyFaq: FAQ = {
   q: "Gece ya da hafta sonu gelebilir miyiz?",
-  a: "Evet. Kliniğimiz 7/24 açıktır; hafta sonu ve resmî tatiller dâhil acil başvuruları kabul ediyoruz. Yola çıkmadan önce 0536 290 69 58 numarasını arayıp durumu kısaca anlatmanız, siz gelene kadar hazırlık yapmamızı sağlar.",
+  a: `Evet. Kliniğimiz 7/24 açıktır; hafta sonu ve resmî tatiller dâhil acil başvuruları kabul ediyoruz. Yola çıkmadan önce ${site.phoneDisplay} numarasını arayıp durumu kısaca anlatmanız, siz gelene kadar hazırlık yapmamızı sağlar.`,
 };
 
 export const locations: Location[] = [
   {
     slug: "cankaya-veteriner",
     district: "Çankaya",
+    fromDistrict: "Çankaya'dan",
+    directionsFrom: "Çankaya, Ankara",
     kind: "primary",
     title: "Çankaya Veteriner Kliniği",
-    metaTitle: "Çankaya Veteriner Kliniği · Öveçler, 7/24 Açık ve Acil",
+    metaTitle: "Çankaya Veteriner · 7/24 Açık, Acil ve Uzman Hekim",
     metaDescription:
       "Çankaya Öveçler'de 7/24 açık veteriner kliniği. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi ve acil bakım. 0536 290 69 58.",
     keywords: commonKeywords("Çankaya"),
@@ -59,7 +71,7 @@ export const locations: Location[] = [
       "Bazı şikâyetlerde tanı tek bir muayeneyle bitmez: kan ve idrar tahlili, ultrason ya da röntgen gerekebilir. Bu nedenle randevunuzu telefonla oluşturup dostunuzun şikâyetini önceden aktarmanız, aynı ziyarette gerekli tetkiklerin planlanmasını kolaylaştırır.",
     ],
     access: [
-      "Adres: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara.",
+      `Adres: ${ADDRESS}.`,
       "Sokak üzerinde ve çevre sokaklarda kısa süreli park imkânı bulunur; yoğun saatlerde biraz yürümeyi göze almanız gerekebilir.",
       "Toplu taşımayla gelenler Öveçler duraklarını kullanabilir; duraktan klinik yürüme mesafesindedir.",
       "Taşıma kabıyla gelmeniz, özellikle kediler için hem güvenli hem de muayeneyi kolaylaştırır.",
@@ -90,20 +102,22 @@ export const locations: Location[] = [
   {
     slug: "ovecler-veteriner",
     district: "Öveçler",
+    fromDistrict: "Öveçler'den",
+    directionsFrom: "Öveçler, Çankaya, Ankara",
     kind: "primary",
     title: "Öveçler Veteriner Kliniği",
-    metaTitle: "Öveçler Veteriner Kliniği · 1335. Sokak, 7/24 Açık",
+    metaTitle: "Öveçler Veteriner · 7/24 Açık | Pet Internal",
     metaDescription:
       "Öveçler 1335. Sokak'ta bulunan veteriner kliniğimiz 7/24 açık. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Öveçler"),
     intro:
-      "Kliniğimizin adresi Öveçler, 1335. Sokak 8/B. Mahallenin içinde olduğumuz için Öveçler'de yaşayan pek çok aile bize yürüyerek geliyor. Kedi ve köpeklerin yanı sıra kuş ve tavşan gibi küçük dostlara da bakıyor, acil başvuruları gece gündüz kabul ediyoruz.",
+      `Kliniğimizin adresi ${ADDRESS}. Mahallenin içinde olduğumuz için Öveçler'de yaşayan pek çok aile bize yürüyerek geliyor. Kedi ve köpeklerin yanı sıra kuş ve tavşan gibi küçük dostlara da bakıyor, acil başvuruları gece gündüz kabul ediyoruz.`,
     gettingHere: [
       "1335. Sokak, Öveçler'in ana arterlerinden yürüme mesafesinde. Mahalle içinden gelen komşularımız için klinik genellikle 5–10 dakikalık bir yürüyüş mesafesindedir; tabelamız sokak üzerindedir.",
       "Öveçler'de oturuyorsanız kronik hastalık takibi ciddi bir avantaja dönüşüyor: böbrek, tiroid ya da diyabet takibinde tahlil aralıklarını aksatmadan sürdürmek, hastalığın seyrini değiştiren en önemli faktörlerden biri.",
     ],
     access: [
-      "Adres: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara.",
+      `Adres: ${ADDRESS}.`,
       "Mahalle içinden yürüyerek gelenler için taşıma kabı öneriyoruz; kediler tanıdık sokakta bile ürkebilir.",
       "Araçla gelenler sokak üzerinde ve yakın ara sokaklarda park yeri arayabilir.",
       "Acil bir durumda yola çıkmadan önce arayın; hazırlığı siz yoldayken yapalım.",
@@ -134,20 +148,22 @@ export const locations: Location[] = [
   {
     slug: "balgat-veteriner",
     district: "Balgat",
+    fromDistrict: "Balgat'tan",
+    directionsFrom: "Balgat, Çankaya, Ankara",
     kind: "nearby",
     title: "Balgat'tan Gelen Dostlarımız İçin",
-    metaTitle: "Balgat'a Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
+    metaTitle: "Balgat'a Yakın Gece Açık Veteriner · 7/24",
     metaDescription:
       "Balgat'tan araçla kısa sürede ulaşabileceğiniz Öveçler'deki kliniğimiz 7/24 açık. Muayene, aşı, cerrahi, laboratuvar ve acil bakım.",
     keywords: commonKeywords("Balgat"),
     intro:
-      "Kliniğimiz Balgat'ta değil, komşu mahalle Öveçler'de: 1335. Sokak 8/B. Balgat'tan gelen kedi ve köpek sahipleri düzenli hastalarımız arasında; bu sayfada bize nasıl ulaşacağınızı ve ne beklemeniz gerektiğini anlattık.",
+      "Kliniğimiz Balgat'ta değil, komşu mahalle Öveçler'de: 1335. Sk. 8/B. Balgat'tan gelen kedi ve köpek sahipleri düzenli hastalarımız arasında; bu sayfada bize nasıl ulaşacağınızı ve ne beklemeniz gerektiğini anlattık.",
     gettingHere: [
       "Balgat ile Öveçler komşu bölgeler. Konya Yolu ve Öveçler bağlantıları üzerinden özel araçla trafiğe göre yaklaşık 5–15 dakikada kliniğe ulaşabilirsiniz.",
       "Balgat'tan gelen sahiplerin en sık sorduğu şey acil durumlarda ne kadar sürede varabilecekleri. Kliniğimiz kesintisiz açık olduğu için gece de kapıyı çalabilirsiniz; yola çıkmadan telefonla haber vermeniz siz gelene kadar hazırlık yapmamızı sağlar.",
     ],
     access: [
-      "Klinik adresi: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara. Balgat'ta şubemiz yoktur.",
+      `Klinik adresi: ${ADDRESS}. Balgat'ta şubemiz yoktur.`,
       "Toplu taşımayla gelenler Öveçler yönüne giden hatları kullanabilir; klinik durağa yürüme mesafesindedir.",
       "Araçla gelenler sokak üzerinde ve yakın ara sokaklarda park yeri arayabilir.",
       "Acil vakalarda yola çıkmadan önce 0536 290 69 58'i arayın.",
@@ -156,7 +172,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Balgat'ta şubeniz var mı?",
-        a: "Hayır. Tek bir kliniğimiz var ve adresi Öveçler, 1335. Sk. 8/B. Balgat'tan gelen hastalarımızı bu adreste karşılıyoruz.",
+        a: `Hayır. Tek bir kliniğimiz var ve adresi ${ADDRESS}. Balgat'tan gelen hastalarımızı bu adreste karşılıyoruz.`,
       },
       {
         q: "Balgat'tan gelirken kedimi nasıl taşımalıyım?",
@@ -177,20 +193,22 @@ export const locations: Location[] = [
   {
     slug: "dikmen-veteriner",
     district: "Dikmen",
+    fromDistrict: "Dikmen'den",
+    directionsFrom: "Dikmen, Çankaya, Ankara",
     kind: "nearby",
     title: "Dikmen'den Gelen Dostlarımız İçin",
-    metaTitle: "Dikmen'e Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
+    metaTitle: "Dikmen'e Yakın Gece Açık Veteriner · 7/24",
     metaDescription:
       "Dikmen'den ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Dikmen"),
     intro:
-      "Kliniğimiz Dikmen'de değil, Öveçler'de — 1335. Sokak 8/B. Dikmen ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, park ve acil başvuru konularını burada topladık.",
+      "Kliniğimiz Dikmen'de değil, Öveçler'de — 1335. Sk. 8/B. Dikmen ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, park ve acil başvuru konularını burada topladık.",
     gettingHere: [
       "Dikmen Caddesi ve Öveçler bağlantı yolları üzerinden özel araçla trafiğe göre yaklaşık 10–20 dakikalık bir mesafedeyiz.",
       "Dikmen'in eğimli sokaklarından çıkarken, özellikle nefes darlığı ya da kalp şikâyeti olan hastalarda aracı serin tutmanızı ve gereksiz beklemeden yola çıkmanızı öneriyoruz. Durumu telefonda anlatırsanız gelir gelmez muayeneye alınmanız için hazırlık yapabiliriz.",
     ],
     access: [
-      "Klinik adresi: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara. Dikmen'de şubemiz yoktur.",
+      `Klinik adresi: ${ADDRESS}. Dikmen'de şubemiz yoktur.`,
       "Toplu taşımayla gelenler Öveçler yönüne giden hatlarla klinik yakınına ulaşabilir.",
       "Sokak üzerinde ve çevre sokaklarda kısa süreli park imkânı bulunur.",
       "7/24 açığız; gece başvurularında da kapımız açık.",
@@ -199,7 +217,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Dikmen'de bir şubeniz bulunuyor mu?",
-        a: "Hayır. Tek adresimiz Öveçler, 1335. Sk. 8/B. Dikmen'den gelen hastalarımızı bu klinikte karşılıyoruz.",
+        a: `Hayır. Tek adresimiz ${ADDRESS}. Dikmen'den gelen hastalarımızı bu klinikte karşılıyoruz.`,
       },
       {
         q: "Yolda dostumun durumu kötüleşirse ne yapmalıyım?",
@@ -220,20 +238,22 @@ export const locations: Location[] = [
   {
     slug: "cukurambar-veteriner",
     district: "Çukurambar",
+    fromDistrict: "Çukurambar'dan",
+    directionsFrom: "Çukurambar, Çankaya, Ankara",
     kind: "nearby",
     title: "Çukurambar'dan Gelen Dostlarımız İçin",
-    metaTitle: "Çukurambar'a Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
+    metaTitle: "Çukurambar'a Yakın Gece Açık Veteriner · 7/24",
     metaDescription:
       "Çukurambar'dan kısa sürede ulaşabileceğiniz Öveçler'deki veteriner kliniği. 7/24 açık; muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Çukurambar"),
     intro:
-      "Kliniğimiz Çukurambar'da değil, komşu bölge Öveçler'de: 1335. Sokak 8/B. Çukurambar'daki sitelerden gelen kedi ve köpek sahipleri için ulaşım ve randevu bilgilerini bu sayfada topladık.",
+      "Kliniğimiz Çukurambar'da değil, komşu bölge Öveçler'de: 1335. Sk. 8/B. Çukurambar'daki sitelerden gelen kedi ve köpek sahipleri için ulaşım ve randevu bilgilerini bu sayfada topladık.",
     gettingHere: [
       "Çukurambar ile Öveçler arası kısa bir mesafe; özel araçla trafiğe göre yaklaşık 5–15 dakika. Kliniğe gelmeden önce telefonla randevu oluşturmanız bekleme süresini kısaltır.",
       "Apartman ve site içinde yaşayan kediler için en sık karşılaştığımız başvuru nedenleri idrar sorunları, kusma ve kilo değişimleri. Bu şikâyetlerde ilk gün kan ve idrar tahlili istememiz olağan; aç gelmeniz gerekip gerekmediğini telefonda söyleyebiliriz.",
     ],
     access: [
-      "Klinik adresi: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara. Çukurambar'da şubemiz yoktur.",
+      `Klinik adresi: ${ADDRESS}. Çukurambar'da şubemiz yoktur.`,
       "Araçla gelenler sokak üzerinde ve yakın ara sokaklarda park yeri arayabilir.",
       "Toplu taşımayla Öveçler yönüne giden hatları kullanabilirsiniz.",
       "Acil durumda randevu gerekmez; kliniğimiz kesintisiz açıktır.",
@@ -242,7 +262,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Çukurambar'da şubeniz var mı?",
-        a: "Hayır. Tek kliniğimiz Öveçler, 1335. Sk. 8/B adresinde. Çukurambar'dan gelen hastalarımızı burada karşılıyoruz.",
+        a: `Hayır. Tek kliniğimiz ${ADDRESS} adresinde. Çukurambar'dan gelen hastalarımızı burada karşılıyoruz.`,
       },
       {
         q: "Tahlil için dostumun aç gelmesi gerekir mi?",
@@ -263,20 +283,22 @@ export const locations: Location[] = [
   {
     slug: "or-an-veteriner",
     district: "Or-An",
+    fromDistrict: "Or-An'dan",
+    directionsFrom: "Or-An, Çankaya, Ankara",
     kind: "nearby",
     title: "Or-An'dan Gelen Dostlarımız İçin",
-    metaTitle: "Or-An'a Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
+    metaTitle: "Or-An'a Yakın Gece Açık Veteriner · 7/24",
     metaDescription:
       "Or-An'dan ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Muayene, aşı, cerrahi, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Or-An"),
     intro:
-      "Kliniğimiz Or-An'da değil, Öveçler'de: 1335. Sokak 8/B. Or-An ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, randevu ve acil başvuru bilgilerini burada bulabilirsiniz.",
+      "Kliniğimiz Or-An'da değil, Öveçler'de: 1335. Sk. 8/B. Or-An ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, randevu ve acil başvuru bilgilerini burada bulabilirsiniz.",
     gettingHere: [
       "Or-An'dan Öveçler'e özel araçla trafiğe göre yaklaşık 10–20 dakikada ulaşılıyor. Konya Yolu ve Öveçler bağlantılarını kullanabilirsiniz.",
       "Or-An'da bahçeli yaşam yaygın olduğu için kene, pire ve dış parazit başvuruları bizde sık görülüyor. Bahçeye çıkan kedi ve köpeklerde koruma takvimini aksatmamak, sadece kaşıntıyı değil kenenin taşıdığı hastalıkları da önlüyor.",
     ],
     access: [
-      "Klinik adresi: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara. Or-An'da şubemiz yoktur.",
+      `Klinik adresi: ${ADDRESS}. Or-An'da şubemiz yoktur.`,
       "Sokak üzerinde ve çevre sokaklarda kısa süreli park imkânı bulunur.",
       "Toplu taşımayla Öveçler yönüne giden hatlarla klinik yakınına ulaşabilirsiniz.",
       "Gece ve hafta sonu dâhil kesintisiz açığız.",
@@ -285,7 +307,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Or-An'da şubeniz var mı?",
-        a: "Hayır. Tek adresimiz Öveçler, 1335. Sk. 8/B. Or-An'dan gelen hastalarımızı bu klinikte karşılıyoruz.",
+        a: `Hayır. Tek adresimiz ${ADDRESS}. Or-An'dan gelen hastalarımızı bu klinikte karşılıyoruz.`,
       },
       {
         q: "Bahçeye çıkan köpeğimiz için hangi korumalar gerekli?",
@@ -306,20 +328,22 @@ export const locations: Location[] = [
   {
     slug: "sogutozu-veteriner",
     district: "Söğütözü",
+    fromDistrict: "Söğütözü'nden",
+    directionsFrom: "Söğütözü, Çankaya, Ankara",
     kind: "nearby",
     title: "Söğütözü'nden Gelen Dostlarımız İçin",
-    metaTitle: "Söğütözü'ne Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
+    metaTitle: "Söğütözü'ne Yakın Gece Açık Veteriner · 7/24",
     metaDescription:
       "Söğütözü'nden ulaşabileceğiniz Öveçler'deki veteriner kliniği. 7/24 açık; muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Söğütözü"),
     intro:
-      "Kliniğimiz Söğütözü'nde değil, Öveçler'de: 1335. Sokak 8/B. Söğütözü'nde çalışan ve yaşayan kedi-köpek sahipleri için ulaşım ve randevu bilgilerini bu sayfada topladık.",
+      "Kliniğimiz Söğütözü'nde değil, Öveçler'de: 1335. Sk. 8/B. Söğütözü'nde çalışan ve yaşayan kedi-köpek sahipleri için ulaşım ve randevu bilgilerini bu sayfada topladık.",
     gettingHere: [
       "Söğütözü'nden Öveçler'e özel araçla trafiğe göre yaklaşık 10–20 dakika. Ofis çıkışı yoğun saatlerde bu süre uzayabildiği için randevunuzu telefonda esnek planlayabiliriz.",
       "Gün içinde işten ayrılamayan sahipler için akşam ve gece saatleri pratik bir alternatif: kliniğimiz kesintisiz açık olduğundan mesai sonrası muayene mümkün.",
     ],
     access: [
-      "Klinik adresi: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara. Söğütözü'nde şubemiz yoktur.",
+      `Klinik adresi: ${ADDRESS}. Söğütözü'nde şubemiz yoktur.`,
       "Araçla gelenler sokak üzerinde ve yakın ara sokaklarda park yeri arayabilir.",
       "Toplu taşımayla Öveçler yönüne giden hatları kullanabilirsiniz.",
       "Akşam ve gece başvurularında da açığız; önceden aramanız yeterli.",
@@ -328,7 +352,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Söğütözü'nde şubeniz var mı?",
-        a: "Hayır. Tek kliniğimiz Öveçler, 1335. Sk. 8/B adresinde. Söğütözü'nden gelen hastalarımızı burada karşılıyoruz.",
+        a: `Hayır. Tek kliniğimiz ${ADDRESS} adresinde. Söğütözü'nden gelen hastalarımızı burada karşılıyoruz.`,
       },
       {
         q: "Mesai sonrası muayene mümkün mü?",
@@ -349,20 +373,22 @@ export const locations: Location[] = [
   {
     slug: "emek-veteriner",
     district: "Emek",
+    fromDistrict: "Emek'ten",
+    directionsFrom: "Emek, Çankaya, Ankara",
     kind: "nearby",
     title: "Emek'ten Gelen Dostlarımız İçin",
-    metaTitle: "Emek'e Yakın Veteriner Kliniği · Öveçler, 7/24 Açık",
+    metaTitle: "Emek'e Yakın Gece Açık Veteriner · 7/24",
     metaDescription:
       "Emek'ten ulaşabileceğiniz Öveçler'deki 7/24 açık veteriner kliniği. Kedi, köpek, kuş ve tavşanlar için muayene, aşı, cerrahi, tahlil, görüntüleme ve acil bakım.",
     keywords: commonKeywords("Emek"),
     intro:
-      "Kliniğimiz Emek'te değil, Öveçler'de: 1335. Sokak 8/B. Emek ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, park ve acil başvuru bilgilerini burada topladık.",
+      "Kliniğimiz Emek'te değil, Öveçler'de: 1335. Sk. 8/B. Emek ve çevresinden gelen kedi ve köpek sahipleri için ulaşım, park ve acil başvuru bilgilerini burada topladık.",
     gettingHere: [
       "Emek'ten Öveçler'e özel araçla trafiğe göre yaklaşık 15–25 dakikalık bir mesafe var. Rutin kontrolleri gün ortasına, acil başvuruları ise beklemeden yapmanızı öneriyoruz.",
       "Emek gibi yerleşik mahallelerde yaşlı kedi ve köpek nüfusu yüksek. Yaşlı dostlarda altı ayda bir yapılan kan ve idrar kontrolü, böbrek ve tiroid hastalıklarını belirti çıkmadan yakalamanın en pratik yolu.",
     ],
     access: [
-      "Klinik adresi: Öveçler, 1335. Sk. 8/B, 06460 Çankaya / Ankara. Emek'te şubemiz yoktur.",
+      `Klinik adresi: ${ADDRESS}. Emek'te şubemiz yoktur.`,
       "Sokak üzerinde ve çevre sokaklarda kısa süreli park imkânı bulunur.",
       "Toplu taşımayla Öveçler yönüne giden hatlarla klinik yakınına ulaşabilirsiniz.",
       "7/24 açığız; acil durumda randevu gerekmez.",
@@ -371,7 +397,7 @@ export const locations: Location[] = [
       emergencyFaq,
       {
         q: "Emek'te şubeniz var mı?",
-        a: "Hayır. Tek adresimiz Öveçler, 1335. Sk. 8/B. Emek'ten gelen hastalarımızı bu klinikte karşılıyoruz.",
+        a: `Hayır. Tek adresimiz ${ADDRESS}. Emek'ten gelen hastalarımızı bu klinikte karşılıyoruz.`,
       },
       {
         q: "Yaşlı kedimiz için ne sıklıkla kontrol gerekir?",

@@ -70,7 +70,7 @@ export function Blog() {
         </div>
 
         <div className="mt-10 flex justify-center">
-          <ButtonLink href="/blog" variant="secondary" size="md">
+          <ButtonLink href="/blog/" variant="secondary" size="md">
             Tüm yazıları gör
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </ButtonLink>

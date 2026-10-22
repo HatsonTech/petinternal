@@ -3,10 +3,8 @@ import type { Metadata } from "next";
 import { MapPin } from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { SectionHeading } from "@/components/section-heading";
-import { site } from "@/lib/site";
+import { SITE_URL, site } from "@/lib/site";
 import { locations } from "@/lib/locations";
-
-const BASE = "https://www.petinternal.com";
 
 export const metadata: Metadata = {
   title: "Hizmet Verdiğimiz Bölgeler",
@@ -30,8 +28,8 @@ export default function LocationsIndexPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: BASE },
-      { "@type": "ListItem", position: 2, name: "Bölgeler", item: `${BASE}/veteriner` },
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Bölgeler", item: `${SITE_URL}/veteriner/` },
     ],
   };
 

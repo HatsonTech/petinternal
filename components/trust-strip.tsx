@@ -1,10 +1,14 @@
-import { Clock, Heart, Microscope, ShieldCheck } from "lucide-react";
+import { Clock, FlaskConical, Microscope, Stethoscope } from "lucide-react";
+import { site } from "@/lib/site";
 
+// Only specific, checkable claims the site already makes elsewhere: the vet's
+// title/focus (lib/site.ts) and same-visit routine lab results (the Çukurambar
+// FAQ in lib/locations.ts). No membership or patient-count claims.
 const items = [
-  { icon: ShieldCheck, text: "Türk Veteriner Hekimleri Birliği üyesi" },
+  { icon: Stethoscope, text: `${site.vet.specialty} alanında uzman veteriner hekim` },
   { icon: Clock, text: "7/24 acil veteriner desteği" },
   { icon: Microscope, text: "Modern laboratuvar & görüntüleme" },
-  { icon: Heart, text: "Binlerce mutlu pati ailesi" },
+  { icon: FlaskConical, text: "Rutin kan ve idrar tahlillerinin çoğu aynı ziyarette sonuçlanır" },
 ];
 
 export function TrustStrip() {

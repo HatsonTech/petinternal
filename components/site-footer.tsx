@@ -5,7 +5,7 @@ import { navLinks, site } from "@/lib/site";
 
 // Footer-only extra: the geo landing pages need one crawlable entry point.
 // Added here rather than in navLinks so the header stays as-is.
-const footerLinks = [...navLinks, { label: "Bölgeler", href: "/veteriner" }];
+const footerLinks = [...navLinks, { label: "Bölgeler", href: "/veteriner/" }];
 
 const socials = [
   { icon: Instagram, href: site.social.instagram, label: "Instagram" },
@@ -67,9 +67,7 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-3 text-sm text-brand-200/85">
               <li className="flex items-start gap-2.5">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-300" aria-hidden="true" />
-                <span>
-                  {site.address.line}, {site.address.district}
-                </span>
+                <span>{site.address.full}</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="h-4 w-4 shrink-0 text-brand-300" aria-hidden="true" />

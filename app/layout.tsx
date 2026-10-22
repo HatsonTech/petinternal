@@ -3,10 +3,12 @@ import { Fraunces, Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { WhatsAppFab } from "@/components/whatsapp-fab";
 import { CookieConsent } from "@/components/cookie-consent";
+import { MobileCallBar } from "@/components/mobile-call-bar";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Analytics } from "@/components/analytics";
-import { site } from "@/lib/site";
+import { CLINIC_ID, SITE_URL, site } from "@/lib/site";
+import { locations } from "@/lib/locations";
 import { GTM_ID, consentDefaultsSnippet } from "@/lib/gtm";
 import "./globals.css";
 
@@ -22,10 +24,13 @@ const inter = Inter({
   display: "swap",
 });
 
+/** Homepage <title>; also the default for any page that sets none. */
+const HOME_TITLE = `${site.name} · Öveçler, Çankaya · 7/24 Açık`;
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.petinternal.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: `${site.name} · Çankaya, Ankara`,
+    default: HOME_TITLE,
     template: `%s · ${site.shortName}`,
   },
   description:
@@ -44,14 +49,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
     siteName: site.name,
-    title: `${site.name} · Çankaya, Ankara`,
+    title: HOME_TITLE,
     description:
       "Çankaya Öveçler'de modern ve şefkatli veteriner kliniği. Muayene, aşı, cerrahi ve 7/24 acil bakım. Hemen arayın: 0536 290 69 58 ya da WhatsApp'tan yazın.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: site.name }],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} · Çankaya, Ankara`,
+    title: HOME_TITLE,
     description:
       "Çankaya Öveçler'de şefkatli veteriner kliniği. 7/24 acil. Arayın: 0536 290 69 58 ya da WhatsApp'tan yazın.",
     images: ["/og-image.png"],
@@ -70,19 +75,24 @@ export const viewport: Viewport = {
   ],
 };
 
+// The one VeterinaryCare node. Every other page references it by CLINIC_ID
+// instead of redefining the business, so name/address/phone live only here.
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "VeterinaryCare",
+  "@id": CLINIC_ID,
   name: site.name,
-  image: "https://www.petinternal.com/og-image.png",
-  "@id": "https://www.petinternal.com",
-  url: "https://www.petinternal.com",
+  // Google Maps spells the listing "Pet İnternal"; tie both names to one entity.
+  alternateName: site.alternateName,
+  url: `${SITE_URL}/`,
+  logo: `${SITE_URL}/logo-icon.png`,
+  image: `${SITE_URL}/og-image.png`,
   telephone: "+905362906958",
-  sameAs: [site.social.instagram],
+  sameAs: [site.social.instagram, site.mapsCid],
   email: site.email,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Öveçler, 1335. Sk. 8/B",
+    streetAddress: site.address.line,
     addressLocality: "Çankaya",
     addressRegion: "Ankara",
     postalCode: "06460",
@@ -90,10 +100,10 @@ const jsonLd = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 39.8925626,
-    longitude: 32.8300456,
+    latitude: site.geo.lat,
+    longitude: site.geo.lng,
   },
-  hasMap: site.mapsLink,
+  hasMap: site.mapsCid,
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
@@ -110,7 +120,24 @@ const jsonLd = {
       closes: "23:59",
     },
   ],
-  areaServed: "Çankaya, Ankara",
+  // The districts that have a landing page under /veteriner/ — all in Çankaya.
+  areaServed: [
+    { "@type": "City", name: "Ankara" },
+    ...locations.map((l) => ({
+      "@type": l.district === "Çankaya" ? "AdministrativeArea" : "Place",
+      name: l.directionsFrom,
+    })),
+  ],
+  employee: {
+    "@type": "Person",
+    name: site.vet.name,
+    alternateName: site.vet.alternateName,
+    jobTitle: site.vet.jobTitle,
+    image: `${SITE_URL}${site.vet.image}`,
+    alumniOf: { "@type": "CollegeOrUniversity", name: site.vet.alumniOf },
+    knowsAbout: site.vet.knowsAbout,
+    ...(site.vet.sameAs.length ? { sameAs: site.vet.sameAs } : {}),
+  },
 };
 
 // Standard GTM loader, inlined in <head> rather than via next/script so it
@@ -166,6 +193,7 @@ export default function RootLayout({
           {children}
           <SiteFooter />
           <WhatsAppFab />
+          <MobileCallBar />
           <CookieConsent />
         </ThemeProvider>
         <script

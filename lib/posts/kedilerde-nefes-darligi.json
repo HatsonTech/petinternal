@@ -1,15 +1,15 @@
 {
   "slug": "kedilerde-nefes-darligi",
-  "title": "Kedilerde nefes darlığı: evde solunum sayısı nasıl sayılır?",
-  "metaTitle": "Kedi solunum sayısı kaç olmalı? Evde nasıl sayılır",
+  "title": "Kedilerde Nefes Darlığı: Ağızdan Soluma Ne Zaman Acil?",
+  "metaTitle": "Kedilerde Nefes Darlığı: Ağızdan Soluma Ne Zaman Acil?",
   "category": "Acil Durumlar",
   "image": "/images/blog-cat-urinary.jpg",
   "imageAlt": "Uzanmış biçimde bekleyen tekir bir kedi",
   "date": "17 Ağustos 2026",
   "dateISO": "2026-08-17",
-  "updatedISO": "2026-08-17",
-  "metaDescription": "Kedilerde hızlı ya da güç soluma çoğu zaman acildir. Evde dinlenme solunum sayısı nasıl sayılır, hangi belirtiler beklemeye izin vermez?",
-  "excerpt": "Kedilerde hızlı ya da güç soluma çoğu zaman acil bir bulgudur. Hangi belirtiler beklemeye izin vermez, evde dinlenme solunum sayısı nasıl sayılır ve nefes darlığı olan bir kedi kliniğe nasıl güvenle taşınır?",
+  "updatedISO": "2026-10-22",
+  "metaDescription": "Kedide ağızdan soluma, karınla nefes alma ve morarma beklemez. Uykuda dakikada 30'un üzerinde solunum ne demek, kedi kliniğe nasıl taşınır?",
+  "excerpt": "Kedilerde ağızdan soluma, karın kaslarıyla nefes alma ya da morarma çoğu zaman acil bir bulgudur. Hangi belirtiler beklemeye izin vermez, solunum sayısı ne zaman alarm verir ve nefes darlığı olan bir kedi kliniğe nasıl güvenle taşınır?",
   "readTime": "9 dk okuma",
   "keywords": [
     "kedilerde nefes darlığı",
@@ -56,7 +56,7 @@
     },
     {
       "type": "p",
-      "text": "Sağlıklı bir kedide dinlenme solunum sayısı genellikle dakikada kırkın altındadır. Ancak asıl önemli olan tek bir ölçüm değil, kedinizin kendi normal aralığıdır. Bu aralığı bilmek, ilerleyen dönemde küçük bir değişikliği çok erken fark etmenizi sağlar ve kontrol randevularında hekiminize somut bir veri sunar."
+      "text": "Sağlıklı bir kedi uyurken ya da sakin dinlenirken genellikle dakikada 15 ile 30 arasında nefes alır; uykuda değer çoğunlukla 30'un altındadır. Uykuda tekrarlanan ölçümlerde dakikada 35'in üzerindeki bir değer, aynı gün veterinerinizle görüşmeniz gereken bir bulgudur. Ancak asıl önemli olan tek bir ölçüm değil, kedinizin kendi normal aralığıdır. Bu aralığı bilmek, ilerleyen dönemde küçük bir değişikliği çok erken fark etmenizi sağlar ve kontrol randevularında hekiminize somut bir veri sunar. Sayımın adım adım nasıl yapılacağını ve hangi değerde ne yapmanız gerektiğini <a href=\"/blog/kedilerde-normal-solunum-sayisi\">kedi normal solunum sayısı</a> yazımızda tablo hâlinde anlattık."
     },
     {
       "type": "h2",
@@ -184,7 +184,7 @@
   "faqs": [
     {
       "q": "Kedimin dinlenme solunum sayısı kaç olmalı?",
-      "a": "Sağlıklı bir kedide dinlenirken solunum sayısı genellikle dakikada kırkın altındadır. Asıl önemli olan tek bir ölçüm değil, kedinizin kendi normal aralığıdır; bu aralığın kalıcı biçimde yükselmesi değerlendirme gerektirir."
+      "a": "Sağlıklı bir kedi dinlenirken genellikle dakikada 15 ile 30 arasında nefes alır; uykuda değer çoğunlukla 30'un altındadır. Uykuda tekrarlanan ölçümlerde 35'in üzerindeki değerler aynı gün veterinerle görüşmeyi gerektirir. Asıl önemli olan tek bir ölçüm değil, kedinizin kendi normal aralığıdır; bu aralığın kalıcı biçimde yükselmesi değerlendirme gerektirir."
     },
     {
       "q": "Kediler köpekler gibi dilini çıkarıp soluyabilir mi?",
@@ -216,6 +216,11 @@
     }
   ],
   "sources": [
+    {
+      "title": "Tips for recognizing heart disease in pets",
+      "publisher": "Cornell University (Cornell Feline Health Center)",
+      "url": "https://news.cornell.edu/media-relations/tip-sheets/tips-recognizing-heart-disease-pets"
+    },
     {
       "title": "ACVIM consensus statement guidelines for the classification, diagnosis, and management of cardiomyopathies in cats",
       "publisher": "Journal of Veterinary Internal Medicine (ACVIM)",

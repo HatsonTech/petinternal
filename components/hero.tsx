@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { MapPin, PawPrint, Phone, Star } from "lucide-react";
+import Link from "next/link";
+import { CalendarCheck, MapPin, PawPrint, Phone, Star } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { WhatsAppIcon } from "@/components/icons";
 import { site } from "@/lib/site";
@@ -20,10 +21,13 @@ export function Hero() {
             Çankaya · Ankara
           </span>
           <h1 className="mt-5 text-balance font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
-            Patili dostlarınıza{" "}
-            <span className="text-brand">şefkatle ve uzmanlıkla</span> bakıyoruz.
+            Öveçler&apos;de <span className="text-brand">7/24 açık</span> veteriner
+            kliniği
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">
+          <p className="mt-4 text-balance font-display text-xl font-medium leading-snug text-ink/85 sm:text-2xl">
+            Patili dostlarınıza şefkatle ve uzmanlıkla bakıyoruz.
+          </p>
+          <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
             Çankaya Öveçler'de; uzman veteriner hekimimiz Öykü Yalçın ve ekibiyle,
             modern tıbbi donanımı sıcak ve sabırlı bir yaklaşımla birleştiriyoruz.
             Kedi, köpek ve tüm dostlarınız için koruyucu hekimlikten cerrahiye
@@ -31,27 +35,34 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-            <ButtonLink href="/#iletisim" variant="primary" size="lg">
-              Randevu Al
+            <ButtonLink
+              href={site.phoneHref}
+              variant="primary"
+              size="lg"
+              external={false}
+              ariaLabel={`Hemen Ara: ${site.phoneDisplay}`}
+            >
+              <Phone className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
+              Hemen Ara
             </ButtonLink>
             <ButtonLink href={site.whatsapp} variant="secondary" size="lg">
               <WhatsAppIcon className="h-[1.15rem] w-[1.15rem]" />
-              WhatsApp'tan Yaz
+              WhatsApp&apos;tan Yaz
             </ButtonLink>
-            <ButtonLink
-              href={site.phoneHref}
-              variant="secondary"
-              size="lg"
-              external={false}
-            >
-              <Phone className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
-              Bizi Arayın
+            <ButtonLink href="/#iletisim" variant="secondary" size="lg">
+              <CalendarCheck className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
+              Randevu Al
             </ButtonLink>
           </div>
 
-          <div className="mt-8 flex items-center gap-2 text-sm text-muted">
-            <MapPin className="h-4 w-4 text-brand" aria-hidden="true" />
-            Öveçler, 1335. Sk. — bugün randevuya açığız
+          <div className="mt-8 flex items-start gap-2 text-sm text-muted">
+            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand" aria-hidden="true" />
+            <Link
+              href="/veteriner/ovecler-veteriner/"
+              className="underline-offset-4 transition-colors hover:text-brand hover:underline"
+            >
+              {site.address.full}
+            </Link>
           </div>
         </div>
 

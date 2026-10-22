@@ -98,7 +98,16 @@ export function SiteHeader() {
           </nav>
 
           <div className="flex items-center gap-2 sm:gap-3">
-            <ThemeToggle />
+            {/* Phones get the toggle inside the menu instead; the call button
+                needs the room. */}
+            <ThemeToggle className="hidden sm:inline-flex" />
+            <a
+              href={site.phoneHref}
+              aria-label={`Ara: ${site.phoneDisplay}`}
+              className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-brand-600 text-white shadow-soft transition-colors duration-200 ease-gentle hover:bg-brand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-paper lg:hidden"
+            >
+              <PhoneCall className="h-[1.05rem] w-[1.05rem]" aria-hidden="true" />
+            </a>
             <ButtonLink
               href="/#iletisim"
               variant="primary"
@@ -127,7 +136,9 @@ export function SiteHeader() {
           ref={panelRef}
           className={cn(
             "overflow-hidden border-hairline bg-paper transition-[max-height,opacity] duration-300 ease-gentle lg:hidden",
-            open ? "max-h-[24rem] border-t opacity-100" : "max-h-0 opacity-0"
+            open
+              ? "max-h-[min(36rem,calc(100dvh-8rem))] overflow-y-auto border-t opacity-100"
+              : "max-h-0 opacity-0"
           )}
         >
           <nav aria-label="Mobil menü" className="container-px flex flex-col py-3">
@@ -142,7 +153,7 @@ export function SiteHeader() {
               </a>
             ))}
             <div className="flex flex-col gap-3 pt-4">
-              <ButtonLink href="#iletisim" variant="primary" size="lg">
+              <ButtonLink href="/#iletisim" variant="primary" size="lg">
                 <CalendarCheck className="h-[1.05rem] w-[1.05rem]" aria-hidden="true" />
                 Randevu Al
               </ButtonLink>
@@ -150,6 +161,10 @@ export function SiteHeader() {
                 <PhoneCall className="h-[1.05rem] w-[1.05rem]" aria-hidden="true" />
                 {site.phoneDisplay}
               </ButtonLink>
+            </div>
+            <div className="mt-4 flex items-center justify-between border-t border-hairline pt-4 sm:hidden">
+              <span className="text-sm text-muted">Görünüm</span>
+              <ThemeToggle />
             </div>
             <div className="mt-4 flex items-center gap-3 border-t border-hairline pt-4">
               <span className="text-sm text-muted">Bizi takip edin</span>

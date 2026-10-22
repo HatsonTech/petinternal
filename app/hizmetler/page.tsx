@@ -4,8 +4,7 @@ import { ArrowLeft } from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { Reveal } from "@/components/reveal";
 import { services } from "@/lib/services";
-
-const BASE = "https://www.petinternal.com";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Hizmetlerimiz",
@@ -25,12 +24,12 @@ export default function HizmetlerIndexPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: BASE },
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: `${SITE_URL}/` },
       {
         "@type": "ListItem",
         position: 2,
         name: "Hizmetler",
-        item: `${BASE}/hizmetler`,
+        item: `${SITE_URL}/hizmetler/`,
       },
     ],
   };
@@ -46,7 +45,7 @@ export default function HizmetlerIndexPage() {
       position: i + 1,
       name: s.title,
       description: s.desc,
-      url: `${BASE}/hizmetler/${s.slug}`,
+      url: `${SITE_URL}/hizmetler/${s.slug}/`,
     })),
   };
 

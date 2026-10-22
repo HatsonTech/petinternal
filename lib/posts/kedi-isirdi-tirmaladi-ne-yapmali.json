@@ -1,12 +1,12 @@
 {
   "slug": "kedi-isirdi-tirmaladi-ne-yapmali",
-  "title": "Kedi ısırdı ya da tırmaladı: ilk 10 dakikada ne yapmalı?",
-  "metaTitle": "Kedi Isırığı ve Tırmığı: Ne Yapmalı, Aşı Gerekir mi?",
+  "title": "Kedi Isırdı veya Tırmaladı: Kuduz Aşısı Gerekir mi?",
+  "metaTitle": "Kedi Isırdı veya Tırmaladı: Kuduz Aşısı Gerekir mi?",
   "category": "Yasal Rehber",
   "image": "/images/blog-nail-trim.jpg",
   "imageAlt": "İnsan koluna uzanan, tırnakları görünen bir kedi patisi",
-  "metaDescription": "Kedi ısırığı ve tırmığında yara bakımı, kuduz riski, hangi durumda hastaneye gitmeli ve hayvanın 10 günlük gözlemi nasıl yapılır?",
-  "excerpt": "Kedi ısırığı küçük görünür ama derine iner ve enfeksiyon riski yüksektir. Yara bakımı, kuduz değerlendirmesi ve hayvanın gözlem süreci.",
+  "metaDescription": "Kedi ısırdı ya da tırmaladıysa yarayı hemen 15 dakika sabun ve bol suyla yıkayın, kolonya sürmeyin, aynı gün sağlık kuruluşuna gidin. Aşı ne zaman gerekir?",
+  "excerpt": "Kedi ısırığında ilk iş, yarayı en az 15 dakika sabun ve bol akan suyla yıkamak ve aynı gün bir sağlık kuruluşuna gitmektir. Kuduz aşısının gerekip gerekmediği; temasın türüne, kedinin aşı durumuna ve 10 gün gözlenip gözlenemeyeceğine göre belirlenir.",
   "readTime": "6 dk okuma",
   "keywords": [
     "kedi ısırdı ne yapmalı",
@@ -20,17 +20,17 @@
   "body": [
     {
       "type": "h2",
-      "text": "İlk 10 dakika"
+      "text": "İlk yapılacaklar"
     },
     {
       "type": "ul",
       "items": [
-        "Yarayı bol akan su ve sabunla en az birkaç dakika yıkayın",
+        "Yarayı hemen bol akan su ve sabunla en az 15 dakika yıkayın; kuduza karşı en etkili ilk adım budur",
         "Kanamayı temiz bir bezle, bastırarak durdurun",
-        "Yaraya tuz, kül, diş macunu, kolonya gibi maddeler sürmeyin",
+        "Yaraya kolonya, tuz, kül ya da diş macunu sürmeyin; hiçbiri yıkamanın yerini tutmaz. Yıkamadan sonra varsa alkol ya da tentürdiyot gibi iyotlu bir antiseptik kullanılabilir",
         "Yarayı sıkmaya ya da içini kurcalamaya çalışmayın",
         "Yarayı sıkı sarmayın; hava almasını engellemek enfeksiyonu kolaylaştırır",
-        "Bir sağlık kuruluşuna başvurun"
+        "Aynı gün bir sağlık kuruluşuna, gece ise hastane acil servisine başvurun; kuduz riski orada değerlendirilir ve gerekiyorsa aşıya hemen başlanır"
       ]
     },
     {
@@ -43,7 +43,7 @@
     },
     {
       "type": "p",
-      "text": "Türkiye'de kuduz, insan sağlığını ilgilendiren resmî bir bildirim konusudur. Isırık ya da tırmalama sonrası kişinin aşı ve bağışıklama ihtiyacına karar verecek olan hekimdir; bu karar hayvanın aşı durumuna, olayın koşullarına ve bölgeye göre değişir. Kendi başınıza \"aşı gerekmez\" sonucuna varmayın. Tırmalama da kuduz açısından değerlendirilmesi gereken bir temas biçimidir, çünkü kedi patisini yalamış olabilir."
+      "text": "Sağlık Bakanlığı Kuduz Profilaksi Rehberi'ne göre kedi ısırığı, vücudun neresinde olursa olsun kuduz riskli temastır; tırmalama da riskli temas sayılır, çünkü kedi patisini yalamış olabilir. Kuluçka süresi çok değişken olduğu için aradan geçen süreye bakılmaksızın temas değerlendirilir ve gerekiyorsa aşılamaya olabildiğince erken başlanır. Aşının gerekip gerekmediğini üç şey belirler: yaranın türü (deriyi delen ısırık ya da kanayan tırmık mı, yüzeysel sıyrık mı), kedinin son bir yıl içinde kuduz aşısı olup olmadığı ve kedinin 10 gün gözlenip gözlenemeyeceği. Bu sınıflandırmayı başvurduğunuz sağlık kuruluşu yapar; kendi başınıza \"aşı gerekmez\" sonucuna varıp başvuruyu ertelemeyin."
     },
     {
       "type": "h2",
@@ -89,29 +89,43 @@
   "faqs": [
     {
       "q": "Kedi ısırınca kuduz aşısı olunur mu?",
-      "a": "Kararı hekim verir. Hayvanın aşı durumu, olayın koşulları ve bölge değerlendirilerek belirlenir; kendi başınıza karar vermeyin."
+      "a": "Kedinin aşı durumuna ve gözlenip gözlenemeyeceğine bağlıdır. Sağlık Bakanlığı rehberine göre deriyi delen bir ısırıkta, kedi son bir yıl içinde kuduz aşısı olmuşsa genellikle aşı yapılmaz ve kedi 10 gün izlenir. Kedi aşısızsa ya da aşı durumu bilinmiyorsa aşıya hemen başlanır; kedi 10 günün sonunda sağlıklıysa aşılama durdurulur. Kedi bulunamıyor ya da gözlenemiyorsa aşıyla birlikte kuduz serumu da uygulanır. Bu yüzden yarayı yıkadıktan sonra aynı gün bir sağlık kuruluşuna gidin."
     },
     {
       "q": "Kedi tırmaladı, aşı gerekir mi?",
-      "a": "Tırmalama da değerlendirilmesi gereken bir temastır. Yarayı yıkayıp sağlık kuruluşuna başvurun."
+      "a": "Tırmığın derinliğine ve kedinin izlenebilmesine bağlıdır. Rehbere göre kanamasız, yüzeysel bir tırmıkta kedi 10 gün gözlenebiliyorsa aşı yapılmaz; yara bakımı ve tetanoz değerlendirmesi yapılır. Kediyi kışkırttığınız bir anda oluşan kanamasız küçük tırmıkta, kedi gözlenemese de aşı önerilmez. Deriyi delen, kanayan tırmıklar ise ısırık gibi değerlendirilir. Her durumda yarayı en az 15 dakika sabun ve bol suyla yıkayın ve aynı gün bir sağlık kuruluşuna gösterin."
+    },
+    {
+      "q": "Yaraya kolonya dökmek işe yarar mı?",
+      "a": "Yıkamanın yerini tutmaz. Yarayı hemen en az 15 dakika bol akan su ve sabunla yıkayın; Sağlık Bakanlığı rehberine göre hiçbir antiseptik bu yıkamanın yerine geçmez. Yıkamadan sonra varsa alkol ya da tentürdiyot gibi iyotlu bir antiseptik kullanılabilir. Kolonya, tuz, kül ya da diş macunu gibi ev usulü şeyler sürmeyin."
     },
     {
       "q": "Kedi ısırığı neden kolay enfeksiyon kapar?",
-      "a": "İnce ve keskin dişler bakteriyi derine taşır, yüzeydeki yara ise hızla kapanır. Bu ikisi enfeksiyon için uygun ortam oluşturur."
+      "a": "İnce ve keskin dişler bakteriyi derine taşır, yüzeydeki yara ise hızla kapanır. Bu ikisi enfeksiyon için uygun ortam oluşturur. Rehber, kedilerin açtığı derin delinme yaralarında koruyucu antibiyotik verilmesini öngörür; bunu sizi muayene eden hekim planlar."
     },
     {
       "q": "Isıran kedim için ne yapmam gerekiyor?",
-      "a": "Gözlem sürecinin planlanması ve aşı kayıtlarının güncellenmesi gerekir; bu konuda size yardımcı oluyoruz."
+      "a": "Kedinizi 10 gün boyunca evde, dışarı çıkmasına izin vermeden gözleyin. Davranış değişikliği, salya artışı, yutma güçlüğü ya da felç fark ederseniz hemen bildirin. Kuduz aşı kaydını hazır tutun: kedinin son bir yıl içinde kuduz aşısı olması, ısırılan kişiye yapılacak işlemi doğrudan etkiler. Gözlemin planlanmasında ve kayıtlarda size yardımcı oluyoruz."
     }
   ],
   "sources": [
     {
+      "title": "Kuduz Profilaksi Rehberi (2019)",
+      "publisher": "T.C. Sağlık Bakanlığı",
+      "url": "https://dosyaism.saglik.gov.tr/Eklenti/64260/0/kuduz-pofilaksi-rehberipdf.pdf"
+    },
+    {
       "title": "Kuduz — Sıkça Sorulan Sorular",
       "publisher": "T.C. Sağlık Bakanlığı Halk Sağlığı Genel Müdürlüğü",
       "url": "https://hsgm.saglik.gov.tr/depo/birimler/zoonotik-ve-vektorel-hastaliklar-db/Sikca_Sorulan_Sorular/Kuduz.pdf"
+    },
+    {
+      "title": "Rabies — Fact sheet",
+      "publisher": "World Health Organization (WHO)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies"
     }
   ],
   "date": "24 Eylül 2026",
   "dateISO": "2026-09-24",
-  "updatedISO": "2026-09-24"
+  "updatedISO": "2026-10-22"
 }

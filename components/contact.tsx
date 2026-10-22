@@ -1,6 +1,7 @@
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Navigation, Phone } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
-import { site } from "@/lib/site";
+import { LocationLinks } from "@/components/location-links";
+import { directionsUrl, site } from "@/lib/site";
 
 export function Contact() {
   return (
@@ -33,7 +34,16 @@ export function Contact() {
                     rel="noopener noreferrer"
                     className="text-muted transition-colors hover:text-brand"
                   >
-                    {site.address.line}, {site.address.district}
+                    {site.address.full}
+                  </a>
+                  <a
+                    href={directionsUrl()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1.5 flex items-center gap-1.5 font-medium text-brand hover:text-brand-700"
+                  >
+                    <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
+                    Yol tarifi al
                   </a>
                 </span>
               </li>
@@ -99,6 +109,13 @@ export function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
                 className="h-[300px] w-full border-0 grayscale-[0.15]"
               />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-ink">
+                Semtinizden kliniğe ulaşım
+              </h3>
+              <LocationLinks className="mt-3" />
             </div>
           </div>
 

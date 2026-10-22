@@ -1,19 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { Clock, MapPin, Phone, Stethoscope } from "lucide-react";
+import { Clock, MapPin, Navigation, Phone, Stethoscope } from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/faq";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { ButtonLink } from "@/components/ui/button";
-import { site } from "@/lib/site";
+import { CLINIC_ID, SITE_URL, directionsUrl, site } from "@/lib/site";
 import { locations, getLocation } from "@/lib/locations";
 import { getPost } from "@/lib/posts";
-
-const BASE = "https://www.petinternal.com";
-/** The layout's VeterinaryCare node — referenced, never redefined. */
-const CLINIC_ID = "https://www.petinternal.com";
 
 export function generateStaticParams() {
   return locations.map((l) => ({ slug: l.slug }));
@@ -55,7 +51,8 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
     .map((slug) => getPost(slug))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
 
-  const pageUrl = `${BASE}/veteriner/${loc.slug}`;
+  const pageUrl = `${SITE_URL}/veteriner/${loc.slug}/`;
+  const directions = directionsUrl(loc.directionsFrom);
 
   // Reference the layout's business node by @id instead of redefining the
   // business (which would risk a second, wrong address in the graph).
@@ -64,7 +61,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
     "@type": "VeterinaryCare",
     "@id": CLINIC_ID,
     name: site.name,
-    url: CLINIC_ID,
+    url: `${SITE_URL}/`,
     telephone: "+905362906958",
     areaServed: {
       "@type": "Place",
@@ -78,8 +75,8 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: BASE },
-      { "@type": "ListItem", position: 2, name: "Bölgeler", item: `${BASE}/veteriner` },
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Bölgeler", item: `${SITE_URL}/veteriner/` },
       { "@type": "ListItem", position: 3, name: loc.title, item: pageUrl },
     ],
   };
@@ -125,6 +122,10 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                   <Phone className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
                   Ara: {site.phoneDisplay}
                 </ButtonLink>
+                <ButtonLink href={directions} variant="secondary" size="lg">
+                  <Navigation className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
+                  {loc.fromDistrict} yol tarifi
+                </ButtonLink>
               </div>
 
               <p className="mt-8 flex items-center gap-2 text-sm text-muted">
@@ -161,7 +162,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
           <div className="container-px">
             <SectionHeading
               eyebrow="Ulaşım"
-              title={`${loc.district}'ten kliniğe nasıl gelinir?`}
+              title={`${loc.fromDistrict} kliniğe nasıl gelinir?`}
               align="left"
             />
             <div className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2">
@@ -213,7 +214,16 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                         rel="noopener noreferrer"
                         className="text-muted transition-colors hover:text-brand"
                       >
-                        {site.address.line}, {site.address.district}
+                        {site.address.full}
+                      </a>
+                      <a
+                        href={directions}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1.5 flex items-center gap-1.5 font-medium text-brand hover:text-brand-700"
+                      >
+                        <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
+                        {loc.fromDistrict} Google Haritalar ile yol tarifi
                       </a>
                     </span>
                   </li>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Check, Stethoscope } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
+import { site } from "@/lib/site";
 
 const points = [
   "10+ yıl klinik deneyimi",
@@ -17,7 +18,7 @@ export function About() {
         <div className="relative mx-auto w-full max-w-md lg:mx-0">
           <div className="relative aspect-square overflow-hidden rounded-[1.75rem] bg-cream shadow-lift ring-1 ring-black/5">
             <Image
-              src="/images/oyku.png"
+              src={site.vet.image}
               alt="Uzman Veteriner Hekim Öykü Yalçın"
               fill
               sizes="(max-width: 1024px) 90vw, 40vw"

@@ -1,12 +1,24 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { ArrowLeft, Check, Clock3, Info, RefreshCw, Stethoscope } from "lucide-react";
+import {
+  ArrowLeft,
+  Check,
+  Clock3,
+  Info,
+  Phone,
+  RefreshCw,
+  Siren,
+  Stethoscope,
+} from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { CoverImage } from "@/components/cover-image";
 import { FaqAccordion } from "@/components/faq";
-import { site } from "@/lib/site";
+import { CLINIC_ID, SITE_URL, site } from "@/lib/site";
 import { blogPosts, getPost, type BlogPost } from "@/lib/posts";
+
+/** Posts in this category get the "call us now" box after the intro. */
+const EMERGENCY_CATEGORY = "Acil Durumlar";
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -109,13 +121,14 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     .sort((a, b) => b.score - a.score || (a.post.dateISO < b.post.dateISO ? 1 : -1));
   const others = scored.slice(0, 3).map((s) => s.post);
   const updated = trFull.format(new Date(post.updatedISO));
+  const pageUrl = `${SITE_URL}/blog/${post.slug}/`;
 
   const blogPostingLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.excerpt,
-    image: `https://www.petinternal.com${post.image}`,
+    image: `${SITE_URL}${post.image}`,
     datePublished: post.dateISO,
     dateModified: post.updatedISO,
     wordCount: wordCount(post),
@@ -136,14 +149,15 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     },
     publisher: {
       "@type": "VeterinaryCare",
+      "@id": CLINIC_ID,
       name: site.name,
       logo: {
         "@type": "ImageObject",
-        url: "https://www.petinternal.com/logo-icon.png",
+        url: `${SITE_URL}/logo-icon.png`,
       },
     },
     mainEntityOfPage: {
-      "@id": `https://www.petinternal.com/blog/${post.slug}#webpage`,
+      "@id": `${pageUrl}#webpage`,
     },
     ...(post.sources?.length
       ? {
@@ -165,8 +179,8 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const medicalWebPageLd = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    "@id": `https://www.petinternal.com/blog/${post.slug}#webpage`,
-    url: `https://www.petinternal.com/blog/${post.slug}`,
+    "@id": `${pageUrl}#webpage`,
+    url: pageUrl,
     name: post.title,
     description: post.excerpt,
     inLanguage: "tr-TR",
@@ -195,14 +209,14 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     mentions: services.map((s) => ({
       "@type": "Service",
       name: s,
-      provider: { "@id": "https://www.petinternal.com" },
+      provider: { "@id": CLINIC_ID },
     })),
     isPartOf: {
       "@type": "Blog",
-      "@id": "https://www.petinternal.com/blog",
+      "@id": `${SITE_URL}/blog/`,
       name: `${site.shortName} Blog`,
     },
-    publisher: { "@id": "https://www.petinternal.com" },
+    publisher: { "@id": CLINIC_ID },
   };
 
   const faqLd = {
@@ -219,9 +233,9 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://www.petinternal.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.petinternal.com/blog" },
-      { "@type": "ListItem", position: 3, name: post.title, item: `https://www.petinternal.com/blog/${post.slug}` },
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog/` },
+      { "@type": "ListItem", position: 3, name: post.title, item: pageUrl },
     ],
   };
 
@@ -232,7 +246,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           <div className="container-px">
             <div className="mx-auto max-w-3xl">
               <Link
-                href="/blog"
+                href="/blog/"
                 className="inline-flex items-center gap-1.5 text-sm font-medium text-muted transition-colors hover:text-brand"
               >
                 <ArrowLeft className="h-4 w-4" aria-hidden="true" />
@@ -275,6 +289,42 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 className="text-lg leading-relaxed text-ink/90"
                 dangerouslySetInnerHTML={{ __html: post.intro }}
               />
+
+              {post.category === EMERGENCY_CATEGORY && (
+                <aside
+                  aria-label="Acil iletişim"
+                  className="mt-6 rounded-2xl border border-brand-200 bg-brand-50 p-4 dark:border-brand-800 dark:bg-brand-900/30 sm:p-5"
+                >
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="flex items-start gap-3">
+                      <Siren className="mt-0.5 h-5 w-5 shrink-0 text-brand" aria-hidden="true" />
+                      <div className="leading-snug">
+                        <span className="block font-semibold text-ink">
+                          Şu an bu belirtiler varsa:
+                        </span>
+                        <span className="block text-ink/85">7/24 açığız · Öveçler</span>
+                      </div>
+                    </div>
+                    <a
+                      href={site.phoneHref}
+                      data-gtm-source="acil-kutu"
+                      className="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-brand-600 px-5 py-2.5 text-[0.95rem] font-medium text-white shadow-soft transition-colors duration-200 ease-gentle hover:bg-brand-700"
+                    >
+                      <Phone className="h-4 w-4" aria-hidden="true" />
+                      Ara: {site.phoneDisplay}
+                    </a>
+                  </div>
+                  <div className="mt-3 border-t border-brand-200 pt-3 text-sm text-muted dark:border-brand-800">
+                    Yola çıkmadan önce yapılacaklar ve yol tarifi:{" "}
+                    <Link
+                      href="/hizmetler/acil-mudahale/"
+                      className="font-medium text-brand underline underline-offset-2 hover:text-brand-700"
+                    >
+                      acil veteriner sayfamız
+                    </Link>
+                  </div>
+                </aside>
+              )}
 
               {post.contentHtml ? (
                 <div
