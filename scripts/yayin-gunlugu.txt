@@ -19,3 +19,4 @@
 2026-10-21 kopek-diski-rengi-ne-anlatir
 2026-10-22 kopeklerde-kulak-temizligi-nasil-yapilir
 2026-10-23 kedilerde-ust-solunum-yolu-enfeksiyonu
+2026-10-24 anestezi-oncesi-ac-kalma-suresi

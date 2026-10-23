@@ -5,9 +5,9 @@
   "category": "Cerrahi",
   "image": "/images/blog-spay-neuter.jpg",
   "imageAlt": "Ameliyat öncesi kontrol için klinikte bekleyen bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "24 Ekim 2026",
+  "dateISO": "2026-10-24",
+  "updatedISO": "2026-10-24",
   "excerpt": "Anestezi için sağlıklı erişkin bir köpek ya da kedi genellikle 4-6 saat aç bırakılır, su ise çoğu zaman kesilmez. Kan tahlilinde ise beklenen açlık süresi istenen teste göre değişir. Yavrular, diyabetli hayvanlar ve sabah ilacı alanlar için ne farklı?",
   "metaDescription": "Anestezi için kan vermeye aç mı gidilir? Sağlıklı erişkinde 4-6 saat açlık, su serbest. Yavru, diyabetli hayvan ve sabah ilaçları için hekim planı.",
   "readTime": "7 dk okuma",
@@ -172,7 +172,5 @@
       "publisher": "VCA Animal Hospitals",
       "url": "https://vcahospitals.com/know-your-pet/bile-acid-test"
     }
-  ],
-  "published": false,
-  "queue": 12
+  ]
 }
