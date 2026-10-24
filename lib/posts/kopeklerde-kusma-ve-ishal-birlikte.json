@@ -5,9 +5,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-dog-bloat.jpg",
   "imageAlt": "Yerde uzanmış, halsiz görünen bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "25 Ekim 2026",
+  "dateISO": "2026-10-25",
+  "updatedISO": "2026-10-25",
   "excerpt": "Kusma ve ishal birlikte görüldüğünde sıvı kaybı iki yoldan hızlanır. Genel durumu iyi köpekte kısa bir mide molası, az az su ve küçük öğünlerle hafif beslenme işe yarar; iştahsızlık, halsizlik ya da tekrarlayan kusma ise beklemeye izin vermez.",
   "metaDescription": "Köpeklerde ishal ve kusmaya ne iyi gelir? Mide molası, az az su ve hafif öğünle evde bakım; iştahsızlık, halsizlik ya da kanda beklemeden veterinere.",
   "readTime": "7 dk okuma",
@@ -158,7 +158,5 @@
       "publisher": "Cornell University College of Veterinary Medicine",
       "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/diarrhea"
     }
-  ],
-  "published": false,
-  "queue": 13
+  ]
 }
