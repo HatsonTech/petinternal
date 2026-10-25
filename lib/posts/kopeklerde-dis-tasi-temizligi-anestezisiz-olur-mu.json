@@ -5,9 +5,9 @@
   "category": "Diş Sağlığı",
   "image": "/images/blog-dental-care.jpg",
   "imageAlt": "Köpeğin dişleri muayene edilirken",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "26 Ekim 2026",
+  "dateISO": "2026-10-26",
+  "updatedISO": "2026-10-26",
   "metaDescription": "Köpeklerde diş taşı anestezisiz kazınabilir mi? Amerikan Veteriner Diş Hekimliği Koleji neden karşı çıkıyor, diş eti altında ne oluyor ve risk nasıl azaltılır?",
   "excerpt": "Anestezisiz diş taşı temizliği kulağa daha güvenli gelir, ama yalnızca dişin görünen yüzünü parlatır. Hastalığın asıl yaşandığı diş eti altına neden anestezisiz ulaşılamadığını ve anestezi riskinin nasıl en aza indirildiğini anlatıyoruz.",
   "readTime": "7 dk okuma",
@@ -156,7 +156,5 @@
       "publisher": "Feline Veterinary Medical Association",
       "url": "https://catvets.com/resource/2025-opposition-of-anesthesia-free-dentistry/"
     }
-  ],
-  "published": false,
-  "queue": 14
+  ]
 }

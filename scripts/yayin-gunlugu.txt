@@ -21,3 +21,4 @@
 2026-10-23 kedilerde-ust-solunum-yolu-enfeksiyonu
 2026-10-24 anestezi-oncesi-ac-kalma-suresi
 2026-10-25 kopeklerde-kusma-ve-ishal-birlikte
+2026-10-26 kopeklerde-dis-tasi-temizligi-anestezisiz-olur-mu
