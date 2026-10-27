@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-budgie.jpg",
   "imageAlt": "Tüneğinde oturan yeşil bir muhabbet kuşu",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "28 Ekim 2026",
+  "dateISO": "2026-10-28",
+  "updatedISO": "2026-10-28",
   "excerpt": "Tüylerini kabartıp uzun süre hareketsiz oturan bir muhabbet kuşu yalnızca üşüyor olabilir, ama çoğu zaman bu hastalığın ilk görünen işaretidir. Evde nasıl ısıtılır, neye bakılır ve hangi durumda aynı gün veterinere gidilir?",
   "metaDescription": "Muhabbet kuşu üşüme belirtileri: sürekli kabarık tüy, gözler kapalı uyuklama, tünekte alçalma. Evde güvenli ısıtma ve aynı gün veteriner gerektiren durumlar.",
   "readTime": "7 dk okuma",
@@ -160,7 +160,5 @@
       "publisher": "Avian Welfare Coalition",
       "url": "https://www.avianwelfare.org/shelters/pdf/NBD_shelters_supportive_care.pdf"
     }
-  ],
-  "published": false,
-  "queue": 16
+  ]
 }
