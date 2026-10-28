@@ -5,9 +5,9 @@
   "category": "Kedi Sağlığı",
   "image": "/images/blog-cat-litter-behavior.jpg",
   "imageAlt": "Kum kabının yanında duran bir kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "29 Ekim 2026",
+  "dateISO": "2026-10-29",
+  "updatedISO": "2026-10-29",
   "excerpt": "Kedilerde ishal çoğu zaman mama değişikliği, stres ya da parazitlerden kaynaklanır ve bir-iki günde düzelir. Ancak iştahsızlık, kusma, halsizlik ya da yavru kedi söz konusuysa beklemek doğru değildir. Kediye özgü riskler ve evde güvenli adımlar.",
   "metaDescription": "Kedilerde ishal çoğu zaman mama, stres ya da parazitle ilgilidir. Evde neler yapılır, kedi neden aç bırakılmaz ve hangi belirtilerde aynı gün veterinere?",
   "readTime": "7 dk okuma",
@@ -159,7 +159,5 @@
       "publisher": "MSD Veterinary Manual",
       "url": "https://www.merckvetmanual.com/cat-owners/digestive-disorders-of-cats/disorders-of-the-stomach-and-intestines-in-cats"
     }
-  ],
-  "published": false,
-  "queue": 17
+  ]
 }
