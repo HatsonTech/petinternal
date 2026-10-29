@@ -5,9 +5,9 @@
   "category": "Köpek Sağlığı",
   "image": "/images/blog-senior-dog-longevity.jpg",
   "imageAlt": "Yerde dinlenen orta yaşlı bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "30 Ekim 2026",
+  "dateISO": "2026-10-30",
+  "updatedISO": "2026-10-30",
   "metaDescription": "Köpeklerde hipotiroidi; halsizlik, iştah artmadan kilo alma, üşüme ve kaşıntısız tüy dökülmesiyle görülür. Tanı neden tek testle konmaz, tedavi nasıl izlenir?",
   "excerpt": "Halsizlik, iştahı artmadan kilo alma, sıcak yerleri arama ve kaşımadığı hâlde tüy dökme... Köpeklerde tiroid bezinin az çalışması yavaş başlar ve kolayca yaşlanmaya bağlanır. Belirtiler, tanının inceliği ve tedavinin evde izlenmesi.",
   "readTime": "7 dk okuma",
@@ -157,7 +157,5 @@
       "publisher": "MSD Veterinary Manual (Dog Owners)",
       "url": "https://www.merckvetmanual.com/dog-owners/hormonal-disorders-of-dogs/disorders-of-the-thyroid-gland-in-dogs"
     }
-  ],
-  "published": false,
-  "queue": 18
+  ]
 }
