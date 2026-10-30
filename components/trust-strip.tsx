@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 const items = [
   { icon: Stethoscope, text: `${site.vet.specialty} alanında uzman veteriner hekim` },
   { icon: Clock, text: "7/24 acil veteriner desteği" },
-  { icon: Microscope, text: "Modern laboratuvar & görüntüleme" },
+  { icon: Microscope, text: "Laboratuvar & görüntüleme" },
   { icon: FlaskConical, text: "Rutin kan ve idrar tahlillerinin çoğu aynı ziyarette sonuçlanır" },
 ];
 

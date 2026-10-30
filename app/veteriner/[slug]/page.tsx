@@ -1,15 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { Clock, MapPin, Navigation, Phone, Stethoscope } from "lucide-react";
+import { Check, Clock, MapPin, Navigation, Phone } from "lucide-react";
 import { CtaBand } from "@/components/cta-band";
 import { FaqAccordion } from "@/components/faq";
-import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { ButtonLink } from "@/components/ui/button";
 import { CLINIC_ID, SITE_URL, directionsUrl, site } from "@/lib/site";
 import { locations, getLocation } from "@/lib/locations";
 import { getPost } from "@/lib/posts";
+import { getService } from "@/lib/services";
 
 export function generateStaticParams() {
   return locations.map((l) => ({ slug: l.slug }));
@@ -43,6 +43,11 @@ export function generateMetadata({
   };
 }
 
+const h2Class =
+  "font-display text-2xl font-semibold leading-tight tracking-tight text-ink sm:text-3xl";
+const iconBubble =
+  "mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200";
+
 export default function LocationPage({ params }: { params: { slug: string } }) {
   const loc = getLocation(params.slug);
   if (!loc) notFound();
@@ -50,12 +55,22 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
   const posts = loc.relatedPosts
     .map((slug) => getPost(slug))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
+  const serviceLinks = (loc.services ?? [])
+    .map((slug) => getService(slug))
+    .filter((s): s is NonNullable<typeof s> => Boolean(s));
+  const otherLocations = locations.filter((l) => l.slug !== loc.slug);
 
   const pageUrl = `${SITE_URL}/veteriner/${loc.slug}/`;
-  const directions = directionsUrl(loc.directionsFrom);
+  const directions = loc.directionsFromVisitor
+    ? directionsUrl()
+    : directionsUrl(loc.directionsFrom);
+  const directionsLabel = loc.directionsFromVisitor
+    ? "Bulunduğunuz yerden yol tarifi"
+    : `${loc.fromDistrict} yol tarifi`;
 
   // Reference the layout's business node by @id instead of redefining the
   // business (which would risk a second, wrong address in the graph).
+  const areaType = loc.areaType ?? "Place";
   const clinicLd = {
     "@context": "https://schema.org",
     "@type": "VeterinaryCare",
@@ -64,8 +79,8 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
     url: `${SITE_URL}/`,
     telephone: "+905362906958",
     areaServed: {
-      "@type": "Place",
-      name: `${loc.district}, Ankara`,
+      "@type": areaType,
+      name: areaType === "City" ? loc.district : `${loc.district}, Ankara`,
     },
     hasMap: site.mapsLink,
     subjectOf: { "@type": "WebPage", "@id": pageUrl, url: pageUrl },
@@ -100,7 +115,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
             <div className="mx-auto max-w-3xl">
               <span className="eyebrow">
                 <MapPin className="h-4 w-4" aria-hidden="true" />
-                {loc.district} · Ankara
+                {loc.district === "Ankara" ? "Ankara" : `${loc.district} · Ankara`}
               </span>
               <h1 className="mt-5 text-balance font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl">
                 {loc.title}
@@ -109,13 +124,17 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                 {loc.intro}
               </p>
 
+              {loc.kind === "nearby" && (
+                <p className="mt-4 rounded-2xl border-l-4 border-brand bg-cream p-4 text-sm leading-relaxed text-ink/90">
+                  {loc.district} semtinde şubemiz yoktur. Tek kliniğimiz:{" "}
+                  {site.address.full}.
+                </p>
+              )}
+
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-                <ButtonLink href="/#iletisim" variant="primary" size="lg">
-                  Randevu Al
-                </ButtonLink>
                 <ButtonLink
                   href={site.phoneHref}
-                  variant="secondary"
+                  variant="primary"
                   size="lg"
                   external={false}
                 >
@@ -124,7 +143,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                 </ButtonLink>
                 <ButtonLink href={directions} variant="secondary" size="lg">
                   <Navigation className="h-[1.15rem] w-[1.15rem]" aria-hidden="true" />
-                  {loc.fromDistrict} yol tarifi
+                  {directionsLabel}
                 </ButtonLink>
               </div>
 
@@ -132,32 +151,87 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                 <Clock className="h-4 w-4 text-brand" aria-hidden="true" />
                 7/24 açık — gece, hafta sonu ve resmî tatiller dâhil.
               </p>
+
+              {/* Kısaca */}
+              {loc.quickFacts && loc.quickFacts.length > 0 && (
+                <dl className="mt-8 divide-y divide-hairline rounded-2xl border border-hairline bg-surface px-5 shadow-soft">
+                  {loc.quickFacts.map((f) => (
+                    <div
+                      key={f.label}
+                      className="flex flex-col gap-1 py-3.5 sm:flex-row sm:gap-4"
+                    >
+                      <dt className="shrink-0 text-sm font-semibold text-ink sm:w-44">
+                        {f.label}
+                      </dt>
+                      <dd className="text-sm leading-relaxed text-muted">{f.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              )}
             </div>
           </div>
         </section>
 
-        {/* Hizmet kapsamı */}
-        <section className="bg-paper pb-4">
-          <div className="container-px">
-            <Reveal>
-              <div className="mx-auto flex max-w-3xl items-start gap-3 rounded-2xl border-l-4 border-brand bg-cream p-4 sm:p-5">
-                <Stethoscope
-                  className="mt-0.5 h-5 w-5 shrink-0 text-brand"
-                  aria-hidden="true"
-                />
-                <p className="leading-relaxed text-ink/90">
-                  Kliniğimizde genel muayene ve aşılamadan cerrahiye, diş
-                  sağlığından deri ve iç hastalıklarına, laboratuvardan acil
-                  müdahaleye kadar tüm veteriner hizmetlerini veriyoruz. Kedi
-                  ve köpeklerin yanı sıra muhabbet kuşu, tavşan ve ginepig gibi
-                  küçük dostlarınızı da kabul ediyoruz.
-                </p>
+        {/* Page-specific sections */}
+        {loc.sections && loc.sections.length > 0 && (
+          <section className="bg-paper pb-4">
+            <div className="container-px">
+              <div className="mx-auto max-w-3xl space-y-12">
+                {loc.sections.map((s) => (
+                  <div key={s.h2}>
+                    <h2 className={h2Class}>{s.h2}</h2>
+                    {s.paragraphs.map((p, i) => (
+                      <p key={i} className="mt-4 leading-relaxed text-muted">
+                        {p}
+                      </p>
+                    ))}
+                    {s.links && s.links.length > 0 && (
+                      <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+                        {s.links.map((l) => (
+                          <li key={l.href}>
+                            <Link
+                              href={l.href}
+                              className="font-medium text-brand underline-offset-4 transition-colors hover:text-brand-700 hover:underline"
+                            >
+                              {l.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                ))}
               </div>
-            </Reveal>
-          </div>
-        </section>
+            </div>
+          </section>
+        )}
 
-        {/* Getting here + access */}
+        {/* Route / landmark table */}
+        {loc.routes && loc.routes.rows.length > 0 && (
+          <section className="bg-paper pt-12">
+            <div className="container-px">
+              <div className="mx-auto max-w-3xl">
+                <h2 className={h2Class}>Hangi yoldan gelinir?</h2>
+                <p className="mt-3 text-sm leading-relaxed text-muted">
+                  {loc.routes.caption}
+                </p>
+                <ul className="mt-6 divide-y divide-hairline rounded-2xl border border-hairline bg-surface shadow-soft">
+                  {loc.routes.rows.map((r) => (
+                    <li key={r.from} className="grid gap-1 p-4 sm:grid-cols-[11rem_1fr] sm:gap-4 sm:p-5">
+                      <span className="text-sm font-semibold text-ink">{r.from}</span>
+                      <span className="text-sm leading-relaxed text-muted">
+                        {r.via}
+                        <span className="mt-1 block text-xs text-muted">{r.note}</span>
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Getting here + map */}
         <section className="bg-paper py-16 sm:py-20">
           <div className="container-px">
             <SectionHeading
@@ -181,7 +255,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                       key={a}
                       className="flex items-start gap-3.5 rounded-2xl border border-hairline bg-surface p-5 shadow-soft"
                     >
-                      <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
+                      <span className={iconBubble}>
                         <MapPin className="h-5 w-5" aria-hidden="true" />
                       </span>
                       <span className="text-sm leading-relaxed text-muted">{a}</span>
@@ -203,7 +277,7 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
 
                 <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <li className="flex items-start gap-3.5 rounded-2xl border border-hairline bg-surface p-5 shadow-soft">
-                    <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
+                    <span className={iconBubble}>
                       <MapPin className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <span className="text-sm leading-relaxed">
@@ -223,13 +297,13 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
                         className="mt-1.5 flex items-center gap-1.5 font-medium text-brand hover:text-brand-700"
                       >
                         <Navigation className="h-3.5 w-3.5" aria-hidden="true" />
-                        {loc.fromDistrict} Google Haritalar ile yol tarifi
+                        {directionsLabel}
                       </a>
                     </span>
                   </li>
 
                   <li className="flex items-start gap-3.5 rounded-2xl border border-hairline bg-surface p-5 shadow-soft">
-                    <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
+                    <span className={iconBubble}>
                       <Clock className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <span className="text-sm leading-relaxed">
@@ -257,6 +331,52 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
           </div>
         </section>
 
+        {/* Visits + what to bring */}
+        {(loc.visits || (loc.bring && loc.bring.length > 0)) && (
+          <section className="bg-paper pb-16 sm:pb-20">
+            <div className="container-px">
+              <div className="mx-auto grid max-w-5xl grid-cols-1 gap-10 lg:grid-cols-2">
+                {loc.visits && (
+                  <div>
+                    <h2 className={h2Class}>{loc.visits.h2}</h2>
+                    <ul className="mt-5 space-y-3">
+                      {loc.visits.items.map((v) => (
+                        <li
+                          key={v.text}
+                          className="rounded-2xl border border-hairline bg-surface p-4 shadow-soft"
+                        >
+                          <span className="block leading-relaxed text-ink/90">{v.text}</span>
+                          <Link
+                            href={v.href}
+                            className="mt-1 inline-block text-sm font-medium text-brand transition-colors hover:text-brand-700"
+                          >
+                            {v.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {loc.bring && loc.bring.length > 0 && (
+                  <div>
+                    <h2 className={h2Class}>Yanınıza alın</h2>
+                    <ul className="mt-5 space-y-2.5">
+                      {loc.bring.map((b) => (
+                        <li key={b} className="flex items-start gap-3">
+                          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
+                            <Check className="h-3.5 w-3.5" aria-hidden="true" />
+                          </span>
+                          <span className="leading-relaxed text-muted">{b}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* FAQ */}
         <section className="bg-paper pb-16 sm:pb-20">
           <div className="container-px">
@@ -271,30 +391,99 @@ export default function LocationPage({ params }: { params: { slug: string } }) {
           </div>
         </section>
 
-        {/* Related guides */}
-        {posts.length > 0 && (
-          <section className="bg-paper pb-16 sm:pb-20">
-            <div className="container-px">
-              <div className="mx-auto max-w-3xl border-t border-hairline pt-8">
+        {/* Related guides, services, other areas, sources */}
+        <section className="bg-paper pb-16 sm:pb-20">
+          <div className="container-px">
+            <div className="mx-auto max-w-3xl space-y-10 border-t border-hairline pt-8">
+              {posts.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl font-semibold text-ink">
+                    İlgili rehberler
+                  </h2>
+                  <ul className="mt-4 space-y-2">
+                    {posts.map((p) => (
+                      <li key={p.slug}>
+                        <Link
+                          href={`/blog/${p.slug}/`}
+                          className="inline-flex items-center gap-2 text-brand transition-colors hover:text-brand-700"
+                        >
+                          {p.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {serviceLinks.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl font-semibold text-ink">
+                    İlgili hizmetler
+                  </h2>
+                  <ul className="mt-4 flex flex-wrap gap-2">
+                    {serviceLinks.map((s) => (
+                      <li key={s.slug}>
+                        <Link
+                          href={`/hizmetler/${s.slug}/`}
+                          className="inline-flex rounded-full bg-surface px-3.5 py-1.5 text-sm font-medium text-ink/85 ring-1 ring-hairline transition-colors hover:text-brand hover:ring-brand-300"
+                        >
+                          {s.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              <div>
                 <h2 className="font-display text-xl font-semibold text-ink">
-                  İlgili rehberler
+                  Diğer bölgelerden ulaşım
                 </h2>
-                <ul className="mt-4 space-y-2">
-                  {posts.map((p) => (
-                    <li key={p.slug}>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {otherLocations.map((l) => (
+                    <li key={l.slug}>
                       <Link
-                        href={`/blog/${p.slug}`}
-                        className="inline-flex items-center gap-2 text-brand transition-colors hover:text-brand-700"
+                        href={`/veteriner/${l.slug}/`}
+                        className="inline-flex items-center gap-1.5 rounded-full bg-surface px-3.5 py-1.5 text-sm font-medium text-ink/85 ring-1 ring-hairline transition-colors hover:text-brand hover:ring-brand-300"
                       >
-                        {p.title}
+                        <MapPin className="h-3.5 w-3.5 text-brand" aria-hidden="true" />
+                        {l.district === "Ankara" ? "Ankara 7/24" : l.district}
                       </Link>
                     </li>
                   ))}
                 </ul>
               </div>
+
+              {loc.sources && loc.sources.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl font-semibold text-ink">
+                    Kaynaklar
+                  </h2>
+                  <p className="mt-2 text-sm text-muted">
+                    Yol, istasyon ve semt bilgileri aşağıdaki kaynaklardan
+                    kontrol edildi; süreler trafiğe göre değiştiği için
+                    verilmemiştir.
+                  </p>
+                  <ul className="mt-3 space-y-1.5 text-sm">
+                    {loc.sources.map((s) => (
+                      <li key={s.url} className="text-muted">
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-brand transition-colors hover:text-brand-700"
+                        >
+                          {s.title}
+                        </a>{" "}
+                        — {s.publisher}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
-          </section>
-        )}
+          </div>
+        </section>
 
         <CtaBand />
       </main>

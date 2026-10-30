@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import {
+  AlertTriangle,
   ArrowLeft,
   Check,
   Info,
@@ -57,8 +58,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   // Verbatim Google quotes for the emergency layout, looked up by reviewer.
   const quotes = (service.urgent?.reviewers ?? [])
     .map((name) => testimonials.find((t) => t.name === name))
-    .filter((t): t is NonNullable<typeof t> => Boolean(t));
-  // Only render links whose target actually exists in lib/posts.
+    .filter((t): t is NonNullable<typeof t> => Boolean(t));  // Only render links whose target actually exists in lib/posts.
   const related = service.relatedPosts
     .map((slug) => getPost(slug))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
@@ -197,6 +197,71 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 {service.intro}
               </p>
 
+              {/* Long-form sections: the page's main questions, answered first */}
+              {service.sections?.map((sec) => (
+                <section key={sec.h2}>
+                  <h2 className="mt-9 font-display text-xl font-semibold text-ink sm:text-2xl">
+                    {sec.h2}
+                  </h2>
+                  {sec.paragraphs?.map((p, i) => (
+                    <p key={i} className="mt-3 leading-relaxed text-muted">
+                      {p}
+                    </p>
+                  ))}
+                  {sec.list && (
+                    <ul className="mt-4 space-y-2.5">
+                      {sec.list.map((item, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          {sec.alert ? (
+                            <AlertTriangle
+                              className="mt-1 h-5 w-5 shrink-0 text-brand"
+                              aria-hidden="true"
+                            />
+                          ) : (
+                            <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
+                              <Check className="h-3.5 w-3.5" aria-hidden="true" />
+                            </span>
+                          )}
+                          <span className="leading-relaxed text-muted">
+                            {item.text}
+                            {item.link && (
+                              <>
+                                {" "}
+                                <Link
+                                  href={item.link.href}
+                                  className="font-medium text-brand hover:text-brand-700"
+                                >
+                                  {item.link.label}
+                                </Link>
+                              </>
+                            )}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {sec.after && (
+                    <p className="mt-4 leading-relaxed text-muted">{sec.after}</p>
+                  )}
+                  {sec.links && sec.links.length > 0 && (
+                    <p className="mt-3 text-sm leading-relaxed text-muted">
+                      İlgili rehber:{" "}
+                      {sec.links.map((l, i) => (
+                        <span key={l.href}>
+                          {i > 0 && " · "}
+                          <Link
+                            href={l.href}
+                            className="font-medium text-brand hover:text-brand-700"
+                          >
+                            {l.label}
+                          </Link>
+                        </span>
+                      ))}
+                    </p>
+                  )}
+                </section>
+              ))}
+
               {/* Bu hizmet neleri kapsar */}
               <h2 className="mt-9 font-display text-xl font-semibold text-ink sm:text-2xl">
                 Bu hizmet neleri kapsar?
@@ -277,6 +342,30 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 </section>
               )}
 
+              {/* Sources — only references that were opened and checked */}
+              {service.sources && service.sources.length > 0 && (
+                <section className="mt-10">
+                  <h2 className="font-display text-xl font-semibold text-ink">
+                    Kaynaklar
+                  </h2>
+                  <ul className="mt-3 space-y-2 text-sm leading-relaxed text-muted">
+                    {service.sources.map((s) => (
+                      <li key={s.url}>
+                        {s.publisher}:{" "}
+                        <a
+                          href={s.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-brand hover:text-brand-700"
+                        >
+                          {s.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              )}
+
               {/* Medical disclaimer */}
               <div className="mt-10 flex items-start gap-3 rounded-2xl border border-hairline bg-cream p-5">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
@@ -322,12 +411,38 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               {/* Location pages — one crawlable entry per district */}
               <div className="mt-12 border-t border-hairline pt-8">
                 <h2 className="font-display text-xl font-semibold text-ink">
-                  Bölgenizden kliniğe ulaşım
+                  {service.access
+                    ? "Çankaya ve Ankara'dan ulaşım"
+                    : "Bölgenizden kliniğe ulaşım"}
                 </h2>
-                <p className="mt-2 text-sm leading-relaxed text-muted">
-                  Tek kliniğimiz Öveçler&apos;de. Semtinizden yol tarifi ve
-                  ulaşım bilgisi için:
-                </p>
+                {service.access ? (
+                  <>
+                    <p className="mt-2 leading-relaxed text-muted">
+                      {service.access.text}
+                    </p>
+                    <ul className="mt-3 space-y-1.5">
+                      {service.access.links.map((l) => (
+                        <li key={l.href}>
+                          <Link
+                            href={l.href}
+                            className="inline-flex items-center gap-2 font-medium text-brand transition-colors hover:text-brand-700"
+                          >
+                            <MapPin className="h-4 w-4" aria-hidden="true" />
+                            {l.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="mt-4 text-sm leading-relaxed text-muted">
+                      Semtinizden yol tarifi için:
+                    </p>
+                  </>
+                ) : (
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    Tek kliniğimiz Öveçler&apos;de. Semtinizden yol tarifi ve
+                    ulaşım bilgisi için:
+                  </p>
+                )}
                 <LocationLinks className="mt-4" />
               </div>
 

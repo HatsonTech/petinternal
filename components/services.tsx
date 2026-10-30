@@ -9,7 +9,7 @@ export function Services() {
       <div className="container-px">
         <SectionHeading eyebrow="Hizmetlerimiz" title="Tek çatı altında bütünsel bakım">
           Koruyucu hekimlikten ileri cerrahiye kadar, dostlarınızın ihtiyaç
-          duyabileceği her hizmet aynı şefkatli ekipten.
+          duyabileceği hizmetler aynı klinikte.
         </SectionHeading>
 
         <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

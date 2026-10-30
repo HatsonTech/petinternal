@@ -10,7 +10,7 @@ export function Contact() {
         <div className="max-w-2xl">
           <span className="eyebrow">İletişim</span>
           <h2 className="mt-3 text-balance font-display text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-4xl">
-            Çankaya'da, yanı başınızdayız
+            Çankaya Öveçler'deki adresimiz
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted">
             Randevu, soru ya da acil bir durum — bize ulaşmanın en kolay yolunu

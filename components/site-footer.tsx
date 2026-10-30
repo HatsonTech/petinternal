@@ -21,8 +21,7 @@ export function SiteFooter() {
           <div className="lg:col-span-4">
             <Brand tone="light" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-brand-200/80">
-              Çankaya Öveçler'de patili dostlarınız için modern, şefkatli ve
-              güvenilir veteriner hizmeti.
+              Çankaya Öveçler'de 7/24 açık veteriner kliniği.
             </p>
             <div className="mt-5 flex items-center gap-2.5">
               {socials.map(({ icon: Icon, href, label }) => (

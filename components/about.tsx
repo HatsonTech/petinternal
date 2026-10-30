@@ -45,12 +45,12 @@ export function About() {
         <div>
           <span className="eyebrow">Hakkımızda</span>
           <h2 className="mt-3 text-balance font-display text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-4xl">
-            Mahallenizin güvendiği veteriner kliniği
+            Öveçler'deki veteriner kliniğimiz
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-muted">
-            Pet Internal olarak Çankaya Öveçler'de, patili dostlarınıza kendi
-            ailemizden biriymiş gibi yaklaşıyoruz. Modern tıbbi donanımı; sabırlı,
-            şeffaf ve şefkatli bir yaklaşımla birleştiriyoruz.
+            Pet Internal, Çankaya Öveçler'de 7/24 açık bir veteriner kliniğidir. Kedi,
+            köpek, kuş, tavşan ve küçük memelilere muayene, aşı, tahlil, görüntüleme,
+            cerrahi ve acil bakım hizmeti verir.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-muted">
             Uzman veteriner hekimimiz Öykü Yalçın ve ekibiyle amacımız yalnızca

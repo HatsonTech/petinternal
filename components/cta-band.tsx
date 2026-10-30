@@ -18,11 +18,11 @@ export function CtaBand() {
           />
           <div className="relative mx-auto max-w-2xl">
             <h2 className="text-balance font-display text-3xl font-semibold leading-tight tracking-tight text-white sm:text-4xl">
-              Dostunuzun sağlığı için bugün bir adım atın
+              Sorunuz mu var? Bize ulaşın
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-brand-100">
-              Randevu oluşturun ya da hemen bizi arayın — Çankaya Öveçler'de
-              yanınızdayız.
+              Randevu için arayabilir ya da WhatsApp'tan yazabilirsiniz. Klinik Çankaya
+              Öveçler'de, 7/24 açık.
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <ButtonLink href="/#iletisim" variant="onBrand" size="lg">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CalendarCheck, MapPin, PawPrint, Phone, Star } from "lucide-react";
+import { CalendarCheck, MapPin, PawPrint, Phone } from "lucide-react";
 import { ButtonLink } from "@/components/ui/button";
 import { WhatsAppIcon } from "@/components/icons";
 import { site } from "@/lib/site";
@@ -21,17 +21,17 @@ export function Hero() {
             Çankaya · Ankara
           </span>
           <h1 className="mt-5 text-balance font-display text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
-            Öveçler&apos;de <span className="text-brand">7/24 açık</span> veteriner
-            kliniği
+            Ankara, Çankaya Öveçler&apos;de{" "}
+            <span className="text-brand">7/24 açık</span> veteriner kliniği
           </h1>
           <p className="mt-4 text-balance font-display text-xl font-medium leading-snug text-ink/85 sm:text-2xl">
-            Patili dostlarınıza şefkatle ve uzmanlıkla bakıyoruz.
+            Patili dostlarınıza gece gündüz şefkatle bakıyoruz.
           </p>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
-            Çankaya Öveçler'de; uzman veteriner hekimimiz Öykü Yalçın ve ekibiyle,
-            modern tıbbi donanımı sıcak ve sabırlı bir yaklaşımla birleştiriyoruz.
-            Kedi, köpek ve tüm dostlarınız için koruyucu hekimlikten cerrahiye
-            bütünsel sağlık hizmeti.
+            Çankaya Öveçler'de; uzman veteriner hekimimiz Öykü Yalçın ve ekibiyle
+            kedi, köpek, kuş, tavşan ve küçük memelilere koruyucu hekimlikten
+            cerrahiye, tahlilden acil müdahaleye kadar hizmet veriyoruz. Gece, pazar ve bayram dâhil
+            açığız.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
@@ -78,22 +78,6 @@ export function Hero() {
                 sizes="(max-width: 1024px) 90vw, 38vw"
                 className="object-cover"
               />
-            </div>
-
-            {/* Floating rating card */}
-            <div className="absolute -bottom-5 -left-2 w-[13.5rem] rounded-2xl border border-hairline bg-surface/95 p-4 shadow-card backdrop-blur-sm sm:-left-6 sm:w-[14.5rem]">
-              <div
-                className="flex items-center gap-1 text-gold"
-                role="img"
-                aria-label="5 üzerinden 5 yıldız"
-              >
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} className="h-5 w-5 fill-current" aria-hidden="true" />
-                ))}
-              </div>
-              <p className="mt-2.5 text-sm text-muted">
-                Pati dostlarının bizleri değerlendirmesi
-              </p>
             </div>
 
             {/* small 7/24 pill */}

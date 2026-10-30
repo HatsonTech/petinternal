@@ -14,6 +14,15 @@ const REQUIRED = ["slug", "title", "category", "image", "imageAlt", "excerpt",
                   "readTime", "keywords", "intro", "body", "faqs"];
 const SERVICES = [...readFileSync("lib/services.ts", "utf8").matchAll(/^    slug: "([^"]+)"/gm)]
   .map((m) => m[1]);
+// /veteriner/<slug>/ yerel sayfalari (lib/locations.ts). Slug ya dogrudan
+// `slug: "x"` ya da `slug: SABIT` + `const SABIT = "x"` biciminde yazilabilir.
+const LOCATIONS_SRC = readFileSync("lib/locations.ts", "utf8");
+const LOCATION_CONSTS = Object.fromEntries(
+  [...LOCATIONS_SRC.matchAll(/^(?:export )?const ([A-Z0-9_]+) = "([^"]+)";/gm)].map((m) => [m[1], m[2]]),
+);
+const LOCATIONS = [...LOCATIONS_SRC.matchAll(/^    slug: (?:"([^"]+)"|([A-Z0-9_]+)),/gm)]
+  .map((m) => m[1] ?? LOCATION_CONSTS[m[2]])
+  .filter(Boolean);
 
 const posts = readdirSync(DIR)
   .filter((f) => f.endsWith(".json"))
@@ -56,7 +65,12 @@ for (const { file, data: d } of queued) {
     for (const [, path] of t.matchAll(/href="(\/[^"#?]*)"/g)) {
       const blog = path.match(/^\/blog\/([^/]+)\/?$/);
       const service = path.match(/^\/hizmetler\/([^/]+)\/?$/);
-      if (blog ? !slugs.has(blog[1]) : service ? !SERVICES.includes(service[1]) : !["/", "/hizmetler", "/hizmetler/", "/blog", "/blog/"].includes(path)) {
+      const location = path.match(/^\/veteriner\/([^/]+)\/?$/);
+      const ok = blog ? slugs.has(blog[1])
+        : service ? SERVICES.includes(service[1])
+        : location ? LOCATIONS.includes(location[1])
+        : ["/", "/hizmetler", "/hizmetler/", "/blog", "/blog/", "/veteriner", "/veteriner/"].includes(path);
+      if (!ok) {
         err(`kirik ic baglanti ${path}`);
       }
     }

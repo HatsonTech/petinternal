@@ -25,7 +25,11 @@ const inter = Inter({
 });
 
 /** Homepage <title>; also the default for any page that sets none. */
-const HOME_TITLE = `${site.name} · Öveçler, Çankaya · 7/24 Açık`;
+const HOME_TITLE = `${site.shortName} Veteriner · Çankaya Öveçler, Ankara · 7/24 Açık`;
+
+/** Homepage meta description (also OG/Twitter). Informational only. */
+const HOME_DESCRIPTION =
+  "Ankara Çankaya Öveçler'de 7/24 açık veteriner kliniği. Gece, pazar ve bayramda acil kabul; kedi, köpek, kuş, tavşan. Arayın: 0536 290 69 58.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -33,8 +37,7 @@ export const metadata: Metadata = {
     default: HOME_TITLE,
     template: `%s · ${site.shortName}`,
   },
-  description:
-    "Çankaya Öveçler'de modern ve şefkatli veteriner kliniği. Muayene, aşı, cerrahi ve 7/24 acil bakım. Hemen arayın: 0536 290 69 58 ya da WhatsApp'tan yazın.",
+  description: HOME_DESCRIPTION,
   keywords: [
     "veteriner Çankaya",
     "veteriner Ankara",
@@ -50,15 +53,13 @@ export const metadata: Metadata = {
     locale: "tr_TR",
     siteName: site.name,
     title: HOME_TITLE,
-    description:
-      "Çankaya Öveçler'de modern ve şefkatli veteriner kliniği. Muayene, aşı, cerrahi ve 7/24 acil bakım. Hemen arayın: 0536 290 69 58 ya da WhatsApp'tan yazın.",
+    description: HOME_DESCRIPTION,
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: site.name }],
   },
   twitter: {
     card: "summary_large_image",
     title: HOME_TITLE,
-    description:
-      "Çankaya Öveçler'de şefkatli veteriner kliniği. 7/24 acil. Arayın: 0536 290 69 58 ya da WhatsApp'tan yazın.",
+    description: HOME_DESCRIPTION,
     images: ["/og-image.png"],
   },
   icons: {
@@ -123,7 +124,7 @@ const jsonLd = {
   // The districts that have a landing page under /veteriner/ — all in Çankaya.
   areaServed: [
     { "@type": "City", name: "Ankara" },
-    ...locations.map((l) => ({
+    ...locations.filter((l) => l.district !== "Ankara").map((l) => ({
       "@type": l.district === "Çankaya" ? "AdministrativeArea" : "Place",
       name: l.directionsFrom,
     })),

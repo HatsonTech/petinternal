@@ -21,8 +21,32 @@ import {
   Syringe,
   type LucideIcon,
 } from "lucide-react";
-import type { FAQ } from "@/lib/posts";
+import type { FAQ, Source } from "@/lib/posts";
 import { site } from "@/lib/site";
+
+/** Internal link shown inside a section (blog post, service or /veteriner page). */
+export type ServiceLink = { href: string; label: string };
+
+/** Optional long-form block rendered right after the intro. */
+export type ServiceSection = {
+  h2: string;
+  paragraphs?: string[];
+  /** Bullet list; an item may carry one internal link shown after its text. */
+  list?: { text: string; link?: ServiceLink }[];
+  /** Warning-style bullets (e.g. "Hangi durumlar beklemez?"). */
+  alert?: boolean;
+  /** Paragraph after the list. */
+  after?: string;
+  /** "İlgili rehber" links under the section. */
+  links?: ServiceLink[];
+};
+
+/** /veteriner/ pages every expanded service links to. */
+const accessLinks: ServiceLink[] = [
+  { href: "/veteriner/cankaya-veteriner/", label: "Çankaya veteriner kliniği" },
+  { href: "/veteriner/ovecler-veteriner/", label: "Öveçler veteriner" },
+  { href: "/veteriner/ankara-7-24-acik-veteriner/", label: "Ankara'da 7/24 açık veteriner" },
+];
 
 export type Service = {
   slug: string;
@@ -50,6 +74,12 @@ export type Service = {
    *  named reviewers' Google quotes near the top. Names must match
    *  `testimonials` in lib/site.ts; quotes are rendered verbatim from there. */
   urgent?: { reviewers: string[] };
+  /** Long-form sections rendered after the intro (answers the page's main queries). */
+  sections?: ServiceSection[];
+  /** "Çankaya ve Ankara'dan ulaşım" block: short text + /veteriner/ links. */
+  access?: { text: string; links: ServiceLink[] };
+  /** Opened-and-checked references, shown under "Kaynaklar". */
+  sources?: Source[];
 };
 
 export const services: Service[] = [
@@ -58,25 +88,75 @@ export const services: Service[] = [
     icon: Stethoscope,
     title: "Genel Muayene & Check-up",
     desc: "Düzenli kontrollerle dostlarınızın sağlığını korur, sorunları erken yakalarız.",
-    h1: "Genel Muayene ve Check-up",
-    metaTitle: "Genel Muayene & Check-up · Çankaya Veteriner",
+    h1: "Kedi ve Köpekte Genel Muayene ve Yıllık Check-up",
+    metaTitle: "Kedi ve Köpek Check-up, Genel Muayene · Çankaya Ankara",
     metaDescription:
-      "Çankaya Öveçler'de kedi ve köpekler için genel muayene ve check-up. Kontrolde nelere bakılır, ne sıklıkla yapılır ve randevuya nasıl hazırlanırsınız.",
+      "Çankaya Öveçler'de kedi ve köpek check-up: yıllık kontrol, yaşlı dostlarda tahliller, yavru kedinin ilk veteriner ziyareti ve muayenede bakılanlar.",
     keywords: [
-      "veteriner genel muayene Çankaya",
       "kedi köpek check up Ankara",
-      "evcil hayvan sağlık kontrolü",
+      "yıllık check-up veteriner Çankaya",
+      "yaşlı kedi check-up",
+      "yaşlı köpek check-up Ankara",
+      "yavru kedi ilk veteriner ziyareti",
+      "veteriner genel muayene Çankaya",
       "Öveçler veteriner muayene",
     ],
     intro:
-      "Genel muayene, dostunuzun o anki sağlık durumunu baştan aşağı gözden geçirdiğimiz temel kontroldür. Birçok rahatsızlık, ev ortamında fark edilir bir belirti vermeden önce fizik muayenede ya da rutin tahlillerde iz bırakır. Düzenli check-up'ın amacı bu izleri erkenden görmek ve dostunuzun kendi normalini kayıt altına almaktır.",
+      "Kedi ve köpekler için genel muayene ve check-up'ı Çankaya Öveçler'deki kliniğimizde yapıyoruz; kliniğimiz 7/24 açık olduğu için iş çıkışı ya da hafta sonu da gelebilirsiniz. Genel muayene, dostunuzun sağlık durumunu baştan aşağı gözden geçirdiğimiz temel kontroldür. Birçok rahatsızlık, evde fark edilen bir belirti vermeden önce fizik muayenede ya da rutin tahlillerde iz bırakır. Düzenli check-up'ın amacı bu izleri erken görmek ve dostunuzun kendi normalini kayıt altına almaktır.",
+    sections: [
+      {
+        h2: "Yıllık check-up ne sıklıkla yapılmalı?",
+        paragraphs: [
+          "AAHA ve Amerikan Kedi Hekimleri Derneği'nin (AAFP) 2021 kedi yaşam dönemi rehberi, sağlıklı görünen her kedi için en az yılda bir muayeneyi; yaşlı kediler için en az altı ayda bir kontrolü, kronik hastalığı olanlar için daha sık görüşmeyi önerir. Rehber kedinin yaşamını yavru (1 yaşa kadar), genç erişkin (1–6 yaş), olgun erişkin (7–10 yaş) ve yaşlı (10 yaş üstü) dönemlere ayırır.",
+          "Köpeklerde AAHA'nın 2019 rehberi yaşlılığı ırkın beklenen ömrünün son dörtte biri olarak tanımlar; bu yüzden iri ırk bir köpek daha erken yaşta “yaşlı” sayılır.",
+        ],
+      },
+      {
+        h2: "Check-up'a hangi tahliller eklenebilir?",
+        paragraphs: [
+          "Tahlil otomatik bir adım değildir; fizik muayene bulgularına, yaşa ve öyküye göre karar verilir. Gündeme gelebilecek başlıca tetkikler şunlardır:",
+        ],
+        list: [
+          {
+            text: "Tam kan sayımı ve biyokimya: kansızlık, enfeksiyon, böbrek ve karaciğer değerleri için temel tablo.",
+            link: { href: "/blog/kan-tahlili-sonucu-nasil-okunur/", label: "Kan tahlili sonucu nasıl okunur?" },
+          },
+          { text: "Tam idrar tahlili: böbrek fonksiyonu, idrar yolu sorunları ve şeker için tamamlayıcı bilgi." },
+          { text: "Dışkı incelemesi: özellikle yavrularda ve yeni sahiplenilen dostlarda parazit taraması." },
+          { text: "Röntgen veya ultrason: muayenede kalp, akciğer ya da karın içiyle ilgili bir bulgu varsa." },
+          { text: "Özel testler: gerektiğinde dış laboratuvara gönderilir; sonucun ne zaman çıkacağını önceden söyleriz." },
+        ],
+      },
+      {
+        h2: "Yaşlı kedi ve köpekte check-up",
+        paragraphs: [
+          "Yaşlanan kedi ve köpeklerde böbrek hastalığı, tiroid sorunları, diş hastalığı, eklem ağrısı ve kalp hastalıkları daha sık görülür; çoğu da sinsi başlar. AAFP'nin 2021 yaşlı kedi rehberi, yaş ilerledikçe tetkik sıklığının artırılmasını önerir. Tahlilleri bir önceki sonuçla karşılaştırarak yorumlarız.",
+          "Su tüketiminde artış, kilo kaybı, tuvalet alışkanlığında değişiklik, merdivenden kaçınma ya da gece huzursuzluğu gibi gözlemleriniz bu dönemde muayenenin en değerli parçasıdır.",
+        ],
+        links: [
+          { href: "/blog/yasli-kedide-yillik-kontrol-hangi-testler/", label: "Yaşlı kedide yıllık kontrol" },
+          { href: "/blog/yasli-kedi-kopek-bakimi/", label: "Yaşlı kedi ve köpek bakımı" },
+        ],
+      },
+      {
+        h2: "Yavru kedi ve köpeğin ilk veteriner ziyareti",
+        paragraphs: [
+          "Yeni bir yavru sahiplendiyseniz ilk ziyareti ilk günlerde planlamanızı öneririz. Bu ziyarette baştan ayağa muayene, kilo ve beslenme değerlendirmesi, iç ve dış parazit kontrolü ile aşı takviminin başlangıcını konuşuruz. Yavru kedilerde FeLV ve FIV testinin gerekip gerekmediğini, kısırlaştırma zamanlamasını ve mikroçip kaydını da aynı görüşmede planlarız.",
+          "AAHA/AAFP rehberi, ilk ziyaretin yavru için korkutucu olmamasına dikkat çeker; bu yüzden ilk muayeneyi acele etmeden yürütürüz.",
+        ],
+        links: [
+          { href: "/hizmetler/asilama-mikrocip/", label: "Aşılama ve mikroçip" },
+          { href: "/blog/kedilerde-felv-fiv-testi-ne-zaman/", label: "FeLV ve FIV testi ne zaman?" },
+          { href: "/blog/yavru-kopek-bakim-rehberi/", label: "Yavru köpek bakım rehberi" },
+        ],
+      },
+    ],
     covers: [
       "Baştan ayağa fizik muayene: göz, kulak, ağız, deri ve tüy örtüsü",
       "Kalp ve akciğerlerin dinlenmesi, nabız ve solunum değerlendirmesi",
       "Karın bölgesinin elle muayenesi ve lenf düğümlerinin kontrolü",
       "Vücut ağırlığı, vücut kondisyon skoru ve kilo seyrinin takibi",
       "Aşı ve parazit koruma takviminin gözden geçirilmesi",
-      "Gerekli görülürse kan, idrar tahlili veya görüntüleme önerisi",
       "Yaşa ve yaşam tarzına göre kişiselleştirilmiş kontrol planı",
     ],
     visit: [
@@ -107,15 +187,23 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Sağlıklı görünen bir kediyi veya köpeği ne sıklıkla kontrole getirmeliyim?",
-        a: "Genel yaklaşım, sağlıklı yetişkin dostlar için yılda bir kez tam kontroldür. Yavrularda aşı dönemi boyunca daha sık, yaşlı dostlarda ve kronik hastalığı olanlarda ise daha yakın aralıklarla görüşmek gerekebilir. Uygun sıklığı dostunuzun yaşı, ırkı ve mevcut bulguları belirler; bunu muayenede birlikte netleştiririz.",
+        a: "Genel yaklaşım, sağlıklı yetişkin dostlar için yılda en az bir kez tam kontroldür. Yavrularda aşı dönemi boyunca daha sık, yaşlı dostlarda ve kronik hastalığı olanlarda ise daha yakın aralıklarla görüşmek gerekir. Uygun sıklığı dostunuzun yaşı, ırkı ve mevcut bulguları belirler; bunu muayenede birlikte netleştiririz.",
+      },
+      {
+        q: "Yaşlı kedim veya köpeğim için check-up ne zaman sıklaşmalı?",
+        a: "Kedilerde AAHA/AAFP rehberi 10 yaş üstünü yaşlı dönem kabul eder ve bu dönemde en az altı ayda bir kontrol önerir. Köpeklerde yaşlılık ırkın beklenen ömrüne göre değişir; iri ırklarda daha erken başlar. Kronik bir hastalık varsa aralığı hastalığın seyrine göre birlikte belirleriz.",
+      },
+      {
+        q: "Yavru kedimi ilk kez ne zaman veterinere getirmeliyim?",
+        a: "Sahiplendikten sonraki ilk günlerde getirmenizi öneririz; evde başka kedi varsa onlarla tanıştırmadan önce. İlk muayenede genel sağlık, parazit durumu ve aşı planı çıkarılır. Yavrunun iştahsızlık, ishal, kusma ya da halsizlik gibi bir belirtisi varsa randevu beklemeden gelin; kliniğimiz 7/24 açık.",
       },
       {
         q: "Hiçbir şikâyetim yokken check-up gerçekten gerekli mi?",
-        a: "Kediler ve köpekler rahatsızlıklarını uzun süre saklayabilir; özellikle kediler ağrıyı ve halsizliği gizlemekte oldukça başarılıdır. Check-up'ın değeri, bir sorun aramaktan çok dostunuzun normal değerlerini kayıt altına almaktır. İlerideki bir kontrolde bu kayıtlar, küçük bir değişikliği fark etmemizi kolaylaştırır.",
+        a: "Kediler ve köpekler, özellikle kediler, ağrıyı ve halsizliği uzun süre saklayabilir. Check-up dostunuzun normal değerlerini kayıt altına alır; ilerideki bir kontrolde küçük bir değişikliği fark etmeyi kolaylaştırır.",
       },
       {
         q: "Muayene ne kadar sürer?",
-        a: "Rutin bir genel muayene çoğunlukla 20-30 dakika sürer. Öykü karmaşıksa, birden fazla şikâyet varsa ya da aynı seansta tahlil alınacaksa süre uzayabilir. Randevu alırken şikâyetinizi kısaca aktarırsanız size uygun uzunlukta bir slot ayırabiliriz.",
+        a: "Rutin bir genel muayene çoğunlukla 20-30 dakika sürer. Öykü karmaşıksa, birden fazla şikâyet varsa ya da aynı seansta tahlil alınacaksa süre uzayabilir. Randevu alırken şikâyetinizi kısaca aktarırsanız size uygun uzunlukta bir zaman ayırabiliriz.",
       },
       {
         q: "Check-up'ta mutlaka kan tahlili yapılır mı?",
@@ -123,22 +211,37 @@ export const services: Service[] = [
       },
       {
         q: "Kedim veteriner ziyaretinde çok stres oluyor, ne yapabilirim?",
-        a: "Taşıma çantasını ziyaretten günler önce evin sakin bir köşesine açık bırakmak, içine tanıdık kokulu bir örtü koymak ve çantayı üstü örtülü taşımak stresi belirgin şekilde azaltır. Klinikte de kedilerin kendi hızına saygı gösteren, sessiz bir yaklaşım benimseriz. Ziyaretin zor geçtiğini önceden bildirirseniz buna göre planlama yaparız.",
+        a: "Taşıma çantasını ziyaretten günler önce evde açık bırakmak, içine tanıdık kokulu bir örtü koymak ve çantayı üstü örtülü taşımak stresi azaltır. Ziyaretin zor geçtiğini önceden bildirirseniz buna göre planlama yaparız.",
+      },
+    ],
+    access: {
+      text: `Kliniğimiz tek adreste, ${site.address.full} adresindedir. Çankaya'nın tüm semtlerinden ve Ankara'nın diğer ilçelerinden check-up için 7/24 gelebilirsiniz.`,
+      links: accessLinks,
+    },
+    sources: [
+      {
+        title: "2021 AAHA/AAFP Feline Life Stage Guidelines",
+        publisher: "American Animal Hospital Association / American Association of Feline Practitioners",
+        url: "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/feline-life-stage-2021/2021-aaha-aafp-feline-life-stage-guidelines.pdf",
       },
       {
-        q: "Muayenede konuşulanları not almalı mıyım?",
-        a: "Faydalı olur, ancak zorunlu değil. Muayene sonunda bulguları ve planı özetleriz; aklınıza sonradan gelen soruları telefonla ya da WhatsApp üzerinden de iletebilirsiniz. Bir yakınınızla birlikte gelmek de bilgilerin akılda kalmasını kolaylaştırır.",
+        title: "2019 AAHA Canine Life Stage Guidelines",
+        publisher: "American Animal Hospital Association",
+        url: "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/canine-life-stage-2019/2019-aaha-canine-life-stage-guidelines-final.pdf",
+      },
+      {
+        title: "2021 AAFP Feline Senior Care Guidelines",
+        publisher: "Journal of Feline Medicine and Surgery",
+        url: "https://pubmed.ncbi.nlm.nih.gov/34167339/",
       },
     ],
     relatedPosts: [
       "evcil-hayvan-check-up-neleri-kapsar",
-      "yasli-kedi-kopek-bakimi",
-      "kedilerde-kronik-bobrek-hastaligi",
-      "kopegim-cok-su-iciyor",
-      "veteriner-ucretlerini-ne-belirler",
-    
       "yasli-kedide-yillik-kontrol-hangi-testler",
-      "veteriner-fiyatlari-neden-farkli",
+      "yasli-kedi-kopek-bakimi",
+      "kan-tahlili-sonucu-nasil-okunur",
+      "kedilerde-felv-fiv-testi-ne-zaman",
+      "yavru-kopek-bakim-rehberi",
     ],
   },
   {
@@ -146,25 +249,60 @@ export const services: Service[] = [
     icon: Syringe,
     title: "Aşılama & Mikroçip",
     desc: "Koruyucu aşı takvimi ve yasal mikroçip ile kalıcı kimliklendirme.",
-    h1: "Aşılama ve Mikroçip Uygulaması",
-    metaTitle: "Aşılama & Mikroçip · Çankaya Veteriner",
+    h1: "Kedi ve Köpek Aşı Takvimi, Kuduz Aşısı ve Mikroçip",
+    metaTitle: "Kedi ve Köpek Aşı Takvimi, Mikroçip · Çankaya Ankara",
     metaDescription:
-      "Çankaya Öveçler'de kedi ve köpek aşı takvimi ile yasal mikroçip uygulaması. Aşı öncesi kontrol, PETVET kaydı ve randevu hazırlığı hakkında bilgi.",
+      "Çankaya Öveçler'de kedi ve köpek aşı takvimi, kuduz aşısı ve mikroçip. Hangi aşılar zorunlu, PETVET kaydı nasıl yapılır? Ankara'da 7/24 açık klinik.",
     keywords: [
+      "kedi aşı takvimi",
+      "köpek aşı takvimi",
+      "kuduz aşısı zorunlu mu",
+      "mikroçip zorunlu mu",
+      "PETVET kaydı Ankara",
       "kedi köpek aşı Çankaya",
       "mikroçip Ankara veteriner",
-      "aşı takvimi Öveçler",
-      "PETVET kaydı Çankaya",
     ],
     intro:
-      "Aşılama, bulaşıcı hastalıklara karşı korunmanın en köklü yoludur; mikroçip ise dostunuzun kaybolduğunda size geri dönmesini sağlayan kalıcı kimliğidir. Türkiye'de kedi ve köpeklerin mikroçip ile kimliklendirilmesi ve resmî kayıt sistemine işlenmesi yasal bir yükümlülüktür. Her iki uygulamayı da muayene sonrası, dostunuzun o günkü durumu uygunsa yaparız.",
+      "Kedi ve köpek aşılarını ve mikroçip uygulamasını Çankaya Öveçler'deki kliniğimizde, kısa bir muayenenin ardından yapıyoruz; kliniğimiz 7/24 açık olduğu için hafta sonu da gelebilirsiniz. Aşılama bulaşıcı hastalıklara karşı korunmanın temel yoludur; mikroçip ise dostunuz kaybolduğunda size geri dönmesini sağlayan kalıcı kimliğidir. Türkiye'de kedi ve köpeklerin mikroçiple kimliklendirilip resmî sisteme kaydedilmesi ve kuduza karşı aşılanması yasal yükümlülüktür.",
+    sections: [
+      {
+        h2: "Kedi ve köpek aşı takvimi nasıl kurulur?",
+        paragraphs: [
+          "Dünya Küçük Hayvan Veteriner Hekimleri Birliği'nin (WSAVA) 2024 aşı rehberi aşıları üç gruba ayırır: her kedi ve köpeğin alması gereken çekirdek aşılar, yaşam tarzına ve bölgeye göre önerilen çekirdek dışı aşılar ve önerilmeyenler. Köpeklerde çekirdek aşılar gençlik hastalığı (distemper), adenovirüs ve parvovirüse; kedilerde panlökopeni, calicivirüs ve herpesvirüse karşı koruma sağlar. Kuduzun görüldüğü ülkelerde kuduz aşısı her iki tür için de çekirdek kabul edilir.",
+          "Yavrularda aşılama birkaç haftalık yaşta başlar ve birkaç hafta arayla tekrarlanan bir seri hâlinde ilerler; WSAVA, yavru serisinin son dozunun 16 haftalık ya da daha büyük yaşta yapılmasını önerir. Seriyi bir pekiştirme dozu izler. Sonraki yıllarda hangi aşının hangi aralıkla tekrarlanacağı aşının türüne göre değişir: rehbere göre bazı çekirdek aşılar her yıl değil daha uzun aralıklarla, çekirdek dışı aşılar ise çoğunlukla yıllık yapılır.",
+          "Çekirdek dışı aşılarda karar yaşam tarzına bağlıdır; dışarı çıkan bir kedi ile hiç dışarı çıkmayan tek bir kedi aynı riski taşımaz. Kesin takvimi ilk muayenede çıkarırız.",
+        ],
+        links: [
+          { href: "/blog/kedi-asi-takvimi/", label: "Kedi aşı takvimi" },
+          { href: "/blog/kopek-asi-takvimi/", label: "Köpek aşı takvimi" },
+        ],
+      },
+      {
+        h2: "Kuduz aşısı zorunlu mu?",
+        paragraphs: [
+          "Evet. Kuduz Hastalığından Korunma ve Kuduz Hastalığı ile Mücadele Yönetmeliği'ne göre üç aydan büyük kedi ve köpeklerin sahipleri, hayvanlarını yılda bir kez kuduza karşı aşılatmakla yükümlüdür ve aşı kayıtlarının tutulması zorunludur. Bu yükümlülük evden hiç çıkmayan kediler için de geçerlidir. Kuduz insanlara da bulaşabildiği için aşı ailenizi de korur. Yurt dışı seyahatinde ise kuduz aşısına ek olarak gidilecek ülkeye göre kuduz antikor testi istenebilir.",
+        ],
+        links: [{ href: "/blog/pet-pasaportu-favn-testi-ankara/", label: "Pet pasaportu ve FAVN testi" }],
+      },
+      {
+        h2: "Mikroçip zorunlu mu? PETVET kaydı nasıl yapılır?",
+        paragraphs: [
+          "Evet. 5199 sayılı Hayvanları Koruma Kanunu'na göre kedi ve köpek sahipleri, hayvanlarını dijital kimliklendirme yöntemleriyle kayıt altına aldırmakla yükümlüdür; kanunun geçici maddesiyle tanınan süre 31 Aralık 2025'te doldu. Kayıtlar, Tarım ve Orman Bakanlığı'nın Ev Hayvanı Kayıt Sistemi PETVET üzerinden tutulur.",
+          "Kedi, Köpek ve Gelinciklerin Kimliklendirilmesi ve Kayıt Altına Alınmasına Dair Yönetmelik'e göre yeni doğan bir hayvanın sahibi, doğumdan itibaren en geç altı ay içinde başvuru yapmakla yükümlüdür. Mikroçip uygulanan hayvana pasaport düzenlenir ve kayıt on beş gün içinde yetkili veteriner hekim tarafından veri tabanına işlenir. Çipin takılmış olması tek başına yetmez; belirleyici olan kaydın sisteme işlenmesidir.",
+        ],
+        after:
+          "Kayıt için kimlik bilginizi, güncel adres ve telefonunuzu, varsa önceki çip numarasını ve aşı karnesini getirin. Taşındığınızda kaydı güncel tutmak sahibin sorumluluğundadır.",
+        links: [
+          { href: "/blog/mikrocip-cezasi-ve-petvet-2026/", label: "Mikroçip cezası ve PETVET kaydı" },
+          { href: "/blog/mikrocip-ve-yasal-sorumluluklar/", label: "Mikroçip ve yasal sorumluluklar" },
+        ],
+      },
+    ],
     covers: [
       "Yaşa ve yaşam tarzına göre planlanan çekirdek ve ek aşı takvimi",
-      "Aşı öncesi kısa sağlık kontrolü ve ateş ölçümü",
       "Kuduz aşısı uygulaması ve kayıt altına alınması",
       "Mikroçip yerleştirme ve okuyucu ile doğrulama",
       "Resmî kayıt sistemine işlenmesi ve kimlik belgesinin düzenlenmesi",
-      "Aşı karnesinin güncellenmesi, sonraki doz tarihinin planlanması",
       "Yurt dışı seyahat planı varsa gereken belgelerin önceden konuşulması",
     ],
     visit: [
@@ -178,7 +316,7 @@ export const services: Service[] = [
       },
       {
         step: "Uygulama",
-        text: "Aşı ve varsa mikroçip, dostunuz sakinken hızlıca uygulanır. Mikroçip genellikle ense bölgesine yerleştirilir ve okuyucuyla hemen doğrulanır.",
+        text: "Aşı ve varsa mikroçip uygulanır; mikroçip ense bölgesine yerleştirilir ve okuyucuyla hemen doğrulanır.",
       },
       {
         step: "Kayıt ve gözlem önerisi",
@@ -195,37 +333,75 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Yavru kedi ve köpeklerde aşılara ne zaman başlanır?",
-        a: "Yavrularda aşılama genellikle birkaç haftalık dönemde başlar ve belirli aralıklarla tekrarlanan bir seri hâlinde sürer. Başlangıç zamanı; yavrunun yaşı, annesinden aldığı bağışıklık ve yaşam koşullarına göre değişir. Kesin takvimi ilk muayenede dostunuza özel olarak çıkarırız.",
+        a: "Yavrularda aşılama birkaç haftalık yaşta başlar ve aralıklarla tekrarlanan bir seri hâlinde sürer; WSAVA rehberine göre son doz 16 haftalık ya da daha büyük yaşta yapılır. Kesin takvimi ilk muayenede çıkarırız.",
+      },
+      {
+        q: "Kuduz aşısı yaptırmak zorunlu mu?",
+        a: "Evet. Üç aydan büyük kedi ve köpekler yılda bir kez kuduza karşı aşılanmalı ve aşı kaydı tutulmalıdır; evden çıkmayan kediler de buna dâhildir.",
       },
       {
         q: "Mikroçip taktırmak zorunlu mu?",
-        a: "Evet. Türkiye'de kedi ve köpeklerin mikroçip ile kimliklendirilip resmî kayıt sistemine işlenmesi yasal bir yükümlülüktür ve uyulmaması idari yaptırıma konu olabilir. Güncel süre ve yükümlülükler değişebildiği için, kliniğe geldiğinizde durumunuzu birlikte gözden geçirmenizi öneririz.",
+        a: "Evet. 5199 sayılı Kanun'a göre kedi ve köpeklerin kayıt altına alınması zorunludur ve tanınan süre 31 Aralık 2025'te doldu. Kayıt yaptırılmaması idari yaptırıma konu olabilir; süreyi kaçırdıysanız kaydı bir an önce tamamlatın.",
+      },
+      {
+        q: "Çipi var ama PETVET kaydı olup olmadığını bilmiyorum, ne yapmalıyım?",
+        a: "Dostunuzu kliniğe getirin; çipi okuyucuyla okutur, numaranın sistemde kayıtlı olup olmadığını kontrol ederiz. Çip takılı olup kayıt yoksa hayvan sistem açısından kayıtsız sayılır; eksik adımı aynı ziyarette tamamlayabiliriz.",
       },
       {
         q: "Mikroçip takılması dostuma acı verir mi?",
-        a: "Mikroçip, biraz kalınca bir iğneyle deri altına yerleştirilir. Çoğu kedi ve köpek bunu kısa bir aşı gibi karşılar ve işlem birkaç saniye sürer. Anestezi gerektirmez; zaten kısırlaştırma gibi bir operasyon planlanıyorsa aynı seansta da yapılabilir.",
+        a: "Mikroçip, biraz kalınca bir iğneyle deri altına yerleştirilir; çoğu kedi ve köpek bunu kısa bir aşı gibi karşılar. Anestezi gerektirmez; kısırlaştırma planlanıyorsa aynı seansta da yapılabilir.",
       },
       {
         q: "Aşıdan sonra dostumda ne gibi tepkiler görebilirim?",
-        a: "Aşı sonrası ilk gün hafif yorgunluk, iştahta geçici azalma ya da aşı yerinde küçük bir hassasiyet görülebilir; bunlar genellikle kısa sürede geçer. Yüzde şişlik, kusma, kaşıntı ya da solunum güçlüğü gibi belirtiler nadirdir ama beklenmez; böyle bir durumda vakit kaybetmeden bizi arayın.",
+        a: "Aşı sonrası ilk gün hafif yorgunluk, iştahta geçici azalma ya da aşı yerinde küçük bir hassasiyet görülebilir; bunlar genellikle kısa sürede geçer. Yüzde şişlik, kusma, kaşıntı ya da solunum güçlüğü nadirdir ama beklenmez; böyle bir durumda vakit kaybetmeden bizi arayın.",
       },
       {
         q: "Evden hiç çıkmayan kedimin aşıya ihtiyacı var mı?",
-        a: "Ev kedilerinde bile bazı etkenler ayakkabı, kıyafet ya da eve gelen başka bir hayvan aracılığıyla taşınabilir. Ayrıca kuduz aşısı yasal ve halk sağlığıyla ilgili bir konudur. Hangi aşıların sizin kedinizin yaşam tarzı için anlamlı olduğunu muayenede birlikte belirleriz.",
+        a: "Evet. Bazı etkenler ayakkabı ya da kıyafetle eve taşınabilir ve kuduz aşısı yasal bir yükümlülüktür. Diğer aşıları kedinizin yaşam tarzına göre birlikte belirleriz.",
       },
       {
         q: "Aşı tarihini kaçırdım, baştan mı başlamak gerekir?",
         a: "Her gecikme baştan başlamayı gerektirmez; ne kadar gecikildiği, hangi aşının atlandığı ve dostunuzun yaşı belirleyicidir. Karnenizi getirin, mevcut durumdan devam edilebilecek en makul planı çıkaralım.",
       },
     ],
+    access: {
+      text: `Kliniğimiz ${site.address.full} adresindedir; Çankaya'nın tüm semtlerinden ve Ankara'nın diğer ilçelerinden aşı ve mikroçip için hafta sonu dâhil gelebilirsiniz.`,
+      links: accessLinks,
+    },
+    sources: [
+      {
+        title: "2024 guidelines for the vaccination of dogs and cats",
+        publisher: "WSAVA Vaccination Guidelines Group (Journal of Small Animal Practice)",
+        url: "https://wsava.org/wp-content/uploads/2024/04/WSAVA-Vaccination-guidelines-2024.pdf",
+      },
+      {
+        title: "5199 sayılı Hayvanları Koruma Kanunu",
+        publisher: "Mevzuat Bilgi Sistemi",
+        url: "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5199.pdf",
+      },
+      {
+        title: "Kedi, Köpek ve Gelinciklerin Kimliklendirilmesi ve Kayıt Altına Alınmasına Dair Yönetmelik",
+        publisher: "Mevzuat Bilgi Sistemi",
+        url: "https://www.mevzuat.gov.tr/MevzuatMetin/yonetmelik/7.5.24414.pdf",
+      },
+      {
+        title: "Kuduz Hastalığından Korunma ve Kuduz Hastalığı ile Mücadele Yönetmeliği",
+        publisher: "Resmî Gazete (18 Ocak 2012)",
+        url: "https://resmigazete.gov.tr/eskiler/2012/01/20120118-3.htm",
+      },
+      {
+        title: "Ev Hayvanlarının Kayıt Altına Alınması Çalışmaları Devam Ediyor (PETVET)",
+        publisher: "T.C. Tarım ve Orman Bakanlığı",
+        url: "https://www.tarimorman.gov.tr/Haber/5642/Ev-Hayvanlarinin-Kayit-Altina-Alinmasi-Calismalari-Devam-Ediyor",
+      },
+    ],
     relatedPosts: [
       "kedi-asi-takvimi",
       "kopek-asi-takvimi",
-      "mikrocip-ve-yasal-sorumluluklar",
+      "asi-sonrasi-yan-etkiler-ne-normal",
       "mikrocip-cezasi-ve-petvet-2026",
+      "mikrocip-ve-yasal-sorumluluklar",
       "pet-pasaportu-favn-testi-ankara",
-    
-      "kene-cikardim-simdi-ne-olacak",
     ],
   },
   {
@@ -233,87 +409,168 @@ export const services: Service[] = [
     icon: Scissors,
     title: "Kısırlaştırma & Cerrahi",
     desc: "Steril ortamda, anestezi takibiyle güvenli ve titiz operasyonlar.",
-    h1: "Kısırlaştırma ve Cerrahi Operasyonlar",
-    metaTitle: "Kısırlaştırma & Cerrahi · Çankaya Veteriner",
+    h1: "Çankaya'da Kedi ve Köpek Kısırlaştırma ve Cerrahi",
+    metaTitle: "Kedi ve Köpek Kısırlaştırma · Çankaya Öveçler, Ankara",
     metaDescription:
-      "Çankaya Öveçler'de kedi ve köpek kısırlaştırma ile cerrahi operasyonlar. Ameliyat öncesi hazırlık, anestezi takibi ve sonrası bakım süreci.",
+      "Çankaya Öveçler'de kedi ve köpek kısırlaştırma: ne zaman yapılır, ameliyat öncesi açlık, ameliyat günü, dikiş, yaka ve iyileşme. 7/24 açık klinik.",
     keywords: [
-      "Çankaya kısırlaştırma",
       "kedi kısırlaştırma Ankara",
-      "köpek kısırlaştırma Öveçler",
+      "kedi kısırlaştırma Çankaya",
+      "köpek kısırlaştırma Ankara",
+      "kısırlaştırma ne zaman yapılır",
+      "ameliyat öncesi açlık kedi köpek",
+      "dişi kedi kısırlaştırma sonrası bakım",
       "veteriner cerrahi Çankaya",
     ],
     intro:
-      "Kısırlaştırma, hem istenmeyen yavruların önüne geçen hem de bazı üreme sistemi hastalıklarının riskini azaltan planlı bir operasyondur. Her cerrahi girişim gibi kısırlaştırma da ameliyat öncesi değerlendirme, anestezi süresince kesintisiz takip ve sonrasında düzenli kontrol gerektirir. Bu sayfada süreci baştan sona nasıl yürüttüğümüzü anlatıyoruz.",
+      "Kedi ve köpek kısırlaştırmasını Çankaya Öveçler'deki kliniğimizde, önceden planlanan bir randevuyla yapıyoruz; kliniğimiz 7/24 açık olduğu için ameliyattan sonraki gece de telefonla bize ulaşabilirsiniz. Kısırlaştırma, istenmeyen yavruların önüne geçen ve bazı üreme sistemi hastalıklarının riskini azaltan planlı bir operasyondur.",
+    sections: [
+      {
+        h2: "Kısırlaştırma ne zaman yapılır?",
+        paragraphs: [
+          "Tek bir doğru yaş yoktur; zamanlama türe, ırka, beklenen erişkin boyuta ve sağlık durumuna göre belirlenir. Kedi refahı kuruluşu International Cat Care, kedilerin cinsel olgunluğa ulaşmadan, rutin olarak dört ay civarında kısırlaştırılmasını önerir. Dişi kediler erken yaşta kızgınlığa girebildiği için yavru kedi sahiplendiyseniz konuyu aşı ziyaretlerinde konuşmak pratik bir yoldur.",
+          "Köpeklerde Amerikan Hayvan Hastaneleri Birliği'nin (AAHA) 2019 yaşam dönemi rehberi, erişkinde yaklaşık 20 kilonun altında kalması beklenen köpekler için genellikle 5–6 aylık dönemi işaret eder. Bundan iri olması beklenen erkek köpeklerde ise büyümenin tamamlanmasını, çoğunlukla 9–15 ay arasını önerir. İri ırk dişilerde karar; kızgınlık, meme tümörü riski ve eklem sağlığı birlikte tartılarak bireysel verilir. Kızgınlıktaki ya da yeni doğum yapmış bir dişide zamanlamayı ayrıca değerlendiririz.",
+        ],
+        links: [{ href: "/blog/kisirlastirma-rehberi/", label: "Kısırlaştırma hakkında bilmeniz gerekenler" }],
+      },
+      {
+        h2: "Ameliyattan önce nasıl hazırlanılır?",
+        paragraphs: [
+          "Operasyondan önce dostunuzu muayene eder, kilosunu alır ve yaşa ve öyküye göre anestezi öncesi kan tahlili öneririz. Kullandığı ilaç ve takviyeleri bu görüşmede mutlaka belirtin.",
+          "Ameliyat öncesi açlıkta eski “bütün gece aç bırakın” alışkanlığı değişti. AAHA'nın 2020 anestezi rehberi, sağlıklı yetişkinlerde önerilen açlık süresinin kısaldığını belirtir; rehberin açlık tablosunda sağlıklı yetişkin kedi ve köpekler için birkaç saatlik (yaklaşık 4–6 saat) mama kesintisi yer alır ve su genellikle kesilmez. Çok küçük yavrularda ve şeker hastalarında açlık daha da kısa tutulur. Size özel saati randevuda veririz; dostunuz yanlışlıkla yemek yediyse saklamadan söyleyin.",
+        ],
+        links: [
+          { href: "/blog/anestezi-oncesi-ac-kalma-suresi/", label: "Anestezi öncesi aç kalma süresi" },
+          { href: "/blog/ameliyat-oncesi-kan-tahlili/", label: "Ameliyat öncesi kan tahlili" },
+        ],
+      },
+      {
+        h2: "Ameliyat günü",
+        paragraphs: [
+          "Kliniğe geldiğinizde son bir kontrol yapar, sürecin nasıl işleyeceğini ve size ne zaman haber vereceğimizi anlatırız. Operasyon steril koşullarda yapılır; anestezi boyunca solunum, kalp ritmi ve vücut ısısı kesintisiz izlenir. Dostunuz sakin bir bölümde, gözlem altında uyanır; ağrı yönetimini önceden planlarız.",
+        ],
+      },
+      {
+        h2: "Eve dönüş: dikiş, yaka ve iyileşme",
+        list: [
+          { text: "İlk gece uyuşukluk ve hafif dengesizlik beklenebilir; sakin, sıcak ve kaygan olmayan bir alan hazırlayın." },
+          { text: "İlk öğünü ve suyu taburculukta söylediğimiz şekilde verin; iştah çoğu zaman ertesi gün toparlanır." },
+          { text: "Dikiş yerini yalamak en sık sorun nedenidir; koruyucu yaka ya da vücut örtüsünü kontrol gününe kadar çıkarmayın." },
+          { text: "Koşma, zıplama ve merdiveni kontrol gününe kadar kısıtlayın; köpekleri yalnızca kısa, tasmalı yürüyüşe çıkarın." },
+          { text: "Dikiş yerine günde bir iki kez bakın; banyo yaptırmayın, yaraya krem veya sprey sürmeyin." },
+          {
+            text: "İlaçları yalnızca verdiğimiz şekilde kullanın; insan ilaçları kedi ve köpekler için tehlikeli olabilir.",
+            link: { href: "/blog/ameliyat-sonrasi-evde-bakim/", label: "Ameliyat sonrası evde bakım" },
+          },
+        ],
+        after:
+          "Dişi kedi kısırlaştırma sonrası bakımda en sık sorulan konu yakadır: kediler esnek olduğu için yakayı çıkarmaya ya da örtünün altından yaraya ulaşmaya çalışabilir. International Cat Care, dişi kedilerde dikişlerin gerekirse 7–10 gün sonra alınabileceğini belirtir; kullanılan dikiş tekniğine göre bu adım bazen gerekmez.",
+      },
+      {
+        h2: "Kontrol randevusu",
+        paragraphs: [
+          "Taburculukta kontrol tarihini yazılı olarak veririz. Kontrolde dikiş hattına ve yara iyileşmesine bakar, gerekiyorsa dikişleri alırız. Dikiş yerinde açılma, akıntı, inatçı kusma ya da belirgin halsizlik görürseniz kontrol gününü beklemeyin; gece de olsa arayın.",
+        ],
+      },
+    ],
     covers: [
       "Ameliyat öncesi fizik muayene ve risk değerlendirmesi",
-      "Gerekli görülen durumlarda anestezi öncesi kan tahlili",
       "Dişilerde ve erkeklerde kısırlaştırma operasyonları",
       "Steril ortamda gerçekleştirilen diğer yumuşak doku cerrahileri",
       "Anestezi boyunca solunum, kalp ritmi ve vücut ısısı takibi",
-      "Uyanma sürecinde gözlem ve ağrı yönetiminin planlanması",
       "Dikiş kontrolü, yara bakımı ve taburculuk sonrası takip randevusu",
     ],
     visit: [
       {
         step: "Ön görüşme ve değerlendirme",
-        text: "Operasyon öncesi dostunuzu muayene eder, yaşını, kilosunu ve varsa kronik sorunlarını değerlendiririz. Gerekiyorsa anestezi öncesi tahlil planlarız.",
+        text: "Dostunuzu muayene eder, yaşını, kilosunu ve varsa kronik sorunlarını değerlendiririz. Gerekiyorsa anestezi öncesi tahlil planlarız.",
       },
       {
-        step: "Ameliyat günü hazırlık",
-        text: "Aç gelme talimatını sizinle netleştiririz. Kliniğe geldiğinizde son bir kontrol yapar, sürecin nasıl işleyeceğini ve ne zaman haber vereceğimizi anlatırız.",
+        step: "Kliniğe geliş",
+        text: "Açlık talimatına uyarak gelirsiniz; son kontrolün ardından dostunuzu teslim alırız.",
       },
       {
         step: "Operasyon ve anestezi takibi",
-        text: "Operasyon steril koşullarda yapılır. Anestezi süresince yaşamsal değerler kesintisiz izlenir; ekip anestezi ve cerrahi için ayrı ayrı görevlidir.",
+        text: "Operasyon steril koşullarda yapılır; ekip anestezi ve cerrahi için ayrı ayrı görevlidir.",
       },
       {
         step: "Uyanma ve taburculuk",
-        text: "Dostunuz sakin bir bölümde gözlem altında uyanır. Taburcu ederken yara bakımını, kısıtlanması gereken hareketleri ve kontrol tarihini yazılı olarak paylaşırız.",
+        text: "Yara bakımını, kısıtlanması gereken hareketleri ve kontrol tarihini yazılı olarak paylaşırız.",
       },
     ],
     prepare: [
       "Aç kalma süresini randevu sırasında mutlaka teyit edin; su konusunda ayrı talimat veririz",
       "Aşı karnesi ve varsa önceki tahlil sonuçlarınızı getirin",
       "Kullanılan tüm ilaç ve takviyeleri, kutularıyla birlikte bildirin",
-      "Evde dostunuzun sakin ve sıcak dinlenebileceği bir alan hazırlayın",
       "Operasyon sonrası ilk gün evde birinin bulunabileceği bir tarih seçin",
-      "Yara yalamayı engelleyen yaka veya vücut örtüsü için bize önceden danışın",
     ],
     faqs: [
       {
         q: "Kısırlaştırma için uygun yaş nedir?",
-        a: "Uygun zamanlama tek bir sayıya indirgenemez; türe, ırka, beklenen erişkin boyuta ve dostunuzun genel sağlığına göre değişir. Özellikle büyük ırk köpeklerde zamanlama daha dikkatli planlanır. Muayenede dostunuza özel bir zaman aralığı öneririz.",
+        a: "Tek bir sayı yoktur. Kedilerde dört ay civarı önerilir; köpeklerde zamanlama beklenen erişkin boyuta göre değişir. Muayenede dostunuza özel bir zaman aralığı öneririz.",
+      },
+      {
+        q: "Ameliyattan önce kaç saat aç kalmalı, su verilir mi?",
+        a: "Sağlıklı yetişkinlerde AAHA rehberi yaklaşık 4–6 saatlik açlık çerçevesi sunar ve su genellikle kesilmez. Yavrularda ve şeker hastalarında plan değişir; kesin saati randevuda veririz.",
       },
       {
         q: "Anestezi riskli mi?",
-        a: "Her anestezinin bir riski vardır ve bunu sıfırlamak mümkün değildir. Riski azaltmak için ameliyat öncesi muayene yapar, gerektiğinde kan tahlili isteriz ve anestezi süresince yaşamsal değerleri kesintisiz izleriz. Dostunuzun yaşı veya mevcut bir hastalığı riski etkiliyorsa bunu operasyondan önce açıkça konuşuruz.",
+        a: "Her anestezinin bir riski vardır ve sıfırlanamaz. Riski azaltmak için ameliyat öncesi muayene yapar, gerektiğinde kan tahlili ister ve anestezi süresince yaşamsal değerleri izleriz. Yaş veya mevcut bir hastalık riski etkiliyorsa bunu önceden açıkça konuşuruz.",
       },
       {
-        q: "Ameliyat öncesi kan tahlili şart mı?",
-        a: "Her vakada zorunlu değildir, ancak özellikle yaşlı dostlarda, kronik hastalığı olanlarda ve öyküsü bilinmeyen hayvanlarda güçlü şekilde öneririz. Bu tahlil, anestezi planını dostunuza göre ayarlamamıza yardımcı olur. Kararı birlikte veririz.",
+        q: "Erkek ve dişi kısırlaştırma arasında fark var mı?",
+        a: "Evet. Erkeklerde operasyon karın boşluğu açılmadan yapılır ve iyileşme genellikle daha hızlıdır. Dişilerde operasyon karın içinden yapıldığı için hareket kısıtlaması ve yara takibi daha önemlidir. Testisi karın içinde kalmış erkeklerde operasyon farklılaşır; bunu ön muayenede kontrol ederiz.",
+      },
+      {
+        q: "Kısırlaştırma sonrası yaka ne kadar takılı kalmalı?",
+        a: "Yaka ya da vücut örtüsü, dikiş hattı iyileşip kontrolde onay verene kadar takılı kalmalıdır. Kısa süreli gözetimsiz yalama bile dikişi açabilir. Dostunuz yakayla yiyip içemiyorsa çıkarmak yerine bizi arayın.",
       },
       {
         q: "Operasyondan sonra iyileşme ne kadar sürer?",
-        a: "Çoğu kedi ve köpek ilk günlerde belirgin şekilde toparlanır, dikişlerin kontrolü ise birkaç hafta içinde tamamlanır. Bu süre operasyonun türüne, dostunuzun yaşına ve evde hareketinin ne kadar kısıtlanabildiğine göre değişir. Taburculukta size net bir takip takvimi veririz.",
+        a: "Çoğu kedi ve köpek ilk günlerde belirgin şekilde toparlanır; dikiş hattının iyileşmesi ise operasyonun türüne, yaşa ve hareketin ne kadar kısıtlanabildiğine göre değişir. Taburculukta net bir takip takvimi veririz.",
       },
       {
         q: "Kısırlaştırma dostumu kilo aldırır mı?",
-        a: "Kısırlaştırma sonrası enerji ihtiyacı düşebilir, dolayısıyla eski porsiyon devam ederse kilo artışı görülebilir. Bu, kaçınılmaz bir sonuç değil, beslenmenin gözden geçirilmesi gereken bir dönemdir. Operasyon sonrası kontrolde porsiyon ve mama planını birlikte güncelleriz.",
+        a: "Kısırlaştırma sonrası enerji ihtiyacı düşebilir; eski porsiyon devam ederse kilo artışı görülebilir. Kontrolde porsiyon ve mama planını birlikte güncelleriz.",
       },
       {
-        q: "Ameliyattan sonra dostumda hangi belirtiler beni aramaya yönlendirmeli?",
+        q: "Ameliyattan sonra hangi belirtiler beni aramaya yönlendirmeli?",
         a: "Dikiş yerinde açılma, artan kızarıklık veya akıntı, inatçı kusma, hiç yememe, aşırı halsizlik ya da geçmeyen ağrı belirtileri bekleyecek durumlar değildir. Böyle bir durumda kontrol tarihini beklemeden bizi arayın; 7/24 ulaşabilirsiniz.",
+      },
+    ],
+    access: {
+      text: `Ameliyat ve kontrol randevuları için kliniğimiz ${site.address.full} adresindedir. Çankaya'nın tüm semtlerinden ve Ankara'nın diğer ilçelerinden gelen dostlarımızı kabul ediyoruz; ameliyat sonrasında da 7/24 telefonla ulaşabilirsiniz.`,
+      links: accessLinks,
+    },
+    sources: [
+      {
+        title: "Neutering your cat",
+        publisher: "International Cat Care",
+        url: "https://icatcare.org/advice/neutering-your-cat/",
+      },
+      {
+        title: "2019 AAHA Canine Life Stage Guidelines",
+        publisher: "American Animal Hospital Association",
+        url: "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/canine-life-stage-2019/2019-aaha-canine-life-stage-guidelines-final.pdf",
+      },
+      {
+        title: "2020 AAHA Anesthesia and Monitoring Guidelines for Dogs and Cats",
+        publisher: "American Animal Hospital Association",
+        url: "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/2020-anesthesia/anesthesia_and_monitoring_guidelines_final.pdf",
+      },
+      {
+        title: "Fasting and Treatment Recommendations for Dogs and Cats Prior to Anesthesia",
+        publisher: "American Animal Hospital Association",
+        url: "https://www.aaha.org/wp-content/uploads/globalassets/02-guidelines/2020-anesthesia/aahaanesthesiaguidelines_fastingandtreatmentrecommendations.pdf",
       },
     ],
     relatedPosts: [
       "kisirlastirma-rehberi",
+      "anestezi-oncesi-ac-kalma-suresi",
       "ameliyat-oncesi-kan-tahlili",
-      "evcil-hayvanlarda-obezite",
-      "kopeklerde-mide-burulmasi-gdv",
-      "veteriner-ucretlerini-ne-belirler",
-    
+      "ameliyat-sonrasi-evde-bakim",
       "kedim-ameliyat-olacak-anestezi-guvenli-mi",
+      "kopeklerde-kizginlik-donemi-ve-yalanci-gebelik",
     ],
   },
   {
@@ -493,7 +750,7 @@ export const services: Service[] = [
     slug: "dermatoloji-dahiliye",
     icon: HeartPulse,
     title: "Dermatoloji & Dahiliye",
-    desc: "Cilt ve iç hastalıklarında uzman teşhis ve tedavi yaklaşımı.",
+    desc: "Cilt ve iç hastalıklarında teşhis ve tedavi.",
     h1: "Dermatoloji ve Dahiliye",
     metaTitle: "Dermatoloji & Dahiliye · Çankaya Veteriner",
     metaDescription:
@@ -584,18 +841,74 @@ export const services: Service[] = [
     title: "Acil Müdahale",
     desc: "Beklenmedik durumlarda 7/24 hızlı, sakin ve etkin destek.",
     h1: "Çankaya'da 7/24 Acil ve Nöbetçi Veteriner",
-    metaTitle: "Çankaya 7/24 Acil ve Nöbetçi Veteriner · Öveçler",
-    metaDescription: `Çankaya'da 7/24 açık acil veteriner: ${site.address.full}. Yola çıkmadan arayın: ${site.phoneDisplay}. Hangi durumlar acildir?`,
-    urgent: { reviewers: ["Mert A.", "Özden Ece K."] },
+    metaTitle: "Acil Veteriner Ankara · Çankaya'da 7/24 Nöbetçi Veteriner",
+    metaDescription: `Ankara Çankaya'da gece, hafta sonu ve bayramda açık acil veteriner: ${site.address.full}. Yola çıkmadan arayın: ${site.phoneDisplay}.`,
+    urgent: { reviewers: [] },
     keywords: [
+      "acil veteriner Ankara",
       "acil veteriner Çankaya",
-      "7/24 veteriner Ankara",
-      "gece açık veteriner Çankaya",
-      "Öveçler acil veteriner kliniği",
+      "nöbetçi veteriner Ankara",
       "nöbetçi veteriner Çankaya",
+      "gece açık veteriner Ankara",
+      "7/24 veteriner Ankara",
+      "Öveçler acil veteriner kliniği",
     ],
-    intro:
-      "Acil durumlar plan yapmaya izin vermez. Bu nedenle kliniğimiz kesintisiz açıktır ve telefonla her saat ulaşabilirsiniz. Bu sayfanın amacı, hangi belirtilerin beklemeye gelmediğini tanımanıza ve yola çıkmadan önce hangi bilgileri hazırlayacağınızı bilmenize yardımcı olmaktır. Tereddüt ettiğiniz her durumda aramak doğru olandır.",
+    intro: `Pet Internal Veteriner Kliniği, Çankaya Öveçler'de gece, hafta sonu ve resmî tatiller dâhil 7/24 açık bir veteriner kliniğidir ve acil hastaları randevusuz kabul eder. Ankara'nın neresinden gelirseniz gelin, yola çıkmadan önce ${site.phoneDisplay} numarasını aramanız, siz yoldayken hazırlık yapmamızı sağlar. Bu sayfa, hangi belirtilerin beklemeye gelmediğini tanımanıza ve yola çıkmadan önce neleri hazırlayacağınızı bilmenize yardımcı olmak için hazırlandı. Tereddüt ettiğiniz her durumda aramak doğru olandır.`,
+    sections: [
+      {
+        h2: "Hangi durumlar beklemez?",
+        paragraphs: [
+          "Aşağıdaki belirtilerden biri varsa sabahı ya da randevu saatini beklemeyin; arayın ve yola çıkın. Bu liste tanı koydurmaz, yalnızca aciliyeti tanımanıza yardım eder.",
+        ],
+        alert: true,
+        list: [
+          {
+            text: "Nefes almakta zorlanma, kedide ağzı açık soluma, morarmış dil veya diş eti.",
+            link: { href: "/blog/kedilerde-nefes-darligi/", label: "Kedilerde nefes darlığı" },
+          },
+          {
+            text: "Erkek kedinin kum kabına sık girip çıkması, ıkınıp idrar yapamaması; Cornell Kedi Sağlığı Merkezi tam tıkanıklıkta ölüme kadar geçen sürenin 24–48 saatten kısa olabileceğini belirtir.",
+            link: { href: "/blog/kedi-kum-kabina-girip-cikiyor-idrar-yapamiyor/", label: "Kedi idrar yapamıyor" },
+          },
+          {
+            text: "Köpekte karnın hızla şişmesi, öğürüp kusamama, huzursuzluk ve salya; mide burulması hayatı tehdit eden bir acildir.",
+            link: { href: "/blog/kopeklerde-mide-burulmasi-gdv/", label: "Köpeklerde mide burulması" },
+          },
+          {
+            text: "Zehirlenme şüphesi: insan ilacı, fare zehiri, çikolata, zambak, antifriz ya da bilinmeyen bir madde.",
+            link: { href: "/blog/evcil-hayvanlarda-zehirlenme/", label: "Evde zehirlenme riski" },
+          },
+          {
+            text: "Birkaç dakikadan uzun süren ya da arka arkaya gelen nöbet.",
+            link: { href: "/blog/kopekte-nobet-havale-ne-yapmali/", label: "Köpekte nöbet" },
+          },
+          {
+            text: "Kedide aniden arka bacakları kullanamama, ağrı ve soğuk patiler.",
+            link: { href: "/blog/kedilerde-pihti-atmasi-arka-bacak-felci/", label: "Kedilerde pıhtı atması" },
+          },
+          {
+            text: "Kanlı ya da durmayan kusma ve ishal, özellikle yavrularda ve yaşlılarda.",
+            link: { href: "/blog/kopeklerde-ishal-ne-zaman-acil/", label: "İshal ne zaman acil?" },
+          },
+          {
+            text: "Doğumda ilerlemeyen ıkınma ya da yavru çıkmadan uzayan sancı.",
+            link: { href: "/blog/kopeklerde-gebelik-ve-dogum/", label: "Gebelik ve doğumda acil işaretler" },
+          },
+          {
+            text: "Tavşanda yemeyi bırakma ya da 12 saatten uzun dışkı yapmama.",
+            link: { href: "/blog/tavsanlarda-bagirsak-durmasi/", label: "Tavşanlarda bağırsak durması" },
+          },
+          { text: "Trafik kazası, yüksekten düşme, köpek ısırığı veya durmayan kanama; dışarıdan iyi görünse bile." },
+          { text: "Bilinç bulanıklığı, ayağa kalkamama ya da çok soluk diş eti." },
+        ],
+        after:
+          "Gece yarısı, pazar ya da bayram fark etmez; bu saatlerde de açığız. Telefonda türü, yaşı, şikâyetin ne zaman başladığını ve varsa yutulan maddeyi söylemeniz yeterlidir.",
+        links: [
+          { href: "/blog/veteriner-acil-hangi-durumlar/", label: "Beklemeden gitmeniz gereken 14 belirti" },
+          { href: "/blog/ankara-acil-veteriner-nereye-gidilir/", label: "Ankara'da acil veteriner: gece nereye gidilir?" },
+        ],
+      },
+    ],
     covers: [
       "Solunum güçlüğü, bilinç kaybı ve nöbet gibi hayati durumlarda ilk değerlendirme",
       "Travma, düşme ve trafik kazası sonrası acil bakım",
@@ -638,8 +951,8 @@ export const services: Service[] = [
         a: "Solunum güçlüğü, bilinç kaybı, durmayan nöbet, kontrolsüz kanama, ciddi travma, karnın hızla şişmesi, öğürüp kusamama, zehirlenme şüphesi ve erkek kedilerde idrar yapamama bekleyemeyecek durumlardır. Emin olmadığınızda karar vermeye çalışmak yerine telefonla bize danışın.",
       },
       {
-        q: "Gece de açık mısınız?",
-        a: "Evet, kliniğimiz kesintisiz hizmet vermektedir ve acil durumlarda gece saatlerinde de telefonla ulaşabilirsiniz. Gelmeden önce aramanız, hem yönlendirme almanızı hem de biz hazırlanırken zaman kazanmanızı sağlar.",
+        q: "Gece açık veteriner arıyorum, şu an açık mısınız?",
+        a: "Evet. Kliniğimiz gece dâhil 7/24 açıktır ve acil hastaları randevusuz kabul eder. Gelmeden önce aramanız, hem yönlendirme almanızı hem de biz hazırlanırken zaman kazanmanızı sağlar.",
       },
       {
         q: "Nöbetçi veteriner aramalı mıyım?",
@@ -666,15 +979,36 @@ export const services: Service[] = [
         a: "Acil durumlarda randevu beklemenize gerek yoktur; ancak yola çıkarken aramanızı önemle rica ederiz. Bu, geldiğinizde sizi hazır karşılamamızı ve gerekiyorsa yolda yapmanız gerekenleri anlatmamızı sağlar.",
       },
     ],
+    access: {
+      text: `Tek adresimiz Öveçler'de: ${site.address.full}. Çankaya'nın tüm semtlerinden ve Ankara'nın diğer ilçelerinden gelen acil hastaları gece ve gündüz kabul ediyoruz; yola çıkarken arayın, siz gelmeden hazırlanalım.`,
+      links: accessLinks,
+    },
+    sources: [
+      {
+        title: "Feline Lower Urinary Tract Disease",
+        publisher: "Cornell Feline Health Center",
+        url: "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-lower-urinary-tract-disease",
+      },
+      {
+        title: "Disorders of the Stomach and Intestines in Dogs (Bloat)",
+        publisher: "Merck Veterinary Manual",
+        url: "https://www.merckvetmanual.com/dog-owners/digestive-disorders-of-dogs/disorders-of-the-stomach-and-intestines-in-dogs",
+      },
+      {
+        title: "Illness of Rabbits",
+        publisher: "Merck Veterinary Manual",
+        url: "https://www.merckvetmanual.com/all-other-pets/rabbits/disorders-and-diseases-of-rabbits",
+      },
+    ],
     relatedPosts: [
       "veteriner-acil-hangi-durumlar",
+      "ankara-acil-veteriner-nereye-gidilir",
       "evcil-hayvanlarda-zehirlenme",
+      "kedi-kum-kabina-girip-cikiyor-idrar-yapamiyor",
       "kedilerde-idrar-tikanikligi-flutd",
       "kopeklerde-mide-burulmasi-gdv",
       "kedilerde-nefes-darligi",
-    
       "kopekte-nobet-havale-ne-yapmali",
-      "kedi-kum-kabina-girip-cikiyor-idrar-yapamiyor",
     ],
   },
   {
@@ -854,20 +1188,53 @@ export const services: Service[] = [
     icon: Bird,
     title: "Kuş, Tavşan & Küçük Dostlar",
     desc: "Muhabbet kuşu, papağan, tavşan, ginepig ve hamsterlar için muayene ve bakım.",
-    h1: "Kuş, Tavşan ve Küçük Memeli Muayenesi",
-    metaTitle: "Kuş ve Tavşan Veterineri · Çankaya Öveçler",
+    h1: "Çankaya'da Kuş, Tavşan ve Küçük Memeli Veterineri",
+    metaTitle: "Tavşan ve Kuş Veterineri Ankara · Çankaya Öveçler",
     metaDescription:
-      "Çankaya Öveçler'de muhabbet kuşu, papağan, tavşan, ginepig ve hamster muayenesi. Hastalık belirtileri, beslenme, tırnak ve gaga bakımı. 7/24 açık.",
+      "Ankara Çankaya'da tavşan, muhabbet kuşu, papağan, ginepig ve hamster muayenesi. Hastalık belirtileri, diş, tırnak ve gaga kontrolü. 7/24 açık klinik.",
     keywords: [
-      "kuş veterineri Ankara",
-      "muhabbet kuşu veteriner Çankaya",
       "tavşan veterineri Ankara",
+      "kuş veterineri Ankara",
+      "egzotik hayvan veterineri Ankara",
+      "tavşan veterineri Çankaya",
+      "muhabbet kuşu veteriner Çankaya",
       "ginepig veteriner Ankara",
       "hamster veteriner Çankaya",
-      "egzotik hayvan veteriner Ankara",
     ],
     intro:
-      "Kuşlar, tavşanlar ve ginepigler doğada av hayvanıdır; bu yüzden hastalıklarını son ana kadar saklarlar. Sahibin fark ettiği ilk belirti çoğu zaman sorunun epeydir sürdüğü anlamına gelir. Bu küçük dostlarda da kedi ve köpeklerdeki gibi düzenli kontrol, doğru beslenme ve erken başvuru en etkili korumadır.",
+      "Muhabbet kuşu, papağan, tavşan, ginepig ve hamster gibi küçük dostları Çankaya Öveçler'deki kliniğimizde muayene ediyoruz; kliniğimiz 7/24 açık olduğu için tavşanınız gece yemeyi bıraktığında ya da kuşunuz aniden kabardığında da bize ulaşabilirsiniz. Bu türler doğada av hayvanıdır ve hastalıklarını son ana kadar saklarlar; sahibin fark ettiği ilk belirti çoğu zaman sorunun bir süredir devam ettiği anlamına gelir. Bu yüzden düzenli kontrol, türe uygun beslenme ve erken başvuru, küçük dostlarda da sağlığı korumanın temelidir.",
+    sections: [
+      {
+        h2: "Tavşanlarda en sık sorunlar ve acil belirtiler",
+        paragraphs: [
+          "Tavşanın sindirim sistemi sürekli çalışmak zorundadır. Merck Veteriner El Kitabı; 12 saatten uzun süren dışkısızlığı, iştah ve kilo kaybını, salya akmasını, nefes güçlüğünü ve normal zıplayamamayı hemen veteriner hekime başvurulması gereken belirtiler arasında sayar. Diş gıcırdatma ve kambur duruş da ağrının işareti olabilir.",
+          "Tavşanların ön kesici dişleri de yanak dişleri de ömür boyu uzar. Ağırlıklı olarak pelet yiyen tavşanlarda dişler yeterince aşınmayabilir; bol kuru ot tüketimi dişlerin aşınmasına yardım eder. Uzun ön dişler, salya, yemek seçme ya da yanakta şişlik görürseniz diş muayenesi gerekir; yanak dişlerinde oluşan sivri uçlar dili ve yanağı yaralayabilir.",
+        ],
+        links: [
+          { href: "/blog/tavsanlarda-bagirsak-durmasi/", label: "Tavşanlarda bağırsak durması" },
+          { href: "/blog/tavsanlarda-dis-uzamasi/", label: "Tavşanlarda diş uzaması" },
+        ],
+      },
+      {
+        h2: "Muhabbet kuşu ve papağanlarda uyarı işaretleri",
+        paragraphs: [
+          "Kuşlar doğada zayıf görünmemek için hastalıklarını gizler. Merck Veteriner El Kitabı; kabarık tüylerle oturmayı, her nefeste kuyruğun inip kalkmasını, dışkıdaki değişiklikleri, kafes tabanında durmayı, daha az ötmeyi ve iştah değişikliğini başlıca uyarı işaretleri olarak sayar. Kuşunuzun normal davranışını iyi tanımanız, küçük değişiklikleri erken fark etmenizi sağlar; bu belirtilerden birini gördüğünüzde beklemek yerine aramanızı öneririz.",
+          "Ev içi tehlikeler de kuşlar için önemlidir: yapışmaz kaplamalı tencere ve tavaların aşırı ısınmasıyla çıkan dumanlar, aerosol spreyler ve bazı bitkiler zehirlenmeye yol açabilir.",
+        ],
+        links: [
+          { href: "/blog/muhabbet-kusu-hastalik-belirtileri/", label: "Muhabbet kuşu hastalık belirtileri" },
+          { href: "/blog/muhabbet-kusu-usume-belirtileri/", label: "Muhabbet kuşu üşüme belirtileri" },
+          { href: "/blog/kuslarda-ev-ici-zehirlenmeler/", label: "Kuşlarda ev içi zehirlenmeler" },
+        ],
+      },
+      {
+        h2: "Ginepig, hamster ve diğer küçük memeliler",
+        paragraphs: [
+          "Ginepigler C vitaminini kendileri üretemez, bu yüzden günlük beslenmeyle almaları gerekir; eksiklikte eklem ağrısı, diş eti sorunları ve halsizlik görülebilir. Ginepig ve hamsterlarda da dişler sürekli uzar ve iştahsızlık kısa sürede ciddileşebilir. Bu türlerde kilo kaybı çoğu zaman erken bir işarettir; evde mutfak tartısıyla haftalık tartı yapmanız değerli bir takip aracıdır.",
+        ],
+        links: [{ href: "/blog/ginepiglerde-c-vitamini-eksikligi/", label: "Ginepiglerde C vitamini eksikliği" }],
+      },
+    ],
     covers: [
       "Muhabbet kuşu, sultan papağanı ve diğer kafes kuşlarının genel muayenesi",
       "Tavşan, ginepig, hamster ve diğer küçük memelilerin genel muayenesi",
@@ -913,6 +1280,10 @@ export const services: Service[] = [
         a: "Hayır. Tavşanlarda iştahsızlık ve dışkının azalması ya da kesilmesi, sindirim sisteminin yavaşladığını gösterebilir ve kısa sürede ciddileşebilir. Tavşanınız birkaç saattir yemiyor ya da dışkı yapmıyorsa acil olarak başvurun.",
       },
       {
+        q: "Yeni aldığım tavşanı veya kuşu ne zaman kontrole getirmeliyim?",
+        a: "Sahiplendikten sonraki ilk günlerde bir kontrol öneririz. Bu muayenede genel durum, kilo, dişler, tüy ve deri ile dışkı görünümü değerlendirilir; beslenme ve kafes düzenini birlikte gözden geçiririz. Evde başka kuş ya da tavşan varsa yeni geleni bir süre ayrı tutmanın gerekip gerekmediğini de konuşuruz.",
+      },
+      {
         q: "Ginepigler neden C vitaminine ihtiyaç duyar?",
         a: "Ginepigler, insanlar gibi C vitaminini kendi vücutlarında üretemez; bu yüzden günlük olarak besinle almaları gerekir. Eksiklikte eklem ağrısı, diş eti sorunları ve halsizlik görülebilir. Uygun yem ve taze sebze seçimini muayenede birlikte planlayabiliriz.",
       },
@@ -922,18 +1293,40 @@ export const services: Service[] = [
       },
       {
         q: "Tavşan ve ginepigler de kısırlaştırılabilir mi?",
-        a: "Evet, bu türlerde de kısırlaştırma yapılabilir; ancak anestezi ve hazırlık kedi ve köpeklerden farklıdır. Uygun olup olmadığını ve zamanlamasını ön muayeneden sonra konuşuruz.",
+        a: "Evet, bu türlerde de kısırlaştırma yapılabilir; ancak anestezi ve hazırlık kedi ve köpeklerden farklıdır. Örneğin tavşanlar ameliyat öncesi kedi ve köpekler gibi aç bırakılmaz, çünkü açlık sindirim sisteminin normal hareketini bozabilir. Uygunluğu ve zamanlamayı ön muayeneden sonra konuşuruz.",
       },
       {
         q: "Acil durumda gece gelebilir miyiz?",
-        a: "Evet, kliniğimiz 7/24 açık. Kuşlarda nefes darlığı ya da kanama, tavşanlarda yemenin ve dışkılamanın durması acil kabul edilmelidir. Yola çıkmadan önce 0536 290 69 58 numarasını aramanız hazırlık yapmamızı sağlar.",
+        a: `Evet, kliniğimiz 7/24 açık. Kuşlarda nefes darlığı ya da kanama, tavşanlarda yemenin ve dışkılamanın durması acil kabul edilmelidir. Yola çıkmadan önce ${site.phoneDisplay} numarasını aramanız hazırlık yapmamızı sağlar.`,
+      },
+    ],
+    access: {
+      text: `Kliniğimiz ${site.address.full} adresindedir. Çankaya'nın yanı sıra Ankara'nın diğer ilçelerinden gelen kuş, tavşan ve küçük memeli hastaları da kabul ediyoruz; taşıma kabını örtülü tutarak gelebilir, yola çıkmadan önce arayabilirsiniz.`,
+      links: accessLinks,
+    },
+    sources: [
+      {
+        title: "Illness of Rabbits",
+        publisher: "Merck Veterinary Manual",
+        url: "https://www.merckvetmanual.com/all-other-pets/rabbits/disorders-and-diseases-of-rabbits",
+      },
+      {
+        title: "Dental Care of Rabbits",
+        publisher: "Merck Veterinary Manual",
+        url: "https://www.merckvetmanual.com/all-other-pets/rabbits/dental-care-of-rabbits",
+      },
+      {
+        title: "Illness in Pet Birds",
+        publisher: "Merck Veterinary Manual",
+        url: "https://www.merckvetmanual.com/bird-owners/routine-care-and-safety-of-birds/illness-in-pet-birds",
       },
     ],
     relatedPosts: [
-      "muhabbet-kusu-hastalik-belirtileri",
-      "kuslarda-ev-ici-zehirlenmeler",
       "tavsanlarda-bagirsak-durmasi",
       "tavsanlarda-dis-uzamasi",
+      "muhabbet-kusu-hastalik-belirtileri",
+      "muhabbet-kusu-usume-belirtileri",
+      "kuslarda-ev-ici-zehirlenmeler",
       "ginepiglerde-c-vitamini-eksikligi",
       "veteriner-acil-hangi-durumlar",
     ],

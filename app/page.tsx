@@ -3,9 +3,9 @@ import { TrustStrip } from "@/components/trust-strip";
 import { Services } from "@/components/services";
 import { About } from "@/components/about";
 import { Blog } from "@/components/blog";
-import { Testimonials } from "@/components/testimonials";
 import { CtaBand } from "@/components/cta-band";
 import { Contact } from "@/components/contact";
+import { AreaAccess } from "@/components/area-access";
 
 export default function Home() {
   return (
@@ -15,9 +15,9 @@ export default function Home() {
       <Services />
       <About />
       <Blog />
-      <Testimonials />
       <CtaBand />
       <Contact />
+      <AreaAccess />
     </main>
   );
 }
