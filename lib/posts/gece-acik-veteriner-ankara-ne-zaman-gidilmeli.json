@@ -5,9 +5,9 @@
   "category": "Acil Durumlar",
   "image": "/images/blog-cat-vomiting.jpg",
   "imageAlt": "Yerde kıvrılmış, halsiz görünen bir kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "1 Kasım 2026",
+  "dateISO": "2026-11-01",
+  "updatedISO": "2026-11-01",
   "excerpt": "Gece yarısı kediniz ya da köpeğiniz rahatsızlandığında sabahı beklemek mi, gece açık veterinere gitmek mi? Üç soruluk hızlı kontrol, türlere göre uyarılar ve yolculuk hazırlığı.",
   "metaDescription": "Gece veterinere gitmeli miyim? Sabahı beklememeniz gereken belirtiler, türlere göre uyarılar ve Çankaya'da gece açık kliniğimize gelmeden önce yapılacaklar.",
   "readTime": "7 dk okuma",
@@ -165,7 +165,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/special-pet-topics/emergencies/what-to-do-in-a-dog-or-cat-emergency"
     }
-  ],
-  "published": false,
-  "queue": 2
+  ]
 }
