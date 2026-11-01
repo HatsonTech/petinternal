@@ -5,9 +5,9 @@
   "category": "Acil Durumlar",
   "image": "/images/blog-poisoning.jpg",
   "imageAlt": "Ev içinde merakla etrafı koklayan bir evcil hayvan",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "2 Kasım 2026",
+  "dateISO": "2026-11-02",
+  "updatedISO": "2026-11-02",
   "excerpt": "Bayram tatilinde veteriner açık mı, tatilden önce ne hazırlanmalı? Kurban kemiği, yağlı et, bayram şekerleri ve misafir trafiğinin kedi ve köpekler için riskleri.",
   "metaDescription": "Bayramda veteriner açık mı? Kliniğimiz Ramazan ve Kurban Bayramı dâhil 7/24 açık. Bayram öncesi hazırlık, kurban kemiği ve bayram sofrasının riskleri.",
   "readTime": "7 dk okuma",
@@ -160,7 +160,5 @@
       "publisher": "World Small Animal Veterinary Association (WSAVA)",
       "url": "https://wsava.org/wp-content/uploads/2025/06/Cats-Vaccination-Table.pdf"
     }
-  ],
-  "published": false,
-  "queue": 3
+  ]
 }
