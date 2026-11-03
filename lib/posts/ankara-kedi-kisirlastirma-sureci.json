@@ -5,9 +5,9 @@
   "category": "Cerrahi",
   "image": "/images/blog-cat-diabetes.jpg",
   "imageAlt": "Muayene masasında sakin biçimde bekleyen bir kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "4 Kasım 2026",
+  "dateISO": "2026-11-04",
+  "updatedISO": "2026-11-04",
   "excerpt": "Kedi kısırlaştırma kaç aylıkken yapılır, ameliyattan önce ve sonra neler olur? Ön muayeneden dikiş kontrolüne kadar süreci ve sizden beklenen hazırlığı adım adım anlatıyoruz.",
   "metaDescription": "Kedi kısırlaştırma Ankara: uygun yaş, ön muayene, aç kalma, ameliyat günü ve evde ilk on gün. Çankaya Öveçler'de süreci adım adım nasıl yürüttüğümüz.",
   "readTime": "7 dk okuma",
@@ -184,7 +184,5 @@
       "publisher": "World Small Animal Veterinary Association (WSAVA)",
       "url": "https://wsava.org/wp-content/uploads/2024/06/Executive-Summary.pdf"
     }
-  ],
-  "published": false,
-  "queue": 5
+  ]
 }
