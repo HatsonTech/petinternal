@@ -5,9 +5,9 @@
   "category": "Acil Durumlar",
   "image": "/images/hero-pet-care.jpg",
   "imageAlt": "Veteriner kliniğinde kucakta taşınan bir kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "3 Kasım 2026",
+  "dateISO": "2026-11-03",
+  "updatedISO": "2026-11-03",
   "excerpt": "Ankara'da nöbetçi veteriner var mı, nasıl bulunur? Nöbet, 7/24 açık klinik ve çağrı üzerine hizmet arasındaki fark ve gece aramadan önce sormanız gereken sorular.",
   "metaDescription": "Nöbetçi veteriner Ankara: resmî nöbet listesi yok, peki ne yapmalı? 7/24 açık klinik ile çağrı üzerine hizmet farkı ve telefonda sorulacak sorular.",
   "readTime": "7 dk okuma",
@@ -169,7 +169,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/special-pet-topics/emergencies/what-to-do-in-a-dog-or-cat-emergency"
     }
-  ],
-  "published": false,
-  "queue": 4
+  ]
 }
