@@ -5,9 +5,9 @@
   "category": "Cerrahi",
   "image": "/images/blog-spay-neuter.jpg",
   "imageAlt": "Sakin sakin dinlenen sağlıklı bir köpek",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "5 Kasım 2026",
+  "dateISO": "2026-11-05",
+  "updatedISO": "2026-11-05",
   "excerpt": "Köpek kısırlaştırmanın herkes için doğru tek bir yaşı yok. AAHA ve WSAVA rehberlerinin küçük ve büyük ırklar, dişi ve erkek köpekler için önerileri ve aralarındaki farklar.",
   "metaDescription": "Köpek kısırlaştırma ne zaman yapılmalı? Küçük ve büyük ırk, dişi ve erkek köpekler için AAHA ve WSAVA önerileri; Çankaya'da karar ve ameliyat süreci.",
   "readTime": "7 dk okuma",
@@ -164,7 +164,5 @@
       "publisher": "World Small Animal Veterinary Association (WSAVA)",
       "url": "https://wsava.org/wp-content/uploads/2024/06/Executive-Summary.pdf"
     }
-  ],
-  "published": false,
-  "queue": 6
+  ]
 }
