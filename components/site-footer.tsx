@@ -1,4 +1,5 @@
 import { Clock, Instagram, Mail, MapPin, PawPrint, Phone } from "lucide-react";
+import Image from "next/image";
 import { Brand } from "@/components/brand";
 import { WhatsAppIcon } from "@/components/icons";
 import { navLinks, site } from "@/lib/site";
@@ -107,6 +108,25 @@ export function SiteFooter() {
           <p className="inline-flex items-center gap-1.5">
             Çankaya · Ankara'da sevgiyle
             <PawPrint className="h-4 w-4 text-brand-300" aria-hidden="true" />
+          </p>
+          <p className="text-xs">
+            Web tasarım ve yazılım:{" "}
+            <a
+              href="https://hatsontech.com/tr"
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center gap-1.5 align-middle transition-colors hover:text-white"
+            >
+              <Image
+                src="/hatson-tech.svg"
+                alt="Hatson Tech"
+                width={16}
+                height={16}
+                loading="lazy"
+                className="h-4 w-4 opacity-80"
+              />
+              Hatson Tech
+            </a>
           </p>
         </div>
       </div>
