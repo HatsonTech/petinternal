@@ -5,9 +5,9 @@
   "category": "Koruyucu Hekimlik",
   "image": "/images/blog-kitten-nutrition.jpg",
   "imageAlt": "Yan yana oturan üç yavru kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "6 Kasım 2026",
+  "dateISO": "2026-11-06",
+  "updatedISO": "2026-11-06",
   "excerpt": "Yavru kediyi ilk kez ne zaman veterinere götürmeli, muayenede nelere bakılır, hangi testler yapılır? İlk ziyaret için kontrol listesi ve ilk yılın ziyaret planı.",
   "metaDescription": "Yavru kedinin ilk veteriner ziyareti: ne zaman gidilir, muayenede neye bakılır, dışkı ve FeLV/FIV testi, aşı planı ve yanınızda getirmeniz gerekenler.",
   "readTime": "7 dk okuma",
@@ -190,7 +190,5 @@
       "publisher": "Mevzuat Bilgi Sistemi (Tarım ve Orman Bakanlığı)",
       "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=15800&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
     }
-  ],
-  "published": false,
-  "queue": 7
+  ]
 }
