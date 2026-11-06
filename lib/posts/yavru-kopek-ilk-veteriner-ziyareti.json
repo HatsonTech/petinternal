@@ -5,9 +5,9 @@
   "category": "Koruyucu Hekimlik",
   "image": "/images/blog-parvo-puppy.jpg",
   "imageAlt": "Yukarı bakan kahverengi bir yavru köpek",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "7 Kasım 2026",
+  "dateISO": "2026-11-07",
+  "updatedISO": "2026-11-07",
   "excerpt": "Yavru köpeği ilk kez ne zaman veterinere götürmeli, muayenede neye bakılır, aşı ve parazit planı nasıl kurulur? İlk ziyaret için kontrol listesi ve ilk yılın ziyaret ritmi.",
   "metaDescription": "Yavru köpeğin ilk veteriner ziyareti: ne zaman gidilir, muayenede neye bakılır, aşı ve parazit planı, sosyalleşme ve yanınızda getirmeniz gerekenler.",
   "readTime": "7 dk okuma",
@@ -188,7 +188,5 @@
       "publisher": "Mevzuat Bilgi Sistemi (Tarım ve Orman Bakanlığı)",
       "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=15800&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
     }
-  ],
-  "published": false,
-  "queue": 8
+  ]
 }
