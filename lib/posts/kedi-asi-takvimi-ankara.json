@@ -5,9 +5,9 @@
   "category": "Aşılama",
   "image": "/images/blog-cat-vaccine.jpg",
   "imageAlt": "Sahibinin kucağında sakin biçimde duran bir kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "8 Kasım 2026",
+  "dateISO": "2026-11-08",
+  "updatedISO": "2026-11-08",
   "excerpt": "Kedi aşı takviminde 2024 WSAVA rehberi neyi değiştirdi, kuduz aşısı yasal olarak ne zaman zorunlu, aşı kaçırıldığında ya da yetişkin kedi sahiplenildiğinde ne yapılır?",
   "metaDescription": "Kedi aşı takvimi Ankara: WSAVA 2024 temel aşı önerileri, Türkiye'de yasal kuduz yükümlülüğü, kaçırılan doz ve yetişkin kedi için aşı planı.",
   "readTime": "7 dk okuma",
@@ -165,7 +165,5 @@
       "publisher": "Mevzuat Bilgi Sistemi (Tarım ve Orman Bakanlığı)",
       "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=15800&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
     }
-  ],
-  "published": false,
-  "queue": 9
+  ]
 }
