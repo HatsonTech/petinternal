@@ -5,9 +5,9 @@
   "category": "Aşılama",
   "image": "/images/blog-dog-vaccine.jpg",
   "imageAlt": "Aşı sonrası sahibinin yanında dinlenen genç bir köpek",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "9 Kasım 2026",
+  "dateISO": "2026-11-09",
+  "updatedISO": "2026-11-09",
   "excerpt": "Köpek aşı takviminde temel aşılar ne zaman başlar, rapeller ne sıklıkla yapılır, kuduz aşısı yasal olarak ne zaman zorunlu ve hangi köpeğe hangi ek aşılar önerilir?",
   "metaDescription": "Köpek aşı takvimi Ankara: WSAVA 2024 temel aşıları, yasal kuduz yükümlülüğü, köpek öksürüğü ve leptospiroz gibi ek aşılar, kaçırılan doz ve yetişkin köpek.",
   "readTime": "7 dk okuma",
@@ -160,7 +160,5 @@
       "publisher": "Mevzuat Bilgi Sistemi (Tarım ve Orman Bakanlığı)",
       "url": "https://mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=15800&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5"
     }
-  ],
-  "published": false,
-  "queue": 10
+  ]
 }
