@@ -5,9 +5,9 @@
   "category": "Yasal Rehber",
   "image": "/images/blog-microchip.jpg",
   "imageAlt": "Tasmalı, dışarıda duran sarı bir köpek",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "10 Kasım 2026",
+  "dateISO": "2026-11-10",
+  "updatedISO": "2026-11-10",
   "excerpt": "Mikroçip veteriner hekim tarafından deri altına uygulanır; ardından pasaport düzenlenir ve kayıt on beş gün içinde Bakanlık veri tabanına işlenir. Randevuya ne götürülür, klinikte ne olur, sonradan hangi süreler işler?",
   "metaDescription": "Mikroçip ve PETVET kaydı adım adım: randevuya ne götürülür, çip nereye takılır, kayıt ne zaman tamamlanır, sahip değişikliği ve kayıpta hangi süreler işler?",
   "readTime": "7 dk okuma",
@@ -157,7 +157,5 @@
       "publisher": "T.C. Tarım ve Orman Bakanlığı",
       "url": "https://www.tarimorman.gov.tr/Haber/5471/Tarim-Ve-Orman-Bakanligi-393-Bin-771-Evcil-Hayvani-Kayit-Altina-Aldi"
     }
-  ],
-  "published": false,
-  "queue": 11
+  ]
 }
