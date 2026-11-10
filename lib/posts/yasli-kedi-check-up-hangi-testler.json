@@ -5,9 +5,9 @@
   "category": "Yaşlı Dostlar",
   "image": "/images/blog-senior-pet-care.jpg",
   "imageAlt": "Battaniyenin üzerinde dinlenen yaşlı bir kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "11 Kasım 2026",
+  "dateISO": "2026-11-11",
+  "updatedISO": "2026-11-11",
   "excerpt": "On yaşını geçmiş bir kedi için kılavuzlar en az altı ayda bir kontrol öneriyor. Hangi ziyarette hangi testler yapılır, randevudan önce evde neler not edilir ve bir yıllık takvim nasıl kurulur?",
   "metaDescription": "Yaşlı kedide check-up kaç ayda bir yapılır, hangi testler hangi ziyarette istenir? AAFP önerilerine göre bir yıllık kontrol planı ve randevu hazırlığı.",
   "readTime": "7 dk okuma",
@@ -154,7 +154,5 @@
       "publisher": "American Association of Feline Practitioners",
       "url": "https://catvets.com/wp-content/uploads/2024/08/2021_AAFP_Feline_Senior_Care_Guidelines.pdf"
     }
-  ],
-  "published": false,
-  "queue": 12
+  ]
 }

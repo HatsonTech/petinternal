@@ -37,3 +37,4 @@
 2026-11-08 kedi-asi-takvimi-ankara
 2026-11-09 kopek-asi-takvimi-ankara
 2026-11-10 mikrocip-ve-petvet-kaydi-nasil-yapilir
+2026-11-11 yasli-kedi-check-up-hangi-testler
