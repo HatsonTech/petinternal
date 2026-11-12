@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-rabbit.jpg",
   "imageAlt": "Çimenlerin üzerinde oturan turuncu tüylü bir aslan başlı tavşan",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "12 Kasım 2026",
+  "dateISO": "2026-11-12",
+  "updatedISO": "2026-11-12",
   "excerpt": "Tavşanlar hastalığı son ana kadar gizler; bu yüzden tavşanı tanıyan bir hekim ve gece de ulaşabileceğiniz bir klinik önemlidir. Klinik seçerken sorulacak sorular, ilk muayene ve beklemeye gelmeyen belirtiler.",
   "metaDescription": "Ankara'da tavşan veterineri seçerken sorulacak sorular, ilk muayenede yapılanlar ve beklemeye gelmeyen belirtiler: dışkı yokluğu, iştahsızlık, nefes darlığı.",
   "readTime": "7 dk okuma",
@@ -178,7 +178,5 @@
       "publisher": "Rabbit Welfare Association & Fund",
       "url": "https://rabbitwelfare.co.uk/rabbit-friendly-vets/"
     }
-  ],
-  "published": false,
-  "queue": 13
+  ]
 }
