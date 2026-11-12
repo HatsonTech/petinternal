@@ -5,9 +5,9 @@
   "category": "Kuş ve Küçük Dostlar",
   "image": "/images/blog-budgie.jpg",
   "imageAlt": "Kafeste duran sarı-yeşil bir muhabbet kuşu",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "13 Kasım 2026",
+  "dateISO": "2026-11-13",
+  "updatedISO": "2026-11-13",
   "excerpt": "Muhabbet kuşu muayenesi kafesin başında gözlemle başlar; gram hassasiyetinde tartı, kursak ve göğüs kası kontrolü, gaga ve tırnak değerlendirmesiyle sürer. Ne zaman gelinir, nasıl hazırlanılır?",
   "metaDescription": "Muhabbet kuşu muayenesi nasıl yapılır: gözlem, gramla tartı, kursak ve göğüs kası, gaga ve tırnak. Ne zaman kuş veterinerine gidilir, nasıl hazırlanılır?",
   "readTime": "7 dk okuma",
@@ -144,7 +144,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/bird-owners/routine-care-and-safety-of-birds/illness-in-pet-birds"
     }
-  ],
-  "published": false,
-  "queue": 14
+  ]
 }
