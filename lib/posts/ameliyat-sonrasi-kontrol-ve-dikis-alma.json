@@ -5,9 +5,9 @@
   "category": "Cerrahi",
   "image": "/images/blog-spay-neuter.jpg",
   "imageAlt": "Fayans zeminde uzanmış dinlenen sarı bir köpek",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "16 Kasım 2026",
+  "dateISO": "2026-11-16",
+  "updatedISO": "2026-11-16",
   "excerpt": "Eriyen dikiş kullanılmadıysa dikişler genellikle ameliyattan 10-14 gün sonra alınır. Kontrol randevusunda neye bakılır, dikiş alma acıtır mı, kontrolü beklemeden hangi durumda aranır?",
   "metaDescription": "Ameliyat sonrası kontrol ve dikiş alma: dikişler genellikle 10-14. günde alınır. Kontrolde neye bakılır, hangi durumda randevuyu beklemeden aramalı?",
   "readTime": "6 dk okuma",
@@ -160,7 +160,5 @@
       "publisher": "American College of Veterinary Surgeons (ACVS)",
       "url": "https://www.acvs.org/small-animal/castration/"
     }
-  ],
-  "published": false,
-  "queue": 17
+  ]
 }
