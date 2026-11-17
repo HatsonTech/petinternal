@@ -7,7 +7,7 @@
   "imageAlt": "Parkta yürüyüş sırasında tasmalı bir köpek",
   "date": "21 Ekim 2026",
   "dateISO": "2026-10-21",
-  "updatedISO": "2026-10-21",
+  "updatedISO": "2026-11-17",
   "excerpt": "Kahverengi ve şekilli dışkı normaldir; siyah ve katran gibi dışkı ise acildir. Aradaki renkler ve kıvamlar ne anlatır, hangisi evde izlenebilir, hangisi aynı gün muayene ister? Renk ve kıvam için pratik bir kontrol tablosu.",
   "metaDescription": "Köpeklerde ishal rengi ne anlatır? Siyah, kırmızı, sarı, yeşil, gri ve beyaz dışkının anlamı, kıvam ölçeği ve hangi rengin acil olduğunu gösteren tablo.",
   "readTime": "7 dk okuma",
@@ -130,6 +130,10 @@
         "Şişmiş ve ağrılı karın, solgun diş etleri.",
         "Zehir, ilaç ya da yabancı cisim yutma şüphesi."
       ]
+    },
+    {
+      "type": "p",
+      "text": "Bu bulgulardan biri gece ya da pazar günü ortaya çıksa da ertesi günü beklemeyin; yola çıkmadan önce yapılacakları <a href=\"/hizmetler/acil-mudahale/\">acil veteriner</a> sayfamızda anlattık."
     },
     {
       "type": "p",

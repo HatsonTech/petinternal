@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Dikmen veteriner",
     "Çukurambar veteriner",
   ],
-  alternates: { canonical: "/veteriner" },
+  alternates: { canonical: "/veteriner/" },
 };
 
 function LocationItem({ loc }: { loc: Location }) {

@@ -7,7 +7,7 @@
   "imageAlt": "Yumuşak bir örtü üzerinde uyuyan kedi",
   "date": "13 Ekim 2026",
   "dateISO": "2026-10-13",
-  "updatedISO": "2026-10-13",
+  "updatedISO": "2026-11-17",
   "metaDescription": "Kedi solunum sayısı uykuda genellikle dakikada 30'un altındadır. Evde nasıl sayılır, hangi sayıda veterinerinizi aramalısınız? Tablo ile anlatıyoruz.",
   "excerpt": "Sağlıklı bir kedi uyurken genellikle dakikada 30'dan az nefes alır. Solunum sayısını evde doğru saymanın yolu, kendi kedinizin normalini öğrenmek ve hangi sayıda aramanız gerektiğini gösteren basit bir tablo.",
   "readTime": "6 dk okuma",
@@ -92,6 +92,10 @@
         "Kalp hastası bir kedide değerin her zamankine göre belirgin ve kalıcı biçimde artması: Aynı gün arayın; eşiğin altında olsa bile bu bir değişimdir.",
         "Ağızdan soluma, karın solunumu, morarma, yatamama veya arka bacaklarda ani güçsüzlük: Sayıyı beklemeden hemen acile gelin."
       ]
+    },
+    {
+      "type": "p",
+      "text": "Tablonun son satırındaki bulgular gece ya da hafta sonu ortaya çıksa da beklemeye gelmez; yola çıkmadan önce yapılacakları <a href=\"/hizmetler/acil-mudahale/\">acil müdahale</a> sayfamızda topladık."
     },
     {
       "type": "callout",

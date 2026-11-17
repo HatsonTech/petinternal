@@ -85,7 +85,7 @@
     },
     {
       "type": "p",
-      "text": "Muayenede yürüyüş izlenir, eklemler tek tek değerlendirilir ve ağrının kaynağı aranır. Gerekirse röntgen çekilir; bağ ve kas sorunlarında ek testler, omurga şüphesinde ileri görüntüleme gündeme gelebilir. Kene kaynaklı hastalık şüphesinde kan testleri istenir."
+      "text": "Muayenede yürüyüş izlenir, eklemler tek tek değerlendirilir ve ağrının kaynağı aranır. Gerekirse röntgen çekilir; bağ ve kas sorunlarında ek testler, omurga şüphesinde ileri görüntüleme gündeme gelebilir. Kene kaynaklı hastalık şüphesinde kan testleri istenir. Röntgen ve kan testleri kliniğimizde <a href=\"/hizmetler/laboratuvar-goruntuleme/\">laboratuvar ve görüntüleme</a> hizmetimiz kapsamında yapılır."
     },
     {
       "type": "h2",
@@ -129,5 +129,5 @@
   ],
   "date": "26 Eylül 2026",
   "dateISO": "2026-09-26",
-  "updatedISO": "2026-09-26"
+  "updatedISO": "2026-11-17"
 }

@@ -170,10 +170,10 @@ export const locations: Location[] = [
     directionsFrom: "Çankaya, Ankara",
     areaType: "AdministrativeArea",
     kind: "primary",
-    title: "Çankaya'da 7/24 açık veteriner kliniği",
+    title: "Çankaya veteriner kliniği: Öveçler'de, 7/24 açık",
     metaTitle: "Çankaya Veteriner Kliniği · Öveçler'de 7/24 Açık",
     metaDescription:
-      "Çankaya Öveçler'de gece, pazar ve bayram dâhil 7/24 açık veteriner kliniği. Kızılay, Ayrancı, Bahçelievler ve Çayyolu'ndan ulaşım. 0536 290 69 58.",
+      "Çankaya veteriner kliniği Pet Internal, Öveçler'de gece, pazar ve bayram dâhil 7/24 açık. Kızılay, Ayrancı, Bahçelievler ve Çayyolu'ndan ulaşım. 0536 290 69 58.",
     keywords: [
       ...commonKeywords("Çankaya"),
       "çankaya gece açık veteriner",
@@ -182,7 +182,7 @@ export const locations: Location[] = [
     summary:
       "İlçenin tamamı için: Kızılay, Ayrancı, Bahçelievler, Esat, Yıldız ve Çayyolu'ndan hangi yolla gelinir.",
     intro:
-      "Evet, Çankaya'da 7/24 açık bir veteriner kliniği var: Pet Internal, Çankaya'nın Öveçler semtinde, 1335. Sokak'ta. Gece, pazar ve resmî bayramlar dâhil kapımız açık; kedi ve köpeklerin yanı sıra kuş, tavşan ve ginepig gibi küçük dostları da kabul ediyoruz. Bu sayfada ilçenin farklı köşelerinden kliniğe hangi yollarla geleceğinizi ve gece gelirken nelere dikkat etmeniz gerektiğini topladık.",
+      "Çankaya veteriner kliniği arıyorsanız: Pet Internal, Çankaya'nın Öveçler semtinde, 1335. Sokak'ta 7/24 açık bir veteriner kliniği. Gece, pazar ve resmî bayramlar dâhil kapımız açık; kedi ve köpeklerin yanı sıra kuş, tavşan ve ginepig gibi küçük dostları da kabul ediyoruz. Çankaya'da veteriner arayanlar için bu sayfada ilçenin farklı köşelerinden kliniğe hangi yollarla geleceğinizi ve gece gelirken nelere dikkat etmeniz gerektiğini topladık.",
     quickFacts: [
       { label: "Adres", value: ADDRESS },
       { label: "Çalışma saati", value: "7/24 — gece, hafta sonu ve resmî tatiller dâhil" },
@@ -335,6 +335,10 @@ export const locations: Location[] = [
         paragraphs: [
           "Öveçler iki ana caddenin çevresinde şekillenmiş bir semt: Öveçler 2. Cadde olarak da bilinen Lizbon Caddesi ve Öveçler 4. Cadde olarak bilinen Kabil Caddesi. Lizbon Caddesi Dikmen Caddesi'nden başlayıp Çetin Emeç Bulvarı'na kadar uzanıyor ve Ata ile Huzur mahallelerini ikiye bölüyor. 1980'lerin başında gecekondu bölgesi olan Öveçler, kentsel dönüşümle bugünkü planlı görünümüne kavuştu.",
           "Kliniğimiz Kabil Caddesi'nin kuzey ucunda, Çetin Emeç Bulvarı'na yakın kesimde, 1335. Sokak üzerinde. Resmî adreste Öveçler yazsa da semt; Öveçler, Aşağı Öveçler, Yukarı Öveçler, Ata ve Huzur gibi birkaç mahalleye yayılıyor. Hangisinde oturursanız oturun tarif aynı: Kabil Caddesi'ni kuzeye, Çetin Emeç Bulvarı yönüne doğru izleyin.",
+          "Öveçler, Çankaya ilçesine bağlı. Kızılay, Ayrancı, Bahçelievler ya da Çayyolu gibi ilçenin başka bir köşesinden geliyorsanız güzergâhları ilçe sayfamızda topladık.",
+        ],
+        links: [
+          { label: "Çankaya veteriner kliniği: ilçenin diğer semtlerinden ulaşım", href: "/veteriner/cankaya-veteriner/" },
         ],
       },
       {
@@ -350,7 +354,10 @@ export const locations: Location[] = [
           `Gece yarısı kediniz sık sık kum kabına girip çıkıyor ya da köpeğiniz durmadan öğürüyorsa, beklemek yerine ${PHONE} numarasını arayın; mahalle içinden kısa sürede kapıda olabilirsiniz. Telefonda kısaca anlattığınız bilgiler, kapıdan girdiğiniz anda değerlendirmeye başlamamızı sağlar.`,
           "Kronik hastalığı olan dostlarda böbrek, tiroid ya da diyabet takibinin önemli bir parçası, kontrol aralıklarını aksatmamak. Kontrol tarihini çıkışta birlikte planlıyoruz.",
         ],
-        links: [{ label: "Bu acil mi? Beklemeden gelmeniz gereken 14 belirti", href: "/blog/veteriner-acil-hangi-durumlar/" }],
+        links: [
+          { label: "Bu acil mi? Beklemeden gelmeniz gereken 14 belirti", href: "/blog/veteriner-acil-hangi-durumlar/" },
+          { label: "Ankara'da 7/24 açık veteriner: gece, pazar ve bayram", href: `/veteriner/${ANKARA_SLUG}/` },
+        ],
       },
     ],
     routes: {
@@ -1122,15 +1129,22 @@ export const locations: Location[] = [
     directionsFromVisitor: true,
     areaType: "City",
     kind: "primary",
-    title: "Ankara'da 7/24 açık veteriner: gece, pazar ve bayramda",
-    metaTitle: "Ankara 7/24 Açık Veteriner · Gece, Pazar ve Bayramda",
+    // Title, H1, lede and FAQs carry the words people actually search with
+    // (Search Console, Oct–Nov 2026): "24 saat açık", "7/24", "gece açık",
+    // "pazar / hafta sonu açık", "nöbetçi veteriner", "acil". All of them are
+    // owner-confirmed facts; "nöbetçi" is only used to explain that no official
+    // rota exists.
+    title: "Ankara'da 24 saat açık veteriner: gece, pazar ve bayramda 7/24",
+    metaTitle: "Ankara 7/24 Açık Veteriner · 24 Saat, Gece, Pazar, Acil",
     metaDescription:
-      "Ankara'da gece, pazar ve bayramda açık veteriner: Çankaya Öveçler'deki kliniğimiz 7/24 açık. Nöbetçi liste yok; önce arayın: 0536 290 69 58.",
+      "Ankara 24 saat açık veteriner: Çankaya'da gece, hafta sonu ve bayramda 7/24 açık, acil hasta kabul eder. Nöbetçi veteriner listesi yok; arayın: 0536 290 69 58.",
     keywords: [
       "ankara veteriner",
       "ankara 7/24 açık veteriner",
+      "ankara 24 saat açık veteriner",
       "gece açık veteriner ankara",
       "pazar açık veteriner ankara",
+      "hafta sonu açık veteriner ankara",
       "bayramda açık veteriner ankara",
       "nöbetçi veteriner ankara",
       "acil veteriner ankara",
@@ -1138,10 +1152,11 @@ export const locations: Location[] = [
     ],
     summary:
       "Gece, pazar ve bayramda veteriner arayanlar için: tek kliniğimiz, nöbetçi sistemi, ne zaman aramalı ve Ankara'nın her yerinden ulaşım.",
-    intro: `Evet, Ankara'da gece, pazar ve bayramda açık bir veteriner kliniğine ulaşabilirsiniz: Pet Internal Veteriner Kliniği, Çankaya'nın Öveçler semtinde 7/24 açık. Ankara genelinde tek bir kliniğiz ve şubemiz yok; gece yarısı, hafta sonu ya da bayram sabahı veterinere ihtiyaç duyan Ankaralıları bu tek adreste karşılıyoruz. Yola çıkmadan önce ${PHONE} numarasını arayın.`,
+    intro: `Evet, Ankara'da 24 saat açık bir veteriner kliniği var: Pet Internal Veteriner Kliniği, Çankaya'nın Öveçler semtinde gece, hafta sonu (cumartesi ve pazar) ve bayramlar dâhil 7/24 açık ve acil hastaları randevusuz kabul ediyor. Ankara'da eczanelerdeki gibi resmî bir nöbetçi veteriner listesi olmadığı için, gece açık veteriner ararken en pratik yol açık olduğunu bildiğiniz kliniği doğrudan aramak. Ankara genelinde tek bir kliniğiz ve şubemiz yok; yola çıkmadan önce ${PHONE} numarasını arayın.`,
     quickFacts: [
       { label: "Adres", value: ADDRESS },
-      { label: "Açık olduğumuz zamanlar", value: "Her gün 24 saat; pazar ve resmî/dinî bayramlar dâhil" },
+      { label: "Açık olduğumuz zamanlar", value: "Her gün 24 saat (7/24); gece, cumartesi, pazar ve resmî/dinî bayramlar dâhil" },
+      { label: "Acil başvuru", value: "Randevu gerekmez; yola çıkmadan arayın" },
       { label: "Önce arayın", value: PHONE },
       { label: "Kabul ettiğimiz hastalar", value: "Kedi, köpek, kuş, tavşan, ginepig ve küçük memeliler" },
     ],
@@ -1152,6 +1167,10 @@ export const locations: Location[] = [
           "Kliniğimizin tek bir adresi var: Çankaya, Öveçler. Ankara'nın başka bir ilçesinde ya da semtinde şubemiz, ortak çalıştığımız bir muayene noktası ya da gezici hizmetimiz yok. Bu sayfayı, gece, hafta sonu ya da bayramda veteriner arayan Ankaralılar için hazırladık.",
           "Gündüz kendi veterinerinize gidiyorsanız bu düzeni bozmanızı gerektiren bir şey yok. Ama gece yarısı başlayan bir nefes güçlüğü, pazar sabahı fark edilen idrar yapamama ya da bayramın ilk günü yaşanan bir zehirlenme şüphesi beklemeye gelmez; böyle anlarda açık bir kliniğe ulaşmak gerekir.",
         ],
+        links: [
+          { label: "Çankaya veteriner kliniği: ilçe içinden ulaşım", href: "/veteriner/cankaya-veteriner/" },
+          { label: "Öveçler veteriner kliniği: adres ve mahalle içi tarif", href: "/veteriner/ovecler-veteriner/" },
+        ],
       },
       {
         h2: "Ankara'da nöbetçi veteriner sistemi var mı?",
@@ -1159,7 +1178,10 @@ export const locations: Location[] = [
           "Hayır. Eczanelerdeki gibi resmî bir nöbetçi veteriner çizelgesi yok; Ankara Veteriner Hekimleri Odası'nın sitesinde de nöbet listesi yayımlanmıyor. İnternette karşınıza çıkan \"nöbetçi veteriner\" listelerinin güncel olup olmadığını denetleyen bir kurum bulunmuyor.",
           "Ankara Büyükşehir Belediyesi'nin veteriner hizmetleri —Kurtuluş Sokak Hayvanları Sağlık Merkezi, Oran Kısırlaştırma ve Sahiplendirme Merkezi, Karataş Hayvan Bakımevi, Vetbüs ve E-Pati gibi birimler— ağırlıklı olarak sokak hayvanlarına yönelik. Belediyenin sayfasında sahipli hayvanlar için acil servis ya da çalışma saati yayımlanmıyor; güncel durumu 153 Başkent çağrı merkezinden sorabilirsiniz.",
         ],
-        links: [{ label: "Ankara'da acil veteriner: gece yarısı nereye gidilir?", href: "/blog/ankara-acil-veteriner-nereye-gidilir/" }],
+        links: [
+          { label: "Nöbetçi veteriner Ankara: 7/24 açık klinikten farkı ne?", href: "/blog/nobetci-veteriner-ankara-nasil-bulunur/" },
+          { label: "Ankara'da acil veteriner: gece yarısı nereye gidilir?", href: "/blog/ankara-acil-veteriner-nereye-gidilir/" },
+        ],
       },
       {
         h2: "Gelmeden önce neden aramalısınız?",
@@ -1176,6 +1198,7 @@ export const locations: Location[] = [
         ],
         links: [
           { label: "Acil Müdahale hizmetimiz", href: "/hizmetler/acil-mudahale/" },
+          { label: "Gece veterinere gitmeli miyim, sabahı beklemeli mi?", href: "/blog/gece-acik-veteriner-ankara-ne-zaman-gidilmeli/" },
           { label: "Bu acil mi? Beklemeden gelmeniz gereken 14 belirti", href: "/blog/veteriner-acil-hangi-durumlar/" },
           { label: "Kedim kum kabına girip çıkıyor ama idrar yapamıyor", href: "/blog/kedi-kum-kabina-girip-cikiyor-idrar-yapamiyor/" },
         ],
@@ -1185,6 +1208,10 @@ export const locations: Location[] = [
         paragraphs: [
           "Toplu taşımaya gece güvenmeyin. Öveçler'e inen EGO 451 ve 454 hatlarının son seferleri gece yarısından önce kalkıyor; dinî ve resmî bayramlarda bu hatlarda cumartesi tarifesi uygulanıyor. Kliniğin çevresinde metro ya da Ankaray istasyonu yok. Gece için kendi aracınızı ya da bir taksiyi planlayın.",
           "Bayram tatilleri ve uzun hafta sonları için şimdiden hazırlık yapın: numaramızı telefonunuza kaydedin, hayvanınızın güncel kilosunu ve kullandığı ilaçları bir nota yazın, aşı karnesinin fotoğrafını çekin ve taşıma kabını kolay ulaşılır bir yerde tutun.",
+        ],
+        links: [
+          { label: "Pazar günü veterinere gitmek: pazartesiyi beklememeniz gereken belirtiler", href: "/blog/pazar-gunu-acik-veteriner-ankara/" },
+          { label: "Bayramda evcil hayvanınız: tatil öncesi hazırlık ve sofra riskleri", href: "/blog/bayramda-acik-veteriner-ankara/" },
         ],
       },
     ],
@@ -1229,15 +1256,19 @@ export const locations: Location[] = [
     faqs: [
       {
         q: "Ankara'da 7/24 açık veteriner var mı?",
-        a: `Evet. Kliniğimiz Çankaya Öveçler'de (${ADDRESS}) 7/24 açık; gece, pazar ve bayramlarda da hasta kabul ediyoruz. Ankara genelinde tek bir kliniğiz, şubemiz yok.`,
+        a: `Evet. Kliniğimiz Çankaya Öveçler'de (${ADDRESS}) 7/24, yani günün 24 saati açık; gece, pazar ve bayramlarda da hasta kabul ediyoruz. Ankara genelinde tek bir kliniğiz, şubemiz yok.`,
       },
       {
         q: "Ankara'da nöbetçi veteriner nasıl bulunur?",
         a: "Ankara'da resmî bir nöbetçi veteriner çizelgesi yok; Ankara Veteriner Hekimleri Odası da liste yayımlamıyor. En pratik yol, gece açık olduğunu bildiğiniz bir kliniğin numarasını önceden kaydetmek ve gece yola çıkmadan arayıp teyit etmek.",
       },
       {
-        q: "Pazar günü açık veteriner var mı?",
-        a: `Kliniğimiz pazar dâhil her gün açık. Planlı bir muayene için de acil bir durum için de gelebilirsiniz; yola çıkmadan ${PHONE} numarasını aramanız yeterli.`,
+        q: "Nöbetçi veteriner ile 24 saat açık veteriner arasındaki fark nedir?",
+        a: "Nöbet, eczanelerdeki gibi belirli yerlerin sırayla açık kaldığı bir düzendir; Ankara'da veteriner klinikleri için böyle resmî bir çizelge yok. 24 saat açık klinik ise her gece açıktır. Kliniğimiz nöbet sistemiyle değil, kesintisiz çalışıyor: gece, hafta sonu ve bayramda da açığız.",
+      },
+      {
+        q: "Pazar günü ve hafta sonu açık veteriner var mı?",
+        a: `Kliniğimiz cumartesi ve pazar dâhil her gün açık. Planlı bir muayene için de acil bir durum için de gelebilirsiniz; yola çıkmadan ${PHONE} numarasını aramanız yeterli.`,
       },
       {
         q: "Bayramda açık veteriner var mı?",
@@ -1246,6 +1277,14 @@ export const locations: Location[] = [
       {
         q: "Gece kaçta gelebilirim?",
         a: "Gecenin her saatinde. Kapımız 24 saat açık; ancak gelmeden önce aramanız, durumu değerlendirmemiz ve siz yoldayken hazırlık yapmamız için önemli.",
+      },
+      {
+        q: "Gece açık veteriner ararken nelere dikkat etmeliyim?",
+        a: "Gideceğiniz kliniğin o saatte açık olduğunu telefonla teyit edin; internette yazan çalışma saatleri güncel olmayabilir. Hayvanınızın türüne bakılıp bakılmadığını ve tam adresi de sorun. Kliniğimiz gece de açık; Öveçler'e inen EGO 451 ve 454 hatlarında gece yarısından sonra sefer olmadığı için özel araç ya da taksi planlayın.",
+      },
+      {
+        q: "Ankara'da acil veteriner gerektiğinde ilk adım ne olmalı?",
+        a: `Önce arayın. ${PHONE} numarasından hayvanınızın türünü, yaşını, şikâyetin ne zaman başladığını ve varsa yuttuğu maddeyi söyleyin; gelmeniz gerekip gerekmediğini birlikte değerlendirir, siz yoldayken hazırlığa başlarız. Nefes güçlüğü, bilinç kaybı, durmayan nöbet ya da kanama varsa beklemeden yola çıkın ve yoldayken arayın.`,
       },
       {
         q: "Acil durumda randevu gerekli mi?",

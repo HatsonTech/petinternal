@@ -290,7 +290,7 @@ export function AdminEditor() {
                       {p.published ? "" : " · Taslak"}
                     </p>
                   </div>
-                  <a href={`${SITE_URL}/blog/${p.slug}`} target="_blank" rel="noopener noreferrer"
+                  <a href={`${SITE_URL}/blog/${p.slug}/`} target="_blank" rel="noopener noreferrer"
                     className="text-xs font-medium text-muted hover:text-brand">Görüntüle</a>
                   <button onClick={() => startEdit(p.slug)}
                     className="inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium text-ink ring-1 ring-hairline transition-colors hover:bg-cream">

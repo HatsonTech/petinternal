@@ -23,7 +23,7 @@ export function Services() {
                 </span>
                 <h3 className="mt-5 font-display text-xl font-semibold text-ink">
                   <Link
-                    href={`/hizmetler/${slug}`}
+                    href={`/hizmetler/${slug}/`}
                     className="rounded after:absolute after:inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
                   >
                     {title}

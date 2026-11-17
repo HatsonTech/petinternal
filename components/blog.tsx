@@ -47,7 +47,7 @@ export function Blog() {
                   <h3 className="mt-2.5 text-pretty font-display text-lg font-semibold leading-snug text-ink transition-colors group-hover:text-brand">
                     {/* Single stretched link covers the whole card */}
                     <Link
-                      href={`/blog/${post.slug}`}
+                      href={`/blog/${post.slug}/`}
                       className="rounded after:absolute after:inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
                     >
                       {post.title}

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Blog & Rehber",
   description:
     "Kedi ve köpek sağlığı, aşılama, beslenme, diş bakımı ve mevsimsel bakım hakkında Pet Internal veteriner hekimlerinin pratik rehberleri.",
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: "/blog/" },
 };
 
 export default function BlogIndexPage() {
@@ -58,7 +58,7 @@ export default function BlogIndexPage() {
                     </div>
                     <h2 className="mt-2.5 text-pretty font-display text-lg font-semibold leading-snug text-ink transition-colors group-hover:text-brand">
                       <Link
-                        href={`/blog/${post.slug}`}
+                        href={`/blog/${post.slug}/`}
                         className="rounded after:absolute after:inset-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
                       >
                         {post.title}

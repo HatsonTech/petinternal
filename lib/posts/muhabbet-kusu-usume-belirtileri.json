@@ -7,7 +7,7 @@
   "imageAlt": "Tüneğinde oturan yeşil bir muhabbet kuşu",
   "date": "28 Ekim 2026",
   "dateISO": "2026-10-28",
-  "updatedISO": "2026-10-28",
+  "updatedISO": "2026-11-17",
   "excerpt": "Tüylerini kabartıp uzun süre hareketsiz oturan bir muhabbet kuşu yalnızca üşüyor olabilir, ama çoğu zaman bu hastalığın ilk görünen işaretidir. Evde nasıl ısıtılır, neye bakılır ve hangi durumda aynı gün veterinere gidilir?",
   "metaDescription": "Muhabbet kuşu üşüme belirtileri: sürekli kabarık tüy, gözler kapalı uyuklama, tünekte alçalma. Evde güvenli ısıtma ve aynı gün veteriner gerektiren durumlar.",
   "readTime": "7 dk okuma",
@@ -113,6 +113,10 @@
         "Kloaka çevresinin kirlenmesi veya dişi kuşta karnın şişip ıkınması (yumurta tıkanması düşündürür).",
         "Duman, sprey ya da yanmış tava teması sonrası herhangi bir solunum belirtisi."
       ]
+    },
+    {
+      "type": "p",
+      "text": "Bu belirtiler akşam ya da hafta sonu ortaya çıktığında ertesi günü beklemeyin; kuşları gece de kabul ediyoruz, başvuru ve ulaşım bilgisi <a href=\"/veteriner/ankara-7-24-acik-veteriner/\">Ankara'da gece ve hafta sonu açık veteriner</a> sayfamızda."
     },
     {
       "type": "h2",

@@ -3,6 +3,8 @@
 // posts published through /admin (committed by the Cloudflare Worker) appear
 // on the next build with no code changes.
 
+import { withTrailingSlash } from "@/lib/site";
+
 export type BlogBlock =
   | { type: "h2"; text: string }
   | { type: "p"; text: string }
@@ -51,22 +53,39 @@ export const blogPosts: BlogPost[] = (ctx.keys() as string[])
   .sort((a, b) => (a.dateISO < b.dateISO ? 1 : -1)); // newest first
 
 
-// Kuyruktaki (henüz yayınlanmamış) bir yazıya verilen satır içi bağlantı, o yazı
-// çıkana kadar 404 olurdu. Yükleme sırasında bu bağlantıları düz metne çeviriyoruz;
-// hedef yayınlandığında bağlantı kendiliğinden geri gelir.
+// Yazı gövdesindeki satır içi bağlantılar yükleme sırasında iki işlemden geçer:
+//
+// 1. Kuyruktaki (henüz yayınlanmamış) bir yazıya verilen bağlantı, o yazı çıkana
+//    kadar 404 olurdu. Bu bağlantılar düz metne çevrilir; hedef yayınlandığında
+//    bağlantı kendiliğinden geri gelir.
+// 2. Site `trailingSlash: true` ile yayınlanıyor. JSON'da "/blog/slug" ya da
+//    "/hizmetler/slug" diye yazılmış bir bağlantı her tıklamada ve taramada 301
+//    yönlendirmesine girerdi; href her zaman sonu "/" ile basılır. Kaynak JSON
+//    bağlantıyı eğik çizgili de eğik çizgisiz de yazabilir.
 const liveSlugs = new Set(blogPosts.map((p) => p.slug));
-const dropDeadLinks = (html: string) =>
+const INTERNAL_ANCHOR = /<a\b([^>]*?)\shref="(\/[^"]*)"([^>]*)>([\s\S]*?)<\/a>/g;
+const BLOG_PATH = /^\/blog\/([^/?#]+)\/?(?:[?#].*)?$/;
+
+const fixLinks = (html: string) =>
   html.replace(
-    /<a href="\/blog\/([^"]+)">(.*?)<\/a>/g,
-    (full, slug: string, label: string) => (liveSlugs.has(slug) ? full : label),
+    INTERNAL_ANCHOR,
+    (_full, before: string, href: string, after: string, label: string) => {
+      const blog = href.match(BLOG_PATH);
+      if (blog && !liveSlugs.has(blog[1])) return label;
+      return `<a${before} href="${withTrailingSlash(href)}"${after}>${label}</a>`;
+    },
   );
 
 for (const post of blogPosts) {
-  post.intro = dropDeadLinks(post.intro);
+  post.intro = fixLinks(post.intro);
+  if (post.contentHtml) post.contentHtml = fixLinks(post.contentHtml);
   for (const block of post.body ?? []) {
-    if ("text" in block) block.text = dropDeadLinks(block.text);
-    if ("items" in block) block.items = block.items.map(dropDeadLinks);
+    if ("text" in block) block.text = fixLinks(block.text);
+    if ("items" in block) block.items = block.items.map(fixLinks);
   }
+  // SSS yanıtları düz metin olarak basılır (FaqAccordion ve FAQPage şeması);
+  // içine yazılmış bir bağlantı etiketi ekranda ham HTML olarak görünürdü.
+  for (const faq of post.faqs) faq.a = faq.a.replace(/<[^>]+>/g, "");
 }
 
 export function getPost(slug: string): BlogPost | undefined {

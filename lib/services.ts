@@ -431,7 +431,12 @@ export const services: Service[] = [
           "Tek bir doğru yaş yoktur; zamanlama türe, ırka, beklenen erişkin boyuta ve sağlık durumuna göre belirlenir. Kedi refahı kuruluşu International Cat Care, kedilerin cinsel olgunluğa ulaşmadan, rutin olarak dört ay civarında kısırlaştırılmasını önerir. Dişi kediler erken yaşta kızgınlığa girebildiği için yavru kedi sahiplendiyseniz konuyu aşı ziyaretlerinde konuşmak pratik bir yoldur.",
           "Köpeklerde Amerikan Hayvan Hastaneleri Birliği'nin (AAHA) 2019 yaşam dönemi rehberi, erişkinde yaklaşık 20 kilonun altında kalması beklenen köpekler için genellikle 5–6 aylık dönemi işaret eder. Bundan iri olması beklenen erkek köpeklerde ise büyümenin tamamlanmasını, çoğunlukla 9–15 ay arasını önerir. İri ırk dişilerde karar; kızgınlık, meme tümörü riski ve eklem sağlığı birlikte tartılarak bireysel verilir. Kızgınlıktaki ya da yeni doğum yapmış bir dişide zamanlamayı ayrıca değerlendiririz.",
         ],
-        links: [{ href: "/blog/kisirlastirma-rehberi/", label: "Kısırlaştırma hakkında bilmeniz gerekenler" }],
+        links: [
+          { href: "/blog/kopek-kisirlastirma-ne-zaman-ankara/", label: "Köpek kısırlaştırma ne zaman: ırk ve boyuta göre" },
+          { href: "/blog/kisirlastirma-rehberi/", label: "Kısırlaştırma hakkında bilmeniz gerekenler" },
+          { href: "/blog/yavru-kedi-ilk-veteriner-ziyareti/", label: "Yavru kedinin ilk veteriner ziyareti" },
+          { href: "/blog/yavru-kopek-ilk-veteriner-ziyareti/", label: "Yavru köpeğin ilk veteriner ziyareti" },
+        ],
       },
       {
         h2: "Ameliyattan önce nasıl hazırlanılır?",
@@ -448,6 +453,9 @@ export const services: Service[] = [
         h2: "Ameliyat günü",
         paragraphs: [
           "Kliniğe geldiğinizde son bir kontrol yapar, sürecin nasıl işleyeceğini ve size ne zaman haber vereceğimizi anlatırız. Operasyon steril koşullarda yapılır; anestezi boyunca solunum, kalp ritmi ve vücut ısısı kesintisiz izlenir. Dostunuz sakin bir bölümde, gözlem altında uyanır; ağrı yönetimini önceden planlarız.",
+        ],
+        links: [
+          { href: "/blog/ankara-kedi-kisirlastirma-sureci/", label: "Kedi kısırlaştırma süreci: ön muayeneden dikiş kontrolüne" },
         ],
       },
       {
@@ -565,6 +573,8 @@ export const services: Service[] = [
       },
     ],
     relatedPosts: [
+      "ankara-kedi-kisirlastirma-sureci",
+      "kopek-kisirlastirma-ne-zaman-ankara",
       "kisirlastirma-rehberi",
       "anestezi-oncesi-ac-kalma-suresi",
       "ameliyat-oncesi-kan-tahlili",

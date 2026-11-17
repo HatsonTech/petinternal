@@ -7,7 +7,7 @@
   "imageAlt": "Yan yana oturan üç yavru kedi",
   "date": "6 Kasım 2026",
   "dateISO": "2026-11-06",
-  "updatedISO": "2026-11-06",
+  "updatedISO": "2026-11-17",
   "excerpt": "Yavru kediyi ilk kez ne zaman veterinere götürmeli, muayenede nelere bakılır, hangi testler yapılır? İlk ziyaret için kontrol listesi ve ilk yılın ziyaret planı.",
   "metaDescription": "Yavru kedinin ilk veteriner ziyareti: ne zaman gidilir, muayenede neye bakılır, dışkı ve FeLV/FIV testi, aşı planı ve yanınızda getirmeniz gerekenler.",
   "readTime": "7 dk okuma",
@@ -116,7 +116,7 @@
     {
       "type": "ul",
       "items": [
-        "<strong>Kısırlaştırma:</strong> Uluslararası Kedi Bakımı Derneği (iCatCare), yavru kedilerin dört aylık civarından itibaren cinsel olgunluğa ulaşabildiğini ve kısırlaştırmanın yaklaşık dört aylıkken yapılmasını önerir. Zamanlamayı ilk ziyaretlerde konuşmaya başlarız.",
+        "<strong>Kısırlaştırma:</strong> Uluslararası Kedi Bakımı Derneği (iCatCare), yavru kedilerin dört aylık civarından itibaren cinsel olgunluğa ulaşabildiğini ve kısırlaştırmanın yaklaşık dört aylıkken yapılmasını önerir. Zamanlamayı ilk ziyaretlerde konuşmaya başlarız. Hazırlık, ameliyat günü ve iyileşme adımlarını <a href=\"/hizmetler/kisirlastirma-cerrahi/\">kedi kısırlaştırma</a> sayfamızda anlattık.",
         "<strong>Beslenme:</strong> Yavru maması, öğün sayısı ve kilo takibi için <a href=\"/blog/yavru-kedi-beslenmesi\">yavru kedi beslenmesi</a> rehberimize bakabilirsiniz.",
         "<strong>Davranış:</strong> Tırmalama, ısırarak oynama ve gece aktivitesi gibi yavru davranışlarının hangisinin normal olduğunu, istenmeyen davranışların olumlu yöntemlerle nasıl yönlendirileceğini konuşuruz. Patilerine, kulaklarına ve ağzına dokunulmasına şimdiden alıştırmak, ileride tırnak kesimi ve muayeneyi kolaylaştırır."
       ]

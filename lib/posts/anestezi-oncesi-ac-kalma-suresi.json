@@ -7,7 +7,7 @@
   "imageAlt": "Ameliyat öncesi kontrol için klinikte bekleyen bir köpek",
   "date": "24 Ekim 2026",
   "dateISO": "2026-10-24",
-  "updatedISO": "2026-10-24",
+  "updatedISO": "2026-11-17",
   "excerpt": "Anestezi için sağlıklı erişkin bir köpek ya da kedi genellikle 4-6 saat aç bırakılır, su ise çoğu zaman kesilmez. Kan tahlilinde ise beklenen açlık süresi istenen teste göre değişir. Yavrular, diyabetli hayvanlar ve sabah ilacı alanlar için ne farklı?",
   "metaDescription": "Anestezi için kan vermeye aç mı gidilir? Sağlıklı erişkinde 4-6 saat açlık, su serbest. Yavru, diyabetli hayvan ve sabah ilaçları için hekim planı.",
   "readTime": "7 dk okuma",
@@ -55,6 +55,10 @@
         "Reflü, regürjitasyon ya da kusma öyküsü olanlar ve bazı brakisefal ırklar: hekim bireysel bir plan yapar; AAHA bu hastalarda işlemden 4-6 saat önce normal öğünün küçük bir kısmının ıslak mama olarak verilmesini ve mide koruyucu ilaçları seçenek olarak sunar.",
         "Acil ameliyat: açlık beklenmez; ekip, dolu mide riskine göre önlem alır."
       ]
+    },
+    {
+      "type": "p",
+      "text": "Kısırlaştırma gibi planlı ameliyatlarda açlık saatini randevu sırasında hayvanınıza özel olarak veriyoruz; ameliyat günü ve eve dönüş adımlarını <a href=\"/hizmetler/kisirlastirma-cerrahi/\">kedi ve köpek kısırlaştırma</a> sayfamızda anlattık."
     },
     {
       "type": "h2",

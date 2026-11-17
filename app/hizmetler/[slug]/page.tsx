@@ -35,12 +35,12 @@ export function generateMetadata({
     title: { absolute: service.metaTitle },
     description: service.metaDescription,
     keywords: service.keywords,
-    alternates: { canonical: `/hizmetler/${service.slug}` },
+    alternates: { canonical: `/hizmetler/${service.slug}/` },
     openGraph: {
       type: "website",
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `/hizmetler/${service.slug}`,
+      url: `/hizmetler/${service.slug}/`,
     },
     twitter: {
       card: "summary_large_image",
@@ -397,7 +397,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                     {related.map((p) => (
                       <li key={p.slug}>
                         <Link
-                          href={`/blog/${p.slug}`}
+                          href={`/blog/${p.slug}/`}
                           className="inline-flex items-center gap-2 text-brand transition-colors hover:text-brand-700"
                         >
                           {p.title}
@@ -457,7 +457,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                     .map((s) => (
                       <li key={s.slug}>
                         <Link
-                          href={`/hizmetler/${s.slug}`}
+                          href={`/hizmetler/${s.slug}/`}
                           className="inline-flex items-center gap-2 text-brand transition-colors hover:text-brand-700"
                         >
                           {s.title}

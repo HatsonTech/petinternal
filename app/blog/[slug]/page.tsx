@@ -16,9 +16,14 @@ import { CoverImage } from "@/components/cover-image";
 import { FaqAccordion } from "@/components/faq";
 import { CLINIC_ID, SITE_URL, site } from "@/lib/site";
 import { blogPosts, getPost, type BlogPost } from "@/lib/posts";
+import { ANKARA_SLUG } from "@/lib/locations";
 
 /** Posts in this category get the "call us now" box after the intro. */
 const EMERGENCY_CATEGORY = "Acil Durumlar";
+
+/** Inline links inside the author / after-hours card at the end of a post. */
+const cardLink =
+  "font-medium text-brand underline underline-offset-2 hover:text-brand-700";
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
@@ -80,14 +85,14 @@ export function generateMetadata({
     title: { absolute: post.metaTitle ?? post.title },
     description: post.metaDescription ?? post.excerpt,
     keywords: post.keywords,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical: `/blog/${post.slug}/` },
     openGraph: {
       type: "article",
       title: post.title,
       description: post.excerpt,
       publishedTime: post.dateISO,
       modifiedTime: post.updatedISO,
-      url: `/blog/${post.slug}`,
+      url: `/blog/${post.slug}/`,
       images: [{ url: post.image, alt: post.imageAlt }],
     },
     twitter: {
@@ -419,23 +424,47 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 </section>
               )}
 
-              {/* Author + disclaimer */}
+              {/* Author + disclaimer, then the after-hours pointer. Kept as one
+                  card on every post so the city-wide, Öveçler and emergency
+                  pages get a descriptive link from each article without a
+                  second box. Informational wording only (vet advertising rules). */}
               <div className="mt-10 flex items-start gap-3 rounded-2xl border border-hairline bg-cream p-5">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700 dark:bg-brand-900/50 dark:text-brand-200">
                   <Stethoscope className="h-5 w-5" aria-hidden="true" />
                 </span>
-                <p className="text-sm leading-relaxed text-muted">
-                  Bu yazı, uzman veteriner hekimimiz{" "}
-                  <strong className="font-semibold text-ink">
-                    {post.author ?? "Öykü Yalçın"}
-                  </strong>{" "}
-                  tarafından hazırlanmıştır. İçerik genel bilgilendirme amaçlıdır;
-                  dostunuza özel durumlar için lütfen{" "}
-                  <a href={site.phoneHref} className="font-medium text-brand hover:text-brand-700">
-                    kliniğimize danışın
-                  </a>
-                  .
-                </p>
+                <div className="min-w-0 text-sm leading-relaxed text-muted">
+                  <p>
+                    Bu yazı, uzman veteriner hekimimiz{" "}
+                    <strong className="font-semibold text-ink">
+                      {post.author ?? "Öykü Yalçın"}
+                    </strong>{" "}
+                    tarafından hazırlanmıştır. İçerik genel bilgilendirme amaçlıdır;
+                    dostunuza özel durumlar için lütfen{" "}
+                    <a href={site.phoneHref} className="font-medium text-brand hover:text-brand-700">
+                      kliniğimize danışın
+                    </a>
+                    .
+                  </p>
+                  <p className="mt-3 border-t border-hairline pt-3">
+                    <strong className="font-semibold text-ink">
+                      Gece, hafta sonu ya da bayramda veteriner gerekirse:
+                    </strong>{" "}
+                    kliniğimiz Çankaya Öveçler&apos;de 7/24 açıktır. Başvuru ve
+                    yol bilgisi için{" "}
+                    <Link href={`/veteriner/${ANKARA_SLUG}/`} className={cardLink}>
+                      Ankara&apos;da 7/24 açık veteriner
+                    </Link>{" "}
+                    ve{" "}
+                    <Link href="/veteriner/ovecler-veteriner/" className={cardLink}>
+                      Öveçler veteriner kliniği
+                    </Link>{" "}
+                    sayfalarına, beklemeye gelmeyen belirtiler için{" "}
+                    <Link href="/hizmetler/acil-mudahale/" className={cardLink}>
+                      acil veteriner
+                    </Link>{" "}
+                    sayfasına bakabilirsiniz.
+                  </p>
+                </div>
               </div>
 
               {/* Other guides — internal linking */}
@@ -447,7 +476,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   {others.map((o) => (
                     <li key={o.slug}>
                       <Link
-                        href={`/blog/${o.slug}`}
+                        href={`/blog/${o.slug}/`}
                         className="inline-flex items-center gap-2 text-brand transition-colors hover:text-brand-700"
                       >
                         {o.title}

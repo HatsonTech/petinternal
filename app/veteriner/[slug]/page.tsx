@@ -26,12 +26,12 @@ export function generateMetadata({
     title: { absolute: loc.metaTitle },
     description: loc.metaDescription,
     keywords: loc.keywords,
-    alternates: { canonical: `/veteriner/${loc.slug}` },
+    alternates: { canonical: `/veteriner/${loc.slug}/` },
     openGraph: {
       type: "website",
       title: loc.metaTitle,
       description: loc.metaDescription,
-      url: `/veteriner/${loc.slug}`,
+      url: `/veteriner/${loc.slug}/`,
       images: [{ url: "/og-image.png", alt: site.name }],
     },
     twitter: {

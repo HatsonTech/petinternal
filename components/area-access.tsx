@@ -15,6 +15,9 @@ const AREAS: { name: string; slug: string; route: string }[] = [
   { name: "Kızılay", slug: "cankaya-veteriner", route: "Dikmen Caddesi → Çetin Emeç Bulvarı; EGO 451 ve 454" },
 ];
 
+const textLink =
+  "font-medium text-brand underline-offset-4 transition-colors hover:text-brand-700 hover:underline";
+
 export function AreaAccess() {
   return (
     <section aria-labelledby="semtlerden-ulasim" className="bg-paper pb-20 sm:pb-24">
@@ -56,12 +59,27 @@ export function AreaAccess() {
           ))}
         </ul>
 
+        {/* Descriptive text links to the district and neighbourhood pages; the
+            cards above are labelled by the area people come from. */}
+        <p className="mt-6 max-w-3xl leading-relaxed text-muted">
+          İlçenin tamamı için Kızılay, Ayrancı, Bahçelievler ve Çayyolu
+          güzergâhları{" "}
+          <Link href="/veteriner/cankaya-veteriner/" className={textLink}>
+            Çankaya veteriner kliniği
+          </Link>{" "}
+          sayfamızda; mahalle içinden yürüyerek gelenler için kısa tarif{" "}
+          <Link href="/veteriner/ovecler-veteriner/" className={textLink}>
+            Öveçler veteriner kliniği
+          </Link>{" "}
+          sayfamızda.
+        </p>
+
         <Link
           href={`/veteriner/${ANKARA_SLUG}/`}
-          className="mt-6 inline-flex items-center gap-2 font-medium text-brand transition-colors hover:text-brand-700"
+          className="mt-4 inline-flex items-center gap-2 font-medium text-brand transition-colors hover:text-brand-700"
         >
-          Ankara&apos;nın başka bir yerinden gece, pazar ya da bayramda mı
-          geliyorsunuz?
+          Ankara&apos;nın başka bir yerinden mi geliyorsunuz? Ankara&apos;da
+          7/24 açık veteriner: gece, pazar ve bayram
           <ArrowRight className="h-4 w-4 shrink-0" aria-hidden="true" />
         </Link>
       </div>

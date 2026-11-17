@@ -83,6 +83,21 @@ export function directionsUrl(origin?: string): string {
   return `https://www.google.com/maps/dir/?${params.toString()}`;
 }
 
+/**
+ * Internal page URLs are served with a trailing slash (next.config
+ * `trailingSlash: true`); a link without it costs a 301 on every click and
+ * crawl, and Search Console then reports both URL versions.
+ * "/blog/x" → "/blog/x/", "/blog/x#y" → "/blog/x/#y". The root, files
+ * ("/og-image.png"), bare "#anchors" and external URLs come back unchanged.
+ */
+export function withTrailingSlash(href: string): string {
+  if (!href.startsWith("/") || href.startsWith("//")) return href;
+  const cut = href.search(/[?#]/);
+  const path = cut === -1 ? href : href.slice(0, cut);
+  if (path.endsWith("/") || /\.[a-z0-9]+$/i.test(path)) return href;
+  return `${path}/${cut === -1 ? "" : href.slice(cut)}`;
+}
+
 // Root-anchored so they work from any route (e.g. /blog/...), not just home.
 // Trailing slashes match next.config's `trailingSlash: true` and the canonicals.
 export const navLinks = [

@@ -7,7 +7,7 @@
   "imageAlt": "Kafeste duran sarı-yeşil bir muhabbet kuşu",
   "date": "16 Eylül 2026",
   "dateISO": "2026-09-16",
-  "updatedISO": "2026-09-16",
+  "updatedISO": "2026-11-17",
   "metaDescription": "Muhabbet kuşları hastalığı son ana kadar saklar. Kabarık oturma, kuyruk sallama ve dışkı değişikliği gibi 9 belirti ve ne zaman acil olduğu.",
   "excerpt": "Muhabbet kuşları doğada av hayvanı olduğu için hastalığı son ana kadar gizler. Sahiplerin fark ettiği ilk işaret çoğu zaman geç kalınmış bir işarettir. Hangi değişiklikler önemlidir, hangileri acildir?",
   "readTime": "7 dk okuma",
@@ -76,6 +76,10 @@
         "Kullandığınız yemi, verdiğiniz vitamin ya da takviyeleri ve son günlerdeki değişiklikleri not edin.",
         "Evde kendi başınıza ilaç ya da antibiyotik başlamayın; tabloyu değiştirip tanıyı zorlaştırabilir."
       ]
+    },
+    {
+      "type": "p",
+      "text": "Kuş muayenesinin kliniğimizde nasıl ilerlediğini ve gelmeden önce neleri hazırlayacağınızı <a href=\"/hizmetler/kus-tavsan-kucuk-memeliler/\">kuş, tavşan ve küçük memeli veterineri</a> sayfamızda anlattık."
     },
     {
       "type": "h2",
