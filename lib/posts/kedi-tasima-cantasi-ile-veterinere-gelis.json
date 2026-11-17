@@ -5,9 +5,9 @@
   "category": "Davranış",
   "image": "/images/hero-pet-care.jpg",
   "imageAlt": "Sahibinin kucağında gözlerini kapatmış siyah beyaz bir kedi",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "17 Kasım 2026",
+  "dateISO": "2026-11-17",
+  "updatedISO": "2026-11-17",
   "excerpt": "Doğru taşıma çantası, birkaç haftalık alıştırma, örtülü ve sabit bir yolculuk ve eve dönüşte kısa bir ayrı kalma süresi kedinin veteriner ziyaretini belirgin biçimde kolaylaştırır. iCatCare ve AAFP/ISFM önerileriyle adım adım plan.",
   "metaDescription": "Kediyi veterinere götürürken çanta seçimi, çantaya alıştırma, arabada yerleştirme, bekleme ve eve dönüş: iCatCare ve AAFP/ISFM önerileriyle adım adım.",
   "readTime": "6 dk okuma",
@@ -144,7 +144,5 @@
       "publisher": "Journal of Feline Medicine and Surgery (PMC)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10845437/"
     }
-  ],
-  "published": false,
-  "queue": 18
+  ]
 }
