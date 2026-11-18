@@ -5,9 +5,9 @@
   "category": "Mevsimsel Bakım",
   "image": "/images/blog-dog-joint-pain.jpg",
   "imageAlt": "Serin zeminde uzanmış, tasmalı bir Alman çoban köpeği",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "18 Kasım 2026",
+  "dateISO": "2026-11-18",
+  "updatedISO": "2026-11-18",
   "excerpt": "Ankara'nın kışları soğuk ve karlı, yazları sıcak ve kurak geçer. Evcil hayvanlarda hipotermi ve donma nasıl tanınır, ilk yardımda ne yapılır ve ne yapılmaz? Yaz için de sıcak çarpmasının kısa özeti.",
   "metaDescription": "Kedi ve köpekte hipotermi ve donma belirtileri, güvenli ısıtma ve ilk yardım; sıcak çarpmasında serinletme. Ankara iklimine göre mevsimlik risk takvimi.",
   "readTime": "7 dk okuma",
@@ -168,7 +168,5 @@
       "publisher": "Vikipedi",
       "url": "https://tr.wikipedia.org/wiki/Ankara"
     }
-  ],
-  "published": false,
-  "queue": 19
+  ]
 }
