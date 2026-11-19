@@ -5,9 +5,9 @@
   "category": "Koruyucu Hekimlik",
   "image": "/images/about-care.jpg",
   "imageAlt": "Yumuşak bir battaniyede dinlenen golden retriever yavrusu",
-  "date": "30 Ekim 2026",
-  "dateISO": "2026-10-30",
-  "updatedISO": "2026-10-30",
+  "date": "19 Kasım 2026",
+  "dateISO": "2026-11-19",
+  "updatedISO": "2026-11-19",
   "excerpt": "Her belirti acil değildir, ama bazıları bir gece bile bekleyemez. Kedi, köpek, tavşan ve kuşlar için dört basamaklı bir kontrol listesi: hemen yola çıkın, aynı gün görülsün, birkaç gün içinde randevu alın, rutin kontrolde konuşun.",
   "metaDescription": "Veterinere ne zaman gidilir? Kedi, köpek, tavşan ve kuşta belirtiler dört basamakta: hemen, aynı gün, birkaç gün içinde ve rutin kontrolde.",
   "readTime": "7 dk okuma",
@@ -177,7 +177,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/bird-owners/routine-care-and-safety-of-birds/illness-in-pet-birds"
     }
-  ],
-  "published": false,
-  "queue": 20
+  ]
 }

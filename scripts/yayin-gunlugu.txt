@@ -45,3 +45,4 @@
 2026-11-16 ameliyat-sonrasi-kontrol-ve-dikis-alma
 2026-11-17 kedi-tasima-cantasi-ile-veterinere-gelis
 2026-11-18 ankarada-sicak-carpmasi-ve-kis-soguk-riskleri
+2026-11-19 veterinere-ne-zaman-gitmeli-belirti-listesi
