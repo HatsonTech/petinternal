@@ -5,9 +5,9 @@
   "category": "Diş Sağlığı",
   "image": "/images/blog-cat-oral-health.jpg",
   "imageAlt": "Veteriner hekimin ağız muayenesi yaptığı bir kedi",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "20 Kasım 2026",
+  "dateISO": "2026-11-20",
+  "updatedISO": "2026-11-20",
   "metaDescription": "Kedilerde diş rezorpsiyonu (FORL) çok yaygın ve ağrılıdır. Belirtileri, neden diş röntgeni gerekir, tedavi seçenekleri ve evde nelere dikkat etmelisiniz.",
   "excerpt": "Diş rezorpsiyonu kedilerde en sık görülen ağrılı diş sorunlarından biridir ve çoğu zaman sahibi fark etmeden ilerler. Belirtileri, tanıda diş röntgeninin yeri ve tedavi seçeneklerini anlatıyoruz.",
   "readTime": "5 dk okuma",
@@ -164,7 +164,5 @@
       "publisher": "American Veterinary Dental College",
       "url": "https://avdc.org/avdc-nomenclature/"
     }
-  ],
-  "published": false,
-  "queue": 21
+  ]
 }
