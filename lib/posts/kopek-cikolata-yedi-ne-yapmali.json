@@ -5,9 +5,9 @@
   "category": "Acil Durumlar",
   "image": "/images/blog-poisoning.jpg",
   "imageAlt": "Mutfakta yere düşmüş yiyeceklere bakan bir köpek",
-  "date": "2 Ekim 2026",
-  "dateISO": "2026-10-02",
-  "updatedISO": "2026-10-02",
+  "date": "21 Kasım 2026",
+  "dateISO": "2026-11-21",
+  "updatedISO": "2026-11-21",
   "excerpt": "Köpeğiniz çikolata yediyse önce ne tür çikolata olduğunu, yaklaşık miktarını ve saatini not edin, sonra hemen veteriner hekiminizi arayın. Kakao oranı yükseldikçe tehlike artar. Evde kusturmak neden önerilmez, ksilitol ve üzüm neden ayrı bir risk?",
   "metaDescription": "Köpek çikolata yedi, ne yapmalı? Bitter ve kakao tozu en tehlikelisi. Evde kusturmayın, türü ve miktarı not edip hemen veterinerinizi arayın.",
   "readTime": "7 dk okuma",
@@ -183,7 +183,5 @@
       "publisher": "Merck Veterinary Manual",
       "url": "https://www.merckvetmanual.com/toxicology/food-hazards/grape-raisin-and-tamarind-vitis-spp-tamarindus-spp-toxicosis-in-dogs"
     }
-  ],
-  "published": false,
-  "queue": 22
+  ]
 }
